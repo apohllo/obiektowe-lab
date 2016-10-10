@@ -5,10 +5,10 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 ## Zadania do wykonania
 
 1. Otwórz program Eclipse.
-2. Uwtórz nowy projekt: obiektowe
+2. Utwórz nowy projekt: obiektowe
 3. Zmień środowisko uruchomieniowe Javy na 1.7 (PPM na JRE system library -> properties)
-4. Uwtórz pakiet `agh.cs.lab1`
-5. Uwtórz klasę `CarSystem` ze statyczną funkcją `main` w pakiecie `agh.cs.lab1`.
+4. Utwórz pakiet `agh.cs.lab1`
+5. Utwórz klasę `CarSystem` ze statyczną funkcją `main` w pakiecie `agh.cs.lab1`.
 6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
    - informujący o starcie systemu
    - informujący o zakończeniu działania systemu
@@ -22,7 +22,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 14. Uruchom program z dowolnymi parametrami (muszą występować co najmniej 2).
 15. Zamknij Eclipse.
 16. Otwórz konsolę Windows.
-17. Skompliuj ten sam program poleceniem `javac`
+17. Skompiluj ten sam program poleceniem `javac`
 18. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty.
 
 
@@ -30,6 +30,6 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 
 * W programie Javy funkcja `main` musi być częścią jakieś klasy.
 * Do wypisywania komunikatów użyj wywołań `System.out.print` oraz `System.out.println`.
-* Standarowe wyjście można zaimportować do programu poleceniem `import static java.lang.System.out;`.
+* Standardowe wyjście można zaimportować do programu poleceniem `import static java.lang.System.out;`.
 * Warunki logiczne w Javie są przechowywane w zmiennej typu `boolean`.
 * Konstrukcja `for(String argument : arguments)` pozwala na iterowanie po elementach tablicy.
