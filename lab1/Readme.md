@@ -49,20 +49,20 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
   Wtedy komunikaty można wypisywać za pomocą wywołania `out.print` i `out.println`.
 * Warunki logiczne w Javie są przechowywane w zmiennej typu `boolean`.
 * W Javie można użyć innej konstrukcji `for` do iterowania po elementach kolekcji:
-  ```java
-  for(String argument : arguments){
-  }
-  ```
+```java
+for(String argument : arguments){
+}
+```
 * Typ wyliczeniowy deklaruje się za pomocą słowa kluczowego `enum`, np.:
-  ```java
-  enum Direction {
-    Forward,
-    Backward,
-    Right,
-    Left
-  }
-  ```
+```java
+enum Direction {
+  Forward,
+  Backward,
+  Right,
+  Left
+}
+```
 * Typu wyliczeniowego można użyć odwołując się do jego składowych, np.:
-  ```java
-  Direction direction = Direction.Forward;
-  ```
+```java
+Direction direction = Direction.Forward;
+```
