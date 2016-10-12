@@ -34,7 +34,8 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
     - Samochód jedzie w lewo
 17. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
     wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływana w
-    funkcji `main` przed wywołaniem metody `run`.
+    funkcji `main` przed wywołaniem metody `run`, natomiast typ wyliczeniowy powinien być zdefiniowany w osobnym pliku
+    (Direction.java) w pakiecie `agh.cs.lab1`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij Eclipse.
 20. Otwórz konsolę Windows.
