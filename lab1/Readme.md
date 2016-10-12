@@ -27,11 +27,12 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
     - `l` - oznacza, że samochód ma jechać w lewo
 16. Jazda w określonym kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
     argumentów. Przykładowo wprowadzenie sekwencji 'f f r l' powinno dać w wyniku następujące komunikaty:
-    - Start systemu
+    - Start
     - Samochód jedzie do przodu
     - Samochód jedzie do przodu
     - Samochód jedzie w prawo
     - Samochód jedzie w lewo
+    - Stop
 17. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
     wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływana w
     funkcji `main` przed wywołaniem metody `run`, natomiast typ wyliczeniowy powinien być zdefiniowany w osobnym pliku
