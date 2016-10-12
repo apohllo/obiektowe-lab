@@ -20,17 +20,49 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 12. Po komunikacie o poruszaniu się do przodu wypisz w konsoli wartości wszystkich argumentów tej metody oddzielone przecinkami.
 13. Zwróć uwagę na to, żeby nie było nadmiarowych przecinków.
 14. Uruchom program z dowolnymi parametrami (muszą występować co najmniej 2).
-15. Zamknij Eclipse.
-16. Otwórz konsolę Windows.
-17. Skompiluj ten sam program poleceniem `javac`
-18. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty.
+15. Zmodyfikuj program tak aby interpretował wprowadzone argument:
+    - `f` - oznacza, że samochód ma jechać do przodu
+    - `b` - oznacza, że samochód ma jechać do tyłu
+    - `r` - oznacza, że samochód ma jechać w prawo
+    - `l` - oznacza, że samochód ma jechać w lewo
+16. Jazda w określonym kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
+    argumentów. Przykładowo wprowadzenie sekwencji 'f f r l' powinno dać w wyniku następujące komunikaty:
+    - Start systemu
+    - Samochód jedzie do przodu
+    - Samochód jedzie do przodu
+    - Samochód jedzie w prawo
+    - Samochód jedzie w lewo
+17. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
+    wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływana w
+    funkcji `main` przed wywołaniem metody `run`.
+18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
+19. Zamknij Eclipse.
+20. Otwórz konsolę Windows.
+21. * Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`).
+22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty.
 
 
 ## Przydatne informacje
-
 * W programie Javy funkcja `main` musi być częścią jakieś klasy. Jest ona punktem startowym programu.
 * Do wypisywania komunikatów użyj wywołań `System.out.print` oraz `System.out.println`.
 * Standardowe wyjście można zaimportować do programu poleceniem `import static java.lang.System.out;`. 
   Wtedy komunikaty można wypisywać za pomocą wywołania `out.print` i `out.println`.
 * Warunki logiczne w Javie są przechowywane w zmiennej typu `boolean`.
-* Konstrukcja `for(String argument : arguments)` pozwala na iterowanie po elementach tablicy.
+* W Javie można użyć innej konstrukcji `for` do iterowania po elementach kolekcji:
+  ```java
+  for(String argument : arguments){
+  }
+  ```
+* Typ wyliczeniowy deklaruje się za pomocą słowa kluczowego `enum`, np.:
+  ```java
+  enum Direction {
+    Forward,
+    Backward,
+    Right,
+    Left
+  }
+  ```
+* Typu wyliczeniowego można użyć odwołując się do jego składowych, np.:
+  ```java
+  Direction direction = Direction.Forward;
+  ```
