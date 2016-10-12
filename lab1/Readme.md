@@ -21,10 +21,11 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 13. Zwróć uwagę na to, żeby nie było nadmiarowych przecinków.
 14. Uruchom program z dowolnymi parametrami (muszą występować co najmniej 2).
 15. Zmodyfikuj program tak aby interpretował wprowadzone argument:
-    - `f` - oznacza, że samochód ma jechać do przodu
-    - `b` - oznacza, że samochód ma jechać do tyłu
-    - `r` - oznacza, że samochód ma jechać w prawo
-    - `l` - oznacza, że samochód ma jechać w lewo
+    - `f` - oznacza, że samochód ma jechać do przodu,
+    - `b` - oznacza, że samochód ma jechać do tyłu,
+    - `r` - oznacza, że samochód ma jechać w prawo,
+    - `l` - oznacza, że samochód ma jechać w lewo,
+    - pozostałe argumenty powinny być ignorowane.
 16. Jazda w określonym kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
     argumentów. Przykładowo wprowadzenie sekwencji 'f f r l' powinno dać w wyniku następujące komunikaty:
     - Start
