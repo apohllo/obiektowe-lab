@@ -20,11 +20,11 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
      dodawanych pozycji.
 4. W metodzie `main` wprowadź następujący kod:
 ```java
-  Position position1 = new Position(1,2);
-  System.out.println(position1);
-  Position position2 = new Position(-2,1);
-  System.out.println(position2);
-  System.out.println(position1.add(position2));
+Position position1 = new Position(1,2);
+System.out.println(position1);
+Position position2 = new Position(-2,1);
+System.out.println(position2);
+System.out.println(position1.add(position2));
 ```
 5. Sprawdź czy uzyskane wyniki są poprawne.
 6. Utwórz typ wyliczeniowy `MoveDirection` z czterema kierunkami: `Forward, Backward, Right, Left`.
