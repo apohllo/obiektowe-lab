@@ -19,13 +19,13 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
    * posiada metodę `add`, która zwraca nowy obiekt klasy `Position`, którego składowe są sumą odpowiednich składowych
      dodawanych pozycji.
 4. W metodzie `main` wprowadź następujący kod:
-  ```java
+```java
   Position position1 = new Position(1,2);
   System.out.println(position1);
   Position position2 = new Position(-2,1);
   System.out.println(position2);
   System.out.println(position1.add(position2));
-  ```
+```
 5. Sprawdź czy uzyskane wyniki są poprawne.
 6. Utwórz typ wyliczeniowy `MoveDirection` z czterema kierunkami: `Forward, Backward, Right, Left`.
 7. Utwórz typ wyliczeniowy `MapDirection` z czterema kierunkami: `North, South, West, East`.
