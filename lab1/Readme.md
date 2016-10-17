@@ -56,6 +56,8 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 for(String argument : arguments){
 }
 ```
+* W Javie łańcuchy znaków (oraz inne typu referencyjne) porównuje się za pomocą wywołania `equals`, np.
+  `string1.equals(string2)`.
 * Typ wyliczeniowy deklaruje się za pomocą słowa kluczowego `enum`, np.:
 ```java
 enum Direction {
@@ -68,4 +70,15 @@ enum Direction {
 * Typu wyliczeniowego można użyć odwołując się do jego składowych, np.:
 ```java
 Direction direction = Direction.Forward;
+```
+* W Javie (od wersji 7) można wykonywać instrukcję `switch` na łańcuchach znaków, np.
+```java
+switch(argument){
+  case "f":
+    out.println("Do przodu");
+    break;
+  case "b":
+    out.println("Do tyłu");
+    break;
+}
 ```
