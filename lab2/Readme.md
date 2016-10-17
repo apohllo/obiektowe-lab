@@ -12,7 +12,7 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
 3. Utwórz klasę `Position`, która:
    * posiada dwa publiczne pola `x` i `y` typu `int`, które nie moga być modyfikowane,
    * posiada konstruktor akceptujący parametry `x` i `y`, która są przypisywane do pól `x` i `y`,
-   * posiada metodę `toString`, która zamienia pozycję na napis `(x,y)`, np. dla `x = 1` oraz `y = 2`, napis ma postac
+   * posiada metodę `toString`, która zamienia pozycję na napis `(x,y)`, np. dla `x = 1` oraz `y = 2`, napis ma postać
      `(1,2)`,
    * posiada metodę `smaller`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
      wartość mniejszą bądź równą polom drugiego obiektu,
@@ -49,12 +49,12 @@ Sprawdź czy uzyskane wyniki są poprawne.
      oraz orientację),
    * definuje swoje pola jako prywatne.
 9. W metodzie `main` utwórz samochów i wyświetl w konsoli jego pozycję.
-10. Dodaj do klasy `Car` metodę `move(MoveDirection direction), która:
+10. Dodaj do klasy `Car` metodę `move(MoveDirection direction)`, która:
    * Dla kierunków `Right` i `Left` zmienia orientację samochodu na mapie, np. kiedy samochód jest w pozycji `North` a
      zmiana kierunku to `Right` to orientacja samochodu powinna wynosić `East`.
    * Dla kierunków `Forward` i `Backward` zmienia pozycję samochodu uwzględniając jego orientację, np. kiedy samochód
      jest na pozycji `(2,2)` i jego orientacja to `North`, to po ruchu `Forward` jego pozycja to `(2,3)`.
-   * Uniemożliwia wyjechanie poza mapę, która ustalona jest od pozycji `(0,0)` do pozycji `(4,4)` (pięć na pięć pól). W
+   * **Uniemożliwia** wyjechanie poza mapę, która ustalona jest od pozycji `(0,0)` do pozycji `(4,4)` (pięć na pięć pól). W
      sytuacji, w której samochód miałby wyjechać poza mapę, wywołanie `move` nie ma żadnego skutku.
 11. W metodzie `main` dodaj wywołania, które przetestują poprawność implementacji, np. po ciągu wywołań: `Right, Forward,
    Forward, Forward` pozycja samochodu powinna wynosić `(4,2)` a orientacja `East`.
@@ -90,7 +90,7 @@ class Position {
 ```java
 Position position1 = new Position(1,2);
 ```
-* Początkowe wartości obiektu można określić w konstruktorze albo bezpośrednio przypisując je do pól, np.
+* Początkowe wartości obiektu można określić albo w konstruktorze, albo bezpośrednio przypisując je do pól, np.
 ```java
 class Car {
   private Position position = new Position(2,2);
