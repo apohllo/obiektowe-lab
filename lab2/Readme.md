@@ -7,9 +7,7 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
 
 1. Pliki projektu należy umieszczać w pakiecie `agh.cs.lab2`.
 2. Utwórz klasę `CarSystem` z metodą `main`.
-3. Utwórz typ wyliczeniowy `MoveDirection` z czterema kierunkami: `Forward, Backward, Right, Left`.
-4. Utwórz typ wyliczeniowy `MapDirection` z czterema kierunkami: `North, South, West, East`.
-5. Utwórz klasę `Position`, która:
+3. Utwórz klasę `Position`, która:
    * posiada dwa publiczne pola `x` i `y` typu `int, które nie moga być modyfikowane,
    * posiada konstruktor akceptujący parametry `x` i `y`, która są przypisywane do pól `x` i `y`,
    * posiada metodę `toString`, która zamienia pozycję na napis `(x,y)`, np. dla `x = 1` oraz `y = 2`, napis ma postac
@@ -20,15 +18,17 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
      wartość większą bądź równą polom drugiego obiektu,
    * posiada metodę `add`, która zwraca nowy obiekt klasy `Position`, którego składowe są sumą odpowiednich składowych
      dodawanych pozycji.
-6. W metodzie `main` wprowadź następujący kod:
-```java
-Position position1 = new Position(1,2);
-System.out.println(position1);
-Position position2 = new Position(-2,1);
-System.out.println(position2);
-System.out.println(position1.add(position2));
-```
-7. Sprawdź czy uzyskane wyniki są poprawne.
+4. W metodzie `main` wprowadź następujący kod:
+  ```java
+  Position position1 = new Position(1,2);
+  System.out.println(position1);
+  Position position2 = new Position(-2,1);
+  System.out.println(position2);
+  System.out.println(position1.add(position2));
+  ```
+5. Sprawdź czy uzyskane wyniki są poprawne.
+6. Utwórz typ wyliczeniowy `MoveDirection` z czterema kierunkami: `Forward, Backward, Right, Left`.
+7. Utwórz typ wyliczeniowy `MapDirection` z czterema kierunkami: `North, South, West, East`.
 8. Utwórz klasę `Car`, która:
    * określa początkowe położenie samochodu na mapie jako `Position(2,2)`,
    * określa początkową orientacje samochodu jako `North`,
