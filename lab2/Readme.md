@@ -1,6 +1,6 @@
 # Laboratorium 2
 
-Celem laboratorium jest wprowadzenie do modelu obiektowego Javy.
+Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
 
 
 ## Zadania do wykonania
