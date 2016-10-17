@@ -5,10 +5,12 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
 
 ## Zadania do wykonania
 
+### Klasa `Position`
+
 1. Pliki projektu należy umieszczać w pakiecie `agh.cs.lab2`.
 2. Utwórz klasę `CarSystem` z metodą `main`.
 3. Utwórz klasę `Position`, która:
-   * posiada dwa publiczne pola `x` i `y` typu `int, które nie moga być modyfikowane,
+   * posiada dwa publiczne pola `x` i `y` typu `int`, które nie moga być modyfikowane,
    * posiada konstruktor akceptujący parametry `x` i `y`, która są przypisywane do pól `x` i `y`,
    * posiada metodę `toString`, która zamienia pozycję na napis `(x,y)`, np. dla `x = 1` oraz `y = 2`, napis ma postac
      `(1,2)`,
@@ -26,12 +28,23 @@ Position position2 = new Position(-2,1);
 System.out.println(position2);
 System.out.println(position1.add(position2));
 ```
-5. Sprawdź czy uzyskane wyniki są poprawne.
+Sprawdź czy uzyskane wyniki są poprawne.
+
+### Pozostałe klasy
+
 6. Utwórz typ wyliczeniowy `MoveDirection` z czterema kierunkami: `Forward, Backward, Right, Left`.
-7. Utwórz typ wyliczeniowy `MapDirection` z czterema kierunkami: `North, South, West, East`.
+7. Utwórz typ wyliczeniowy `MapDirection` z czterema kierunkami: `North, South, West, East`, który:
+   * posiada metodę `toString`, która dla kierunku `East` zwraca łańcuch `Wschód`, dla `West` - `Zachód`, itd.
+   * posiada metodę `next`, która dla kierunku `East` zwraca `South` (kolejny kierunek zgodnie z ruchem wskazówek
+     zegara), itd.
+   * posiada metodę `previous`, która dla kierunku `East` zwraca `North` (kolejny kierunek zgodnie z ruchem przeciwnym
+     do ruchu wskazówek zegara), itd.
+7. Sprawdź w metodzie `main` czy metody te działają zgodnie z opisem.
 8. Utwórz klasę `Car`, która:
-   * określa początkowe położenie samochodu na mapie jako `Position(2,2)`,
    * określa początkową orientacje samochodu jako `North`,
+   * określa początkowe położenie samochodu na mapie jako `Position(2,2)` (przyjmij, że samochód znajduje się w
+     pierwszej ćwiartce układu współrzędnych, a północ jest tożsama z kierunkiem wyznaczanym przez rosnące wartości na
+     osi OY),
    * definiuje metodę `toString()`, która w reprezentacji łańcuchowej zawiera informacje o położeniu samochodu (pozycję
      oraz orientację),
    * definuje swoje pola jako prywatne.
@@ -81,5 +94,23 @@ Position position1 = new Position(1,2);
 ```java
 class Car {
   private Position position = new Position(2,2);
+}
+```
+* Definicję typu wyliczeniowego można rozszerzać dodając do niego metody. Wymaga to umieszczenia średnika po ostatniej
+  wartości typu, np.:
+```java
+enum MapDirection {
+  North,
+  South,
+  East,
+  West;
+
+  public String toString(){
+    switch(this) {
+      case North: return "Północ";
+      case South: return "Południe";
+      //...
+    }
+  }
 }
 ```
