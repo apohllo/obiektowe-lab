@@ -73,14 +73,14 @@ struct Point {
   int y;
 }
 
-Point * createPoint(int x, int y){
-  Point * result = malloc(sizeof(struct Point));
+struct Point * createPoint(int x, int y){
+  struct Point * result = malloc(sizeof(struct Point));
   result->x = x;
   result->y = y;
   return result;
 }
 
-Point * p1 = createPoint(1,2);
+struct Point * p1 = createPoint(1,2);
 ```
 
 Ten kod jest analogiczny do konstruktora, z ta różnicą, że w konstruktorze nie tworzymy obiektu explicite, tylko mamy do
