@@ -10,7 +10,7 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
 1. Pliki projektu należy umieszczać w pakiecie `agh.cs.lab2`.
 2. Utwórz klasę `CarSystem` z metodą `main`.
 3. Utwórz klasę `Position`, która:
-   * posiada dwa publiczne pola `x` i `y` typu `int`, które nie moga być modyfikowane,
+   * posiada dwa publiczne pola `x` i `y` typu `int`, które nie mogą być modyfikowane (`final`),
    * posiada konstruktor akceptujący parametry `x` i `y`, która są przypisywane do pól `x` i `y`,
    * posiada metodę `toString`, która zamienia pozycję na napis `(x,y)`, np. dla `x = 1` oraz `y = 2`, napis ma postać
      `(1,2)`,
@@ -19,7 +19,8 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
    * posiada metodę `larger`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
      wartość większą bądź równą polom drugiego obiektu,
    * posiada metodę `add`, która zwraca nowy obiekt klasy `Position`, którego składowe są sumą odpowiednich składowych
-     dodawanych pozycji.
+     dodawanych pozycji,
+   * posiada metodę `boolean equals(Object other)` która zwraca prawdę jeśli obie pozycje są sobie równe.
 4. W metodzie `main` wprowadź następujący kod:
 ```java
 Position position1 = new Position(1,2);
@@ -40,6 +41,20 @@ Sprawdź czy uzyskane wyniki są poprawne.
    * posiada metodę `previous`, która dla kierunku `East` zwraca `North` (kolejny kierunek zgodnie z ruchem przeciwnym
      do ruchu wskazówek zegara), itd.
 7. Sprawdź w metodzie `main` czy metody te działają zgodnie z opisem.
+
+
+### Testy
+
+1. Przenieś kod źródłowy do katalogu `src/main`.
+2. Utwórz katalog `src/text`.
+3. Utwórz klasę `MapDirectionTest` jako JUnitTestCase (JUnit w wersji 4).
+4. Zaimplementuj test weryfikujący poprawność działania metody `next()`, dla wszystkich przypadków.
+4. Uruchom test korzystając z menu `Run as`.
+5. Zaimplementuj test weryfikujący poprawność działania metody `previous()`, dla wszystkich przypadków.
+6. Utwórz klasę `PositionTest`.
+7. Dodaj testy weryfikujące poprawność metod: `toString()`, `smaller(Position p)`, `larger(Position p)` oraz
+   `add(Position p)`.
+
 
 ## Przydatne informacje
 
@@ -64,7 +79,7 @@ class Position {
 ```java
 Position position1 = new Position(1,2);
 ```
-* Słowo kluczowe this odnosi się do obiekt, na rzecz którego wywołano metodę.
+* Słowo kluczowe `this` odnosi się do obiekt, na rzecz którego wywołano metodę.
 Przykładowo w języku C moglibyśmy zdefiniować metodę `createPoint`:
 
 ```C
@@ -86,6 +101,22 @@ struct Point * p1 = createPoint(1,2);
 Ten kod jest analogiczny do konstruktora, z ta różnicą, że w konstruktorze nie tworzymy obiektu explicite, tylko mamy do
 niego dostęp za pomocą słowa kluczowego `this`.
 
+* Metoda `equals` ma zwykle taki sam schemat:
+
+```java
+public boolean equals(Object other){
+  if (this == other)
+    return true;
+  if (!(other instanceof Position))
+    return false;
+  Position that = (Position) other;
+  // tutaj przeprowadzane jest faktyczne porównanie
+}
+```
+
+Należy również wiedzieć, że zmiana metody `equals` powinna powodować zmianę metody `hashCode`, w przeciwnym razie
+umieszczenie obiektów w kolekcji takiej jak `Set` będzie niezgodne z semantyką metody `equals`.
+
 
 * Definicję typu wyliczeniowego można rozszerzać dodając do niego metody. Wymaga to umieszczenia średnika po ostatniej
   wartości typu, np.:
@@ -105,3 +136,10 @@ enum MapDirection {
   }
 }
 ```
+
+* Metody testujące posiadają adnotację `@Test'.
+
+* W metodach testujących można użyć następujących asercji:
+  * `assertEquals(a, b)` - weryfikuje czy obiekty `a` i `b` są sobie równe (korzystając z metody `equals`),
+  * `assertTrue(a)` - weryfikuje czy wartość logiczna `a` jest prawdą,
+  * `assertFalse(a)` - weryfikuje czy wartość logiczna `a` jest fałszem.
