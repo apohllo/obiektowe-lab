@@ -137,7 +137,7 @@ enum MapDirection {
 }
 ```
 
-* Metody testujące posiadają adnotację `@Test'.
+* Metody testujące posiadają adnotację `@Test`.
 
 * W metodach testujących można użyć następujących asercji:
   * `assertEquals(a, b)` - weryfikuje czy obiekty `a` i `b` są sobie równe (korzystając z metody `equals`),
