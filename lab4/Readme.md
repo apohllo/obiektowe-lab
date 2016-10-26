@@ -8,7 +8,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
 2. Zdefiniuj interfejs `IWorldMap` posiadający następujące metody: 
    * `boolean canMove(Position position)`, która zwraca informację, że
       obiekt może przesunąć się na daną pozycję,
-   * `boolean add(Car car)`, która umieszcze samochód na mapie, pod warunkiem, że jego pozycja leży w obrębie mapy oraz
+   * `boolean add(Car car)`, która umieszcza samochód na mapie, pod warunkiem, że jego pozycja leży w obrębie mapy oraz
      na danej pozycji nie znajduje się inny obiekt. Zwracana wartość informuje, czy udało się umieścić samochód na
      mapie.
 3. Zdefiniuj klasę `RectangleMap`, która:
@@ -16,7 +16,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
    * w konstruktorze akceptuje dwa parametry `Poisition` wskazujące prawy dolny oraz lewy górny róg mapy (pomiń
      sytuację, w której użytkownik podaje niepoprawne dane),
    * umożliwia poruszanie się w obrębie zdefiniowanego prostokąta (jak w laboratorium 3),
-   * umożliwia wysępowanie więcej niż jednego samochodu na mapie,
+   * umożliwia występowanie więcej niż jednego samochodu na mapie,
    * posiada metodę `toString` rysującą aktualną konfigurację mapy.
 4. Zdefiniuj klasę `UnboundedMap`, która:
    * implementuje interfejs `IWorldMap`,
@@ -26,4 +26,4 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
      przeszkodę,
    * posiada metodę `String toString(Position position1, Position position2)`, która rysuje wybrany fragment mapy.
 
-TBC
+CDN.
