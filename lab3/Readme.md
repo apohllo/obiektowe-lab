@@ -32,6 +32,9 @@ Celem laboratorium jest wykorzystanie modelu obiektowego Javy do rozwiązania pr
    * dla nieznanych kierunków nie umieszcza ich w tablicy wynikowej.
 13. Zmodyfikuj metodę `main` tak aby korzystając z klasy `OptionsParser` umożliwiała sterowanie samochodem.
 14. Przetestuj zachowanie samochodu dla różnych danych wejściowych.
+15. Napisz testy integracyjne weryfiujące poprawność implementacji. Uwzględnij przede wszystkim czy
+    samochód ma właściwą orientację, czy przemieszcza się na właściwe pozycje oraz czy nie wyjeżdża poza mapę. Testy
+    integracyjne powinny uwzględniać wszystkie stworzone klasy (również klasę `OptionsParser`).
 
 ## Przydatne informacje
 
