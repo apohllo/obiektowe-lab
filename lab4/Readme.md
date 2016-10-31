@@ -32,7 +32,7 @@ map.add(new Car(map));
 map.add(new Car(map,3,4));
 map.run(directions);
 ```
-Sprawdź czy samochody poruszają się poprawnie dla ciągu: 'f b r l f f r r f f f f f f f f'.
+Sprawdź czy samochody poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.
 
 ## Przydatne informacje
 
