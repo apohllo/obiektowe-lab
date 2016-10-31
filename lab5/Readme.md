@@ -16,19 +16,20 @@ obiektowym.
    * umożliwia nieograniczone poruszanie się samochodu po mapie, pod warunkiem, że nie wjeżdża na inny samochód oraz na
      stóg siana,
    * posiada metodę `String toString()`, która rysuje fragment mapy, na którym znajdują się wszystkie elementy (stogi
-     siana oraz samochody). W celu jej implementacji wykorzystaj klasę `MapWisualizer` z poprzedniego laboratorium.
+     siana oraz samochody). W celu jej implementacji wykorzystaj klasę `MapWisualizer` z poprzedniego laboratorium oraz
+     oblicz skrajne punkty, które powinny zostać wyświetlone.
 2. Sprawdź czy implementacja klasy jest poprawna - umieść na mapie stogi na pozycjach: (-4,-4), (7,7), (3,6) oraz (2,0).
    Uruchom tę samą sekwencję ruchów co w laboratorium 4.
 3. Dodaj testy do klas `RectangularMap` oraz `UnboundedMap` weryfikujące poprawność działania metod dostępnych w
    interfejsie `IWorldMap`,
 4. Przyjrzyj się implementacjom tych klas - łatwo można zauważyć, że duża część kodu w obu klasach się powtarza. 
-5. Dodaj klasę abstrakcyjną `AbstractMap`, która zawiera kod wspólny dla tych klas.
-6. Spraw aby obie klasy dziedziczyły z `AbstractMap` oraz usuń kod, który jest już zaimplementowany w klasie
-   `AbstractMap`.
+5. Dodaj klasę abstrakcyjną `AbstractWorldMap`, która zawiera kod wspólny dla tych klas.
+6. Spraw aby obie klasy dziedziczyły z `AbstractWorldMap` oraz usuń kod, który jest już zaimplementowany w klasie
+   `AbstractWorldMap`.
 7. Uruchom testy i zweryfikuj, że mapy działają tak jak wcześniej.
 8. Rozważ dodanie interfejsu `IMapElement`, który byłby implementowany przez klasy `Car` oraz `HayStack`. Zastanów się
    czy można by uprościć implementację klasy `UnboundedMap` wykorzystując ten interfejs.
-9. Zastanów się, czy celowe byłoby dodanie klasy `AbstractMapElement`.
+9. Zastanów się, czy celowe byłoby dodanie klasy `AbstractWorldMapElement`.
 
 ## Przydatne informacje
 
@@ -39,25 +40,25 @@ obiektowym.
 * Każda klasa domyślnie dziedziczy z klasy `Object`. Dziedziczenie z innej klasy wskazujemy za pomocą słowa kluczowego
   `extends`:
 ```java
-class RectangularMap extends AbstractMap {
+class RectangularMap extends AbstractWorldMap {
 }
 ```
-* Jeśli chcemy aby jakieś pole lub metoda nie była częścią publicznego interfejsu klasy, ale żeby była dostępną w
-  klasach podrzędnych, to oznaczamy je jako chronione (`protected`). Przykładowo lista samochodów w klasie `AbstractMap`
+* Jeśli chcemy aby jakieś pole lub metoda nie była częścią publicznego interfejsu klasy, ale żeby były dostępne w
+  klasach podrzędnych, to oznaczamy je jako chronione (`protected`). Przykładowo, lista samochodów w klasie `AbstractWorldMap`
   powinna być chroniona:
 ```java
-class AbstractMap implements IWorldMap {
+class AbstractWorldMap implements IWorldMap {
   protected List<Car> cars = new ArrayList<>():
 }
 ```
-* Klasa podrzędna może zmienić implementację metody dostępne w klasie nadrzędnej - widzieliśmy to na przykładzie metody
-  `toString`. Wtedy dla każdego obiektu używana jest zawsze metoda z *faktycznego*, a nie deklarowanego typu tego
+* Klasa podrzędna może zmienić implementację metody dostępnej w klasie nadrzędnej - widzieliśmy to na przykładzie metody
+  `toString()`. Wtedy dla każdego obiektu używana jest zawsze metoda z *faktycznego*, a nie deklarowanego typu tego
   obiektu. Innymi słowy w Javie domyślnie metody są *wirtualne*.
 * Klasa podrzędna może odwołać się do implementacji z klasy nadrzędnej za pomocą słowa kluczowego `super`. Np.
 ```java
 public Object objectAt(Position position) {
   Object object = super.objectAt(position);
-  \\...
+  //...
 }
 ```
 W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzędnych.
