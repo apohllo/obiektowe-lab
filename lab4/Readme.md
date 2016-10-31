@@ -10,14 +10,14 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
    * zdefiniuj konstruktor `Car(IWorldMap map)`, który wiąże samochód z mapą,
    * zdefiniuj konstruktor `Car(IWorldMap map, int x, int y)`, który dodatkowo określa początkowe położenie samochodu na
      mapie,
-   * dodaj metodę `getPosition`, która zwraca pozycję samochodu,
+   * dodaj metodę `Position getPosition()`, która zwraca pozycję samochodu,
    * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientacje samochodu w postaci łańcucha
      składającego się z jednego znaku,
    * zmodyfikuj metodę `move`, tak by korzystała z wywołania `canMoveTo` interfejsu `IWorldMap`.
-3. Zdefiniuj klasę `RectangleMap`, która:
+3. Zdefiniuj klasę `RectangularMap`, która:
    * definiuje prostokątną mapę,
    * implementuje interfejs `IWorldMap`
-   * w konstruktorze akceptuje dwa parametry `width` oraz `height` wskazujące szerokość oraz wysokość map (zignoruj
+   * w konstruktorze akceptuje dwa parametry `width` oraz `height` wskazujące szerokość oraz wysokość mapy (zignoruj
      sytuację, w której użytkownik klasy poda niepoprawne wartości),
    * umożliwia poruszanie się w obrębie zdefiniowanego prostokąta (jak w laboratorium 3),
    * umożliwia występowanie więcej niż jednego samochodu na mapie,
@@ -32,7 +32,7 @@ map.add(new Car(map));
 map.add(new Car(map,3,4));
 map.run(directions);
 ```
-5. Sprawdź czy samochody poruszają się poprawnie.
+Sprawdź czy samochody poruszają się poprawnie dla ciągu: 'f b r l f f r r f f f f f f f f'.
 
 ## Przydatne informacje
 
