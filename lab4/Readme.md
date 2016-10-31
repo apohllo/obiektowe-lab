@@ -1,29 +1,39 @@
 # Laboratorium 4
 
-Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcją `LinkedList`.
+Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcjami.
 
 ## Zadania do wykonania
 
 1. Wykorzystaj definicje klas z poprzedniego laboratorium.
-2. Zdefiniuj interfejs `IWorldMap` posiadający następujące metody: 
-   * `boolean canMove(Position position)`, która zwraca informację, że
-      obiekt może przesunąć się na daną pozycję,
-   * `boolean add(Car car)`, która umieszcza samochód na mapie, pod warunkiem, że jego pozycja leży w obrębie mapy oraz
-     na danej pozycji nie znajduje się inny obiekt. Zwracana wartość informuje, czy udało się umieścić samochód na
-     mapie.
+2. Przyjrzyj się interfejsowi `IWorldMap`, który znajduje się w tym katalogu.
+3. Zmodyfikuje klasę `Car` z poprzedniego ćwiczenia:
+   * zdefiniuj konstruktor `Car(IWorldMap map)`, który wiąże samochód z mapą,
+   * zdefiniuj konstruktor `Car(IWorldMap map, int x, int y)`, który dodatkowo określa początkowe położenie samochodu na
+     mapie,
+   * dodaj metodę `getPosition`, która zwraca pozycję samochodu,
+   * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientacje samochodu w postaci łańcucha
+     składającego się z jednego znaku,
+   * zmodyfikuj metodę `move`, tak by korzystała z wywołania `canMoveTo` interfejsu `IWorldMap`.
 3. Zdefiniuj klasę `RectangleMap`, która:
+   * definiuje prostokątną mapę,
    * implementuje interfejs `IWorldMap`
-   * w konstruktorze akceptuje dwa parametry `Poisition` wskazujące prawy dolny oraz lewy górny róg mapy (pomiń
-     sytuację, w której użytkownik podaje niepoprawne dane),
+   * w konstruktorze akceptuje dwa parametry `width` oraz `height` wskazujące szerokość oraz wysokość map (zignoruj
+     sytuację, w której użytkownik klasy poda niepoprawne wartości),
    * umożliwia poruszanie się w obrębie zdefiniowanego prostokąta (jak w laboratorium 3),
    * umożliwia występowanie więcej niż jednego samochodu na mapie,
-   * posiada metodę `toString` rysującą aktualną konfigurację mapy.
-4. Zdefiniuj klasę `UnboundedMap`, która:
-   * implementuje interfejs `IWorldMap`,
-   * w konstruktorze akceptuje parametr określający liczbę zajętych pozycji na mapie,
-   * generuje losowe pokrycie mapy "przeszkodami" w ilości określonej w konstruktorze,
-   * umożliwia nieograniczone poruszanie się samochodu po mapie, pod warunkiem, że nie wjeżdża na inny samochód oraz na
-     przeszkodę,
-   * posiada metodę `String toString(Position position1, Position position2)`, która rysuje wybrany fragment mapy.
+   * posiada metodę `toString` rysującą aktualną konfigurację mapy (wykorzystaj klasę `MapVisualizer` która znajduje się
+     w tym katalogu),
+   * w metodzie `run` na przemian steruje ruchem wszystkich samochodów.
+4. Wykonaj następujący kod w metodzie `main` klasy `CarSystem`:
+```java
+MoveDirection[] directions = new OptionsParser().parse(args);
+IWorldMap map = new RectangularMap(10, 5);
+map.add(new Car(map));
+map.add(new Car(map,3,4));
+map.run(directions);
+```
+5. Sprawdź czy samochody poruszają się poprawnie.
 
-CDN.
+## Przydatne informacje
+
+TBC
