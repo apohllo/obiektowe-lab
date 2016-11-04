@@ -12,7 +12,8 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
      mapie,
    * dodaj metodę `Position getPosition()`, która zwraca pozycję samochodu,
    * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientacje samochodu w postaci łańcucha
-     składającego się z jednego znaku,
+     składającego się z jednego znaku, Np. jeśli samochód ma orientację północną to metoda `toString()` powinna zwracać
+     łańcuch "N".
    * zmodyfikuj metodę `move`, tak by korzystała z wywołania `canMoveTo` interfejsu `IWorldMap`.
 3. Zdefiniuj klasę `RectangularMap`, która:
    * definiuje prostokątną mapę,
@@ -23,7 +24,10 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
    * umożliwia występowanie więcej niż jednego samochodu na mapie,
    * posiada metodę `toString` rysującą aktualną konfigurację mapy (wykorzystaj klasę `MapVisualizer` która znajduje się
      w tym katalogu),
-   * w metodzie `run` na przemian steruje ruchem wszystkich samochodów.
+   * w metodzie `run` na przemian steruje ruchem wszystkich samochodów. Przykładowo, jeśli użytkownik wprowadzi ciąg: `f
+     b r l` a na mapie są dwa samochody, to pierwszy samochód otrzyma ruchy `f` i `r`, a drugi `b` i `l`. Ruchy obu
+     samochodów mają być wykonywane na przemian, tzn. po każdym ruchu pierwszego samochodu następuje ruch drugiego
+     samochodu.
 4. Wykonaj następujący kod w metodzie `main` klasy `CarSystem`:
 ```java
 MoveDirection[] directions = new OptionsParser().parse(args);
