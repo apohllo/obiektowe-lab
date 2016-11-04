@@ -7,7 +7,8 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
 1. Wykorzystaj definicje klas z poprzedniego laboratorium.
 2. Przyjrzyj się interfejsowi `IWorldMap`, który znajduje się w tym katalogu.
 3. Zmodyfikuje klasę `Car` z poprzedniego ćwiczenia:
-   * zdefiniuj konstruktor `Car(IWorldMap map)`, który wiąże samochód z mapą,
+   * zdefiniuj konstruktor `Car(IWorldMap map)`; wykorzystaj argument `map` tak aby w metodzie `move` można było odwołać
+     się do mapy i zweryfikować, czy samochód może przesunąć się na daną pozycję,
    * zdefiniuj konstruktor `Car(IWorldMap map, int x, int y)`, który dodatkowo określa początkowe położenie samochodu na
      mapie,
    * dodaj metodę `Position getPosition()`, która zwraca pozycję samochodu,
@@ -52,7 +53,8 @@ Sprawdź czy samochody poruszają się poprawnie dla ciągu: `f b r l f f r r f 
 class RectangularMap implements IWorldMap {
 }
 ```
-* W Javie istnieją dwie podstawowe struktury sekwencyjne (poza tablicami): [LinkedList](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) oraz [ArrayList](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html). W
+* W Javie istnieją dwie podstawowe struktury sekwencyjne (poza tablicami): [LinkedList](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html) 
+  oraz [ArrayList](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html). W
   przeciwieństwie do tablic obie klasy pozwalają na określenie początkowego rozmiaru na 0 i dowolne rozszerzanie
   kolekcji. 
 * Obie klasy implementują interfejs `List`, który definiuje podstawowe operacje na listach.
