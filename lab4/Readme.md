@@ -48,7 +48,7 @@ Sprawdź czy samochody poruszają się poprawnie dla ciągu: `f b r l f f r r f 
 class RectangularMap implements IWorldMap {
 }
 ```
-* W Javie istnieją dwie podstawowe struktury sekwencyjne (poza tablicami): `LinkedList` oraz `ArrayList`. W
+* W Javie istnieją dwie podstawowe struktury sekwencyjne (poza tablicami): `[LinkedList](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)` oraz `[ArrayList](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html)`. W
   przeciwieństwie do tablic obie klasy pozwalają na określenie początkowego rozmiaru na 0 i dowolne rozszerzanie
   kolekcji. 
 * Obie klasy implementują interfejs `List`, który definiuje podstawowe operacje na listach.
