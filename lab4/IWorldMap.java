@@ -1,8 +1,5 @@
 package agh.cs.lab4;
 
-import agh.cs.lab2.MoveDirection;
-import agh.cs.lab2.Position;
-
 /**
  * Interface responsible for interacting with the map of the world.
  * 

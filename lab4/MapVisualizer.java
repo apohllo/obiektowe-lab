@@ -1,8 +1,5 @@
 package agh.cs.lab4;
 
-import agh.cs.lab2.Position;
-import agh.cs.lab4.IWorldMap;
-
 /**
  * The map visualizer converts the {@link IWorldMap} map into a string
  * representation.
