@@ -19,5 +19,5 @@ Alternatywnie
 # Zatwierdzenie zmian na koniec pracy
 
 1. `git add .`
-2. `git commit -m 'Opis zmina'`
+2. `git commit -m 'Opis zmian'`
 3. `git push origin master`
