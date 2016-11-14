@@ -14,7 +14,7 @@
 
 Alternatywnie
 
-1. Eclipse -> Import -> Git repository
+1. Eclipse -> Import -> Git -> Projects from git
 
 # Zatwierdzenie zmian na koniec pracy
 
