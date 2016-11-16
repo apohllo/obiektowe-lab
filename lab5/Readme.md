@@ -47,7 +47,7 @@ class RectangularMap extends AbstractWorldMap {
   klasach podrzędnych, to oznaczamy je jako chronione (`protected`). Przykładowo, lista samochodów w klasie `AbstractWorldMap`
   powinna być chroniona:
 ```java
-class AbstractWorldMap implements IWorldMap {
+abstract class AbstractWorldMap implements IWorldMap {
   protected List<Car> cars = new ArrayList<>():
 }
 ```
