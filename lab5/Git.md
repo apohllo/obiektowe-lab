@@ -21,3 +21,7 @@ Alternatywnie
 1. `git add .`
 2. `git commit -m 'Opis zmian'`
 3. `git push origin master`
+
+# Przydatne odnośniki
+
+http://gitexercises.fracz.com/
