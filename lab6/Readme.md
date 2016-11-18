@@ -5,12 +5,12 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem Ma
 ## Zadania do wykonania
 
 1. Wykorzystaj klasy z laboratrium 5.
-2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy samochodu rzuć wyjątek IllegalArgumentException,
+2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy samochodu rzuć wyjątek `IllegalArgumentException`,
   jeśli, którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
   Jako przyczynę wyjatku wprowadź łańcych znaków informujący, że określony parametr jest niepoprawny, np.
-  new IllegalArgumentException(argument + " is not legal move specification").
+  `new IllegalArgumentException(argument + " is not legal move specification")`.
 3. W metodach odpowiedzialnych za dodawanie elementów do mapy zweryfikuj, czy dane pole nie jest już zajmowane.
-  Jeśli pole jest już zajęte, rzuć wyjątek IllegalArgumentException, podając jako przyczynę łańcuch znaków zawierający
+  Jeśli pole jest już zajęte, rzuć wyjątek `IllegalArgumentException`, podając jako przyczynę łańcuch znaków zawierający
   informację o tym, które pole jest już zajęte.
 4. Obsłuż oba wyjątki w metodzie `main` klasy `CarSystem`. Obsługa powinna polegać na wyświetleniu komunikatu wyjątku
    oraz zakończeniu działania programu.
@@ -43,4 +43,37 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem Ma
 
 ## Przydatne informacje
 
-TODO
+* Wyjątki są mechanizmem pozwalającym przekazywać informację o błędzie pomiędzy odległymi fragmentami kodu.
+* Zgłoszenie błędu odbywa się poprze *rzucenie wyjątku*. W Javie służy do tego słowo kluczowe `throw`:
+
+```java
+throw new IllegalArgumentException("ABC argument is invalid")
+```
+* Nieobsłużony wyjątek powoduje przerwanie działania aplikacji.
+* Obsługa wyjątków odbywa się za pomocą mechanizmu *przechwytywania wyjątków*. W Javie służy do tego konstrukcja
+  `try...catch`:
+
+```java
+try {
+  // kod który może rzucić wyjątek
+} catch(IllegalArgumentException ex) {
+  // kod obsługi wyjątku
+}
+```
+Wyjątek może być rzucony na dowolnym poziomie w kodzie, który otoczony jest blokiem `try`.
+
+* Interfejs `Map` definiuje w Javie strukturę słownikową, czyli mapę odwzorowującą *klucze* na *wartości*.
+* Jedną z najczęściej wykorzystywanych implementacji interfeju `Map` jest klasa `HashMap`, przykładowo:
+
+```java
+Map<Position,Car> cars = new HashMap<>();
+```
+Poprawność działania powyższego kodu uzależniona jest od poprawności implementacji metody `hashCode` w klasie-kluczu (w
+tym wypadku `Position`).
+
+* Wzorce projektowe są koncepcją występującą w programowaniu obiektowym polegającą na tym, że określona klasa problemów
+  może być rozwiązana w schematyczny sposób. Rozwiązanie problemu jednak nie może być (najczęściej) zawarte w jednej
+  klasie, dlatego wzorzec stanowi swego rodzaju szkielet rozwiązania, który określa jakie klasy i interfejsy muszą być
+  wykorzystane, aby poprawnie rozwiązać dany problem.
+* Przykładem wzroca jest obserwator (observer) - rozwiązuje on problem zmian wewnętrznego stanu obiektu.
+  Więcej informacji na temat tego wzroca można znaleźć pod adresem https://en.wikipedia.org/wiki/Observer_pattern
