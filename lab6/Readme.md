@@ -6,7 +6,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem `M
 
 1. Wykorzystaj klasy z laboratorium 5.
 2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy samochodu rzuć wyjątek `IllegalArgumentException`,
-  jeśli, którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
+  jeśli którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
   Jako przyczynę wyjątku wprowadź łańcuch znaków informujący, że określony parametr jest niepoprawny, np.
   `new IllegalArgumentException(argument + " is not legal move specification")`.
 3. W metodach odpowiedzialnych za dodawanie elementów do mapy zweryfikuj, czy dane pole nie jest już zajmowane.
@@ -21,10 +21,10 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem `M
    interfejs `Map` oraz implementację `HashMap`).
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
 6. Poprawna implementacja słownika wymaga, aby klasa `Position` implementowała metodę `hashCode`. Metoda ta jest
-   wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować odpowiedni kod korzystając z
+   wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować odpowiedni kod korzystając ze
    wsparcia środowiska programistycznego. Zasadniczo metoda ta musi być zgodna z działaniem metody `equals` - dwa
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`.
-7. Poprawna implementacja nowego mechanizmu wymaga, aby mapa była informowana o zmianach pozycji przez samochody.
+7. Poprawna implementacja nowego mechanizmu wymaga, aby mapa była informowana o zmianach pozycji samochodów.
   Właściwym sposobem na rozwiązanie tego zagadnienie nie jest modyfikacja metody `run`, ponieważ duplikowałaby ona część
   kodu, który znajduje się w metodzie `move` samochodu. Należy użyć wzorca projektowego `Observer` (w Javie tradycyjnie
   nazywany `Listener`) - mapa ma zarejestrować się jako obserwator dla ruchów samochodu.
@@ -38,6 +38,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem `M
     obserwatora do listy obserwatorów w klasie `Car`.
 11. Klasa `Car` musi informować wszystkich obserwatorów, o tym że pozycja została zmieniona. Stwórz metodę
     `positionChanged` w klasie `Car`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
+12. Zmiana implementacji kolekcji `cars` będzie wymagała zmiany implementacji metod `isOccupied` oraz `objectAt`.
 12. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
 
 
