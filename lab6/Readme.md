@@ -1,13 +1,13 @@
 # Laboratorium 6
 
-Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem Map oraz użycie wzorca projektowego Observer.
+Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem `Map` oraz użycie wzorca projektowego `Observer`.
 
 ## Zadania do wykonania
 
-1. Wykorzystaj klasy z laboratrium 5.
+1. Wykorzystaj klasy z laboratorium 5.
 2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy samochodu rzuć wyjątek `IllegalArgumentException`,
   jeśli, którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
-  Jako przyczynę wyjatku wprowadź łańcych znaków informujący, że określony parametr jest niepoprawny, np.
+  Jako przyczynę wyjątku wprowadź łańcuch znaków informujący, że określony parametr jest niepoprawny, np.
   `new IllegalArgumentException(argument + " is not legal move specification")`.
 3. W metodach odpowiedzialnych za dodawanie elementów do mapy zweryfikuj, czy dane pole nie jest już zajmowane.
   Jeśli pole jest już zajęte, rzuć wyjątek `IllegalArgumentException`, podając jako przyczynę łańcuch znaków zawierający
@@ -21,7 +21,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem Ma
    interfejs `Map` oraz implementację `HashMap`).
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
 6. Poprawna implementacja słownika wymaga, aby klasa `Position` implementowała metodę `hashCode`. Metoda ta jest
-   wykorzystywana m.in. przez słownik oparty o tablicę hashującą (`HashMap`). Możesz wygenerować odpowiedni kod korzystając z
+   wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować odpowiedni kod korzystając z
    wsparcia środowiska programistycznego. Zasadniczo metoda ta musi być zgodna z działaniem metody `equals` - dwa
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`.
 7. Poprawna implementacja nowego mechanizmu wymaga, aby mapa była informowana o zmianach pozycji przez samochody.
@@ -32,13 +32,13 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem Ma
   `positionChanged(Position old, Position new)`.
 9. Obie mapy muszą implementować ten interfejs. Możesz to zrealizować, jeśli odpowiedni kod umieścisz w klasie
    `AbstractWorldMap`. Implementacja metody `positionChanged` powinna polegać na tym, że ze słownika usuwana jest para:
-   stara pozycja - samochód, a dodawna jest para: nowa pozycja - samochód.
+   stara pozycja - samochód, a dodawana jest para: nowa pozycja - samochód.
 10. Klasa `Car` musi umożliwić rejestrowanie obserwatorów. Dodaj metody: `void addListener(IPositionChangeListener
     listener)` oraz `void removeListener(IPositionChangeListener listener)`, które będą dodawały i usuwały danego
     obserwatora do listy obserwatorów w klasie `Car`.
 11. Klasa `Car` musi informować wszystkich obserwatorów, o tym że pozycja została zmieniona. Stwórz metodę
     `positionChanged` w klasie `Car`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
-12. Przetestuj działanie nowej implemetacji korzystając z kodu z laboratorium nr 5.
+12. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
 
 
 ## Przydatne informacje
@@ -63,7 +63,7 @@ try {
 Wyjątek może być rzucony na dowolnym poziomie w kodzie, który otoczony jest blokiem `try`.
 
 * Interfejs `Map` definiuje w Javie strukturę słownikową, czyli mapę odwzorowującą *klucze* na *wartości*.
-* Jedną z najczęściej wykorzystywanych implementacji interfeju `Map` jest klasa `HashMap`, przykładowo:
+* Jedną z najczęściej wykorzystywanych implementacji interfejsu `Map` jest klasa `HashMap`, przykładowo:
 
 ```java
 Map<Position,Car> cars = new HashMap<>();
@@ -75,5 +75,5 @@ tym wypadku `Position`).
   może być rozwiązana w schematyczny sposób. Rozwiązanie problemu jednak nie może być (najczęściej) zawarte w jednej
   klasie, dlatego wzorzec stanowi swego rodzaju szkielet rozwiązania, który określa jakie klasy i interfejsy muszą być
   wykorzystane, aby poprawnie rozwiązać dany problem.
-* Przykładem wzroca jest obserwator (observer) - rozwiązuje on problem zmian wewnętrznego stanu obiektu.
-  Więcej informacji na temat tego wzroca można znaleźć pod adresem https://en.wikipedia.org/wiki/Observer_pattern
+* Przykładem wzorca jest obserwator (observer) - rozwiązuje on problem zmian wewnętrznego stanu obiektu.
+  Więcej informacji na temat tego wzorca można znaleźć pod adresem https://en.wikipedia.org/wiki/Observer_pattern
