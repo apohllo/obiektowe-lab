@@ -26,7 +26,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejse
    wsparcia środowiska programistycznego. Zasadniczo metoda ta musi być zgodna z działaniem metody `equals` - dwa
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`.
 7. Zmodyfikuj metodę `run` w klasach obsługujących mapę, tak by po każdym ruchu samochodu sprawdzać, czy jego pozycja
-   się zmieniła i w razie zminy zaktualizuj słownik: pozycja - obiekt na mapie.
+   się zmieniła i w razie zmiany zaktualizuj słownik: pozycja - obiekt na mapie.
 8. Zmiana implementacji kolekcji `cars` będzie wymagała zmiany implementacji metod `isOccupied`, `objectAt` oraz `run`.
    W tej ostatniej metodzie możesz wykorzystać wywołanie `values()` z klasy `Map`, które zwróci listę obiektów
    (samochodów) na mapie. Niestety zwrócona kolekcja nie jest listą. Zastanów się jak rozwiązać ten problem.
@@ -81,5 +81,5 @@ public int hashCode() {
 }
 ```
 
-Istotą kodu nie są konkrente wartości, przez które mnożone są składniki `x` i `y` ale fakt, że dla identycznych wartości
+Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `x` i `y` ale fakt, że dla identycznych wartości
 `x` i `y` wartość funkcji `hashCode` będzie identyczna.
