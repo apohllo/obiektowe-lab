@@ -13,7 +13,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejse
   Jeśli pole jest już zajęte, rzuć wyjątek `IllegalArgumentException`, podając jako przyczynę łańcuch znaków zawierający
   informację o tym, które pole jest już zajęte.
 4. Obsłuż oba wyjątki w metodzie `main` klasy `CarSystem`. Obsługa powinna polegać na wyświetleniu komunikatu wyjątku
-   oraz zakończeniu działania programu.
+   oraz zakończeniu działania programu, a konstrukcja `try` powinna obejmować cały kod znajdujący się w metodzie `main`.
 4. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
    samego samochodu. Efektem powinno być kontrolowane zakończenie działania programu.
 5. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
