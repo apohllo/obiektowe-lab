@@ -1,6 +1,6 @@
 # Laboratorium 6
 
-Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem `Map` oraz użycie wzorca projektowego `Observer`.
+Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejsem `Map`.
 
 ## Zadania do wykonania
 
@@ -21,25 +21,16 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków, interfejsem `M
    interfejs `Map` oraz implementację `HashMap`).
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
 6. Poprawna implementacja słownika wymaga, aby klasa `Position` implementowała metodę `hashCode`. Metoda ta jest
-   wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować odpowiedni kod korzystając ze
+   wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować kod metody `hashCode` w
+   klasie `Position` korzystając ze
    wsparcia środowiska programistycznego. Zasadniczo metoda ta musi być zgodna z działaniem metody `equals` - dwa
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`.
-7. Poprawna implementacja nowego mechanizmu wymaga, aby mapa była informowana o zmianach pozycji samochodów.
-  Właściwym sposobem na rozwiązanie tego zagadnienie nie jest modyfikacja metody `run`, ponieważ duplikowałaby ona część
-  kodu, który znajduje się w metodzie `move` samochodu. Należy użyć wzorca projektowego `Observer` (w Javie tradycyjnie
-  nazywany `Listener`) - mapa ma zarejestrować się jako obserwator dla ruchów samochodu.
-8. Realizację implementacji rozpocznij od zdefiniowana interfejsu `IPositionChangeListener`, który zawiera jedną metodę
-  `positionChanged(Position old, Position new)`.
-9. Obie mapy muszą implementować ten interfejs. Możesz to zrealizować, jeśli odpowiedni kod umieścisz w klasie
-   `AbstractWorldMap`. Implementacja metody `positionChanged` powinna polegać na tym, że ze słownika usuwana jest para:
-   stara pozycja - samochód, a dodawana jest para: nowa pozycja - samochód.
-10. Klasa `Car` musi umożliwić rejestrowanie obserwatorów. Dodaj metody: `void addListener(IPositionChangeListener
-    listener)` oraz `void removeListener(IPositionChangeListener listener)`, które będą dodawały i usuwały danego
-    obserwatora do listy obserwatorów w klasie `Car`.
-11. Klasa `Car` musi informować wszystkich obserwatorów, o tym że pozycja została zmieniona. Stwórz metodę
-    `positionChanged` w klasie `Car`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
-12. Zmiana implementacji kolekcji `cars` będzie wymagała zmiany implementacji metod `isOccupied` oraz `objectAt`.
-12. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
+7. Zmodyfikuj metodę `run` w klasach obsługujących mapę, tak by po każdym ruchu samochodu sprawdzać, czy jego pozycja
+   się zmieniła i w razie zminy zaktualizuj słownik: pozycja - obiekt na mapie.
+8. Zmiana implementacji kolekcji `cars` będzie wymagała zmiany implementacji metod `isOccupied`, `objectAt` oraz `run`.
+   W tej ostatniej metodzie możesz wykorzystać wywołanie `values()` z klasy `Map`, które zwróci listę obiektów
+   (samochodów) na mapie. Niestety zwrócona kolekcja nie jest listą. Zastanów się jak rozwiązać ten problem.
+9. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
 
 
 ## Przydatne informacje
@@ -72,9 +63,23 @@ Map<Position,Car> cars = new HashMap<>();
 Poprawność działania powyższego kodu uzależniona jest od poprawności implementacji metody `hashCode` w klasie-kluczu (w
 tym wypadku `Position`).
 
-* Wzorce projektowe są koncepcją występującą w programowaniu obiektowym polegającą na tym, że określona klasa problemów
-  może być rozwiązana w schematyczny sposób. Rozwiązanie problemu jednak nie może być (najczęściej) zawarte w jednej
-  klasie, dlatego wzorzec stanowi swego rodzaju szkielet rozwiązania, który określa jakie klasy i interfejsy muszą być
-  wykorzystane, aby poprawnie rozwiązać dany problem.
-* Przykładem wzorca jest obserwator (observer) - rozwiązuje on problem zmian wewnętrznego stanu obiektu.
-  Więcej informacji na temat tego wzorca można znaleźć pod adresem https://en.wikipedia.org/wiki/Observer_pattern
+* Poprawne działanie `HashMap` uzależnione jest od implementacji metod `equals` oraz `hashCode` w klasie, która stanowi
+  klucze mapy.
+
+* Wynik działania metody `hashCode` musi być zgodny z wynikiem działania metody `equals`, tzn. jeśli dwa obiekty są
+  równe według `equals` to ich `hashCode` musi by również równy.
+
+* Przykładowa implementacja metody `hashCode` dla klasy position może wyglądać następująco:
+
+```java
+@Override
+public int hashCode() {
+  int hash = 13;
+  hash += this.x * 31;
+  hash += this.y * 17;
+  return hash;
+}
+```
+
+Istotą kodu nie są konkrente wartości, przez które mnożone są składniki `x` i `y` ale fakt, że dla identycznych wartości
+`x` i `y` wartość funkcji `hashCode` będzie identyczna.
