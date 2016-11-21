@@ -65,11 +65,9 @@ Wyjątek może być rzucony na dowolnym poziomie w kodzie, który otoczony jest
 ```java
 Map<Position,Car> cars = new HashMap<>();
 ```
-Poprawność działania powyższego kodu uzależniona jest od poprawności implementacji metody `hashCode` w klasie-kluczu (w
-tym wypadku `Position`).
 
 * Poprawne działanie `HashMap` uzależnione jest od implementacji metod `equals` oraz `hashCode` w klasie, która stanowi
-  klucze mapy.
+  klucze mapy (w ćwićzeniu dotyczy to klasy `Position`).
 
 * Wynik działania metody `hashCode` musi być zgodny z wynikiem działania metody `equals`, tzn. jeśli dwa obiekty są
   równe według `equals` to ich `hashCode` musi by również równy.
