@@ -4,6 +4,8 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejse
 
 ## Zadania do wykonania
 
+### Obsługa wyjątków
+
 1. Wykorzystaj klasy z laboratorium 5.
 2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy samochodu rzuć wyjątek `IllegalArgumentException`,
   jeśli którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
@@ -16,6 +18,9 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejse
    oraz zakończeniu działania programu, a konstrukcja `try` powinna obejmować cały kod znajdujący się w metodzie `main`.
 4. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
    samego samochodu. Efektem powinno być kontrolowane zakończenie działania programu.
+
+### Zmiana sposobu przechowywania obiektów na mapie
+
 5. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
    przez wszystkie elementy znajdujące się na mapie. Można ją poprawić zamieniając listę na słownik (wykorzystując 
    interfejs `Map` oraz implementację `HashMap`).
