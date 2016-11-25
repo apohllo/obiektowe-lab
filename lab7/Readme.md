@@ -1,4 +1,4 @@
-# Laboratorium 6
+# Laboratorium 7
 
 Celem laboratorium jest zapoznanie się z wzorcem projektowym `Observer`.
 
