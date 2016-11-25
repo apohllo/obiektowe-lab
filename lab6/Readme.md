@@ -23,7 +23,8 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejse
 
 5. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
    przez wszystkie elementy znajdujące się na mapie. Można ją poprawić zamieniając listę na słownik (wykorzystując 
-   interfejs `Map` oraz implementację `HashMap`).
+   interfejs `Map` oraz implementację `LinkedHashMap`) albo dodajać obok listy samochodów osobne pole będące mapą (w tym
+   wypadku wystarczy klasa `HashMap`).
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
 6. Poprawna implementacja słownika wymaga, aby klasa `Position` implementowała metodę `hashCode`. Metoda ta jest
    wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować kod metody `hashCode` w
