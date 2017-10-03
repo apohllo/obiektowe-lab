@@ -6,7 +6,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 
 1. Otwórz program Eclipse lub IntelliJ.
 2. Utwórz nowy projekt: obiektowe
-3. Zmień środowisko uruchomieniowe Javy na 1.7 (PPM na JRE system library -> properties)
+3. Zmień środowisko uruchomieniowe Javy na 1.8 (PPM na JRE system library -> properties)
 4. Utwórz pakiet `agh.cs.lab1`
 5. W pakiecie `agh.cs.lab1` utwórz klasę `CarSystem` ze statyczną funkcją `main`.
 6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
@@ -41,8 +41,10 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij Eclipse/IntelliJ.
 20. Otwórz konsolę Windows.
-21. * Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`).
+21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`).
 22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty.
+23. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
+    korzystał z interfejsu `stream` dostępnego w Javie 8.
 
 
 ## Przydatne informacje
