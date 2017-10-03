@@ -47,6 +47,12 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 
 ## Przydatne informacje
 * W programie Javy funkcja `main` musi być częścią jakieś klasy. Jest ona punktem startowym programu.
+* Metoda `main` akceptuje listę argumentów typu `String`, ponadto jest publiczną metodą statyczną:
+```java
+public static void main(String[] args) {
+  // treść metody
+}
+```
 * Do wypisywania komunikatów użyj wywołań `System.out.print` oraz `System.out.println`.
 * Standardowe wyjście można zaimportować do programu poleceniem `import static java.lang.System.out;`. 
   Wtedy komunikaty można wypisywać za pomocą wywołania `out.print` i `out.println`.
@@ -56,7 +62,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 for(String argument : arguments){
 }
 ```
-* W Javie łańcuchy znaków (oraz inne typu referencyjne) porównuje się za pomocą wywołania `equals`, np.
+* W Javie łańcuchy znaków (oraz inne typy referencyjne) porównuje się za pomocą wywołania `equals`, np.
   `string1.equals(string2)`.
 * Typ wyliczeniowy deklaruje się za pomocą słowa kluczowego `enum`, np.:
 ```java
