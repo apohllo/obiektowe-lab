@@ -49,8 +49,10 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 * W programie Javy funkcja `main` musi być częścią jakieś klasy. Jest ona punktem startowym programu.
 * Metoda `main` akceptuje listę argumentów typu `String`, ponadto jest publiczną metodą statyczną:
 ```java
-public static void main(String[] args) {
-  // treść metody
+public class Application {
+   public static void main(String[] args) {
+      // treść metody
+   }
 }
 ```
 * Do wypisywania komunikatów użyj wywołań `System.out.print` oraz `System.out.println`.
