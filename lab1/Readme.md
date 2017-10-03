@@ -4,7 +4,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 
 ## Zadania do wykonania
 
-1. Otwórz program Eclipse.
+1. Otwórz program Eclipse lub IntelliJ.
 2. Utwórz nowy projekt: obiektowe
 3. Zmień środowisko uruchomieniowe Javy na 1.7 (PPM na JRE system library -> properties)
 4. Utwórz pakiet `agh.cs.lab1`
@@ -23,23 +23,23 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 15. Zmodyfikuj program tak aby interpretował wprowadzone argument:
     - `f` - oznacza, że samochód ma jechać do przodu,
     - `b` - oznacza, że samochód ma jechać do tyłu,
-    - `r` - oznacza, że samochód ma jechać w prawo,
-    - `l` - oznacza, że samochód ma jechać w lewo,
+    - `r` - oznacza, że samochód ma skręcić w prawo,
+    - `l` - oznacza, że samochód ma skręcić w lewo,
     - pozostałe argumenty powinny być ignorowane.
 16. Jazda w określonym kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
     argumentów. Przykładowo wprowadzenie sekwencji 'f f r l' powinno dać w wyniku następujące komunikaty:
     - Start
     - Samochód jedzie do przodu
     - Samochód jedzie do przodu
-    - Samochód jedzie w prawo
-    - Samochód jedzie w lewo
+    - Samochód skręca w prawo
+    - Samochód skręca w lewo
     - Stop
 17. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
     wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływana w
     funkcji `main` przed wywołaniem metody `run`, natomiast typ wyliczeniowy powinien być zdefiniowany w osobnym pliku
-    (Direction.java) w pakiecie `agh.cs.lab1`.
+    (`Direction.java`) w pakiecie `agh.cs.lab1`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
-19. Zamknij Eclipse.
+19. Zamknij Eclipse/IntelliJ.
 20. Otwórz konsolę Windows.
 21. * Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`).
 22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty.
