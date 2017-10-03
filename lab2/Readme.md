@@ -46,7 +46,7 @@ Sprawdź czy uzyskane wyniki są poprawne.
 ### Testy
 
 1. Przenieś kod źródłowy do katalogu `src/main`.
-2. Utwórz katalog `src/text`.
+2. Utwórz katalog `src/test`.
 3. Utwórz klasę `MapDirectionTest` jako JUnitTestCase (JUnit w wersji 4).
 4. Zaimplementuj test weryfikujący poprawność działania metody `next()`, dla wszystkich przypadków.
 4. Uruchom test korzystając z menu `Run as`.
