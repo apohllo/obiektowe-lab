@@ -45,7 +45,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 20. Otwórz konsolę Windows.
 21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`): <br/>
     `javac agh\cs\lab1\CarSystem.java`
-22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty:
+22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty: <br/>
     `java agh.cs.lab1.CarSystem`
 23. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
     korzystał z interfejsu `stream` dostępnego w Javie 8.
