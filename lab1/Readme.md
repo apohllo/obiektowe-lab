@@ -4,16 +4,18 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 
 ## Zadania do wykonania
 
-1. Otwórz program Eclipse lub IntelliJ.
-2. Utwórz nowy projekt: obiektowe
-3. Zmień środowisko uruchomieniowe Javy na 1.8 (PPM na JRE system library -> properties)
+1. Uruchom program IntelliJ.
+2. Utwórz nowy projekt: lab1
+3. Zmień środowisko uruchomieniowe Javy na JDK 1.8 (kliknij "New" obok okienka "Project SDK", 
+   wybierz ścieżkę `c:\Program files\Java\jdk1.8_101`)
+3. Zmień wersję używanej Javy na **8** (File -> Project structure -> Project -> Project language level -> 8 (lambdas...))
 4. Utwórz pakiet `agh.cs.lab1`
 5. W pakiecie `agh.cs.lab1` utwórz klasę `CarSystem` ze statyczną funkcją `main`.
 6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
    - informujący o starcie systemu
    - informujący o zakończeniu działania systemu
 7. Uruchom program z p. 6.
-8. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy oboma komunikatami.
+8. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy tymi komunikatami.
 9. Metoda `run` powinna informować o tym, że samochód porusza się do przodu.
 10. Uruchom program.
 11. Rozszerz metodę `run` tak by akceptowała listę argumentów typu `String`.
@@ -39,10 +41,12 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
     funkcji `main` przed wywołaniem metody `run`, natomiast typ wyliczeniowy powinien być zdefiniowany w osobnym pliku
     (`Direction.java`) w pakiecie `agh.cs.lab1`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
-19. Zamknij Eclipse/IntelliJ.
+19. Zamknij IntelliJ.
 20. Otwórz konsolę Windows.
-21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`).
-22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty.
+21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`):
+    `javac agh\cs\lab1\CarSystem.java`
+22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty:
+    `java agh.cs.lab1.CarSystem`
 23. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
     korzystał z interfejsu `stream` dostępnego w Javie 8.
 
