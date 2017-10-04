@@ -14,7 +14,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
    - informujący o starcie systemu
    - informujący o zakończeniu działania systemu
-7. Uruchom program z p. 6.
+7. Uruchom program z p. 7.
 8. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy tymi komunikatami.
 9. Metoda `run` powinna informować o tym, że samochód porusza się do przodu.
 10. Uruchom program.
