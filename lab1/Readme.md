@@ -43,7 +43,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij IntelliJ.
 20. Otwórz konsolę Windows.
-21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`):
+21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`): <br/>
     `javac agh\cs\lab1\CarSystem.java`
 22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty:
     `java agh.cs.lab1.CarSystem`
