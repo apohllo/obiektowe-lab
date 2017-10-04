@@ -52,7 +52,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 
 
 ## Przydatne informacje
-* W programie Javy funkcja `main` musi być częścią jakieś klasy. Jest ona punktem startowym programu.
+* W programie Javy funkcja `main` musi być częścią jakiejś klasy. Jest ona punktem startowym programu.
 * Metoda `main` akceptuje listę argumentów typu `String`, ponadto jest publiczną metodą statyczną:
 ```java
 public class Application {
