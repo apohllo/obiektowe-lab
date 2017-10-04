@@ -65,7 +65,8 @@ public class Application {
 * Standardowe wyjście można zaimportować do programu poleceniem `import static java.lang.System.out;`. 
   Wtedy komunikaty można wypisywać za pomocą wywołania `out.print` i `out.println`.
 * Warunki logiczne w Javie są przechowywane w zmiennej typu `boolean`.
-* W Javie można użyć innej konstrukcji `for` do iterowania po elementach kolekcji:
+* W Javie dostępna jest standardowa pętla `for` znana z C/C++. Można również użyć alternatywnej pętli `for` 
+  do iterowania po elementach kolekcji:
 ```java
 for(String argument : arguments){
 }
