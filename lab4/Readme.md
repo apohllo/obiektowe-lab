@@ -23,6 +23,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
      sytuację, w której użytkownik klasy poda niepoprawne wartości),
    * umożliwia poruszanie się w obrębie zdefiniowanego prostokąta (jak w laboratorium 3),
    * umożliwia występowanie więcej niż jednego samochodu na mapie,
+   * uniemożliwia występowanie więcej niż jednego samochodu na tej samej pozycji,
    * posiada metodę `toString` rysującą aktualną konfigurację mapy (wykorzystaj klasę `MapVisualizer` która znajduje się
      w tym katalogu),
    * w metodzie `run` na przemian steruje ruchem wszystkich samochodów. Przykładowo, jeśli użytkownik wprowadzi ciąg: `f
@@ -33,8 +34,8 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
 ```java
 MoveDirection[] directions = new OptionsParser().parse(args);
 IWorldMap map = new RectangularMap(10, 5);
-map.add(new Car(map));
-map.add(new Car(map,3,4));
+map.place(new Car(map));
+map.place(new Car(map,3,4));
 map.run(directions);
 ```
 Sprawdź czy samochody poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.

@@ -17,13 +17,13 @@ public interface IWorldMap {
 	boolean canMoveTo(Position position);
 
 	/**
-	 * Add a car the map.
+	 * Place a car on the map.
 	 * 
 	 * @param car
-	 *            The car to add.
-	 * @return True if the car was added.
+	 *            The car to place on the map.
+	 * @return True if the car was placed. The car cannot be placed if the map is already occupied.
 	 */
-	boolean add(Car car);
+	boolean place(Car car);
 
 	/**
 	 * Move the cars on the map according to the provided move directions. Every
