@@ -21,9 +21,9 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejse
 
 ### Zmiana sposobu przechowywania obiektów na mapie
 
-5. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
+1. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
    przez wszystkie elementy znajdujące się na mapie. Można ją poprawić zamieniając listę na słownik (wykorzystując 
-   interfejs `Map` oraz implementację `LinkedHashMap`) albo dodajać obok listy samochodów osobne pole będące mapą (w tym
+   interfejs `Map` oraz implementację `LinkedHashMap`) albo dodając obok listy samochodów osobne pole będące mapą (w tym
    wypadku wystarczy klasa `HashMap`).
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
 6. Poprawna implementacja słownika wymaga, aby klasa `Position` implementowała metodę `hashCode`. Metoda ta jest
@@ -71,7 +71,7 @@ Map<Position,Car> cars = new HashMap<>();
   klucze mapy (w ćwićzeniu dotyczy to klasy `Position`).
 
 * Wynik działania metody `hashCode` musi być zgodny z wynikiem działania metody `equals`, tzn. jeśli dwa obiekty są
-  równe według `equals` to ich `hashCode` musi być również równy.
+  równe według `equals` to ich `hashCode` musi być równy.
 
 * Przykładowa implementacja metody `hashCode` dla klasy position może wyglądać następująco:
 
