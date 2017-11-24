@@ -8,7 +8,7 @@ Celem laboratorium jest zapoznanie się z wzorcem projektowym `Observer`.
   Dotychczasowa implementacja opiera się na modyfikacji metody `run`. Lepszym rozwiązaniem jest zastosowanie
    wzorca projektowego `Observer` - mapa ma zarejestrować się jako obserwator dla zmian pozycji samochodu.
 2. Realizację implementacji rozpocznij od zdefiniowana interfejsu `IPositionChangeObserver`, który zawiera jedną metodę
-  `positionChanged(Position old, Position new)`.
+  `positionChanged(Position oldPosition, Position newPosition)`.
 3. Obie mapy muszą implementować ten interfejs. Możesz to zrealizować, jeśli odpowiedni kod umieścisz w klasie
    `AbstractWorldMap`. Implementacja metody `positionChanged` powinna polegać na tym, że ze słownika usuwana jest para:
    `<stara pozycja, samochód>`, a dodawana jest para: `<nowa pozycja, samochód>`.
