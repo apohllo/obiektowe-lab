@@ -20,7 +20,7 @@ Zamiana tekstu na formę obiektową.
   * zachowywał oryginalna strukturę tekstu, tzn. elementy takie jak punkty (patrz art. 10 w pliku konstytucja) 
     nie powinny być wyświetlane w jednej linii.
 3. Program powinien akceptować argumenty: lokalizację pliku wejściowego, tryb działania (wyświetlanie treści, bądź spisu treści) 
-  oraz jednego z elementów:
+  oraz jeden z elementów:
   * numer lub zakres artykułów,
   * określenie specyficznych elementów składowych artykułu, np. "art. 1, pkt 1",
   * numer rozdziału,
