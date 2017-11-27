@@ -1,0 +1,2552 @@
+©Kancelaria Sejmu s. 1/73
+2017-06-28
+Dz.U. 2007 Nr 50 poz. 331
+USTAWA
+z dnia 16 lutego 2007 r.
+o ochronie konkurencji i konsumentów
+DZIAŁ I
+Przepisy ogólne
+Art. 1. 1. Ustawa określa warunki rozwoju i ochrony konkurencji oraz zasady
+podejmowanej w interesie publicznym ochrony interesów przedsiębiorców
+i konsumentów.
+2. Ustawa reguluje zasady i tryb przeciwdziałania praktykom ograniczającym
+konkurencję, praktykom naruszającym zbiorowe interesy konsumentów oraz
+stosowaniu niedozwolonych postanowień wzorców umów, a także przeciwdziałania
+antykonkurencyjnym koncentracjom przedsiębiorców i ich związków, jeżeli te
+praktyki, stosowanie niedozwolonych postanowień lub koncentracje wywołują lub
+mogą wywoływać skutki na terytorium Rzeczypospolitej Polskiej.
+3. Ustawa określa także organy właściwe w sprawach ochrony konkurencji
+i konsumentów.
+Art. 2. 1. Ustawa nie narusza praw przysługujących na podstawie przepisów
+dotyczących ochrony własności intelektualnej i przemysłowej, w szczególności
+przepisów o ochronie wynalazków, wzorów użytkowych i przemysłowych, topografii
+układów scalonych, znaków towarowych, oznaczeń geograficznych, praw autorskich
+i praw pokrewnych.
+2. Ustawę stosuje się do zawieranych między przedsiębiorcami:
+1) umów, w szczególności licencji, a także innych niż umowy praktyk
+wykonywania praw, o których mowa w ust. 1;
+©Kancelaria Sejmu s. 2/73
+2017-06-28
+2) umów dotyczących nieujawnionych do wiadomości publicznej:
+a) informacji technicznych lub technologicznych,
+b) zasad organizacji i zarządzania
+– co do których podjęto działania zmierzające do zapobieżenia ich ujawnieniu, jeżeli
+skutkiem tych umów jest nieuzasadnione ograniczenie swobody działalności
+gospodarczej stron lub istotne ograniczenie konkurencji na rynku.
+Art. 3. Przepisów ustawy nie stosuje się do ograniczeń konkurencji
+dopuszczonych na podstawie odrębnych ustaw.
+Art. 4. Ilekroć w ustawie jest mowa o:
+1) przedsiębiorcy – rozumie się przez to przedsiębiorcę w rozumieniu przepisów
+o swobodzie działalności gospodarczej, a także:
+a) osobę fizyczną, osobę prawną, a także jednostkę organizacyjną niemającą
+osobowości prawnej, której ustawa przyznaje zdolność prawną,
+organizującą lub świadczącą usługi o charakterze użyteczności publicznej,
+które nie są działalnością gospodarczą w rozumieniu przepisów
+o swobodzie działalności gospodarczej,
+b) osobę fizyczną wykonującą zawód we własnym imieniu i na własny
+rachunek lub prowadzącą działalność w ramach wykonywania takiego
+zawodu,
+c) osobę fizyczną, która posiada kontrolę, w rozumieniu pkt 4, nad co najmniej
+jednym przedsiębiorcą, choćby nie prowadziła działalności gospodarczej
+w rozumieniu przepisów o swobodzie działalności gospodarczej, jeżeli
+podejmuje dalsze działania podlegające kontroli koncentracji, o której
+mowa w art. 13,
+d) związek przedsiębiorców w rozumieniu pkt 2, z wyłączeniem przepisów
+dotyczących koncentracji;
+2) związkach przedsiębiorców – rozumie się przez to izby, zrzeszenia i inne
+organizacje zrzeszające przedsiębiorców, o których mowa w pkt 1, jak również
+związki tych organizacji;
+3) przedsiębiorcy dominującym – rozumie się przez to przedsiębiorcę, który
+posiada kontrolę, w rozumieniu pkt 4, nad innym przedsiębiorcą;
+3a) osobie zarządzającej – rozumie się przez to kierującego przedsiębiorstwem,
+w szczególności osobę pełniącą funkcję kierowniczą lub wchodzącą w skład
+organu zarządzającego przedsiębiorcy;
+©Kancelaria Sejmu s. 3/73
+2017-06-28
+4) przejęciu kontroli – rozumie się przez to wszelkie formy bezpośredniego lub
+pośredniego uzyskania przez przedsiębiorcę uprawnień, które osobno albo
+łącznie, przy uwzględnieniu wszystkich okoliczności prawnych lub faktycznych,
+umożliwiają wywieranie decydującego wpływu na innego przedsiębiorcę lub
+przedsiębiorców; uprawnienia takie tworzą w szczególności:
+a) dysponowanie bezpośrednio lub pośrednio większością głosów na
+zgromadzeniu wspólników albo na walnym zgromadzeniu, także jako
+zastawnik albo użytkownik, bądź w zarządzie innego przedsiębiorcy
+(przedsiębiorcy zależnego), także na podstawie porozumień z innymi
+osobami,
+b) uprawnienie do powoływania lub odwoływania większości członków
+zarządu lub rady nadzorczej innego przedsiębiorcy (przedsiębiorcy
+zależnego), także na podstawie porozumień z innymi osobami,
+c) członkowie jego zarządu lub rady nadzorczej stanowią więcej niż połowę
+członków zarządu innego przedsiębiorcy (przedsiębiorcy zależnego),
+d) dysponowanie bezpośrednio lub pośrednio większością głosów w spółce
+osobowej zależnej albo na walnym zgromadzeniu spółdzielni zależnej,
+także na podstawie porozumień z innymi osobami,
+e) prawo do całego albo do części mienia innego przedsiębiorcy
+(przedsiębiorcy zależnego),
+f) umowa przewidująca zarządzanie innym przedsiębiorcą (przedsiębiorcą
+zależnym) lub przekazywanie zysku przez takiego przedsiębiorcę;
+5) porozumieniach – rozumie się przez to:
+a) umowy zawierane między przedsiębiorcami, między związkami
+przedsiębiorców oraz między przedsiębiorcami i ich związkami albo
+niektóre postanowienia tych umów,
+b) uzgodnienia dokonane w jakiejkolwiek formie przez dwóch lub więcej
+przedsiębiorców lub ich związki,
+c) uchwały lub inne akty związków przedsiębiorców lub ich organów
+statutowych;
+6) (uchylony)
+7) towarach – rozumie się przez to rzeczy, jak również energię, papiery wartościowe
+i inne prawa majątkowe, usługi, a także roboty budowlane;
+8) cenach – rozumie się przez to ceny, jak również opłaty o charakterze cen, marże
+handlowe, prowizje i narzuty do cen;
+©Kancelaria Sejmu s. 4/73
+2017-06-28
+9) rynku właściwym – rozumie się przez to rynek towarów, które ze względu na ich
+przeznaczenie, cenę oraz właściwości, w tym jakość, są uznawane przez ich
+nabywców za substytuty oraz są oferowane na obszarze, na którym, ze względu
+na ich rodzaj i właściwości, istnienie barier dostępu do rynku, preferencje
+konsumentów, znaczące różnice cen i koszty transportu, panują zbliżone warunki
+konkurencji;
+10) pozycji dominującej – rozumie się przez to pozycję przedsiębiorcy, która
+umożliwia mu zapobieganie skutecznej konkurencji na rynku właściwym przez
+stworzenie mu możliwości działania w znacznym zakresie niezależnie od
+konkurentów, kontrahentów oraz konsumentów; domniemywa się, że
+przedsiębiorca ma pozycję dominującą, jeżeli jego udział w rynku właściwym
+przekracza 40%;
+11) konkurentach – rozumie się przez to przedsiębiorców, którzy wprowadzają lub
+mogą wprowadzać albo nabywają lub mogą nabywać, w tym samym czasie,
+towary na rynku właściwym;
+12) konsumencie – rozumie się przez to konsumenta w rozumieniu przepisów ustawy
+z dnia 23 kwietnia 1964 r. – Kodeks cywilny (Dz. U. z 2016 r. poz. 380, 585,
+1579 i 2255);
+13) organizacjach konsumenckich – rozumie się przez to niezależne od
+przedsiębiorców i ich związków organizacje społeczne, do których zadań
+statutowych należy ochrona interesów konsumentów; organizacje konsumenckie
+mogą prowadzić działalność gospodarczą na zasadach ogólnych, o ile dochód
+z działalności służy wyłącznie realizacji celów statutowych;
+14) grupie kapitałowej – rozumie się przez to wszystkich przedsiębiorców, którzy są
+kontrolowani w sposób bezpośredni lub pośredni przez jednego przedsiębiorcę,
+w tym również tego przedsiębiorcę;
+15) (uchylony)
+16) przeciętnym wynagrodzeniu – rozumie się przez to przeciętne miesięczne
+wynagrodzenie w sektorze przedsiębiorstw za ostatni miesiąc kwartału
+poprzedzającego dzień wydania decyzji Prezesa Urzędu Ochrony Konkurencji i
+Konsumentów, ogłaszane przez Prezesa Głównego Urzędu Statystycznego na
+podstawie odrębnych przepisów;
+16a) roku obrotowym – rozumie się przez to rok obrotowy w rozumieniu art. 3 ust. 1
+pkt 9 ustawy z dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2016 r.
+poz. 1047 i 2255 oraz z 2017 r. poz. 61);
+©Kancelaria Sejmu s. 5/73
+2017-06-28
+17) tajemnicy przedsiębiorstwa – rozumie się przez to tajemnicę przedsiębiorstwa
+w rozumieniu art. 11 ust. 4 ustawy z dnia 16 kwietnia 1993 r. o zwalczaniu
+nieuczciwej konkurencji (Dz. U. z 2003 r. poz. 1503, z późn. zm.);
+18) Prezesie Urzędu – rozumie się przez to Prezesa Urzędu Ochrony Konkurencji
+i Konsumentów;
+19) (uchylony)
+20) rozporządzeniu nr 1/2003/WE – rozumie się przez to rozporządzenie Rady
+nr 1/2003/WE z dnia 16 grudnia 2002 r. w sprawie wprowadzenia w życie reguł
+konkurencji ustanowionych w art. 81 i 82 Traktatu WE (Dz. Urz. UE L 1
+z 04.01.2003, str. 1; Dz. Urz. UE Polskie wydanie specjalne, rozdz. 08, t. 02, str.
+205);
+21) rozporządzeniu nr 139/2004/WE – rozumie się przez to rozporządzenie Rady
+nr 139/2004/WE z dnia 20 stycznia 2004 r. w sprawie kontroli koncentracji
+przedsiębiorców (Dz. Urz. UE L 024 z 29.01.2004, str. 1; Dz. Urz. UE Polskie
+wydanie specjalne, rozdz. 08, t. 03, str. 40);
+22) rozporządzeniu nr 2006/2004/WE – rozumie się przez to rozporządzenie
+Parlamentu Europejskiego i Rady nr 2006/2004/WE z dnia 27 października
+2004 r. w sprawie współpracy między organami krajowymi odpowiedzialnymi
+za egzekwowanie przepisów prawa w zakresie ochrony konsumentów
+(„Rozporządzenie w sprawie współpracy w dziedzinie ochrony konsumentów”)
+(Dz. Urz. UE L 364 z 09.12.2004).
+Art. 5. Przeliczenie wartości euro oraz innych walut obcych na złote oraz
+wartości złotego na euro jest dokonywane według kursu średniego walut obcych
+ogłoszonego przez Narodowy Bank Polski w ostatnim dniu roku kalendarzowego
+poprzedzającego rok zgłoszenia zamiaru koncentracji lub nałożenia kary.
+©Kancelaria Sejmu s. 6/73
+2017-06-28
+DZIAŁ II
+Zakaz praktyk ograniczających konkurencję
+Rozdział 1
+Zakaz porozumień ograniczających konkurencję
+Art. 6. 1. Zakazane są porozumienia, których celem lub skutkiem jest
+wyeliminowanie, ograniczenie lub naruszenie w inny sposób konkurencji na rynku
+właściwym, polegające w szczególności na:
+1) ustalaniu, bezpośrednio lub pośrednio, cen i innych warunków zakupu lub
+sprzedaży towarów;
+2) ograniczaniu lub kontrolowaniu produkcji lub zbytu oraz postępu technicznego
+lub inwestycji;
+3) podziale rynków zbytu lub zakupu;
+4) stosowaniu w podobnych umowach z osobami trzecimi uciążliwych lub
+niejednolitych warunków umów, stwarzających tym osobom zróżnicowane
+warunki konkurencji;
+5) uzależnianiu zawarcia umowy od przyjęcia lub spełnienia przez drugą stronę
+innego świadczenia, niemającego rzeczowego ani zwyczajowego związku
+z przedmiotem umowy;
+6) ograniczaniu dostępu do rynku lub eliminowaniu z rynku przedsiębiorców
+nieobjętych porozumieniem;
+7) uzgadnianiu przez przedsiębiorców przystępujących do przetargu lub przez tych
+przedsiębiorców i przedsiębiorcę będącego organizatorem przetargu warunków
+składanych ofert, w szczególności zakresu prac lub ceny.
+2. Porozumienia, o których mowa w ust. 1, są w całości lub w odpowiedniej
+części nieważne, z zastrzeżeniem art. 7 i 8.
+Art. 6a. W przypadku stwierdzenia naruszenia przez przedsiębiorcę zakazów
+określonych w art. 6 ust. 1 pkt 1–6 ustawy lub w art. 101 ust. 1 lit. a–e Traktatu
+o funkcjonowaniu Unii Europejskiej, zwanego dalej „TFUE”, odpowiedzialności
+podlega również osoba zarządzająca, która w ramach sprawowania swojej funkcji
+w czasie trwania stwierdzonego naruszenia tych zakazów umyślnie dopuściła przez
+swoje działanie lub zaniechanie do naruszenia przez tego przedsiębiorcę
+wymienionych zakazów.
+©Kancelaria Sejmu s. 7/73
+2017-06-28
+Art. 7. 1. Zakazu, o którym mowa w art. 6 ust. 1, nie stosuje się do porozumień
+zawieranych między:
+1) konkurentami – jeżeli ich łączny udział w rynku właściwym, którego dotyczy
+porozumienie, nie przekracza 5%;
+2) przedsiębiorcami, którzy nie są konkurentami – jeżeli udział żadnego z nich
+w rynku właściwym, którego dotyczy porozumienie, nie przekracza 10%.
+2. Zakazu, o którym mowa w art. 6 ust. 1, nie stosuje się również, w przypadku
+gdy udziały w rynku właściwym określone w ust. 1 nie zostały przekroczone o więcej
+niż dwa punkty procentowe w okresie dwóch kolejnych lat kalendarzowych w czasie
+trwania porozumienia.
+3. Przepisów ust. 1 i 2 nie stosuje się do przypadków określonych w art. 6 ust. 1
+pkt 1–3 i 7.
+Art. 8. 1. Zakazu, o którym mowa w art. 6 ust. 1, nie stosuje się do porozumień,
+które jednocześnie:
+1) przyczyniają się do polepszenia produkcji, dystrybucji towarów lub do postępu
+technicznego lub gospodarczego;
+2) zapewniają nabywcy lub użytkownikowi odpowiednią część wynikających
+z porozumień korzyści;
+3) nie nakładają na zainteresowanych przedsiębiorców ograniczeń, które nie są
+niezbędne do osiągnięcia tych celów;
+4) nie stwarzają tym przedsiębiorcom możliwości wyeliminowania konkurencji na
+rynku właściwym w zakresie znacznej części określonych towarów.
+2. Ciężar udowodnienia okoliczności, o których mowa w ust. 1, spoczywa na
+przedsiębiorcy.
+3. Rada Ministrów może, w drodze rozporządzenia, wyłączyć określone rodzaje
+porozumień spełniające przesłanki, o których mowa w ust. 1, spod zakazu, o którym
+mowa w art. 6 ust. 1, biorąc pod uwagę korzyści, jakie mogą przynieść określone
+rodzaje porozumień. W rozporządzeniu Rada Ministrów określi:
+1) warunki, jakie muszą być spełnione, aby porozumienie mogło być uznane za
+wyłączone spod zakazu;
+2) klauzule, których występowanie w porozumieniu stanowi naruszenie art. 6;
+3) okres obowiązywania wyłączenia
+oraz może określić klauzule, których występowania w porozumieniu nie uznaje się za
+naruszenie art. 6.
+©Kancelaria Sejmu s. 8/73
+2017-06-28
+Rozdział 2
+Zakaz nadużywania pozycji dominującej
+Art. 9. 1. Zakazane jest nadużywanie pozycji dominującej na rynku właściwym
+przez jednego lub kilku przedsiębiorców.
+2. Nadużywanie pozycji dominującej polega w szczególności na:
+1) bezpośrednim lub pośrednim narzucaniu nieuczciwych cen, w tym cen
+nadmiernie wygórowanych albo rażąco niskich, odległych terminów płatności
+lub innych warunków zakupu albo sprzedaży towarów;
+2) ograniczeniu produkcji, zbytu lub postępu technicznego ze szkodą dla
+kontrahentów lub konsumentów;
+3) stosowaniu w podobnych umowach z osobami trzecimi uciążliwych lub
+niejednolitych warunków umów, stwarzających tym osobom zróżnicowane
+warunki konkurencji;
+4) uzależnianiu zawarcia umowy od przyjęcia lub spełnienia przez drugą stronę
+innego świadczenia, niemającego rzeczowego ani zwyczajowego związku
+z przedmiotem umowy;
+5) przeciwdziałaniu ukształtowaniu się warunków niezbędnych do powstania bądź
+rozwoju konkurencji;
+6) narzucaniu przez przedsiębiorcę uciążliwych warunków umów, przynoszących
+mu nieuzasadnione korzyści;
+7) podziale rynku według kryteriów terytorialnych, asortymentowych lub
+podmiotowych.
+3. Czynności prawne będące przejawem nadużywania pozycji dominującej są
+w całości lub w odpowiedniej części nieważne.
+Rozdział 3
+Decyzje w sprawach praktyk ograniczających konkurencję
+Art. 10. 1. Prezes Urzędu wydaje decyzję o uznaniu praktyki za ograniczającą
+konkurencję, jeżeli stwierdzi naruszenie zakazów określonych w art. 6 lub
+w art. 9 ustawy lub w art. 101 lub w art. 102 TFUE.
+2. W decyzji, o której mowa w ust. 1, Prezes Urzędu nakazuje zaniechanie
+stosowania praktyki naruszającej zakazy, o których mowa w art. 6 lub w art. 9 ustawy
+lub w art. 101 lub w art. 102 TFUE, jeżeli do czasu wydania decyzji praktyka ta nie
+została zaprzestana.
+©Kancelaria Sejmu s. 9/73
+2017-06-28
+3. Ciężar udowodnienia, że praktyka naruszająca zakazy, o których mowa
+w art. 6 lub w art. 9 ustawy lub w art. 101 lub w art. 102 TFUE, została zaprzestana,
+spoczywa na przedsiębiorcy.
+4. Prezes Urzędu może w decyzji, o której mowa w ust. 1, nakazać, w celu
+zaniechania stosowania praktyki lub usunięcia jej skutków, zastosowanie środków
+polegających w szczególności na:
+1) udzieleniu licencji praw własności intelektualnej na niedyskryminacyjnych
+warunkach;
+2) umożliwieniu dostępu do określonej infrastruktury na niedyskryminacyjnych
+warunkach;
+3) zmianie umowy;
+4) zapewnieniu innym podmiotom dostawy określonych produktów lub
+świadczenia określonych usług na niedyskryminacyjnych warunkach.
+5. W przypadku gdy środki, o których mowa w ust. 4, mogłyby okazać się
+nieskuteczne albo skuteczne, lecz bardziej uciążliwe dla przedsiębiorcy, Prezes
+Urzędu może w decyzji, o której mowa w ust. 1, nakazać zastosowanie środka
+polegającego na powierzeniu wykonywania określonej działalności gospodarczej,
+w tym wykonywania tej działalności na różnych szczeblach obrotu, poszczególnym
+podmiotom w ramach grupy kapitałowej lub odrębnym jednostkom organizacyjnym
+w ramach struktury przedsiębiorcy.
+6. Środki, o których mowa w ust. 4 i 5, powinny być proporcjonalne do wagi
+i rodzaju naruszenia i konieczne do jego zakończenia lub usunięcia jego skutków.
+7. Przed wydaniem decyzji nakazującej zastosowanie środków, o których mowa
+w ust. 4 i 5, Prezes Urzędu informuje przedsiębiorcę o zamiarze zastosowania
+określonych środków. Przedsiębiorca może przedstawić stanowisko do planowanych
+środków w terminie 14 dni od dnia doręczenia informacji.
+8. W decyzji, o której mowa w ust. 1, Prezes Urzędu może określić termin
+realizacji środków, o których mowa w ust. 4 i 5, uwzględniając wagę i rodzaj
+naruszenia oraz zastosowany środek.
+9. W przypadku nakazania zastosowania środków, o których mowa w ust. 4 i 5,
+Prezes Urzędu w decyzji, o której mowa w ust. 1, nakłada na przedsiębiorcę
+obowiązek składania w wyznaczonym terminie informacji o stopniu realizacji tych
+środków.
+Art. 11. (uchylony)
+©Kancelaria Sejmu s. 10/73
+2017-06-28
+Art. 12. 1. Jeżeli w toku postępowania antymonopolowego zostanie
+uprawdopodobnione – na podstawie okoliczności sprawy, informacji zawartych
+w zawiadomieniu lub będących podstawą wszczęcia postępowania – że zostały
+naruszone zakazy, o których mowa w art. 6 lub art. 9 ustawy lub w art. 101 lub
+art. 102 TFUE, a przedsiębiorca, któremu jest zarzucane naruszenie tych zakazów,
+zobowiąże się do podjęcia lub zaniechania określonych działań w celu zakończenia
+naruszenia lub usunięcia jego skutków, Prezes Urzędu może, w drodze decyzji,
+zobowiązać przedsiębiorcę do wykonania tych zobowiązań. W przypadku gdy
+przedsiębiorca zaprzestał naruszania zakazów, o których mowa w art. 6 lub
+art. 9 ustawy lub w art. 101 lub art. 102 TFUE, i zobowiąże się do usunięcia skutków
+tego naruszenia, zdanie pierwsze stosuje się odpowiednio.
+2. W decyzji, o której mowa w ust. 1, Prezes Urzędu może określić termin
+wykonania zobowiązań.
+3. W decyzji, o której mowa w ust. 1, Prezes Urzędu nakłada na przedsiębiorcę
+obowiązek składania w wyznaczonym terminie informacji o stopniu realizacji
+zobowiązań.
+4. W przypadku wydania decyzji, o której mowa w ust. 1, nie stosuje się
+przepisów art. 10, art. 106 ust. 1 pkt 1 i 2 oraz art. 106a, z zastrzeżeniem ust. 7.
+5. Prezes Urzędu może, z urzędu, uchylić decyzję, o której mowa w ust. 1,
+w przypadku gdy:
+1) została ona wydana w oparciu o nieprawdziwe, niekompletne lub
+wprowadzające w błąd informacje lub dokumenty;
+2) przedsiębiorca nie wykonuje zobowiązań lub obowiązków, o których mowa
+w ust. 1–3.
+6. Prezes Urzędu może, za zgodą przedsiębiorcy, z urzędu, uchylić decyzję,
+o której mowa w ust. 1, w przypadku gdy nastąpiła zmiana okoliczności mających
+istotny wpływ na wydanie decyzji.
+7. W przypadku uchylenia decyzji Prezes Urzędu orzeka co do istoty sprawy.
+Art. 12a. Prezes Urzędu może stwierdzić, że osoba zarządzająca, o której mowa
+w art. 6a, umyślnie dopuściła przez swoje działanie lub zaniechanie do naruszenia
+przez przedsiębiorcę zakazów, o których mowa w art. 6 ust. 1 pkt 1–6 ustawy lub
+w art. 101 ust. 1 lit. a–e TFUE, wyłącznie w decyzji, o której mowa w art. 10 ust. 1,
+w przypadku gdy w decyzji tej zostaje nałożona na przedsiębiorcę kara pieniężna,
+o której mowa w art. 106 ust. 1 pkt 1 lub 2.
+©Kancelaria Sejmu s. 11/73
+2017-06-28
+DZIAŁ III
+Koncentracje przedsiębiorców
+Rozdział 1
+Kontrola koncentracji
+Art. 13. 1. Zamiar koncentracji podlega zgłoszeniu Prezesowi Urzędu, jeżeli:
+1) łączny światowy obrót przedsiębiorców uczestniczących w koncentracji w roku
+obrotowym poprzedzającym rok zgłoszenia przekracza równowartość
+1 000 000 000 euro lub
+2) łączny obrót na terytorium Rzeczypospolitej Polskiej przedsiębiorców
+uczestniczących w koncentracji w roku obrotowym poprzedzającym rok
+zgłoszenia przekracza równowartość 50 000 000 euro.
+2. Obowiązek wynikający z ust. 1 dotyczy zamiaru:
+1) połączenia dwóch lub więcej samodzielnych przedsiębiorców;
+2) przejęcia – przez nabycie lub objęcie akcji, innych papierów wartościowych,
+udziałów lub w jakikolwiek inny sposób –bezpośredniej lub pośredniej kontroli
+nad jednym lub więcej przedsiębiorcami przez jednego lub więcej
+przedsiębiorców;
+3) utworzenia przez przedsiębiorców wspólnego przedsiębiorcy;
+4) nabycia przez przedsiębiorcę części mienia innego przedsiębiorcy (całości lub
+części przedsiębiorstwa), jeżeli obrót realizowany przez to mienie
+w którymkolwiek z dwóch lat obrotowych poprzedzających zgłoszenie
+przekroczył na terytorium Rzeczypospolitej Polskiej równowartość
+10 000 000 euro.
+Art. 14. Nie podlega zgłoszeniu zamiar koncentracji:
+1) jeżeli obrót przedsiębiorcy, nad którym ma nastąpić przejęcie kontroli, zgodnie
+z art. 13 ust. 2 pkt 2, nie przekroczył na terytorium Rzeczypospolitej Polskiej
+w żadnym z dwóch lat obrotowych poprzedzających zgłoszenie równowartości
+10 000 000 euro;
+1a) jeżeli obrót żadnego z przedsiębiorców, o których mowa w art. 13 ust. 2 pkt 1 lub
+3, nie przekroczył na terytorium Rzeczypospolitej Polskiej w żadnym z dwóch
+lat obrotowych poprzedzających zgłoszenie równowartości 10 000 000 euro;
+1b) polegającej na przejęciu kontroli nad przedsiębiorcą lub przedsiębiorcami
+należącymi do jednej grupy kapitałowej oraz jednocześnie nabyciu części mienia
+przedsiębiorcy lub przedsiębiorców należących do tej grupy kapitałowej – jeżeli
+©Kancelaria Sejmu s. 12/73
+2017-06-28
+obrót przedsiębiorcy lub przedsiębiorców, nad którymi ma nastąpić przejęcie
+kontroli, i obrót realizowany przez nabywane części mienia nie przekroczył
+łącznie na terytorium Rzeczypospolitej Polskiej w żadnym z dwóch lat
+obrotowych poprzedzających zgłoszenie równowartości 10 000 000 euro;
+2) polegającej na czasowym nabyciu lub objęciu przez instytucję finansową akcji
+albo udziałów w celu ich odsprzedaży, jeżeli przedmiotem działalności
+gospodarczej tej instytucji jest prowadzone na własny lub cudzy rachunek
+inwestowanie w akcje albo udziały innych przedsiębiorców, pod warunkiem, że
+odsprzedaż ta nastąpi przed upływem roku od dnia nabycia lub objęcia, oraz że:
+a) instytucja ta nie wykonuje praw z tych akcji albo udziałów, z wyjątkiem
+prawa do dywidendy, lub
+b) wykonuje te prawa wyłącznie w celu przygotowania odsprzedaży całości
+lub części przedsiębiorstwa, jego majątku lub tych akcji albo udziałów;
+3) polegającej na czasowym nabyciu lub objęciu przez przedsiębiorcę akcji lub
+udziałów w celu zabezpieczenia wierzytelności, pod warunkiem że nie będzie on
+wykonywał praw z tych akcji lub udziałów, z wyłączeniem prawa do ich
+sprzedaży;
+4) następującej w toku postępowania upadłościowego, z wyłączeniem przypadków,
+gdy zamierzający przejąć kontrolę lub nabywający część mienia jest
+konkurentem albo należy do grupy kapitałowej, do której należą konkurenci
+przedsiębiorcy przejmowanego lub którego część mienia jest nabywana;
+5) przedsiębiorców należących do tej samej grupy kapitałowej.
+Art. 15. Dokonanie koncentracji przez przedsiębiorcę zależnego uważa się za jej
+dokonanie przez przedsiębiorcę dominującego.
+Art. 16. 1. Obrót, o którym mowa w art. 13 ust. 1, obejmuje obrót zarówno
+przedsiębiorców bezpośrednio uczestniczących w koncentracji, jak i pozostałych
+przedsiębiorców należących do grup kapitałowych, do których należą przedsiębiorcy
+bezpośrednio uczestniczący w koncentracji.
+2. W przypadkach, o których mowa w art. 13 ust. 2 pkt 2 i 4, obrót, o którym
+mowa w art. 13 ust. 1, obejmuje obrót przedsiębiorców przejmujących kontrolę lub
+nabywających część mienia i pozostałych przedsiębiorców należących do grup
+kapitałowych, do których należą ci przedsiębiorcy oraz obrót realizowany przez
+nabywaną część mienia lub przedsiębiorców, nad którymi jest przejmowana kontrola
+i ich przedsiębiorców zależnych.
+©Kancelaria Sejmu s. 13/73
+2017-06-28
+3. Obrót, o którym mowa w art. 13 ust. 1, obejmuje również część obrotu
+przedsiębiorców:
+1) nad którymi przedsiębiorcy bezpośrednio uczestniczący w koncentracji lub
+przedsiębiorcy należący do grup kapitałowych, do których należą przedsiębiorcy
+bezpośrednio uczestniczący w koncentracji, sprawują kontrolę wspólnie z innym
+przedsiębiorcą lub przedsiębiorcami – proporcjonalnie do liczby
+przedsiębiorców sprawujących kontrolę. Przepis ust. 1 stosuje się odpowiednio;
+2) którzy sprawują wspólnie kontrolę nad grupą kapitałową, do której należy
+przedsiębiorca bezpośrednio uczestniczący w koncentracji – proporcjonalnie do
+liczby przedsiębiorców sprawujących kontrolę. Przepisy pkt 1 oraz ust. 1 stosuje
+się odpowiednio.
+4. Obrót, o którym mowa w art. 14 pkt 1, obejmuje obrót zarówno
+przedsiębiorcy, nad którym ma zostać przejęta kontrola, jak i jego przedsiębiorców
+zależnych. Jeżeli przedsiębiorca, nad którym ma zostać przejęta kontrola lub jego
+przedsiębiorcy zależni sprawują kontrolę nad przedsiębiorcą wspólnie z innym
+przedsiębiorcą lub przedsiębiorcami, przepis ust. 3 pkt 1 stosuje się odpowiednio.
+5. Jeżeli jednocześnie lub w okresie nie dłuższym niż 2 lata:
+1) następuje przejęcie kontroli nad co najmniej dwoma przedsiębiorcami
+należącymi do tej samej grupy kapitałowej – obrót, o którym mowa w art. 14
+pkt 1, obejmuje łącznie obrót wszystkich tych przedsiębiorców, jak i ich
+przedsiębiorców zależnych;
+2) przedsiębiorca nabywa części mienia należące do innego przedsiębiorcy lub
+przedsiębiorców należących do tej samej grupy kapitałowej – obrót, o którym
+mowa w art. 13 ust. 2 pkt 4, obejmuje łączny obrót zrealizowany przez wszystkie
+te części mienia;
+3) następuje przejęcie kontroli nad przedsiębiorcą lub przedsiębiorcami należącymi
+do jednej grupy kapitałowej oraz nabycie części mienia przedsiębiorcy lub
+przedsiębiorców należących do tej grupy kapitałowej – obrót, o którym mowa
+w art. 14 pkt 1b, obejmuje łącznie obrót wszystkich przedsiębiorców, nad
+którymi jest przejmowana kontrola i ich przedsiębiorców zależnych oraz obrót
+realizowany przez wszystkie nabywane części mienia.
+Art. 17. Rada Ministrów określi, w drodze rozporządzenia, sposób obliczania
+obrotu przedsiębiorców na potrzeby ustalenia obowiązku zgłoszenia zamiaru
+koncentracji Prezesowi Urzędu, uwzględniając specyfikę prowadzonej przez
+przedsiębiorców działalności, a także zasady rachunkowości odnoszące się do
+©Kancelaria Sejmu s. 14/73
+2017-06-28
+poszczególnych kategorii przedsiębiorców, w tym do banków, ubezpieczycieli
+i funduszy inwestycyjnych.
+Rozdział 2
+Decyzje w sprawach koncentracji
+Art. 18. Prezes Urzędu, w drodze decyzji, wydaje zgodę na dokonanie
+koncentracji, w wyniku której konkurencja na rynku nie zostanie istotnie ograniczona,
+w szczególności przez powstanie lub umocnienie pozycji dominującej na rynku.
+Art. 19. 1. Prezes Urzędu, w drodze decyzji, wydaje zgodę na dokonanie
+koncentracji, gdy – po spełnieniu przez przedsiębiorców zamierzających dokonać
+koncentracji warunków określonych w ust. 2 – konkurencja na rynku nie zostanie
+istotnie ograniczona, w szczególności przez powstanie lub umocnienie pozycji
+dominującej na rynku.
+2. Prezes Urzędu może na przedsiębiorcę lub przedsiębiorców zamierzających
+dokonać koncentracji nałożyć obowiązek lub przyjąć ich zobowiązanie,
+w szczególności do:
+1) zbycia całości lub części majątku jednego lub kilku przedsiębiorców,
+2) wyzbycia się kontroli nad określonym przedsiębiorcą lub przedsiębiorcami,
+w szczególności przez zbycie określonego pakietu akcji lub udziałów, lub
+odwołania z funkcji członka organu zarządzającego lub nadzorczego jednego lub
+kilku przedsiębiorców,
+3) udzielenia licencji praw wyłącznych konkurentowi
+– określając w decyzji, o której mowa w ust. 1, termin spełnienia warunków.
+3. W decyzji, o której mowa w ust. 1, Prezes Urzędu nakłada na przedsiębiorcę
+lub przedsiębiorców obowiązek składania, w wyznaczonym terminie, informacji
+o realizacji tych warunków.
+4. Prezes Urzędu, na wniosek przedsiębiorcy, na którego nałożono obowiązek
+spełnienia warunków określonych w ust. 2, wydaje postanowienie o nieudostępnianiu,
+do dnia spełnienia tych warunków, jednak nie później niż do upływu terminu do ich
+spełnienia, decyzji, o której mowa w ust. 1, w zakresie dotyczącym terminu spełnienia
+tych warunków. Na postanowienie Prezesa Urzędu nie przysługuje zażalenie.
+5. W przypadku, o którym mowa w ust. 4, Prezes Urzędu nie publikuje i nie
+podaje w inny sposób do publicznej wiadomości decyzji w zakresie określonym
+w ust. 4. W zakresie tym decyzja nie podlega również udostępnieniu w trybie
+©Kancelaria Sejmu s. 15/73
+2017-06-28
+przepisów ustawy z dnia 6 września 2001 r. o dostępie do informacji publicznej
+(Dz. U. z 2016 r. poz. 1764).
+6. Wydanie postanowienia, o którym mowa w ust. 4, nie wyłącza obowiązków
+informacyjnych przedsiębiorcy określonych w odrębnych przepisach.
+Art. 20. 1. Prezes Urzędu zakazuje, w drodze decyzji, dokonania koncentracji,
+w wyniku której konkurencja na rynku zostanie istotnie ograniczona, w szczególności
+przez powstanie lub umocnienie pozycji dominującej na rynku.
+2. Prezes Urzędu wydaje, w drodze decyzji, zgodę na dokonanie koncentracji,
+w wyniku której konkurencja na rynku zostanie istotnie ograniczona, w szczególności
+przez powstanie lub umocnienie pozycji dominującej na rynku, w przypadku gdy
+odstąpienie od zakazu koncentracji jest uzasadnione, a w szczególności:
+1) przyczyni się ona do rozwoju ekonomicznego lub postępu technicznego;
+2) może ona wywrzeć pozytywny wpływ na gospodarkę narodową.
+Art. 21. 1. Prezes Urzędu może uchylić decyzje, o których mowa w art. 18,
+art. 19 ust. 1 i w art. 20 ust. 2, jeżeli zostały one oparte na nierzetelnych informacjach,
+za które są odpowiedzialni przedsiębiorcy uczestniczący w koncentracji, lub jeżeli
+przedsiębiorcy nie spełniają warunków, o których mowa w art. 19 ust. 2 i 3.
+W przypadku uchylenia decyzji Prezes Urzędu orzeka co do istoty sprawy.
+2. Jeżeli w przypadkach, o których mowa w ust. 1, koncentracja została już
+dokonana, a przywrócenie konkurencji na rynku nie jest możliwe w inny sposób,
+Prezes Urzędu może, w drodze decyzji, określając termin jej wykonania na warunkach
+określonych w decyzji, nakazać w szczególności:
+1) podział połączonego przedsiębiorcy na warunkach określonych w decyzji;
+2) zbycie całości lub części majątku przedsiębiorcy;
+3) zbycie udziałów lub akcji zapewniających kontrolę nad przedsiębiorcą lub
+przedsiębiorcami lub rozwiązanie spółki, nad którą przedsiębiorcy sprawują
+wspólną kontrolę.
+3. Decyzja, o której mowa w ust. 2, nie może być wydana po upływie 5 lat od
+dnia dokonania koncentracji.
+4. Przepisy ust. 2 i 3 stosuje się odpowiednio w przypadku niezgłoszenia
+Prezesowi Urzędu zamiaru koncentracji, o którym mowa w art. 13 ust. 1, oraz
+w przypadku niewykonania decyzji o zakazie koncentracji.
+©Kancelaria Sejmu s. 16/73
+2017-06-28
+Art. 22. 1. Decyzje, o których mowa w art. 18 i art. 19 ust. 1 lub art. 20 ust. 2,
+wygasają, jeżeli w terminie 2 lat od dnia ich wydania koncentracja nie została
+dokonana.
+2. Prezes Urzędu może, na wniosek przedsiębiorcy uczestniczącego
+w koncentracji złożony nie później niż 30 dni przed upływem terminu, o którym
+mowa w ust. 1, przedłużyć, w drodze postanowienia, ten termin o rok, jeżeli
+przedsiębiorca wykaże, że nie nastąpiła zmiana okoliczności, w wyniku której
+koncentracja może spowodować istotne ograniczenie konkurencji na rynku.
+3. Przed wydaniem postanowienia o przedłużeniu terminu, o którym mowa
+w ust. 1, Prezes Urzędu może przeprowadzić postępowanie wyjaśniające.
+4. W przypadku wydania postanowienia o odmowie przedłużenia terminu,
+o którym mowa w ust. 1, dokonanie koncentracji po upływie tego terminu wymaga
+zgłoszenia zamiaru koncentracji Prezesowi Urzędu i uzyskania zgody na jej dokonanie
+na zasadach i w trybie określonych w ustawie.
+Art. 23. Prezes Urzędu na wniosek instytucji finansowej może przedłużyć,
+w drodze decyzji, termin, o którym mowa w art. 14 pkt 2, jeżeli instytucja ta
+udowodni, że odsprzedaż akcji albo udziałów nie była w praktyce możliwa lub
+uzasadniona ekonomicznie przed upływem roku od dnia ich nabycia.
+DZIAŁ IIIA
+Zakaz stosowania niedozwolonych postanowień wzorców umów
+Rozdział 1
+Niedozwolone postanowienia wzorców umów
+Art. 23a. Zakazane jest stosowanie we wzorcach umów zawieranych
+z konsumentami niedozwolonych postanowień umownych, o których mowa w art.
+3851
+§ 1 ustawy z dnia 23 kwietnia 1964 r. – Kodeks cywilny.
+Rozdział 2
+Decyzje w sprawach o uznanie postanowień wzorca umowy za niedozwolone
+Art. 23b. 1. Prezes Urzędu wydaje decyzję o uznaniu postanowienia wzorca
+umowy za niedozwolone i zakazującą jego wykorzystywania, jeżeli stwierdzi
+naruszenie zakazu określonego w art. 23a. W decyzji Prezes Urzędu przytacza treść
+postanowienia wzorca umowy uznanego za niedozwolone.
+©Kancelaria Sejmu s. 17/73
+2017-06-28
+2. W decyzji, o której mowa w ust. 1, Prezes Urzędu może określić środki
+usunięcia trwających skutków naruszenia zakazu, o którym mowa w art. 23a,
+w szczególności zobowiązać przedsiębiorcę do:
+1) poinformowania konsumentów, będących stronami umów zawartych na
+podstawie wzorca, o którym mowa w ust. 1, o uznaniu za niedozwolone
+postanowienia tego wzorca – w sposób określony w decyzji;
+2) złożenia jednokrotnego lub wielokrotnego oświadczenia o treści i w formie
+określonej w decyzji.
+3. W decyzji, o której mowa w ust. 1, Prezes Urzędu może nakazać publikację
+decyzji w całości lub w części, z zaznaczeniem, czy decyzja ta jest prawomocna,
+w określonej w niej formie, na koszt przedsiębiorcy.
+4. Środki, o których mowa w ust. 2, powinny być proporcjonalne do wagi
+i rodzaju naruszenia oraz konieczne do usunięcia jego skutków.
+Art. 23c. 1. Jeżeli przedsiębiorca przed wydaniem decyzji, o której mowa w art.
+23b ust. 1, zobowiąże się do podjęcia lub zaniechania określonych działań
+zmierzających do zakończenia naruszenia zakazu, o którym mowa w art. 23a, lub
+usunięcia skutków tego naruszenia, Prezes Urzędu może, wydając decyzję, o której
+mowa w art. 23b ust. 1, zobowiązać przedsiębiorcę do wykonania tych zobowiązań.
+2. W decyzji, o której mowa w ust. 1, Prezes Urzędu może określić termin
+wykonania zobowiązań.
+3. W decyzji, o której mowa w ust. 1, Prezes Urzędu nakłada na przedsiębiorcę
+obowiązek składania w wyznaczonym terminie informacji o stopniu realizacji
+zobowiązań.
+4. W przypadku wydania decyzji, o której mowa w ust. 1, przepisów art. 23b ust.
+2 pkt 1 i art. 106 ust. 1 pkt 3a nie stosuje się.
+5. Prezes Urzędu może, z urzędu, uchylić decyzję, o której mowa w ust. 1,
+w części dotyczącej zobowiązań i nałożyć karę, o której mowa w art. 106 ust. 1 pkt 3a,
+w przypadku gdy:
+1) decyzja ta została wydana w oparciu o nieprawdziwe, niekompletne lub
+wprowadzające w błąd informacje lub dokumenty;
+2) przedsiębiorca nie wykonuje zobowiązań lub obowiązków, o których mowa
+w ust. 1–3.
+6. W przypadku, o którym mowa w ust. 5, Prezes Urzędu może określić środki
+usunięcia trwających skutków naruszenia zakazu, o których mowa w art. 23b ust. 2.
+Przepis art. 23b ust. 3 stosuje się.
+©Kancelaria Sejmu s. 18/73
+2017-06-28
+7. Prezes Urzędu może, za zgodą przedsiębiorcy, z urzędu uchylić decyzję,
+o której mowa w ust. 1, w części dotyczącej zobowiązań, w przypadku gdy nastąpiła
+zmiana okoliczności mających istotny wpływ na wydanie tej decyzji. Przepisy ust.
+6 stosuje się odpowiednio.
+Art. 23d. Prawomocna decyzja o uznaniu postanowienia wzorca umowy za
+niedozwolone ma skutek wobec przedsiębiorcy, co do którego stwierdzono stosowanie
+niedozwolonego postanowienia umownego oraz wobec wszystkich konsumentów,
+którzy zawarli z nim umowę na podstawie wzorca wskazanego w decyzji.
+DZIAŁ IV
+Zakaz praktyk naruszających zbiorowe interesy konsumentów
+Rozdział 1
+Praktyki naruszające zbiorowe interesy konsumentów
+Art. 24. 1. Zakazane jest stosowanie praktyk naruszających zbiorowe interesy
+konsumentów.
+2. Przez praktykę naruszającą zbiorowe interesy konsumentów rozumie się
+godzące w nie sprzeczne z prawem lub dobrymi obyczajami zachowanie
+przedsiębiorcy, w szczególności:
+1) (uchylony)
+2) naruszanie obowiązku udzielania konsumentom rzetelnej, prawdziwej i pełnej
+informacji;
+3) nieuczciwe praktyki rynkowe lub czyny nieuczciwej konkurencji;
+4) proponowanie konsumentom nabycia usług finansowych, które nie odpowiadają
+potrzebom tych konsumentów ustalonym z uwzględnieniem dostępnych
+przedsiębiorcy informacji w zakresie cech tych konsumentów lub proponowanie
+nabycia tych usług w sposób nieadekwatny do ich charakteru.
+3. Nie jest zbiorowym interesem konsumentów suma indywidualnych interesów
+konsumentów.
+Art. 25. Ochrona zbiorowych interesów konsumentów przewidziana w ustawie
+nie wyłącza ochrony wynikającej z innych ustaw, w szczególności z przepisów
+o przeciwdziałaniu nieuczciwym praktykom rynkowym i przepisów o zwalczaniu
+nieuczciwej konkurencji.
+©Kancelaria Sejmu s. 19/73
+2017-06-28
+Rozdział 2
+Decyzje w sprawach praktyk naruszających zbiorowe interesy konsumentów
+Art. 26. 1. Prezes Urzędu wydaje decyzję o uznaniu praktyki za naruszającą
+zbiorowe interesy konsumentów i nakazującą zaniechanie jej stosowania, jeżeli
+stwierdzi naruszenie zakazu określonego w art. 24.
+2. W decyzji, o której mowa w ust. 1, Prezes Urzędu może określić środki
+usunięcia trwających skutków naruszenia zbiorowych interesów konsumentów w celu
+zapewnienia wykonania nakazu, w szczególności zobowiązać przedsiębiorcę do
+złożenia jednokrotnego lub wielokrotnego oświadczenia o treści i w formie określonej
+w decyzji.
+3. W decyzji, o której mowa w ust. 1, Prezes Urzędu może nakazać publikację
+decyzji w całości lub w części, z zaznaczeniem, czy decyzja ta jest prawomocna,
+w określonej w niej formie, na koszt przedsiębiorcy.
+4. Środki, o których mowa w ust. 2, powinny być proporcjonalne do wagi
+i rodzaju naruszenia oraz konieczne do usunięcia jego skutków.
+Art. 27. 1. Nie wydaje się decyzji, o której mowa w art. 26, jeżeli przedsiębiorca
+zaprzestał stosowania praktyki, o której mowa w art. 24.
+2. W przypadku określonym w ust. 1 Prezes Urzędu wydaje decyzję o uznaniu
+praktyki za naruszającą zbiorowe interesy konsumentów i stwierdzającą zaniechanie
+jej stosowania.
+3. Ciężar udowodnienia okoliczności, o których mowa w ust. 1, spoczywa na
+przedsiębiorcy.
+4. Przepisy art. 26 ust. 2–4 stosuje się odpowiednio.
+Art. 28. 1. Jeżeli w toku postępowania w sprawie praktyk naruszających
+zbiorowe interesy konsumentów zostanie uprawdopodobnione – na podstawie
+okoliczności sprawy, informacji zawartych w zawiadomieniu, o którym mowa
+w art. 100 ust. 1, lub będących podstawą wszczęcia postępowania – że został
+naruszony zakaz, o którym mowa w art. 24, a przedsiębiorca, któremu jest zarzucane
+naruszenie tego zakazu, zobowiąże się do podjęcia lub zaniechania określonych
+działań zmierzających do zakończenia naruszenia lub usunięcia jego skutków, Prezes
+Urzędu może, w drodze decyzji, zobowiązać przedsiębiorcę do wykonania tych
+zobowiązań. W przypadku gdy przedsiębiorca zaprzestał naruszania zakazu, o którym
+mowa w art. 24, i zobowiąże się do usunięcia skutków tego naruszenia, zdanie
+pierwsze stosuje się odpowiednio.
+©Kancelaria Sejmu s. 20/73
+2017-06-28
+2. W decyzji, o której mowa w ust. 1, Prezes Urzędu może określić termin
+wykonania zobowiązań lub zobowiązać przedsiębiorcę do złożenia jednokrotnego lub
+wielokrotnego oświadczenia o treści i w formie określonej w decyzji lub do publikacji
+decyzji w całości lub w części na koszt przedsiębiorcy, z zaznaczeniem, czy decyzja
+ta jest prawomocna.
+3. W decyzji, o której mowa w ust. 1, Prezes Urzędu nakłada na przedsiębiorcę
+obowiązek składania w wyznaczonym terminie informacji o stopniu realizacji
+zobowiązań.
+4. W przypadku wydania decyzji, o której mowa w ust. 1, art. 26 i 27 oraz
+art. 106 ust. 1 pkt 4 nie stosuje się, z zastrzeżeniem ust. 7.
+5. Prezes Urzędu może, z urzędu, uchylić decyzję, o której mowa w ust. 1,
+w przypadku gdy:
+1) została ona wydana w oparciu o nieprawdziwe, niekompletne lub
+wprowadzające w błąd informacje lub dokumenty;
+2) przedsiębiorca nie wykonuje zobowiązań lub obowiązków, o których mowa
+w ust. 1–3.
+6. Prezes Urzędu może, za zgodą przedsiębiorcy, z urzędu uchylić decyzję,
+o której mowa w ust. 1, w przypadku gdy nastąpiła zmiana okoliczności, mających
+istotny wpływ na wydanie decyzji.
+7. W przypadku uchylenia decyzji Prezes Urzędu orzeka co do istoty sprawy.
+DZIAŁ V
+Organizacja ochrony konkurencji i konsumentów
+Rozdział 1
+Prezes Urzędu
+Art. 29. 1. Prezes Urzędu jest centralnym organem administracji rządowej
+właściwym w sprawach ochrony konkurencji i konsumentów. Prezes Rady Ministrów
+sprawuje nadzór nad działalnością Prezesa Urzędu.
+2. Prezes Urzędu jest:
+1) organem wykonującym zadania nałożone na władze państw członkowskich Unii
+Europejskiej na podstawie art. 104 i art. 105 TFUE. W szczególności Prezes
+Urzędu jest właściwym organem ochrony konkurencji w rozumieniu art. 35
+rozporządzenia nr 1/2003/WE;
+2) jednolitym urzędem łącznikowym w rozumieniu przepisów rozporządzenia
+nr 2006/2004/WE oraz, w zakresie swoich ustawowych kompetencji, jest
+©Kancelaria Sejmu s. 21/73
+2017-06-28
+właściwym organem, o którym mowa w art. 4 ust. 1 rozporządzenia
+nr 2006/2004/WE.
+3. Prezes Rady Ministrów powołuje Prezesa Urzędu spośród osób wyłonionych
+w drodze otwartego i konkurencyjnego naboru.
+3a. Stanowisko Prezesa Urzędu może zajmować osoba, która:
+1) posiada tytuł zawodowy magistra lub równorzędny;
+2) jest obywatelem polskim;
+3) korzysta z pełni praw publicznych;
+4) nie była skazana prawomocnym wyrokiem za umyślne przestępstwo lub umyślne
+przestępstwo skarbowe;
+5) posiada kompetencje kierownicze;
+6) posiada co najmniej 6-letni staż pracy, w tym co najmniej 3-letni staż pracy na
+stanowisku kierowniczym;
+7) posiada wykształcenie i wiedzę z zakresu spraw należących do właściwości
+Prezesa Urzędu.
+3b. Informację o naborze na stanowisko Prezesa Urzędu ogłasza się przez
+umieszczenie ogłoszenia w miejscu powszechnie dostępnym w siedzibie Urzędu oraz
+w Biuletynie Informacji Publicznej Urzędu i Biuletynie Informacji Publicznej
+Kancelarii Prezesa Rady Ministrów. Ogłoszenie powinno zawierać:
+1) nazwę i adres Urzędu;
+2) określenie stanowiska;
+3) wymagania związane ze stanowiskiem wynikające z przepisów prawa;
+4) zakres zadań wykonywanych na stanowisku;
+5) wskazanie wymaganych dokumentów;
+6) termin i miejsce składania dokumentów;
+7) informację o metodach i technikach naboru.
+3c. Termin, o którym mowa w ust. 3b pkt 6, nie może być krótszy niż 10 dni od
+dnia opublikowania ogłoszenia w Biuletynie Informacji Publicznej Kancelarii Prezesa
+Rady Ministrów.
+3d. Nabór na stanowisko Prezesa Urzędu przeprowadza zespół, powołany przez
+Szefa Kancelarii Prezesa Rady Ministrów z upoważnienia Prezesa Rady Ministrów,
+liczący co najmniej 3 osoby, których wiedza i doświadczenie dają rękojmię
+wyłonienia najlepszych kandydatów. W toku naboru ocenia się doświadczenie
+zawodowe kandydata, wiedzę niezbędną do wykonywania zadań na stanowisku, na
+które jest przeprowadzany nabór, oraz kompetencje kierownicze.
+©Kancelaria Sejmu s. 22/73
+2017-06-28
+3e. Ocena wiedzy i kompetencji kierowniczych, o których mowa w ust. 3d, może
+być dokonana na zlecenie zespołu przez osobę niebędącą członkiem zespołu, która
+posiada odpowiednie kwalifikacje do dokonania tej oceny.
+3f. Członek zespołu oraz osoba, o której mowa w ust. 3e, mają obowiązek
+zachowania w tajemnicy informacji dotyczących osób ubiegających się o stanowisko,
+uzyskanych w trakcie naboru.
+3g. W toku naboru zespół wyłania nie więcej niż 3 kandydatów, których
+przedstawia Szefowi Kancelarii Prezesa Rady Ministrów.
+3h. Z przeprowadzonego naboru zespół sporządza protokół zawierający:
+1) nazwę i adres Urzędu;
+2) określenie stanowiska, na które był prowadzony nabór, oraz liczbę kandydatów;
+3) imiona, nazwiska i adresy nie więcej niż 3 najlepszych kandydatów
+uszeregowanych według poziomu spełniania przez nich wymagań określonych
+w ogłoszeniu o naborze;
+4) informację o zastosowanych metodach i technikach naboru;
+5) uzasadnienie dokonanego wyboru albo powody niewyłonienia kandydata;
+6) skład zespołu.
+3i. Wynik naboru ogłasza się niezwłocznie przez umieszczenie informacji
+w Biuletynie Informacji Publicznej Urzędu i Biuletynie Informacji Publicznej
+Kancelarii Prezesa Rady Ministrów. Informacja o wyniku naboru zawiera:
+1) nazwę i adres Urzędu;
+2) określenie stanowiska, na które był prowadzony nabór;
+3) imiona, nazwiska wybranych kandydatów oraz ich miejsca zamieszkania
+w rozumieniu przepisów Kodeksu cywilnego albo informację o niewyłonieniu
+kandydata.
+3j. Umieszczenie w Biuletynie Informacji Publicznej Kancelarii Prezesa Rady
+Ministrów ogłoszenia o naborze oraz o wyniku tego naboru jest bezpłatne.
+4. Prezes Rady Ministrów odwołuje Prezesa Urzędu. Prezes Urzędu pełni
+obowiązki do dnia powołania jego następcy.
+5. (uchylony)
+6. Prezes Urzędu wykonuje swoje zadania przy pomocy Urzędu Ochrony
+Konkurencji i Konsumentów, zwanego dalej „Urzędem”.
+7. (uchylony)
+8. (uchylony)
+©Kancelaria Sejmu s. 23/73
+2017-06-28
+Art. 30. 1. Prezes Rady Ministrów powołuje wiceprezesów Urzędu spośród osób
+wyłonionych w drodze otwartego i konkurencyjnego naboru. Prezes Rady Ministrów
+odwołuje wiceprezesów Urzędu na wniosek Prezesa Urzędu.
+2. Zespół przeprowadzający nabór na stanowiska, o których mowa w ust. 1,
+powołuje Prezes Urzędu.
+3. Do sposobu przeprowadzania naboru na stanowiska, o których mowa w ust. 1,
+stosuje się odpowiednio przepisy art. 29 ust. 3a–3j.
+Art. 31. Do zakresu działania Prezesa Urzędu należy:
+1) sprawowanie kontroli przestrzegania przez przedsiębiorców przepisów ustawy;
+2) wydawanie decyzji w sprawach praktyk ograniczających konkurencję,
+w sprawach koncentracji przedsiębiorców, w sprawach o uznanie postanowień
+wzorca umowy za niedozwolone oraz w sprawach praktyk naruszających
+zbiorowe interesy konsumentów, a także innych decyzji przewidzianych
+w ustawie;
+3) prowadzenie badań stanu koncentracji gospodarki oraz zachowań rynkowych
+przedsiębiorców;
+4) przygotowywanie projektów rządowych programów rozwoju konkurencji oraz
+projektów rządowej polityki konsumenckiej;
+5) współpraca z krajowymi i międzynarodowymi organami i organizacjami, do
+których zakresu działania należy ochrona konkurencji i konsumentów;
+6) wykonywanie zadań i kompetencji organu ochrony konkurencji państwa
+członkowskiego Unii Europejskiej, określonych w rozporządzeniu
+nr 1/2003/WE oraz w rozporządzeniu nr 139/2004/WE;
+7) wykonywanie zadań i kompetencji właściwego organu oraz jednolitego urzędu
+łącznikowego państwa członkowskiego Unii Europejskiej, określonych
+w rozporządzeniu nr 2006/2004/WE;
+7a) wykonywanie zadań określonych w ustawie z dnia 23 września 2016 r.
+o pozasądowym rozwiązywaniu sporów konsumenckich (Dz. U. poz. 1823);
+8) opracowywanie i przedkładanie Radzie Ministrów projektów aktów prawnych
+dotyczących ochrony konkurencji i konsumentów;
+9) przedkładanie Radzie Ministrów okresowych sprawozdań z realizacji rządowych
+programów rozwoju konkurencji i polityki konsumenckiej;
+10) współpraca z organami samorządu terytorialnego, w zakresie wynikającym
+z rządowej polityki konsumenckiej;
+11) (uchylony)
+©Kancelaria Sejmu s. 24/73
+2017-06-28
+12) opracowywanie i wydawanie publikacji oraz programów edukacyjnych
+popularyzujących wiedzę o ochronie konkurencji i konsumentów;
+13) występowanie do przedsiębiorców w sprawach z zakresu ochrony konkurencji
+i konsumentów;
+14) realizacja zobowiązań międzynarodowych Rzeczypospolitej Polskiej w zakresie
+współpracy i wymiany informacji w sprawach ochrony konkurencji
+i konsumentów oraz pomocy publicznej;
+15) gromadzenie i upowszechnianie orzecznictwa w sprawach z zakresu ochrony
+konkurencji i konsumentów, w szczególności przez zamieszczanie decyzji
+Prezesa Urzędu na stronie internetowej Urzędu;
+16) współpraca z Szefem Krajowego Centrum Informacji Kryminalnych w zakresie
+niezbędnym do realizacji jego zadań ustawowych;
+16a) współpraca z Agencją do spraw Współpracy Organów Regulacji Energetyki,
+z organem właściwym do spraw regulacji gospodarki paliwami i energią oraz
+organem właściwym w sprawach nadzoru nad rynkiem finansowym, w zakresie
+niezbędnym do wykonywania obowiązków wynikających z rozporządzenia
+Parlamentu Europejskiego i Rady (UE) nr 1227/2011 z dnia 25 października
+2011 r. w sprawie integralności i przejrzystości hurtowego rynku energii (Dz.
+Urz. UE L 326 z 08.12.2011, str. 1);
+16b) współpraca z Komisją Nadzoru Audytowego, w tym udzielanie informacji,
+wyjaśnień i przekazywanie dokumentów, w zakresie niezbędnym do realizacji
+zadań związanych z monitorowaniem rynku w zakresie, o którym mowa
+w art. 27 rozporządzenia Parlamentu Europejskiego i Rady (UE) nr 537/2014
+z dnia 16 kwietnia 2014 r. w sprawie szczegółowych wymogów dotyczących
+ustawowych badań sprawozdań finansowych jednostek interesu publicznego,
+uchylającego decyzję Komisji 2005/909/WE (Dz. Urz. UE L 158 z 27.05.2014,
+str. 77 oraz Dz. Urz. UE L 170 z 11.06.2014, str. 66);
+17) wykonywanie innych zadań określonych w ustawie lub ustawach odrębnych.
+Art. 31a. Prezes Urzędu może wydać i ogłosić wyjaśnienia i interpretacje
+mające istotne znaczenie dla stosowania przepisów w sprawach objętych zakresem
+działania Prezesa Urzędu. Wyjaśnienia i interpretacje są publikowane w Biuletynie
+Informacji Publicznej Urzędu.
+Art. 31b. Prezes Urzędu publikuje na stronie internetowej Urzędu w całości
+treść decyzji wydawanych na podstawie przepisów ustawy, z zastrzeżeniem, że
+©Kancelaria Sejmu s. 25/73
+2017-06-28
+publikacja uzasadnienia nie obejmuje tajemnicy przedsiębiorstwa, jak również innych
+informacji podlegających ochronie na podstawie odrębnych przepisów. Publikacja
+opatrzona jest informacją, czy decyzja jest prawomocna.
+Art. 31c. Prezes Urzędu może nieodpłatnie publikować w publicznej radiofonii
+i telewizji, w formie i czasie uzgodnionymi z właściwą jednostką publicznej
+radiofonii i telewizji:
+1) komunikaty dotyczące zachowań lub zjawisk mogących stanowić istotne
+zagrożenie dla interesów konsumentów;
+2) informacje, co do których zostało wydane postanowienie, o którym mowa w art.
+73a ust. 2.
+Art. 31d. Prezes Urzędu, jeżeli uzna że przemawia za tym interes publiczny,
+przedstawia sądowi istotny dla sprawy pogląd w sprawach dotyczących ochrony
+konkurencji i konsumentów.
+Art. 32. (uchylony)
+Art. 32a. 1. Przy Prezesie Urzędu działa punkt kontaktowy do spraw
+pozasądowego rozwiązywania sporów konsumenckich oraz internetowego systemu
+rozwiązywania sporów konsumenckich, zwany dalej „punktem kontaktowym”.
+2. Do zadań punktu kontaktowego należy:
+1) udzielanie pomocy konsumentom w sprawach dotyczących pozasądowego
+rozwiązywania sporów konsumenckich, w szczególności w sprawach sporów
+wynikających z transgranicznych umów zawieranych z konsumentami;
+2) realizowanie zadań określonych w rozporządzeniu Parlamentu Europejskiego
+i Rady (UE) nr 524/2013 z dnia 21 maja 2013 r. w sprawie internetowego
+systemu rozstrzygania sporów konsumenckich oraz zmiany rozporządzenia
+(WE) nr 2006/2004 i dyrektywy 2009/22/WE (rozporządzenie w sprawie ODR
+w sporach konsumenckich) (Dz. Urz. UE L 165 z 18.06.2013, str. 1);
+3) zapewnienie łącza internetowego do platformy ODR, o której mowa
+w rozporządzeniu wymienionym w pkt 2.
+3. Tryb pracy punktu kontaktowego określa regulamin ustalony przez Prezesa
+Urzędu.
+Art. 33. 1. W skład Urzędu wchodzi Centrala w Warszawie, delegatury Urzędu
+w Bydgoszczy, w Gdańsku, w Katowicach, w Krakowie, w Lublinie, w Łodzi,
+w Poznaniu, w Warszawie i we Wrocławiu oraz laboratoria nadzorowane przez
+Prezesa Urzędu.
+©Kancelaria Sejmu s. 26/73
+2017-06-28
+2. Delegaturami Urzędu kierują dyrektorzy delegatur.
+3. Prezes Rady Ministrów określi, w drodze rozporządzenia, właściwość
+miejscową i rzeczową delegatur Urzędu w sprawach z zakresu działania Prezesa
+Urzędu, uwzględniając charakter i liczbę spraw występujących na danym terenie.
+4. Delegatury Urzędu oprócz spraw należących do ich właściwości mogą
+załatwiać inne sprawy przekazane im przez Prezesa Urzędu.
+5. W szczególnie uzasadnionych przypadkach Prezes Urzędu może sprawę
+należącą do właściwości delegatury przejąć lub przekazać do załatwienia innej
+delegaturze Urzędu albo sprawę należącą do swojej właściwości przekazać do
+załatwienia wskazanej delegaturze.
+6. Decyzje i postanowienia w sprawach z zakresu właściwości delegatur oraz
+w sprawach przekazanych do załatwienia przez Prezesa Urzędu na podstawie
+ust. 5 dyrektorzy delegatur wydają w imieniu Prezesa Urzędu.
+Art. 34. Organizację Urzędu określa statut nadany, w drodze zarządzenia, przez
+Prezesa Rady Ministrów.
+Art. 35. 1. (uchylony)
+2. (uchylony)
+3. Prezes Urzędu może zlecić Inspekcji Handlowej przeprowadzenie kontroli lub
+realizację innych zadań należących do zakresu jego działania.
+4. (uchylony)
+Art. 36. (uchylony)
+Rozdział 2
+Samorząd terytorialny i organizacje konsumenckie
+Art. 37. Zadania w dziedzinie ochrony interesów konsumentów w zakresie
+określonym ustawą oraz odrębnymi przepisami wykonują również: samorząd
+terytorialny, a także organizacje konsumenckie i inne instytucje, do których
+statutowych lub ustawowych zadań należy ochrona interesów konsumentów.
+Art. 38. Zadaniem samorządu terytorialnego w zakresie ochrony praw
+konsumentów jest prowadzenie edukacji konsumenckiej.
+Art. 39. 1. Zadania samorządu powiatowego w zakresie ochrony praw
+konsumentów wykonuje powiatowy (miejski) rzecznik konsumentów, zwany dalej
+„rzecznikiem konsumentów”.
+©Kancelaria Sejmu s. 27/73
+2017-06-28
+2. Powiaty mogą, w drodze porozumienia, utworzyć jedno wspólne stanowisko
+rzecznika konsumentów.
+Art. 40. 1. Z rzecznikiem konsumentów stosunek pracy nawiązuje starosta lub
+w miastach na prawach powiatu prezydent miasta.
+2. Rzecznikiem konsumentów może być osoba posiadająca wyższe
+wykształcenie, w szczególności prawnicze lub ekonomiczne, i co najmniej
+pięcioletnią praktykę zawodową.
+3. Rzecznik konsumentów jest bezpośrednio podporządkowany staroście
+(prezydentowi miasta).
+4. Rzecznika konsumentów wyodrębnia się organizacyjnie w strukturze
+starostwa powiatowego (urzędu miasta), a w powiatach powyżej 100 tys.
+mieszkańców i w miastach na prawach powiatu rzecznik konsumentów może
+wykonywać swoje zadania przy pomocy wyodrębnionego biura.
+5. W pozostałym zakresie dotyczącym statusu prawnego rzecznika
+konsumentów stosuje się przepisy ustawy z dnia 21 listopada 2008 r. o pracownikach
+samorządowych (Dz. U. z 2016 r. poz. 902 oraz z 2017 r. poz. 60).
+Art. 41. (uchylony)
+Art. 42. 1. Do zadań rzecznika konsumentów należy:
+1) zapewnienie bezpłatnego poradnictwa konsumenckiego i informacji prawnej
+w zakresie ochrony interesów konsumentów;
+2) składanie wniosków w sprawie stanowienia i zmiany przepisów prawa
+miejscowego w zakresie ochrony interesów konsumentów;
+3) występowanie do przedsiębiorców w sprawach ochrony praw i interesów
+konsumentów;
+4) współdziałanie z właściwymi miejscowo delegaturami Urzędu, organami
+Inspekcji Handlowej oraz organizacjami konsumenckimi;
+5) wykonywanie innych zadań określonych w ustawie lub w przepisach odrębnych.
+2. Rzecznik konsumentów może w szczególności wytaczać powództwa na rzecz
+konsumentów oraz wstępować, za ich zgodą, do toczącego się postępowania
+w sprawach o ochronę interesów konsumentów.
+3. Rzecznik konsumentów w sprawach o wykroczenia na szkodę konsumentów
+jest oskarżycielem publicznym w rozumieniu przepisów ustawy z dnia 24 sierpnia
+2001 r. – Kodeks postępowania w sprawach o wykroczenia (Dz. U. z 2016 r. poz.
+1713 i 1948).
+©Kancelaria Sejmu s. 28/73
+2017-06-28
+4. Przedsiębiorca, do którego zwrócił się rzecznik konsumentów, działając na
+podstawie ust. 1 pkt 3, jest obowiązany udzielić rzecznikowi wyjaśnień i informacji
+będących przedmiotem wystąpienia oraz ustosunkować się do uwag i opinii rzecznika.
+5. Do rzecznika konsumentów stosuje się odpowiednio przepis art. 63 ustawy
+z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego.
+Art. 43. 1. Rzecznik konsumentów, w terminie do dnia 31 marca każdego roku,
+przedkłada staroście (prezydentowi miasta) do zatwierdzenia roczne sprawozdanie ze
+swojej działalności w roku poprzednim oraz przekazuje je właściwej miejscowo
+delegaturze Urzędu.
+2. (uchylony)
+3. Rzecznik konsumentów jest obowiązany przekazywać na bieżąco delegaturom
+Urzędu wnioski i sygnalizować problemy dotyczące ochrony konsumentów, które
+wymagają podjęcia działań przez organy administracji rządowej.
+Art. 44. 1. Przy Prezesie Urzędu działa Krajowa Rada Rzeczników
+Konsumentów, zwana dalej „Radą”.
+2. Rada jest stałym organem opiniodawczo-doradczym Prezesa Urzędu
+w zakresie spraw związanych z ochroną praw konsumentów na szczeblu samorządu
+powiatowego.
+3. Do zadań Rady należy w szczególności:
+1) przedstawianie propozycji dotyczących kierunków zmian legislacyjnych
+w przepisach dotyczących ochrony praw konsumentów;
+2) wyrażanie opinii w przedmiocie projektów aktów prawnych lub kierunków
+rządowej polityki konsumenckiej;
+3) wyrażanie opinii w innych sprawach z zakresu ochrony konsumentów
+przedłożonych Radzie przez Prezesa Urzędu;
+4) przekazywanie informacji dotyczących ochrony konsumentów, w zakresie
+wskazanym przez Prezesa Urzędu.
+4. W skład Rady wchodzi dziewięciu rzeczników konsumentów, po jednym
+z obszaru właściwości miejscowej delegatur Urzędu Ochrony Konkurencji
+i Konsumentów.
+5. Członków Rady powołuje i odwołuje Prezes Urzędu. Powołanie następuje na
+wniosek dyrektorów delegatur, o których mowa w ust. 4, za pisemną zgodą
+rekomendowanych rzeczników konsumentów. W przypadku zaprzestania pełnienia
+funkcji rzecznika konsumentów, członkostwo w Radzie wygasa.
+©Kancelaria Sejmu s. 29/73
+2017-06-28
+6. Obsługę administracyjną Rady zapewnia Urząd.
+7. Urząd zwraca członkom Rady koszty przejazdów na posiedzenia Rady, na
+zasadach określonych w przepisach w sprawie należności przysługujących
+pracownikowi zatrudnionemu w państwowej lub samorządowej jednostce sfery
+budżetowej z tytułu podróży służbowej na obszarze kraju.
+8. Tryb pracy Rady określa regulamin ustalony przez Prezesa Urzędu.
+Art. 45. 1. Organizacje konsumenckie reprezentują interesy konsumentów
+wobec organów administracji rządowej i samorządowej i mogą uczestniczyć
+w realizacji rządowej polityki konsumenckiej.
+2. Organizacje, o których mowa w ust. 1, mają w szczególności prawo do:
+1) wyrażania opinii o projektach aktów prawnych i innych dokumentów
+dotyczących praw i interesów konsumentów;
+2) opracowywania i upowszechniania konsumenckich programów edukacyjnych;
+3) wykonywania testów produktów i usług oraz publikowania ich wyników;
+4) wydawania czasopism, opracowań badawczych, broszur i ulotek;
+5) prowadzenia nieodpłatnego poradnictwa konsumenckiego oraz udzielania
+nieodpłatnej pomocy konsumentom w dochodzeniu ich roszczeń, chyba że statut
+organizacji stanowi, że działalność ta jest wykonywana odpłatnie;
+6) udziału w pracach normalizacyjnych;
+7) realizowania zadań państwowych w dziedzinie ochrony konsumentów,
+zlecanych przez organy administracji rządowej i samorządowej;
+8) ubiegania się o dotacje ze środków publicznych na realizację zadań, o których
+mowa w pkt 7.
+3. Organy administracji rządowej i samorządowej są obowiązane do zasięgania
+opinii organizacji konsumenckich w sprawach dotyczących kierunków działania na
+rzecz ochrony interesów konsumentów.
+Art. 46. Wysokość rocznych dotacji celowych, w rozumieniu przepisów
+o finansach publicznych, przekazywanych z budżetu państwa na realizację zadań,
+o których mowa w art. 45 ust. 2 pkt 7, jest ustalana w ustawie budżetowej w części
+budżetu państwa, której dysponentem jest Prezes Urzędu.
+©Kancelaria Sejmu s. 30/73
+2017-06-28
+DZIAŁ VI
+Postępowanie przed Prezesem Urzędu
+Rozdział 1
+Przepisy ogólne
+Art. 47. 1. Postępowanie przed Prezesem Urzędu jest prowadzone jako
+postępowanie wyjaśniające, postępowanie antymonopolowe, postępowanie w sprawie
+o uznanie postanowień wzorca umowy za niedozwolone lub postępowanie w sprawie
+praktyk naruszających zbiorowe interesy konsumentów.
+2. Postępowanie wyjaśniające może poprzedzać wszczęcie postępowania
+antymonopolowego, postępowania w sprawie o uznanie postanowień wzorca umowy
+za niedozwolone lub postępowania w sprawie praktyk naruszających zbiorowe
+interesy konsumentów.
+Art. 48. 1. Prezes Urzędu może wszcząć z urzędu, w drodze postanowienia,
+postępowanie wyjaśniające, jeżeli okoliczności wskazują na możliwość naruszenia
+przepisów ustawy, w sprawach dotyczących określonej gałęzi gospodarki, w sprawach
+dotyczących ochrony interesów konsumentów oraz w innych przypadkach, gdy
+ustawa tak stanowi.
+2. Postępowanie wyjaśniające może mieć na celu w szczególności:
+1) wstępne ustalenie, czy nastąpiło naruszenie przepisów ustawy uzasadniające
+wszczęcie postępowania antymonopolowego, w tym, czy sprawa ma charakter
+antymonopolowy;
+1a) wstępne ustalenie, czy nastąpiło naruszenie uzasadniające wszczęcie
+postępowania w sprawie o uznanie postanowień wzorca umowy za
+niedozwolone;
+2) wstępne ustalenie, czy nastąpiło naruszenie uzasadniające wszczęcie
+postępowania w sprawie praktyk naruszających zbiorowe interesy
+konsumentów;
+3) badanie rynku, w tym określenie jego struktury i stopnia koncentracji;
+4) wstępne ustalenie istnienia obowiązku zgłoszenia zamiaru koncentracji;
+5) ustalenie, czy miało miejsce naruszenie chronionych prawem interesów
+konsumentów uzasadniające podjęcie działań określonych w odrębnych
+ustawach.
+3. Zakończenie postępowania wyjaśniającego następuje w drodze
+postanowienia.
+©Kancelaria Sejmu s. 31/73
+2017-06-28
+4. Postępowanie wyjaśniające nie powinno trwać dłużej niż 4 miesiące,
+a w sprawach szczególnie skomplikowanych – nie dłużej niż 5 miesięcy od dnia jego
+wszczęcia.
+5. W przypadku, o którym mowa w ust. 2 pkt 3, przepisu ust. 4 oraz
+art. 35 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego
+(Dz. U. z 2016 r. poz. 23, 868, 996, 1579 i 2138) nie stosuje się.
+Art. 49. 1. Postępowanie antymonopolowe w sprawach praktyk ograniczających
+konkurencję, postępowanie w sprawach praktyk naruszających zbiorowe interesy
+konsumentów, postępowanie w sprawach o uznanie postanowień wzorca umowy za
+niedozwolone oraz w sprawach nakładania kar pieniężnych wszczyna się z urzędu.
+2. Postępowanie antymonopolowe w sprawach koncentracji wszczyna się na
+wniosek lub z urzędu.
+Art. 49a. 1. Prezes Urzędu, bez wszczynania postępowania, może wystąpić do
+przedsiębiorcy w sprawach z zakresu ochrony konkurencji i konsumentów.
+2. Przedsiębiorca, do którego Prezes Urzędu skierował wystąpienie, może
+w terminie określonym przez Prezesa Urzędu przekazać stanowisko w sprawie, której
+dotyczy wystąpienie.
+3. Termin, o którym mowa w ust. 2, nie może być krótszy niż 14 dni, licząc od
+dnia otrzymania przez przedsiębiorcę wystąpienia.
+Art. 50. 1. Przedsiębiorcy są obowiązani do przekazywania wszelkich
+koniecznych informacji i dokumentów na żądanie Prezesa Urzędu.
+2. Żądanie, o którym mowa w ust. 1, powinno zawierać:
+1) wskazanie zakresu informacji;
+2) wskazanie celu żądania;
+3) wskazanie terminu udzielenia informacji;
+4) pouczenie o sankcjach za nieudzielenie informacji lub za udzielenie informacji
+nieprawdziwych lub wprowadzających w błąd.
+3. Każdy ma prawo składania na piśmie – z własnej inicjatywy lub na prośbę
+Prezesa Urzędu – wyjaśnień dotyczących istotnych okoliczności sprawy.
+Art. 51. 1. Dowodem z dokumentu w postępowaniu przed Prezesem Urzędu
+może być tylko oryginał dokumentu lub jego kopia poświadczona przez organ
+administracji publicznej, notariusza, adwokata, radcę prawnego, doradcę
+podatkowego, rzecznika patentowego lub upoważnionego pracownika przedsiębiorcy.
+©Kancelaria Sejmu s. 32/73
+2017-06-28
+2. Dowodem w postępowaniu przed Prezesem Urzędu jest dokument
+sporządzony w języku polskim, z zastrzeżeniem ust. 3.
+3. Jeżeli dokument został sporządzony w języku obcym, należy przedłożyć także
+poświadczone przez tłumacza przysięgłego tłumaczenie na język polski tego
+dokumentu albo jego części mającej stanowić dowód w sprawie.
+Art. 52. 1. Strona, powołująca się na dowód ze świadków, jest obowiązana
+wskazać fakty, które mają być potwierdzone zeznaniami poszczególnych świadków,
+oraz podać dane umożliwiające prawidłowe wezwanie świadka.
+2. Prezes Urzędu, wzywając świadka, podaje w wezwaniu imię, nazwisko
+i miejsce zamieszkania wezwanego, miejsce i czas składania wyjaśnień, określa strony
+i przedmiot sprawy oraz wskazuje przepisy o odpowiedzialności karnej za składanie
+fałszywych zeznań.
+Art. 53. 1. Zeznanie świadka, po spisaniu do protokołu, będzie mu odczytane
+i, stosownie do okoliczności, na podstawie jego uwag uzupełnione lub sprostowane.
+2. Protokół przesłuchania świadka podpisuje świadek i prowadzący
+przesłuchanie pracownik Urzędu.
+Art. 54. 1. W sprawach wymagających wiadomości specjalnych Prezes Urzędu,
+po wysłuchaniu wniosków stron co do liczby biegłych i ich wyboru, może wezwać
+jednego lub kilku biegłych w celu zasięgnięcia ich opinii.
+2. Biegłym, w rozumieniu ust. 1, może być również osoba prawna
+wyspecjalizowana w danej dziedzinie.
+Art. 55. Strona może żądać wyłączenia biegłego z przyczyn, z jakich można
+żądać wyłączenia pracownika Urzędu, do ukończenia czynności biegłego. Strona
+składająca wniosek o wyłączenie biegłego po rozpoczęciu przez niego czynności jest
+obowiązana uprawdopodobnić, że przyczyna uzasadniająca wyłączenie powstała
+później lub że wcześniej nie była jej znana.
+Art. 56. Prezes Urzędu może zarządzić okazanie biegłemu akt sprawy
+i przedmiotu oględzin. Przepisy art. 71 ust. 1 stosuje się odpowiednio.
+Art. 57. 1. Opinia biegłego powinna zawierać uzasadnienie.
+2. Biegli mogą złożyć opinię łączną.
+Art. 58. 1. Prezes Urzędu przyznaje biegłym wynagrodzenie według przepisów
+o kosztach prowadzenia dowodu z opinii biegłego w postępowaniu sądowym,
+z zastrzeżeniem ust. 3.
+©Kancelaria Sejmu s. 33/73
+2017-06-28
+2. Prezes Urzędu może nałożyć na stronę, która złożyła wniosek
+o przeprowadzenie dowodu z opinii biegłego, obowiązek wpłacenia zaliczki na poczet
+wydatków biegłego.
+3. Jeżeli nie wydano decyzji stwierdzającej stosowanie praktyki ograniczającej
+konkurencję albo naruszającej zbiorowe interesy konsumentów, koszty
+wynagrodzenia biegłego ponosi Skarb Państwa.
+Art. 59. 1. Prezes Urzędu może zwrócić się o wydanie opinii do jednostki
+naukowej w rozumieniu przepisów o zasadach finansowania nauki.
+2. W opinii jednostka wskazuje osobę albo osoby, które przeprowadziły badania
+i wydały opinię.
+3. Przepisy art. 54–58 stosuje się odpowiednio.
+Art. 60. 1. Prezes Urzędu może w toku postępowania przeprowadzić rozprawę.
+2. Rozprawa, o której mowa w ust. 1, jest jawna, z zastrzeżeniem ust. 4.
+3. Prezes Urzędu może wezwać na rozprawę i przesłuchać strony, świadków oraz
+zasięgnąć opinii biegłych.
+4. Rozprawa, o której mowa w ust. 1, jest niejawna, jeżeli są podczas niej
+rozpatrywane informacje stanowiące tajemnicę przedsiębiorstwa, jak również inne
+tajemnice podlegające ochronie na podstawie odrębnych przepisów. Przepisy art. 153
+i 154 ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego stosuje się
+odpowiednio.
+Art. 61. Prezes Urzędu może zwrócić się o przesłuchanie świadków lub
+o zasięgnięcie opinii biegłych do właściwego miejscowo sądu rejonowego, jeżeli
+przemawia za tym charakter dowodu albo wzgląd na poważne niedogodności lub
+znaczną wysokość kosztów przeprowadzenia dowodu. Prezes Urzędu, zwracając się
+do sądu o przeprowadzenie dowodu, wydaje postanowienie, w którym określa:
+1) sąd, który ma przeprowadzić dowód;
+2) środek dowodowy;
+3) fakty podlegające stwierdzeniu.
+Art. 62. (uchylony)
+Art. 63. (uchylony)
+Art. 64. (uchylony)
+Art. 65. (uchylony)
+Art. 66. (uchylony)
+©Kancelaria Sejmu s. 34/73
+2017-06-28
+Art. 67. (uchylony)
+Art. 68. (uchylony)
+Art. 69. 1. Prezes Urzędu, na wniosek lub z urzędu, może, w drodze
+postanowienia, w niezbędnym zakresie ograniczyć prawo wglądu do materiału
+dowodowego załączonego do akt sprawy, jeżeli udostępnienie tego materiału
+groziłoby ujawnieniem tajemnicy przedsiębiorstwa, jak również innych tajemnic
+podlegających ochronie na podstawie odrębnych przepisów.
+2. Ograniczenie, o którym mowa w ust. 1, dotyczy również materiałów
+włączonych do postępowania na podstawie art. 73 ust. 5.
+3. Na postanowienie wydane na podstawie ust. 1 przysługuje zażalenie.
+4. Wniosek o ograniczenie prawa wglądu do materiału dowodowego składa się
+wraz z uzasadnieniem oraz wersją dokumentu niezawierającą informacji objętych
+ograniczeniem, o którym mowa w ust. 1, ze stosowną adnotacją.
+4a. Jeżeli wniosek nie spełnia wymagań określonych w ust. 4, Prezes Urzędu
+wzywa wnioskodawcę do jego uzupełnienia w wyznaczonym terminie. W przypadku
+nieprzedłożenia w wyznaczonym terminie wersji dokumentu, o której mowa w ust. 4,
+wniosek pozostawia się bez rozpoznania.
+5. Stronom oraz podmiotom zainteresowanym udostępnia się materiał
+dowodowy niezawierający informacji objętych ograniczeniem, o którym mowa w ust.
+1, ze stosowną adnotacją.
+Art. 70. 1. Wszelkie informacje i dowody uzyskane przez Prezesa Urzędu
+w związku z zastosowaniem art. 89a i art. 113a–113k, w tym informacje
+o wystąpieniu przedsiębiorcy lub osoby zarządzającej o odstąpienie od wymierzenia
+kary pieniężnej lub jej obniżenie oraz informacje uzyskane w procedurze
+dobrowolnego poddania się karze pieniężnej, nie podlegają udostępnieniu,
+z zastrzeżeniem ust. 2 i 3.
+2. Prezes Urzędu udostępnia stronom informacje i dowody, o których mowa
+w ust. 1, przed wydaniem decyzji.
+3. Przepisu ust. 1 nie stosuje się, w przypadku gdy przedsiębiorca lub osoba
+zarządzająca występujący o odstąpienie od wymierzenia kary pieniężnej lub jej
+obniżenie lub przedsiębiorca lub osoba zarządzająca przystępujący do procedury
+w sprawie dobrowolnego poddania się karze pieniężnej wyrażą pisemną zgodę na
+udostępnienie informacji i dowodów, o których mowa w ust. 1.
+©Kancelaria Sejmu s. 35/73
+2017-06-28
+4. Dokumenty zawierające informacje i dowody mające charakter oświadczenia
+przedsiębiorcy lub osoby zarządzającej występujących o odstąpienie od wymierzenia
+kary pieniężnej lub jej obniżenie oraz przedsiębiorcy lub osoby zarządzającej
+przystępujących do procedury dobrowolnego poddania się karze pieniężnej mogą być
+kopiowane przez stronę wyłącznie, gdy przedsiębiorca lub osoba zarządzająca wyrażą
+na to pisemną zgodę.
+5. Z informacji i dowodów, o których mowa w ust. 4, mogą być sporządzane
+odręczne notatki o ile strona je sporządzająca zobowiąże się do wykorzystania
+uzyskanych w ten sposób informacji wyłącznie na potrzeby postępowania toczącego
+się przed Prezesem Urzędu lub postępowania przed sądem prowadzonego w wyniku
+wniesienia środka odwoławczego w sprawie.
+6. Informacje i dowody, o których mowa w ust. 1, nie podlegają udostępnieniu
+w trybie przepisów ustawy z dnia 6 września 2001 r. o dostępie do informacji
+publicznej.
+Art. 71. 1. Pracownicy Urzędu są obowiązani do ochrony tajemnicy
+przedsiębiorstwa, jak również innych informacji, podlegających ochronie na
+podstawie odrębnych przepisów, o których powzięli wiadomość w toku postępowania.
+2. Przepisu ust. 1 nie stosuje się do informacji powszechnie dostępnych,
+informacji o wszczęciu postępowania oraz informacji o wydaniu decyzji kończących
+postępowanie i ich ustaleniach.
+3. Przepisy ust. 1 i 2 stosuje się również do pracowników Inspekcji Handlowej
+oraz innych osób biorących udział w kontroli, o których mowa w art. 105a ust. 2.
+Art. 72. Organy administracji publicznej są obowiązane do udostępniania
+Prezesowi Urzędu znajdujących się w ich posiadaniu akt oraz informacji istotnych dla
+postępowania toczącego się przed Prezesem Urzędu.
+Art. 73. 1. Informacje uzyskane w toku postępowania nie mogą być
+wykorzystane w innych postępowaniach prowadzonych na podstawie odrębnych
+przepisów, z zastrzeżeniem ust. 2–4.
+2. Przepis ust. 1 nie dotyczy:
+1) postępowania karnego prowadzonego w trybie publicznoskargowym lub
+postępowania karno-skarbowego;
+2) innych postępowań prowadzonych przez Prezesa Urzędu;
+©Kancelaria Sejmu s. 36/73
+2017-06-28
+3) wymiany informacji z Komisją Europejską i organami ochrony konkurencji
+państw członkowskich Unii Europejskiej na podstawie rozporządzenia
+nr 1/2003/WE;
+4) wymiany informacji z Komisją Europejską i właściwymi organami państw
+członkowskich Unii Europejskiej na podstawie rozporządzenia
+nr 2006/2004/WE;
+5) przekazywania właściwym organom informacji, które mogą wskazywać na
+naruszenie odrębnych przepisów;
+6) postępowania cywilnego o naprawienie szkody wyrządzonej przez naruszenie
+prawa konkurencji w rozumieniu ustawy z dnia 21 kwietnia 2017 r.
+o roszczeniach o naprawienie szkody wyrządzonej przez naruszenie prawa
+konkurencji (Dz. U. poz. 1132) – w zakresie, w jakim przepisy wymienionej
+ustawy zezwalają na wykorzystanie informacji, o których mowa w ust. 1.
+3. Prezes Urzędu udostępnia organom regulacyjnym w dziedzinie rynku usług
+telekomunikacyjnych i pocztowych oraz gospodarki paliwami i energią, zwanym dalej
+„organami regulacyjnymi”, informacje, w tym wyniki badań i analiz rynkowych,
+niezbędne w postępowaniach prowadzonych przez te organy, z wyjątkiem informacji:
+1) co do których obowiązek zachowania poufności wynika z zobowiązań
+międzynarodowych, w szczególności informacji uzyskanych w toku postępowań
+wszczętych na podstawie art. 101 lub art. 102 TFUE;
+2) uzyskanych w związku z zastosowaniem art. 89a i art. 113a–113k.
+4. Organy regulacyjne są obowiązane do ochrony informacji uzyskanych na
+podstawie ust. 3, w szczególności informacje te nie mogą być wykorzystane
+w postępowaniach innych niż prowadzone przez organy regulacyjne. Przepisy art. 69
+i 71 stosuje się odpowiednio.
+5. Informacje uzyskane w toku postępowania od organu ochrony konkurencji
+państwa członkowskiego Unii Europejskiej mogą być wykorzystane w toku tego
+postępowania na warunkach, na jakich zostały przekazane przez ten organ, włączając
+w to niewykorzystanie informacji do nałożenia sankcji na określone osoby.
+6. Prezes Urzędu zawiadamia strony o zaliczeniu w poczet dowodów informacji
+uzyskanych w trakcie innego prowadzonego przez niego postępowania.
+Art. 73a. 1. Jeżeli z informacji zgromadzonych w toku postępowania w sprawie
+praktyk naruszających zbiorowe interesy konsumentów wynika, że istnieje
+szczególnie uzasadnione podejrzenie, że przedsiębiorca dopuszcza się praktyki
+naruszającej zbiorowe interesy konsumentów, która może spowodować znaczne straty
+©Kancelaria Sejmu s. 37/73
+2017-06-28
+lub niekorzystne skutki dla szerokiego kręgu konsumentów, Prezes Urzędu podaje do
+publicznej wiadomości, w tym na stronie internetowej Urzędu, zgromadzone w toku
+postępowania informacje o tym zachowaniu i jego prawdopodobnych skutkach.
+2. Rozstrzygnięcie w przedmiocie podania do publicznej wiadomości informacji,
+o których mowa w ust. 1, następuje w drodze postanowienia. Na postanowienie to
+stronie służy zażalenie.
+Art. 74. Prezes Urzędu, wydając decyzję kończącą postępowanie, uwzględnia
+tylko zarzuty, do których strony mogły się ustosunkować.
+Art. 75. 1. Prezes Urzędu umarza postępowanie, w drodze postanowienia,
+w przypadku:
+1) wycofania zgłoszenia zamiaru koncentracji przedsiębiorców;
+2) nienałożenia kary pieniężnej, o której mowa w art. 106 ust. 2, art. 107 i 108;
+3) przejęcia sprawy przez Komisję Europejską na podstawie przepisów prawa
+wspólnotowego.
+2. Prezes Urzędu może, w drodze postanowienia, umorzyć postępowanie
+w przypadku rozstrzygnięcia sprawy przez właściwy organ ochrony konkurencji
+państwa członkowskiego Unii Europejskiej.
+Art. 76. Nie wszczyna się, z zastrzeżeniem art. 93, art. 99f i art. 105,
+postępowania, jeżeli upłynęło 5 lat od końca roku, w którym:
+1) dopuszczono się naruszenia przepisów ustawy;
+2) uprawomocniła się decyzja o nałożeniu kary pieniężnej.
+Art. 77. 1. Jeżeli w wyniku postępowania Prezes Urzędu stwierdził naruszenie
+przepisów ustawy, przedsiębiorca, który dopuścił się tego naruszenia oraz osoba
+zarządzająca, o której mowa w art. 6a, są obowiązani ponieść koszty postępowania.
+2. W szczególnie uzasadnionych przypadkach Prezes Urzędu może nałożyć na
+stronę obowiązek zwrotu tylko części kosztów albo nie obciążać jej kosztami.
+Art. 78. Prezes Urzędu może, niezależnie od wyniku sprawy, nałożyć na stronę
+obowiązek zwrotu kosztów wywołanych jej niesumiennym lub oczywiście
+niewłaściwym postępowaniem, a w szczególności kosztów powstałych wskutek
+uchylenia się od wyjaśnień lub złożenia wyjaśnień niezgodnych z prawdą, zatajenia
+lub opóźnionego powołania dowodów.
+©Kancelaria Sejmu s. 38/73
+2017-06-28
+Art. 79. Koszty niezbędnych opinii biegłych i jednostek naukowych
+w rozumieniu przepisów o zasadach finansowania nauki w sprawach dotyczących
+koncentracji ponoszą przedsiębiorcy uczestniczący w koncentracji.
+Art. 80. Prezes Urzędu rozstrzyga o kosztach, w drodze postanowienia, które
+może być zamieszczone w decyzji kończącej postępowanie.
+Art. 81. 1. Od decyzji Prezesa Urzędu przysługuje odwołanie do Sądu
+Okręgowego w Warszawie – sądu ochrony konkurencji i konsumentów, zwanego
+dalej „sądem ochrony konkurencji i konsumentów”, w terminie miesiąca od dnia jej
+doręczenia.
+2. W przypadku wniesienia odwołania od decyzji Prezes Urzędu przekazuje je
+wraz z aktami sprawy do sądu ochrony konkurencji i konsumentów niezwłocznie, nie
+później niż w terminie 3 miesięcy od dnia wniesienia odwołania.
+3. Jeżeli Prezes Urzędu uzna odwołanie za słuszne, może – nie przekazując akt
+sądowi – uchylić albo zmienić swoją decyzję w całości lub w części, o czym
+bezzwłocznie powiadamia stronę, przesyłając jej nową decyzję, od której stronie
+przysługuje odwołanie. Uchylając albo zmieniając decyzję, Prezes Urzędu stwierdza
+jednocześnie, czy decyzja ta została wydana bez podstawy prawnej albo z rażącym
+naruszeniem prawa.
+3a. W przypadku wniesienia odwołania od decyzji, uwzględniającej ostateczne
+stanowisko strony o dobrowolnym poddaniu się karze pieniężnej, Prezes Urzędu, nie
+przekazując akt sądowi, w razie:
+1) uznania odwołania za słuszne:
+a) uchyla swoją decyzję zgodnie z zasadami określonymi w ust. 3 albo
+b) zmienia swoją decyzję w całości lub w części zgodnie z zasadami
+określonymi w ust. 3, zmieniając ją również w zakresie kary pieniężnej;
+karę pieniężną nakłada się w wysokości, w jakiej zostałaby ona nałożona,
+gdyby strona nie poddała się dobrowolnie karze pieniężnej;
+2) nieuznania odwołania za słuszne – zmienia swoją decyzję w zakresie kary
+pieniężnej, ustalając ją w wysokości, w jakiej zostałaby nałożona, gdyby strona
+nie poddała się dobrowolnie karze pieniężnej, o czym niezwłocznie powiadamia
+stronę, przesyłając jej nową decyzję, od której przysługuje odwołanie.
+4. Przed przekazaniem odwołania do sądu ochrony konkurencji i konsumentów
+lub uchyleniem albo zmianą decyzji na podstawie ust. 3 lub 3a, Prezes Urzędu może
+©Kancelaria Sejmu s. 39/73
+2017-06-28
+również, w uzasadnionych przypadkach, przeprowadzić dodatkowe czynności,
+zmierzające do wyjaśnienia zarzutów podniesionych w odwołaniu.
+5. Do postanowień Prezesa Urzędu, na które przysługuje zażalenie, przepisy
+ust. 1–3 i 4 stosuje się odpowiednio, z tym że zażalenie wnosi się w terminie tygodnia
+od dnia doręczenia postanowienia.
+Art. 82. 1. Od decyzji Prezesa Urzędu stronie nie przysługują środki prawne
+wzruszenia decyzji przewidziane w Kodeksie postępowania administracyjnego,
+dotyczące wznowienia postępowania, uchylenia, zmiany lub stwierdzenia nieważności
+decyzji.
+2. Przepis ust. 1 stosuje się odpowiednio do postanowień Prezesa Urzędu.
+Art. 83. W sprawach nieuregulowanych w ustawie do postępowania przed
+Prezesem Urzędu stosuje się przepisy ustawy z dnia 14 czerwca 1960 r. – Kodeks
+postępowania administracyjnego, z zastrzeżeniem art. 84.
+Art. 84. W sprawach dotyczących dowodów w postępowaniu przed Prezesem
+Urzędu w zakresie nieuregulowanym w niniejszym rozdziale stosuje się odpowiednio
+art. 227–315 ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego.
+Art. 85. Przepisy niniejszego działu stosuje się odpowiednio w sprawach
+nakładania kar pieniężnych za naruszenie przepisów ustawy.
+Rozdział 2
+Postępowanie antymonopolowe w sprawach praktyk ograniczających
+konkurencję
+Art. 86. 1. Każdy może zgłosić Prezesowi Urzędu na piśmie zawiadomienie
+dotyczące podejrzenia stosowania praktyk ograniczających konkurencję wraz
+z uzasadnieniem.
+2. Zawiadomienie, o którym mowa w ust. 1, może zawierać w szczególności:
+1) wskazanie przedsiębiorcy, któremu jest zarzucane stosowanie praktyki
+ograniczającej konkurencję;
+2) opis stanu faktycznego będącego podstawą zawiadomienia;
+3) wskazanie przepisu ustawy lub TFUE, którego naruszenie zarzuca zgłaszający
+zawiadomienie;
+4) uprawdopodobnienie naruszenia przepisów ustawy lub TFUE;
+5) dane identyfikujące zgłaszającego zawiadomienie.
+©Kancelaria Sejmu s. 40/73
+2017-06-28
+3. Do zawiadomienia dołącza się wszelkie dokumenty, które mogą stanowić
+dowód naruszenia przepisów ustawy.
+4. Prezes Urzędu przekazuje zgłaszającemu zawiadomienie, w terminie
+określonym w art. 35–37 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+administracyjnego, informację na piśmie o sposobie rozpatrzenia zawiadomienia wraz
+z uzasadnieniem.
+Art. 87. 1. Prezes Urzędu, zgodnie z art. 11 ust. 6 rozporządzenia nr 1/2003/WE,
+nie wszczyna postępowania antymonopolowego, w przypadku gdy:
+1) Komisja Europejska prowadzi postępowanie w tej samej sprawie;
+2) sprawa została rozstrzygnięta przez Komisję Europejską.
+2. Prezes Urzędu, zgodnie z art. 13 rozporządzenia nr 1/2003/WE, może nie
+wszcząć postępowania antymonopolowego, w przypadku gdy:
+1) właściwy organ ochrony konkurencji innego państwa członkowskiego Unii
+Europejskiej prowadzi postępowanie w tej samej sprawie;
+2) sprawa została rozstrzygnięta przez właściwy organ ochrony konkurencji innego
+państwa członkowskiego Unii Europejskiej.
+3. Jeżeli w przypadku, o którym mowa w ust. 2 pkt 1, Prezes Urzędu wszczął
+postępowanie antymonopolowe w sprawie, może, w drodze postanowienia, zawiesić
+postępowanie do czasu wydania rozstrzygnięcia przez właściwy organ ochrony
+konkurencji innego państwa członkowskiego Unii Europejskiej.
+Art. 88. 1. Stroną postępowania jest każdy, wobec kogo zostało wszczęte
+postępowanie w sprawie praktyk ograniczających konkurencję.
+2. Prezes Urzędu wydaje postanowienie o wszczęciu postępowania
+antymonopolowego i zawiadamia o tym strony.
+3. W sprawach porozumień ograniczających konkurencję, o których mowa
+w art. 6 ust. 1 pkt 1–6 ustawy lub w art. 101 ust. 1 lit. a–e TFUE, Prezes Urzędu
+wszczyna jedno postępowanie antymonopolowe w sprawie:
+1) naruszenia przez przedsiębiorcę zakazu określonego w tych przepisach;
+2) dopuszczenia przez osobę zarządzającą do naruszenia przez przedsiębiorcę tego
+zakazu.
+4. Przepis ust. 3 stosuje się również, w przypadku gdy Prezes Urzędu powziął
+wiadomość o okolicznościach wskazujących na dopuszczenie przez osobę
+zarządzającą do naruszenia przez przedsiębiorcę zakazów określonych w art. 6 ust. 1
+©Kancelaria Sejmu s. 41/73
+2017-06-28
+pkt 1–6 ustawy lub w art. 101 ust. 1 lit. a–e TFUE po wszczęciu postępowania
+antymonopolowego w sprawie naruszenia tych zakazów przez przedsiębiorcę.
+Art. 89. 1. Jeżeli w toku postępowania antymonopolowego zostanie
+uprawdopodobnione, że dalsze stosowanie zarzucanej praktyki może spowodować
+poważne i trudne do usunięcia zagrożenia dla konkurencji, Prezes Urzędu przed
+zakończeniem postępowania antymonopolowego może, w drodze decyzji,
+zobowiązać przedsiębiorcę, któremu jest zarzucane stosowanie praktyki, do
+zaniechania określonych działań w celu zapobieżenia tym zagrożeniom. Wniesienie
+odwołania nie wstrzymuje wykonania decyzji. Przed wydaniem decyzji stronie nie
+przysługuje prawo do wypowiedzenia się co do zebranych dowodów i materiałów oraz
+zgłoszonych żądań, o którym mowa w art. 10 ustawy z dnia 14 czerwca 1960 r. –
+Kodeks postępowania administracyjnego.
+2. W decyzji, o której mowa w ust. 1, Prezes Urzędu określa czas jej
+obowiązywania. Decyzja ta obowiązuje nie dłużej niż do czasu wydania decyzji
+kończącej postępowanie w sprawie.
+3. Prezes Urzędu może przedłużyć, w drodze decyzji, czas obowiązywania
+decyzji, o której mowa w ust. 1. Przepis ust. 2 zdanie drugie stosuje się odpowiednio.
+4. W decyzji, o której mowa w ust. 1, nie nakłada się kar, o których mowa w art.
+106 ust. 1 pkt 1 i 2.
+5. W przypadku wniesienia odwołania od decyzji, o której mowa w ust. 1, Prezes
+Urzędu przekazuje je wraz z aktami sprawy do sądu w terminie 10 dni od dnia
+otrzymania odwołania.
+6. Sąd ochrony konkurencji i konsumentów rozpoznaje odwołanie w terminie
+2 miesięcy od dnia przekazania odwołania przez Prezesa Urzędu.
+Art. 89a. 1. Przed zakończeniem postępowania antymonopolowego Prezes
+Urzędu może wystąpić, z urzędu lub na wniosek strony, do wszystkich stron
+z propozycją przystąpienia do procedury dobrowolnego poddania się karze pieniężnej,
+jeżeli uzna, że zastosowanie tej procedury przyczyni się do przyspieszenia
+postępowania.
+2. W przypadku wystąpienia przez stronę z wnioskiem, o którym mowa w ust. 1,
+Prezes Urzędu w terminie 14 dni informuje tę stronę o rozpoczęciu bądź odmowie
+rozpoczęcia procedury dobrowolnego poddania się karze pieniężnej.
+3. W przypadku zastosowania procedury, o której mowa w ust. 1, wysokość kary
+pieniężnej, jaka może zostać nałożona na stronę, której ostateczne stanowisko,
+©Kancelaria Sejmu s. 42/73
+2017-06-28
+o którym mowa w ust. 7, zostało uwzględnione w treści decyzji, zostaje obniżona
+o 10% w stosunku do kary pieniężnej, jaka zostałaby nałożona na podstawie art. 106
+ust. 1 pkt 1 lub 2 lub art. 106a ust. 1, gdyby strona nie poddała się dobrowolnie karze.
+4. Strona przedstawia stanowisko do propozycji Prezesa Urzędu, o której mowa
+w ust. 1, w terminie 14 dni od dnia jej doręczenia.
+5. W przypadku zgody na przystąpienie do procedury dobrowolnego poddania
+się karze pieniężnej Prezes Urzędu informuje stronę, która tę zgodę wyraziła,
+o wstępnych ustaleniach postępowania antymonopolowego jej dotyczących oraz
+o przewidywanej treści decyzji, w tym o wysokości kary pieniężnej obniżonej zgodnie
+z ust. 3, jaka zostanie na stronę nałożona na podstawie art. 106 ust. 1 pkt 1 lub 2 lub
+art. 106a ust. 1, a także o skutkach wniesienia odwołania wynikających z art. 81
+ust. 3a. Przepis ust. 4 stosuje się odpowiednio.
+6. Prezes Urzędu po zapoznaniu się ze stanowiskiem strony ponownie przekazuje
+jej informacje w zakresie, o którym mowa w ust. 5, biorąc pod uwagę informacje
+i dowody przez nią przedstawione. Przepis ust. 4 stosuje się odpowiednio.
+7. Po zapoznaniu się ze stanowiskiem strony do informacji, o których mowa
+w ust. 6, Prezes Urzędu wzywa ją do zajęcia w wyznaczonym terminie, nie krótszym
+niż 14 dni, ostatecznego stanowiska w sprawie dobrowolnego poddania się karze
+pieniężnej.
+8. Ostateczne stanowisko, o którym mowa w ust. 7, zawiera oświadczenie strony
+o dobrowolnym poddaniu się karze pieniężnej oraz potwierdzenie:
+1) wysokości kary pieniężnej zaakceptowanej przez stronę;
+2) o poinformowaniu strony o zarzucanych jej naruszeniach i umożliwieniu zajęcia
+stanowiska, a także pouczeniu o skutkach wniesienia odwołania wynikających
+z art. 81 ust. 3a.
+9. Prezes Urzędu uwzględnia ostateczne stanowisko, o którym mowa w ust. 7,
+w treści decyzji, o której mowa w art. 10, z zastrzeżeniem ust. 10 i 11.
+10. Prezes Urzędu może odstąpić od stosowania procedury w sprawie
+dobrowolnego poddania się karze pieniężnej na każdym etapie, jeśli uzna, że jej
+stosowanie nie przyczynia się do przyspieszenia postępowania, o czym informuje
+niezwłocznie stronę uczestniczącą w tej procedurze.
+11. Strona może odstąpić od uczestnictwa w procedurze dobrowolnego poddania
+się karze pieniężnej na każdym etapie, informując o tym Prezesa Urzędu.
+12. Wszelkie informacje i dowody uzyskane przez Prezesa Urzędu w związku
+z zastosowaniem procedury dobrowolnego poddania się karze pieniężnej, mające
+©Kancelaria Sejmu s. 43/73
+2017-06-28
+charakter oświadczenia strony uczestniczącej w tej procedurze, nie mogą być
+wykorzystane jako dowód w prowadzonym postępowaniu, w innych postępowaniach
+prowadzonych przez Prezesa Urzędu oraz w postępowaniach prowadzonych na
+podstawie odrębnych przepisów – w przypadkach, o których mowa w ust. 10 lub 11.
+13. Zakazu wykorzystania informacji i dowodów, o których mowa w ust. 12, nie
+stosuje się do postępowania cywilnego o naprawienie szkody wyrządzonej przez
+naruszenie prawa konkurencji w rozumieniu ustawy z dnia 21 kwietnia 2017 r.
+o roszczeniach o naprawienie szkody wyrządzonej przez naruszenie prawa
+konkurencji – w zakresie, w jakim przepisy wymienionej ustawy zezwalają na ich
+wykorzystanie jako dowodu.
+Art. 90. Prezes Urzędu może nadać rygor natychmiastowej wykonalności
+decyzji w całości lub w części, jeżeli wymaga tego ochrona konkurencji lub ważny
+interes konsumentów.
+Art. 91. 1. Jeżeli istnieją uzasadnione podstawy do przypuszczenia, że w lokalu
+mieszkalnym lub w jakimkolwiek innym pomieszczeniu, nieruchomości lub środku
+transportu są przechowywane przedmioty, akta, księgi, dokumenty i informatyczne
+nośniki danych w rozumieniu przepisów o informatyzacji działalności podmiotów
+realizujących zadania publiczne, mogące mieć wpływ na ustalenie stanu faktycznego
+istotnego dla prowadzonego postępowania, sąd ochrony konkurencji i konsumentów
+może, na wniosek Prezesa Urzędu, udzielić zgody na przeprowadzenie przeszukania,
+w tym na dokonanie zajęcia przedmiotów mogących stanowić dowód w sprawie,
+przez funkcjonariuszy Policji. Przepisy art. 105n ust. 3 i 4 stosuje się odpowiednio.
+2. W przeszukaniu, o którym mowa w ust. 1, bierze również udział upoważniony
+pracownik Urzędu lub inne osoby, o których mowa w art. 105a ust. 2.
+3. Policja, na polecenie sądu ochrony konkurencji i konsumentów, przeprowadza
+czynności, o których mowa w ust. 1.
+4. W zakresie nieuregulowanym w ustawie do przeszukania, o którym mowa
+w ust. 1, przepisy ustawy z dnia 6 czerwca 1997 r. – Kodeks postępowania karnego
+(Dz. U. z 2016 r. poz. 1749, 1948, 2138 i 2261) mające zastosowanie do przeszukania
+stosuje się odpowiednio.
+Art. 92. Postępowanie antymonopolowe w sprawach praktyk ograniczających
+konkurencję powinno być zakończone nie później niż w terminie 5 miesięcy od dnia
+jego wszczęcia. Przepisy art. 35–38 ustawy z dnia 14 czerwca 1960 r. – Kodeks
+postępowania administracyjnego stosuje się odpowiednio.
+©Kancelaria Sejmu s. 44/73
+2017-06-28
+Art. 93. 1. Nie wszczyna się postępowania w sprawie praktyk ograniczających
+konkurencję, jeżeli od końca roku, w którym zaprzestano ich stosowania, upłynęło
+5 lat.
+2. Nie wszczyna się postępowania w sprawie praktyk ograniczających
+konkurencję wobec osoby zarządzającej, jeżeli od końca roku, w którym zaprzestała
+zachowania określonego w art. 6a, upłynęło 5 lat.
+Rozdział 3
+Postępowanie antymonopolowe w sprawach koncentracji
+Art. 94. 1. Stroną postępowania jest każdy, kto zgłasza, zgodnie z ust. 2, zamiar
+koncentracji.
+2. Zgłoszenia zamiaru koncentracji dokonują:
+1) wspólnie łączący się przedsiębiorcy – w przypadku, o którym mowa w art. 13
+ust. 2 pkt 1;
+2) przedsiębiorca przejmujący kontrolę – w przypadku, o którym mowa w art. 13
+ust. 2 pkt 2;
+3) wspólnie wszyscy przedsiębiorcy biorący udział w utworzeniu wspólnego
+przedsiębiorcy – w przypadku, o którym mowa w art. 13 ust. 2 pkt 3;
+4) przedsiębiorca nabywający część mienia innego przedsiębiorcy – w przypadku,
+o którym mowa w art. 13 ust. 2 pkt 4.
+3. W przypadku gdy koncentracji dokonuje przedsiębiorca dominujący za
+pośrednictwem co najmniej dwóch przedsiębiorców zależnych, zgłoszenia zamiaru tej
+koncentracji dokonuje przedsiębiorca dominujący.
+4. Od wniosków o wszczęcie postępowania antymonopolowego w sprawach
+koncentracji przedsiębiorcy uiszczają opłaty. Jeżeli wraz ze złożonym wnioskiem nie
+zostanie uiszczona opłata, Prezes Urzędu wzywa wnioskodawcę do uiszczenia opłaty
+w terminie 7 dni, z pouczeniem, że nieuiszczenie opłaty spowoduje pozostawienie
+wniosku bez rozpatrzenia.
+4a. Opłaty, o których mowa w ust. 4, nie podlegają zwrotowi w przypadku
+zwrotu wniosku o wszczęcie postępowania antymonopolowego w sprawach
+koncentracji lub umorzenia postępowania.
+5. Opłaty, o których mowa w ust. 4, stanowią dochód budżetu państwa.
+6. Rada Ministrów określi, w drodze rozporządzenia:
+1) szczegółowe warunki, jakim powinno odpowiadać zgłoszenie zamiaru
+koncentracji, w tym wykaz informacji i dokumentów, które powinno ono
+©Kancelaria Sejmu s. 45/73
+2017-06-28
+zawierać, uwzględniając specyfikę działalności prowadzonej przez różne rodzaje
+przedsiębiorców, w szczególności przez instytucje finansowe;
+2) wysokość opłat, o których mowa w ust. 4, oraz tryb ich uiszczania, mając na
+uwadze, aby nie stanowiły one bariery dla przedsiębiorców w zakresie
+dokonywania koncentracji.
+Art. 95. 1. Prezes Urzędu:
+1) zwraca zgłoszenie zamiaru koncentracji przedsiębiorców, jeżeli zamiar
+koncentracji nie podlega zgłoszeniu;
+2) może zwrócić, w terminie 14 dni, zgłoszenie zamiaru koncentracji
+przedsiębiorców, jeżeli nie spełnia ono warunków, jakim powinno odpowiadać;
+3) może wezwać zgłaszającego zamiar koncentracji do usunięcia wskazanych
+braków w zgłoszeniu lub uzupełnienia w nim niezbędnych informacji
+w wyznaczonym terminie;
+4) może zwrócić zgłoszenie zamiaru koncentracji przedsiębiorców, jeżeli pomimo
+wezwania na podstawie pkt 3 zgłaszający zamiar koncentracji nie usuwa
+wskazanych braków lub nie uzupełnia informacji w wyznaczonym terminie.
+2. (uchylony)
+Art. 96. 1. Postępowanie antymonopolowe w sprawach koncentracji powinno
+być zakończone w terminie miesiąca od dnia jego wszczęcia.
+2. Do terminu określonego w ust. 1 nie wlicza się okresów oczekiwania na:
+1) dokonanie zgłoszenia przez pozostałych uczestników koncentracji;
+2) usunięcie braków lub uzupełnienie informacji, o których mowa w art. 95 ust. 1
+pkt 3;
+3) uiszczenie opłaty, o której mowa w art. 94 ust. 4.
+Art. 96a. 1. W sprawach:
+1) szczególnie skomplikowanych,
+2) co do których z informacji zawartych w zgłoszeniu zamiaru koncentracji lub
+innych informacji, w tym uzyskanych przez Prezesa Urzędu w toku
+prowadzonych postępowań, wynika, że istnieje uzasadnione
+prawdopodobieństwo istotnego ograniczenia konkurencji na rynku w wyniku
+dokonania koncentracji lub
+3) wymagających przeprowadzenia badania rynku
+– termin zakończenia postępowania ulega przedłużeniu o 4 miesiące.
+©Kancelaria Sejmu s. 46/73
+2017-06-28
+2. W przypadkach określonych w ust. 1 Prezes Urzędu przedłuża termin
+zakończenia postępowania w drodze postanowienia, na które nie przysługuje
+zażalenie. Postanowienie wymaga uzasadnienia.
+3. W sprawach, w których istnieje uzasadnione prawdopodobieństwo istotnego
+ograniczenia konkurencji na rynku w wyniku dokonania koncentracji, Prezes Urzędu
+przedstawia przedsiębiorcy lub przedsiębiorcom uczestniczącym w koncentracji
+zastrzeżenia wobec tej koncentracji. Przedstawienie zastrzeżeń wymaga uzasadnienia.
+4. Przedsiębiorca może ustosunkować się do zastrzeżeń w terminie 14 dni od
+dnia ich doręczenia. Prezes Urzędu, na uzasadniony wniosek przedsiębiorcy,
+przedłuża ten termin o nie więcej niż 14 dni.
+5. Prezes Urzędu może przedstawić przedsiębiorcy lub przedsiębiorcom
+uczestniczącym w koncentracji warunki, o których mowa w art. 19 ust. 2. Przepis
+ust. 4 stosuje się odpowiednio.
+6. Przedsiębiorca uczestniczący w koncentracji może przedstawić warunki,
+o których mowa w art. 19 ust. 2, i zobowiązać się do ich spełnienia. Warunki te mogą
+zostać przedstawione również w stanowisku przedsiębiorcy dotyczącym warunków
+zaproponowanych przez Prezesa Urzędu.
+7. Brak stanowiska przedsiębiorcy, jego negatywne stanowisko co do warunków
+przedstawionych przez Prezesa Urzędu lub niezaakceptowanie przez Prezesa Urzędu
+warunków przedstawionych przez przedsiębiorcę powodują wydanie decyzji, o której
+mowa w art. 20 ust. 1.
+8. Do terminu określonego w ust. 1 nie wlicza się okresów oczekiwania na:
+1) usunięcie braków lub uzupełnienie informacji, o których mowa w art. 95 ust. 1
+pkt 3;
+2) ustosunkowanie się do przedstawionych przez Prezesa Urzędu zastrzeżeń,
+o których mowa w ust. 3, lub warunków, o których mowa w art. 19 ust. 2.
+9. W przypadku przedstawienia przez przedsiębiorcę warunków, o których
+mowa w art. 19 ust. 2, termin określony w ust. 1 ulega przedłużeniu o 14 dni.
+Art. 97. 1. Przedsiębiorcy, których zamiar koncentracji podlega zgłoszeniu, są
+obowiązani do wstrzymania się od dokonania koncentracji do czasu wydania przez
+Prezesa Urzędu decyzji lub upływu terminu, w jakim decyzja powinna zostać wydana.
+2. Czynność prawna, na podstawie której ma nastąpić koncentracja, może być
+dokonana pod warunkiem wydania przez Prezesa Urzędu, w drodze decyzji, zgody na
+dokonanie koncentracji lub upływu terminów, o których mowa w art. 96 lub
+w art. 96a.
+©Kancelaria Sejmu s. 47/73
+2017-06-28
+Art. 98. Nie stanowi naruszenia obowiązku, o którym mowa w art. 97 ust. 1,
+realizacja publicznej oferty kupna lub zamiany akcji, zgłoszonej Prezesowi Urzędu na
+podstawie art. 13 ust. 1, jeżeli nabywca nie korzysta z prawa głosu wynikającego
+z nabytych akcji lub czyni to wyłącznie w celu utrzymania pełnej wartości swej
+inwestycji kapitałowej lub dla zapobieżenia poważnej szkodzie, jaka może powstać
+u przedsiębiorców uczestniczących w koncentracji.
+Art. 99. W przypadku niewykonania decyzji, o której mowa w art. 21 ust. 1
+lub 4, Prezes Urzędu może, w drodze decyzji, dokonać podziału przedsiębiorcy.
+Do podziału spółki stosuje się odpowiednio przepisy art. 528–550 ustawy z dnia
+15 września 2000 r. – Kodeks spółek handlowych (Dz. U. z 2016 r. poz. 1578, 1579,
+2255 i 2260). Prezesowi Urzędu przysługują kompetencje organów spółek
+uczestniczących w podziale. Prezes Urzędu może ponadto wystąpić do sądu
+o stwierdzenie nieważności umowy lub podjęcie innych środków prawnych
+zmierzających do przywrócenia stanu poprzedniego.
+Rozdział 3a
+Postępowanie w sprawach o uznanie postanowień wzorca umowy za
+niedozwolone
+Art. 99a. 1. Konsument, rzecznik konsumentów, Rzecznik Ubezpieczonych,
+organizacja konsumencka lub zagraniczna organizacja wpisana na listę organizacji
+uprawnionych w państwach Unii Europejskiej do wszczęcia postępowania o uznanie
+postanowień wzorca umowy za niedozwolone, opublikowaną w Dzienniku
+Urzędowym Unii Europejskiej, jeżeli cel jej działania uzasadnia wystąpienie przez nią
+z takim zawiadomieniem dotyczącym wzorców umów stosowanych
+w Rzeczypospolitej Polskiej, zagrażających interesom konsumentów w państwie
+członkowskim, w którym organizacja ta ma swoją siedzibę, mogą zgłosić Prezesowi
+Urzędu na piśmie zawiadomienie dotyczące podejrzenia naruszenia zakazu, o którym
+mowa w art. 23a.
+2. Zawiadomienie, o którym mowa w ust. 1, zawiera:
+1) wskazanie przedsiębiorcy, któremu zarzucane jest stosowanie niedozwolonych
+postanowień wzorca umowy;
+2) opis stanu faktycznego będącego podstawą zawiadomienia;
+3) wskazanie postanowienia wzorca umowy naruszającego zakaz, o którym mowa
+w art. 23a;
+4) uprawdopodobnienie naruszenia zakazu określonego w art. 23a;
+©Kancelaria Sejmu s. 48/73
+2017-06-28
+5) dane identyfikujące zgłaszającego zawiadomienie.
+3. Przepisy art. 86 ust. 3 i 4 stosuje się.
+Art. 99b. 1. Stroną postępowania jest każdy, wobec kogo zostało wszczęte
+postępowanie w sprawie o uznanie postanowień wzorca umowy za niedozwolone.
+2. Prezes Urzędu wydaje postanowienie o wszczęciu postępowania w sprawie
+o uznanie postanowień wzorca umowy za niedozwolone i zawiadamia o tym strony.
+Art. 99c. 1. Prezes Urzędu może dopuścić do udziału w postępowaniu
+w charakterze podmiotu zainteresowanego podmiot uprawniony do złożenia
+zawiadomienia, jeżeli uzna, że udział takiego podmiotu w postępowaniu może
+przyczynić się do wyjaśnienia sprawy.
+2. Dopuszczenie do udziału w postępowaniu w charakterze podmiotu
+zainteresowanego następuje na wniosek podmiotu uprawnionego do złożenia
+zawiadomienia.
+3. Dopuszczenie lub odmowa dopuszczenia do udziału w postępowaniu
+w charakterze podmiotu zainteresowanego następuje w drodze postanowienia, na
+które przysługuje zażalenie.
+4. Prezes Urzędu zawiadamia stronę o dopuszczeniu do udziału w postępowaniu
+podmiotu zainteresowanego.
+5. Podmiot zainteresowany ma prawo składania dokumentów i wyjaśnień co do
+okoliczności sprawy.
+6. Podmiot zainteresowany ma prawo wglądu do akt sprawy.
+7. Prezes Urzędu informuje podmiot zainteresowany o sposobie załatwienia
+sprawy. Podmiotowi temu nie przysługuje prawo do wniesienia odwołania od decyzji.
+Art. 99d. Prezes Urzędu może nadać decyzji w całości lub w części rygor
+natychmiastowej wykonalności, jeżeli wymaga tego ważny interes konsumentów.
+Art. 99e. Postępowanie w sprawie o uznanie postanowień wzorca umowy za
+niedozwolone powinno być zakończone w terminie 4 miesięcy, a w sprawie
+szczególnie skomplikowanej – nie później niż w terminie 5 miesięcy od dnia jego
+wszczęcia. Przepisy art. 35–38 ustawy z dnia 14 czerwca 1960 r. – Kodeks
+postępowania administracyjnego stosuje się odpowiednio.
+Art. 99f. Nie wszczyna się postępowania w sprawie o uznanie postanowień
+wzorca umowy za niedozwolone, jeżeli od końca roku, w którym zaprzestano ich
+stosowania, upłynęły 3 lata.
+©Kancelaria Sejmu s. 49/73
+2017-06-28
+Rozdział 4
+Postępowanie w sprawach praktyk naruszających zbiorowe interesy
+konsumentów
+Art. 100. 1. Każdy może zgłosić Prezesowi Urzędu na piśmie zawiadomienie
+dotyczące podejrzenia stosowania praktyk naruszających zbiorowe interesy
+konsumentów.
+2. Zawiadomienie, o którym mowa w ust. 1, może także zgłosić zagraniczna
+organizacja wpisana na listę organizacji uprawnionych w państwach członkowskich
+Unii Europejskiej do złożenia wniosku o wszczęcie postępowania, opublikowaną
+w Dzienniku Urzędowym Wspólnot Europejskich, jeżeli cel jej działania uzasadnia
+zgłoszenie przez nią zawiadomienia dotyczącego naruszenia wynikającego
+z niezgodnych z prawem zaniechań lub działań podjętych na terytorium
+Rzeczypospolitej Polskiej, zagrażających zbiorowym interesom konsumentów
+w państwie członkowskim, w którym organizacja ta ma swoją siedzibę.
+3. Przepisy art. 86 ust. 2–4 stosuje się odpowiednio.
+Art. 101. 1. Stroną postępowania jest każdy, wobec kogo zostało wszczęte
+postępowanie w sprawie praktyk naruszających zbiorowe interesy konsumentów.
+2. Prezes Urzędu wydaje postanowienie o wszczęciu postępowania w sprawie
+praktyk naruszających zbiorowe interesy konsumentów i zawiadamia o tym strony.
+Art. 101a. 1. Jeżeli w toku postępowania w sprawie praktyk naruszających
+zbiorowe interesy konsumentów zostanie uprawdopodobnione, że dalsze stosowanie
+zarzucanej praktyki może spowodować poważne i trudne do usunięcia zagrożenia dla
+zbiorowych interesów konsumentów, Prezes Urzędu przed zakończeniem
+postępowania w sprawie praktyk naruszających zbiorowe interesy konsumentów
+może, w drodze decyzji, zobowiązać przedsiębiorcę, któremu jest zarzucane
+stosowanie praktyki, do zaniechania określonych działań w celu zapobieżenia tym
+zagrożeniom. Wniesienie odwołania nie wstrzymuje wykonania decyzji. Przed
+wydaniem decyzji stronie nie przysługuje prawo do wypowiedzenia się co do
+zebranych dowodów i materiałów oraz zgłoszonych żądań, o którym mowa w art.
+10 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego.
+2. W decyzji, o której mowa w ust. 1, Prezes Urzędu określa czas jej
+obowiązywania. Decyzja ta obowiązuje nie dłużej niż do czasu wydania decyzji
+kończącej postępowanie w sprawie.
+©Kancelaria Sejmu s. 50/73
+2017-06-28
+3. Prezes Urzędu może przedłużyć, w drodze decyzji, czas obowiązywania
+decyzji, o której mowa w ust. 1. Przepis ust. 2 zdanie drugie stosuje się odpowiednio.
+4. W decyzji, o której mowa w ust. 1, nie nakłada się kary, o której mowa w art.
+106 ust. 1 pkt 4.
+5. Przepisy art. 89 ust. 5 i 6 stosuje się odpowiednio.
+Art. 102. (uchylony)
+Art. 103. Prezes Urzędu może nadać decyzji w całości lub w części rygor
+natychmiastowej wykonalności, jeżeli wymaga tego ważny interes konsumentów.
+Art. 104. Postępowanie w sprawie praktyk naruszających zbiorowe interesy
+konsumentów powinno być zakończone w terminie 4 miesięcy, a w sprawie
+szczególnie skomplikowanej – nie później niż w terminie 5 miesięcy od dnia jego
+wszczęcia. Przepisy art. 35–38 ustawy z dnia 14 czerwca 1960 r. – Kodeks
+postępowania administracyjnego stosuje się odpowiednio.
+Art. 105. Nie wszczyna się postępowania w sprawie praktyk naruszających
+zbiorowe interesy konsumentów, jeżeli od końca roku, w którym zaprzestano ich
+stosowania, upłynęły 3 lata.
+Rozdział 5
+Kontrola i przeszukanie w toku postępowania przed Prezesem Urzędu
+Art. 105a. 1. W toku postępowania przed Prezesem Urzędu może być
+przeprowadzona przez upoważnionego pracownika Urzędu lub Inspekcji Handlowej,
+zwanego dalej „kontrolującym”, kontrola u każdego przedsiębiorcy, zwanego dalej
+„kontrolowanym”, w zakresie objętym tym postępowaniem.
+2. Prezes Urzędu może upoważnić do udziału w kontroli:
+1) pracownika organu ochrony konkurencji państwa członkowskiego Unii
+Europejskiej w przypadku, o którym mowa w art. 22 rozporządzenia
+nr 1/2003/WE;
+2) pracownika organu wnioskującego w rozumieniu art. 3 pkt f rozporządzenia
+nr 2006/2004/WE w przypadku, o którym mowa w art. 6 ust. 3 tego
+rozporządzenia;
+3) osoby posiadające wiadomości specjalne, jeżeli do przeprowadzenia kontroli
+niezbędne są tego rodzaju wiadomości.
+3. W sprawach z zakresu właściwości delegatur oraz w sprawach przekazanych
+do załatwienia delegaturom przez Prezesa Urzędu, na podstawie art. 33 ust. 4 i 5,
+©Kancelaria Sejmu s. 51/73
+2017-06-28
+pracownicy delegatur przeprowadzają kontrolę na podstawie upoważnienia dyrektora
+delegatury wydanego w imieniu Prezesa Urzędu.
+4. Upoważnienie do przeprowadzenia kontroli lub do udziału w kontroli zawiera:
+1) oznaczenie organu kontroli;
+2) wskazanie podstawy prawnej;
+3) datę i miejsce wystawienia;
+4) imię, nazwisko i stanowisko kontrolującego oraz numer jego legitymacji
+służbowej, a w przypadku upoważnienia do udziału w kontroli osób, o których
+mowa w ust. 2 – imiona i nazwiska tych osób oraz numer paszportu lub innego
+dokumentu potwierdzającego tożsamość;
+5) oznaczenie kontrolowanego;
+6) określenie zakresu przedmiotowego kontroli, w tym okresu objętego kontrolą;
+7) określenie daty rozpoczęcia kontroli i przewidywanej daty jej zakończenia;
+8) podpis osoby udzielającej upoważnienia, z podaniem zajmowanego stanowiska
+lub funkcji;
+9) pouczenie o prawach i obowiązkach kontrolowanego.
+5. Upoważnienie do przeprowadzenia kontroli, o której mowa w ust. 1, wydają
+odpowiednio: Prezes Urzędu oraz, na jego wniosek, wojewódzcy inspektorzy
+Inspekcji Handlowej.
+6. Kontrolujący doręcza kontrolowanemu lub osobie przez niego upoważnionej
+upoważnienie do przeprowadzenia kontroli oraz okazuje legitymację służbową,
+a osoby upoważnione do udziału w kontroli, o których mowa w ust. 2, dowód
+osobisty, paszport lub inny dokument potwierdzający tożsamość.
+7. W razie nieobecności kontrolowanego lub osoby przez niego upoważnionej,
+upoważnienie do przeprowadzenia kontroli oraz legitymacja służbowa, dowód
+osobisty, paszport lub inny dokument potwierdzający tożsamość mogą być okazane
+innemu pracownikowi kontrolowanego, który może być uznany za osobę, o której
+mowa w art. 97 ustawy z dnia 23 kwietnia 1964 r. – Kodeks cywilny lub
+przywołanemu świadkowi, którym powinien być funkcjonariusz publiczny, niebędący
+jednak pracownikiem organu przeprowadzającego kontrolę. W takim przypadku
+upoważnienie doręcza się niezwłocznie kontrolowanemu, nie później jednak niż
+trzeciego dnia od wszczęcia kontroli.
+Art. 105b. 1. W celu uzyskania informacji mogących stanowić dowód w sprawie
+kontrolujący ma prawo:
+©Kancelaria Sejmu s. 52/73
+2017-06-28
+1) wstępu na grunt oraz do budynków, lokali lub innych pomieszczeń oraz środków
+transportu kontrolowanego;
+2) żądania udostępnienia związanych z przedmiotem kontroli akt, ksiąg, wszelkiego
+rodzaju pism, dokumentów oraz ich odpisów i wyciągów, korespondencji
+przesyłanej pocztą elektroniczną, informatycznych nośników danych w
+rozumieniu przepisów o informatyzacji działalności podmiotów realizujących
+zadania publiczne, innych urządzeń zawierających dane informatyczne lub
+systemów informatycznych, w tym także zapewnienia dostępu do systemów
+informatycznych będących własnością innego podmiotu zawierających dane
+kontrolowanego związane z przedmiotem kontroli, w zakresie, w jakim
+kontrolowany ma do nich dostęp;
+3) sporządzania z materiałów i korespondencji, o których mowa w pkt 2, notatek;
+4) żądania sporządzenia przez kontrolowanego kopii lub wydruków materiałów,
+korespondencji, o których mowa w pkt 2, oraz informacji zgromadzonych na
+nośnikach, w urządzeniach lub w systemach, o których mowa w tym przepisie;
+5) żądania od osób, o których mowa w art. 105d ust. 1, ustnych wyjaśnień
+dotyczących przedmiotu kontroli;
+6) żądania od osób, o których mowa w art. 105d ust. 1, udostępnienia i wydania
+innych przedmiotów mogących stanowić dowód w sprawie.
+2. Osobie upoważnionej do udziału w kontroli, na podstawie art. 105a ust. 2,
+przysługują uprawnienia kontrolującego w zakresie wstępu na grunt oraz do
+budynków, lokali lub innych pomieszczeń oraz środków transportu kontrolowanego
+oraz dostępu do materiałów i korespondencji oraz informacji zgromadzonych na
+nośnikach, w urządzeniach lub w systemach, o których mowa w ust. 1 pkt 2, a także
+do sporządzania z nich notatek, oraz uprawnienie do udziału wraz z kontrolującym
+w przeszukaniu, o którym mowa w art. 91 i w art. 105n.
+3. W toku kontroli kontrolujący może korzystać z pomocy funkcjonariuszy
+innych organów kontroli państwowej lub Policji. Organy kontroli państwowej lub
+Policja wykonują czynności na polecenie kontrolującego.
+4. W uzasadnionych przypadkach przebieg kontroli lub poszczególne czynności
+w jej toku, po uprzednim poinformowaniu kontrolowanego, mogą być utrwalane przy
+pomocy urządzeń rejestrujących obraz lub dźwięk. Informatyczne nośniki danych
+w rozumieniu przepisów o informatyzacji działalności podmiotów realizujących
+zadania publiczne, na których zarejestrowano przebieg kontroli lub poszczególne
+czynności w jej toku, stanowią załącznik do protokołu kontroli.
+©Kancelaria Sejmu s. 53/73
+2017-06-28
+Art. 105c. (uchylony)
+Art. 105d. 1. Kontrolowany, osoba przez niego upoważniona, posiadacz lokalu
+mieszkalnego, pomieszczenia, nieruchomości lub środka transportu, o których mowa
+w art. 91 ust. 1, są obowiązani do:
+1) udzielenia żądanych informacji;
+2) umożliwienia wstępu na grunt oraz do budynków, lokali lub innych pomieszczeń
+oraz środków transportu;
+3) udostępnienia i wydania materiałów, o których mowa w art. 105b ust. 1 pkt 2,
+lub innych przedmiotów mogących stanowić dowód w sprawie;
+4) umożliwienia dostępu do informatycznych nośników danych, urządzeń lub
+systemów informatycznych, o których mowa w art. 105b ust. 1 pkt 2, w zakresie
+informacji zgromadzonych na tych nośnikach, w urządzeniach lub w systemach,
+w tym do korespondencji przesyłanej pocztą elektroniczną.
+2. Osoby, o których mowa w ust. 1, mogą odmówić udzielenia informacji lub
+współdziałania w toku kontroli tylko wtedy, gdy naraziłoby to je lub ich małżonka,
+wstępnych, zstępnych, rodzeństwo oraz powinowatych w tej samej linii lub stopniu,
+jak również osoby pozostające w stosunku przysposobienia, opieki lub kurateli,
+a także osobę pozostającą we wspólnym pożyciu, na odpowiedzialność karną. Prawo
+odmowy udzielenia informacji lub współdziałania w toku kontroli trwa po ustaniu
+małżeństwa lub rozwiązaniu stosunku przysposobienia, opieki lub kurateli.
+Art. 105e. 1. Kontrolowany zapewnia kontrolującemu oraz osobom
+upoważnionym do udziału w kontroli warunki i środki niezbędne do sprawnego
+przeprowadzenia kontroli, a w szczególności:
+1) sporządza we własnym zakresie kopie lub wydruki materiałów i korespondencji,
+o których mowa w art. 105b ust. 1 pkt 2, oraz informacji zgromadzonych na
+nośnikach, w urządzeniach lub w systemach, o których mowa w tym przepisie;
+2) zapewnia w miarę możliwości samodzielne zamknięte pomieszczenie, jeżeli jest
+to niezbędne do przeprowadzenia kontroli;
+3) zapewnia wydzielone miejsce do przechowywania dokumentów
+i zabezpieczonych przedmiotów;
+4) udostępnia środki łączności, którymi dysponuje, w zakresie niezbędnym do
+wykonywania czynności kontrolnych.
+2. Kontrolowany dokonuje potwierdzenia za zgodność z oryginałem
+sporządzonych kopii dokumentów i wydruków. W przypadku odmowy potwierdzenia
+©Kancelaria Sejmu s. 54/73
+2017-06-28
+za zgodność z oryginałem potwierdza je kontrolujący, o czym czyni wzmiankę
+w protokole kontroli.
+Art. 105f. 1. Kontrolujący lub osoby upoważnione do udziału w kontroli ustalają
+stan faktyczny na podstawie dowodów zebranych w toku kontroli, a w szczególności
+dokumentów, przedmiotów, oględzin oraz ustnych lub pisemnych wyjaśnień
+i oświadczeń oraz innych nośników informacji.
+2. Dowody, o których mowa w ust. 1, mogą zostać zabezpieczone przez:
+1) pozostawienie ich w wydzielonym lub oddzielnym, zamkniętym
+i opieczętowanym pomieszczeniu u kontrolowanego;
+2) złożenie, za pokwitowaniem udzielonym kontrolowanemu, na przechowanie
+w pomieszczeniu Urzędu lub wojewódzkiego inspektoratu Inspekcji Handlowej.
+Art. 105g. 1. Prezes Urzędu w toku kontroli, o której mowa w art. 105a ust. 1,
+może wydać postanowienie o zajęciu akt, ksiąg, wszelkiego rodzaju pism,
+dokumentów, korespondencji lub informatycznych nośników danych, urządzeń,
+o których mowa w art. 105b ust. 1 pkt 2, oraz innych przedmiotów mogących
+stanowić dowód w sprawie, na czas niezbędny do przeprowadzenia kontroli, jednakże
+nie dłuższy niż 7 dni.
+2. Osobę posiadającą przedmioty, o których mowa w ust. 1, kontrolujący wzywa
+do wydania ich dobrowolnie, a w razie odmowy można przeprowadzić ich odebranie
+w trybie przepisów o postępowaniu egzekucyjnym w administracji.
+3. Na postanowienie o zajęciu przedmiotów zażalenie przysługuje osobom,
+których prawa zostały naruszone. Wniesienie zażalenia nie wstrzymuje wykonania
+postanowienia.
+4. Do zabezpieczenia na miejscu kontroli, w celu wykonywania czynności
+w toku kontroli, akt, ksiąg, innych wszelkiego rodzaju pism, dokumentów,
+korespondencji, informatycznych nośników informacji, urządzeń, o których mowa
+w art. 105b ust. 1 pkt 2, oraz innych przedmiotów mogących stanowić dowód
+w sprawie, jak również pomieszczeń kontrolowanego, w których znajdują się te
+dokumenty lub przedmioty, przepisów ust. 1–3 nie stosuje się.
+Art. 105h. 1. Przedmioty podlegające zajęciu, o którym mowa w art. 105g ust. 1,
+należy po dokonaniu oględzin i sporządzeniu protokołu zajęcia zabrać albo oddać na
+przechowanie osobie godnej zaufania z zaznaczeniem obowiązku ich przedstawienia
+na żądanie organu prowadzącego postępowanie.
+©Kancelaria Sejmu s. 55/73
+2017-06-28
+2. Protokół zajęcia zawiera: oznaczenie sprawy, z którą zajęcie ma związek,
+podanie dokładnej godziny rozpoczęcia i zakończenia czynności, dokładną listę
+zajętych przedmiotów i, w miarę potrzeby, ich opis oraz wskazanie postanowienia
+Prezesa Urzędu o zajęciu. Protokół podpisują dokonujący zajęcia i przedstawiciel
+kontrolowanego.
+3. Dokonujący zajęcia jest obowiązany do natychmiastowego wręczenia osobom
+zainteresowanym pokwitowania stwierdzającego, jakie przedmioty i przez kogo
+zostały zajęte, oraz do niezwłocznego powiadomienia przedsiębiorcy, którego
+przedmioty zostały zajęte, o dokonanym zajęciu.
+4. Zajęte przedmioty należy zwrócić niezwłocznie po stwierdzeniu, że są zbędne
+dla prowadzonego postępowania, albo po uchyleniu przez sąd ochrony konkurencji
+i konsumentów postanowienia o zajęciu przedmiotów, jednak nie później niż po
+upływie terminu, o którym mowa w art. 105g ust. 1.
+Art. 105i. 1. Bez wszczynania odrębnego postępowania Prezes Urzędu może
+przeprowadzić kontrolę lub dokonać przeszukania na podstawie art. 105n lub wystąpić
+z wnioskiem o wyrażenie zgody na przeprowadzenie przeszukania na podstawie
+art. 91 na wniosek Komisji Europejskiej lub organu ochrony konkurencji innego
+państwa członkowskiego Unii Europejskiej w przypadku, o którym mowa
+w art. 22 rozporządzenia nr 1/2003/WE oraz w art. 12 rozporządzenia
+nr 139/2004/WE.
+2. W przypadku, o którym mowa w ust. 1, Prezes Urzędu może upoważnić do
+udziału w kontroli lub przeszukaniu:
+1) pracownika Urzędu;
+2) pracownika Komisji Europejskiej lub organu ochrony konkurencji państwa
+członkowskiego Unii Europejskiej;
+3) osoby posiadające wiadomości specjalne, jeżeli do przeprowadzenia kontroli
+niezbędne są tego rodzaju wiadomości.
+3. W przypadku gdy przedsiębiorca lub osoba uprawniona do jego
+reprezentowania albo posiadacz lokalu mieszkalnego, pomieszczenia, nieruchomości
+lub środka transportu, o których mowa w art. 91 ust. 1, sprzeciwiają się
+przeprowadzeniu przez Komisję Europejską kontroli w toku postępowania
+prowadzonego na podstawie przepisów rozporządzenia nr 1/2003/WE lub
+rozporządzenia nr 139/2004/WE, osobom upoważnionym przez Prezesa Urzędu do
+udziału w tej kontroli, o których mowa w ust. 2 pkt 1 i 3, przysługują w toku kontroli
+©Kancelaria Sejmu s. 56/73
+2017-06-28
+uprawnienia, o których mowa w art. 105b, art. 105f–105h, art. 105n i art. 105o.
+Przepisy art. 91 stosuje się.
+Art. 105ia. 1. W celu uzyskania informacji mogących stanowić dowód
+w sprawie praktyk naruszających zbiorowe interesy konsumentów kontrolujący ma
+prawo podjęcia czynności zmierzających do zakupu towaru.
+2. Okazanie kontrolowanemu albo osobie przez niego upoważnionej legitymacji
+służbowej upoważniającej do wykonywania czynności kontrolnych oraz doręczenie
+upoważnienia do przeprowadzenia kontroli i zgody sądu, o której mowa w ust. 4,
+następuje niezwłocznie po zakończeniu czynności, o których mowa w ust. 1.
+3. Przebieg czynności, o których mowa w ust. 1, może być utrwalany za pomocą
+urządzeń rejestrujących obraz lub dźwięk bez informowania kontrolowanego.
+Informatyczne nośniki danych w rozumieniu przepisów o informatyzacji działalności
+podmiotów realizujących zadania publiczne, na których zarejestrowano przebieg
+kontroli lub poszczególne czynności w jej toku, stanowią załącznik do protokołu
+kontroli. Poinformowanie kontrolowanego o utrwalaniu przebiegu czynności,
+o których mowa w ust. 1, następuje niezwłocznie po dokonaniu czynności, o których
+mowa w zdaniu 1.
+4. Podjęcie czynności, o których mowa w ust. 1 i 3, wymaga zgody sądu ochrony
+konkurencji i konsumentów, udzielonej na wniosek Prezesa Urzędu.
+5. Sąd ochrony konkurencji i konsumentów wydaje w ciągu 48 godzin
+postanowienie w sprawie, o której mowa w ust. 4. Na postanowienie to nie
+przysługuje zażalenie.
+Art. 105j. 1. Przebieg przeprowadzonej kontroli kontrolujący przedstawia
+w protokole kontroli.
+2. Protokół kontroli powinien zawierać w szczególności:
+1) wskazanie nazwy albo imienia i nazwiska oraz adresu kontrolowanego;
+2) datę rozpoczęcia i zakończenia kontroli;
+3) imię, nazwisko i stanowisko służbowe kontrolującego;
+4) określenie przedmiotu i zakresu kontroli;
+5) opis stanu faktycznego ustalonego w trakcie kontroli;
+6) opis załączników;
+7) informację o pouczeniu kontrolowanego o prawie zgłaszania zastrzeżeń do
+protokołu oraz o prawie odmowy podpisania protokołu.
+©Kancelaria Sejmu s. 57/73
+2017-06-28
+3. Materiał dowodowy zgromadzony w toku kontroli stanowi załącznik do
+protokołu kontroli.
+Art. 105k. 1. Protokół kontroli podpisują kontrolujący i kontrolowany.
+2. Przed podpisaniem protokołu kontrolowany może, w terminie 7 dni od
+przedstawienia mu go do podpisu, złożyć na piśmie zastrzeżenia do tego protokołu.
+3. W razie zgłoszenia zastrzeżeń, o których mowa w ust. 2, kontrolujący
+dokonuje ich analizy i, w razie potrzeby, podejmuje dodatkowe czynności kontrolne,
+a w przypadku stwierdzenia zasadności zastrzeżeń zmienia lub uzupełnia odpowiednią
+część protokołu w formie aneksu do protokołu.
+4. W razie nieuwzględnienia zastrzeżeń w całości lub w części kontrolujący
+informuje o tym kontrolowanego na piśmie.
+5. O odmowie podpisania protokołu kontrolujący czyni wzmiankę w protokole.
+6. Protokół sporządza się w dwóch egzemplarzach, z których jeden pozostawia
+się kontrolowanemu, z wyłączeniem materiału dowodowego pozostającego
+w posiadaniu kontrolowanego.
+Art. 105l. Do kontroli działalności gospodarczej przedsiębiorcy, stosuje się
+przepisy rozdziału 5 ustawy z dnia 2 lipca 2004 r. o swobodzie działalności
+gospodarczej (Dz. U. z 2016 r. poz. 1829, 1948, 1997 i 2255).
+Art. 105m. 1. Podmiot, o którym mowa w art. 105b ust. 1 pkt 2, którego prawa
+zostały naruszone w toku kontroli, może wnieść zażalenie do sądu ochrony
+konkurencji i konsumentów na czynności kontrolne wykraczające poza zakres
+przedmiotowy kontroli lub inne czynności kontrolne podjęte z naruszeniem
+przepisów, w terminie 7 dni od dnia dokonania tych czynności.
+2. Wniesienie zażalenia nie wstrzymuje kontroli.
+3. Zażalenie wnosi się do sądu ochrony konkurencji i konsumentów za
+pośrednictwem Prezesa Urzędu, który przekazuje je wraz z odpowiedzią do sądu
+w terminie 7 dni od dnia wniesienia zażalenia.
+4. Sąd ochrony konkurencji i konsumentów rozpoznaje zażalenie w terminie
+7 dni od dnia jego przekazania przez Prezesa Urzędu. Postanowienie sąd uzasadnia
+z urzędu. Na postanowienie sądu przysługuje zażalenie do sądu drugiej instancji.
+5. W przypadku uwzględnienia zażalenia przez sąd ochrony konkurencji
+i konsumentów dowody uzyskane w wyniku zaskarżonej czynności kontrolnej nie
+mogą być wykorzystane w prowadzonym postępowaniu, w innych postępowaniach
+©Kancelaria Sejmu s. 58/73
+2017-06-28
+prowadzonych przez Prezesa Urzędu oraz w postępowaniach prowadzonych na
+podstawie odrębnych przepisów.
+Art. 105n. 1. W sprawach praktyk ograniczających konkurencję, w toku
+postępowania wyjaśniającego i postępowania antymonopolowego, w celu znalezienia
+i uzyskania informacji z akt, ksiąg, pism, wszelkiego rodzaju dokumentów lub
+informatycznych nośników danych, urządzeń oraz systemów informatycznych oraz
+innych przedmiotów mogących stanowić dowód w sprawie, Prezes Urzędu może
+przeprowadzić u przedsiębiorcy przeszukanie pomieszczeń i rzeczy, jeżeli istnieją
+uzasadnione podstawy do przypuszczenia, że wymienione informacje lub przedmioty
+tam się znajdują.
+2. Przeprowadzenie przeszukania wymaga zgody sądu ochrony konkurencji
+i konsumentów, udzielonej na wniosek Prezesa Urzędu.
+3. Prezes Urzędu może wystąpić z wnioskiem o zgodę na przeprowadzenie
+przeszukania w toku postępowania wyjaśniającego wyłącznie, gdy zachodzi
+uzasadnione podejrzenie poważnego naruszenia przepisów ustawy, w szczególności
+gdy mogłoby dojść do zatarcia dowodów.
+4. Sąd ochrony konkurencji i konsumentów wydaje w ciągu 48 godzin
+postanowienie w sprawie, o której mowa w ust. 2. Na postanowienie sądu ochrony
+konkurencji i konsumentów nie przysługuje zażalenie.
+Art. 105o. W celu uzyskania informacji mogących stanowić dowód w sprawie
+przeszukujący ma prawo sporządzania z materiałów i korespondencji, o których
+mowa w art. 105b ust. 1 pkt 2, oraz z informacji zgromadzonych na nośnikach,
+w urządzeniach lub w systemach, o których mowa w tym przepisie, notatek, przez co
+należy rozumieć również sporządzenie kopii lub wydruków.
+Art. 105p. Przeszukiwany oraz osoby, których prawa zostały naruszone w toku
+przeszukania, mogą wnieść zażalenie do sądu ochrony konkurencji i konsumentów na
+czynności przeszukania wykraczające poza zakres przedmiotowy przeszukania lub
+inne czynności przeszukania podjęte z naruszeniem przepisów, w terminie 7 dni od
+dnia dokonania tych czynności. Przepisy art. 105m ust. 2–5 stosuje się odpowiednio.
+Art. 105q. Do przeszukania, o którym mowa w art. 105n, stosuje się
+odpowiednio przepisy:
+1) art. 105a ust. 2–7, art. 105b, art. 105d–105h, art. 105j i art. 105k;
+©Kancelaria Sejmu s. 59/73
+2017-06-28
+2) art. 80a ust. 1 i art. 80b zdanie pierwsze ustawy z dnia 2 lipca 2004 r.
+o swobodzie działalności gospodarczej – w zakresie nieuregulowanym
+w niniejszym rozdziale;
+3) art. 180, art. 224 § 1, art. 225 i art. 226 oraz art. 236a ustawy z dnia 6 czerwca
+1997 r. – Kodeks postępowania karnego; sądem właściwym na potrzeby
+stosowania tych przepisów jest sąd ochrony konkurencji i konsumentów.
+DZIAŁ VII
+Kary pieniężne
+Rozdział 1
+Nakładanie kar pieniężnych
+Art. 106. 1. Prezes Urzędu może nałożyć na przedsiębiorcę, w drodze decyzji,
+karę pieniężną w wysokości nie większej niż 10% obrotu osiągniętego w roku
+obrotowym poprzedzającym rok nałożenia kary, jeżeli przedsiębiorca ten, choćby
+nieumyślnie:
+1) dopuścił się naruszenia zakazu określonego w art. 6, w zakresie niewyłączonym
+na podstawie art. 7 i art. 8, lub naruszenia zakazu określonego w art. 9;
+2) dopuścił się naruszenia art. 101 lub art. 102 TFUE;
+3) dokonał koncentracji bez uzyskania zgody Prezesa Urzędu;
+3a) dopuścił się naruszenia zakazu określonego w art. 23a;
+4) dopuścił się naruszenia zakazu określonego w art. 24.
+2. Prezes Urzędu może również nałożyć na przedsiębiorcę, w drodze decyzji,
+karę pieniężną w wysokości stanowiącej równowartość do 50 000 000 euro, jeżeli
+przedsiębiorca ten choćby nieumyślnie:
+1) we wniosku, o którym mowa w art. 23, lub w zgłoszeniu, o którym mowa
+w art. 94 ust. 2, podał nieprawdziwe dane;
+2) nie udzielił informacji żądanych przez Prezesa Urzędu na podstawie art. 10 ust.
+9, art. 12 ust. 3, art. 19 ust. 3, art. 23c ust. 3, art. 28 ust. 3 lub art. 50 bądź udzielił
+nieprawdziwych lub wprowadzających w błąd informacji;
+3) uniemożliwia lub utrudnia rozpoczęcie lub przeprowadzenie kontroli na
+podstawie art. 105a lub art. 105i, w tym nie wykonuje obowiązków określonych
+w art. 105d ust. 1 lub w art. 105e ust. 1;
+4) uniemożliwia lub utrudnia rozpoczęcie lub przeprowadzenie przeszukania na
+podstawie art. 91 lub art. 105n, w tym nie wykonuje obowiązków określonych
+w art. 105d ust. 1 lub w art. 105e ust. 1.
+©Kancelaria Sejmu s. 60/73
+2017-06-28
+3. Obrót, o którym mowa w ust. 1, oblicza się jako sumę:
+1) przychodów wykazanych w rachunku zysków i strat – w przypadku
+przedsiębiorcy sporządzającego taki rachunek na podstawie przepisów
+o rachunkowości;
+2) przychodów wykazanych w rocznym sprawozdaniu finansowym równoważnym
+do rachunku zysków i strat sporządzanym na podstawie przepisów
+o rachunkowości lub w innym dokumencie podsumowującym przychody w roku
+obrotowym, w tym w sprawozdaniu z wykonania budżetu – w przypadku
+przedsiębiorcy, który nie sporządza rachunku zysków i strat na podstawie
+przepisów o rachunkowości;
+3) udokumentowanych przychodów uzyskanych w roku obrotowym
+w szczególności ze sprzedaży produktów, towarów lub materiałów, przychodów
+finansowych oraz przychodów z działalności realizowanej na podstawie statutu
+lub innego dokumentu określającego zakres działalności przedsiębiorcy, a także
+wartości uzyskanych przez przedsiębiorcę dotacji przedmiotowych –
+w przypadku braku dokumentów, o których mowa w pkt 1 i 2;
+4) dochodów własnych pomniejszonych o wpływy z podatków – w przypadku
+gmin, powiatów i województw.
+4. W przypadku gdy przedsiębiorca powstał w wyniku połączenia lub
+przekształcenia innych przedsiębiorców, obliczając wysokość jego obrotu, o którym
+mowa w ust. 1, Prezes Urzędu uwzględnia obrót osiągnięty przez tych
+przedsiębiorców w roku obrotowym poprzedzającym rok nałożenia kary.
+5. W przypadku gdy przedsiębiorca w roku obrotowym poprzedzającym rok
+nałożenia kary nie osiągnął obrotu lub osiągnął obrót w wysokości nieprzekraczającej
+równowartości 100 000 euro, Prezes Urzędu nakładając karę pieniężną na podstawie
+ust. 1 uwzględnia średni obrót osiągnięty przez przedsiębiorcę w trzech kolejnych
+latach obrotowych poprzedzających rok nałożenia kary.
+6. W przypadku gdy przedsiębiorca nie osiągnął obrotu w okresie trzyletnim,
+o którym mowa w ust. 5, lub gdy obrót przedsiębiorcy obliczony na podstawie tego
+przepisu nie przekracza równowartości 100 000 euro, Prezes Urzędu może nałożyć na
+przedsiębiorcę, w drodze decyzji, karę pieniężną w wysokości nieprzekraczającej
+równowartości 10 000 euro.
+7. W przypadku gdy przedsiębiorca nie dysponuje przed wydaniem decyzji
+danymi finansowymi niezbędnymi do ustalenia obrotu za rok obrotowy poprzedzający
+©Kancelaria Sejmu s. 61/73
+2017-06-28
+rok nałożenia kary, Prezes Urzędu, nakładając karę pieniężną na podstawie ust. 1,
+uwzględnia:
+1) obrót osiągnięty przez przedsiębiorcę w roku obrotowym poprzedzającym ten
+rok;
+2) w przypadku, o którym mowa w ust. 5 – średni obrót osiągnięty przez
+przedsiębiorcę w trzech kolejnych latach obrotowych poprzedzających ten rok.
+Przepis ust. 6 stosuje się odpowiednio.
+Art. 106a. 1. Prezes Urzędu może nałożyć na osobę zarządzającą, o której mowa
+w art. 6a, karę pieniężną w wysokości do 2 000 000 zł, jeżeli osoba ta umyślnie
+dopuściła do naruszenia przez przedsiębiorcę zakazów określonych w art. 6 ust. 1
+pkt 1–6 ustawy lub w art. 101 ust. 1 lit. a–e TFUE.
+2. Nałożenie na osobę zarządzającą kary pieniężnej, o której mowa w ust. 1,
+może nastąpić wyłącznie w decyzji, nakładającej na przedsiębiorcę karę pieniężną,
+o której mowa w art. 106 ust. 1 pkt 1 lub 2.
+3. Kary pieniężnej, o której mowa w ust. 1, nie nakłada się, jeżeli na osobę
+zarządzającą będącą przedsiębiorcą została nałożona kara pieniężna na podstawie
+art. 106 ust. 1 pkt 1 lub 2 za to samo naruszenie zakazów określonych w art. 6 ust. 1
+pkt 1–6 ustawy lub w art. 101 ust. 1 lit. a–e TFUE.
+Art. 107. Prezes Urzędu może nałożyć na przedsiębiorców, w drodze decyzji,
+karę pieniężną w wysokości stanowiącej równowartość do 10 000 euro za każdy dzień
+opóźnienia w wykonaniu decyzji wydanych na podstawie art. 10, art. 12 ust. 1, art.
+19 ust. 1, art. 20 ust. 1, art. 21 ust. 2 i 4, art. 23b, art. 23c ust. 1, art. 26, art. 27 ust. 2,
+art. 28 ust. 1, art. 89 ust. 1 i 3 oraz art. 101a ust. 1 i 3, postanowień wydanych na
+podstawie art. 105g ust. 1 lub wyroków sądowych w sprawach z zakresu praktyk
+ograniczających konkurencję, praktyk naruszających zbiorowe interesy
+konsumentów, niedozwolonych postanowień wzorców umów oraz koncentracji. Karę
+pieniężną nakłada się, licząc od daty wskazanej w decyzji.
+Art. 108. 1. Prezes Urzędu może, w drodze decyzji, nałożyć na osobę pełniącą
+funkcję kierowniczą lub wchodzącą w skład organu zarządzającego przedsiębiorcy
+karę pieniężną w wysokości do pięćdziesięciokrotności przeciętnego wynagrodzenia,
+jeżeli osoba ta umyślnie albo nieumyślnie:
+1) nie wykonała decyzji, postanowień lub wyroków, o których mowa w art. 107;
+2) nie zgłosiła zamiaru koncentracji, o którym mowa w art. 13.
+©Kancelaria Sejmu s. 62/73
+2017-06-28
+2. Prezes Urzędu może, w drodze decyzji, nałożyć na osobę pełniącą funkcję
+kierowniczą lub wchodzącą w skład organu zarządzającego przedsiębiorcy karę
+pieniężną w wysokości, o której mowa w ust. 1, jeżeli osoba ta:
+1) uniemożliwia lub utrudnia rozpoczęcie lub przeprowadzenie kontroli na
+podstawie art. 105a lub art. 105i;
+2) uniemożliwia lub utrudnia rozpoczęcie lub przeprowadzenie przeszukania na
+podstawie art. 91 lub art. 105n.
+3. Prezes Urzędu może, w drodze decyzji, nałożyć karę pieniężną w wysokości,
+o której mowa w ust. 1, na:
+1) osobę upoważnioną przez kontrolowanego lub przeszukiwanego, o której mowa
+w art. 105a ust. 6, posiadacza lokalu mieszkalnego, pomieszczenia,
+nieruchomości lub środka transportu, o których mowa w art. 91 ust. 1, za:
+a) udzielenie w toku kontroli lub przeszukania nieprawdziwych lub
+wprowadzających w błąd informacji żądanych przez Prezesa Urzędu,
+b) uniemożliwianie lub utrudnianie rozpoczęcia lub przeprowadzenia kontroli
+na podstawie art. 105a lub art. 105i, w tym niewykonywanie obowiązków,
+o których mowa w art. 105d ust. 1 lub w art. 105e ust. 1,
+c) uniemożliwianie lub utrudnianie rozpoczęcia lub przeprowadzenia
+przeszukania na podstawie art. 91 lub art. 105n, w tym niewykonywanie
+obowiązków, o których mowa w art. 105d ust. 1 lub w art. 105e ust. 1;
+2) osobę, o której mowa w art. 105a ust. 7, będącą pracownikiem kontrolowanego,
+za uniemożliwianie lub utrudnianie okazania dokumentów wymienionych w tym
+przepisie.
+4. W przypadku gdy osoba upoważniona przez kontrolowanego lub
+przeszukiwanego, o której mowa w art. 105a ust. 6, lub osoba, o której mowa
+w art. 105a ust. 7, będąca pracownikiem kontrolowanego, pełnią funkcję kierowniczą
+lub wchodzą w skład organu zarządzającego przedsiębiorcy, podstawę nałożenia kary
+pieniężnej przez Prezesa Urzędu stanowi ust. 3.
+5. Prezes Urzędu może, w drodze decyzji, nałożyć karę pieniężną w wysokości
+do 20 000 zł na każdego, kto skopiował dokumenty, o których mowa w art. 70 ust. 4,
+bez pisemnej zgody przedsiębiorcy lub osoby zarządzającej wymienionych w tym
+przepisie lub wykorzystał informacje uzyskane dzięki dostępowi do tych dokumentów
+w innym celu, niż na potrzeby prowadzonego postępowania lub postępowania przed
+sądem prowadzonego w wyniku wniesienia środka odwoławczego w tej sprawie,
+©Kancelaria Sejmu s. 63/73
+2017-06-28
+z wyjątkiem wykorzystania tych informacji na potrzeby postępowania karnego lub
+karno-skarbowego.
+6. Prezes Urzędu może, w drodze decyzji, nałożyć karę pieniężną w wysokości
+do 5000 zł na:
+1) świadka za nieuzasadnioną odmowę zeznań lub nieusprawiedliwione
+niestawiennictwo na wezwanie Prezesa Urzędu;
+2) biegłego za nieuzasadnioną odmowę złożenia opinii, nieusprawiedliwione
+opóźnienie złożenia opinii lub za nieusprawiedliwione niestawiennictwo na
+wezwanie Prezesa Urzędu.
+Art. 109. (uchylony)
+Art. 110. (uchylony)
+Art. 111. 1. Prezes Urzędu, ustalając wysokość nakładanej kary pieniężnej,
+uwzględnia w szczególności okoliczności naruszenia przepisów ustawy oraz
+uprzednie naruszenie przepisów ustawy, a także, w przypadku kary pieniężnej,
+o której mowa w:
+1) art. 106 ust. 1 i w art. 108 ust. 1 pkt 2 – okres, stopień oraz skutki rynkowe
+naruszenia przepisów ustawy, przy czym stopień naruszenia Prezes Urzędu
+ocenia biorąc pod uwagę okoliczności dotyczące natury naruszenia, działalności
+przedsiębiorcy, która stanowiła przedmiot naruszenia oraz – w przypadkach,
+o których mowa w art. 106 ust. 1 pkt 1–3 i w art. 108 ust. 1 pkt 2 – specyfiki
+rynku, na którym doszło do naruszenia;
+2) art. 106a – stopień wpływu zachowania osoby zarządzającej na naruszenie,
+którego dokonał przedsiębiorca, przychody uzyskane przez osobę zarządzającą
+u danego przedsiębiorcy, z uwzględnieniem okresu trwania naruszenia oraz
+okres i skutki rynkowe naruszenia;
+3) art. 106 ust. 2 oraz w art. 108 ust. 2 i 3 – wpływ naruszenia na przebieg i termin
+zakończenia postępowania;
+4) art. 107 oraz w art. 108 ust. 1 pkt 1 – skutki rynkowe niewykonania decyzji,
+postanowień lub wyroków, o których mowa w art. 107.
+2. Ustalając wysokość kar pieniężnych zgodnie z ust. 1 Prezes Urzędu bierze pod
+uwagę okoliczności łagodzące lub obciążające, które wystąpiły w sprawie.
+3. Okolicznościami łagodzącymi, o których mowa w ust. 2, są w szczególności:
+1) w przypadku naruszenia zakazu praktyk ograniczających konkurencję:
+a) dobrowolne usunięcie skutków naruszenia,
+©Kancelaria Sejmu s. 64/73
+2017-06-28
+b) zaniechanie stosowania zakazanej praktyki przed wszczęciem postępowania
+lub niezwłocznie po jego wszczęciu,
+c) podjęcie z własnej inicjatywy działań w celu zaprzestania naruszenia lub
+usunięcia jego skutków,
+d) współpraca z Prezesem Urzędu w toku postępowania, w szczególności
+przyczynienie się do szybkiego i sprawnego przeprowadzenia
+postępowania,
+e) bierna rola przedsiębiorcy w naruszeniu zakazu porozumień
+ograniczających konkurencję, w tym unikanie przez niego wprowadzenia
+w życie postanowień porozumienia ograniczającego konkurencję,
+f) działanie pod przymusem – w przypadku naruszenia zakazu porozumień
+ograniczających konkurencję;
+2) w przypadku naruszenia zakazu praktyk naruszających zbiorowe interesy
+konsumentów lub stosowania niedozwolonych postanowień wzorców umów –
+okoliczności, o których mowa w pkt 1 lit. a–d;
+3) w przypadku dopuszczenia przez osobę zarządzającą do naruszenia przez
+przedsiębiorcę zakazów, o których mowa w art. 6 ust. 1 pkt 1–6 ustawy lub
+w art. 101 ust. 1 lit. a–e TFUE:
+a) działanie pod przymusem,
+b) przyczynienie się do dobrowolnego usunięcia przez przedsiębiorcę skutków
+naruszenia,
+c) przyczynienie się do zaniechania przez przedsiębiorcę z własnej inicjatywy
+stosowania niedozwolonej praktyki przed wszczęciem postępowania lub
+niezwłocznie po jego wszczęciu,
+d) okoliczności, o których mowa w pkt 1 lit. c i d;
+4) w przypadku niezgłoszenia zamiaru koncentracji, o którym mowa w art. 13 –
+poinformowanie Prezesa Urzędu o dokonaniu koncentracji oraz okoliczności,
+o których mowa w pkt 1 lit. d.
+4. Okolicznościami obciążającymi, o których mowa w ust. 2, są:
+1) w przypadku naruszenia zakazu praktyk ograniczających konkurencję:
+a) rola lidera lub inicjatora porozumienia ograniczającego konkurencję lub
+nakłanianie innych przedsiębiorców do uczestnictwa w porozumieniu –
+w przypadku naruszenia zakazu porozumień ograniczających konkurencję,
+©Kancelaria Sejmu s. 65/73
+2017-06-28
+b) przymuszanie, wywieranie presji lub stosowanie środków odwetowych
+w stosunku do innych przedsiębiorców lub osób w celu wprowadzenia
+w życie lub kontynuowania naruszenia,
+c) dokonanie uprzednio podobnego naruszenia,
+d) umyślność naruszenia;
+2) w przypadku naruszenia zakazu praktyk naruszających zbiorowe interesy
+konsumentów lub stosowania niedozwolonych postanowień wzorców umów:
+a) znaczny zasięg terytorialny naruszenia lub jego skutków,
+b) znaczne korzyści uzyskane przez przedsiębiorcę w związku z dokonanym
+naruszeniem,
+c) okoliczności, o których mowa w pkt 1 lit. c i d;
+3) w przypadku dopuszczenia przez osobę zarządzającą do naruszenia przez
+przedsiębiorcę zakazów, o których mowa w art. 6 ust. 1 pkt 1–6 ustawy lub
+w art. 101 ust. 1 lit. a–e TFUE:
+a) rola organizatora, inicjatora porozumienia ograniczającego konkurencję lub
+nakłanianie innych przedsiębiorców lub osób do uczestnictwa
+w porozumieniu,
+b) znaczne korzyści uzyskane przez osobę zarządzającą w związku
+z dokonanym naruszeniem,
+c) okoliczności, o których mowa w pkt 1 lit. b i c;
+4) w przypadku niezgłoszenia zamiaru koncentracji, o którym mowa w art. 13 –
+okoliczności, o których mowa w pkt 1 lit. c i d.
+Art. 112. 1. (uchylony)
+2. Środki finansowe pochodzące z kar pieniężnych, o których mowa w art. 106–
+108, stanowią dochód budżetu państwa.
+3. Karę pieniężną uiszcza się w terminie 14 dni od dnia uprawomocnienia się
+decyzji Prezesa Urzędu.
+4. W razie upływu terminu, o którym mowa w ust. 3, kara pieniężna podlega
+ściągnięciu w trybie przepisów o postępowaniu egzekucyjnym w administracji.
+5. W przypadku nieterminowego uiszczenia kary pieniężnej odsetek nie pobiera
+się.
+6. W przypadku uchylenia bądź zmiany prawomocnej decyzji, których
+następstwem jest uchylenie kary pieniężnej bądź obniżenie jej wysokości, uiszczona
+kara podlega zwrotowi w części albo w całości w terminie 14 dni od dnia doręczenia
+wezwania do zwrotu tej kary wraz z odpisem orzeczenia sądu i, w uzasadnionym
+©Kancelaria Sejmu s. 66/73
+2017-06-28
+przypadku, stwierdzeniem jego prawomocności. Przy zwrocie kary odsetek nie nalicza
+się.
+Art. 113. 1. Prezes Urzędu może na wniosek przedsiębiorcy, osoby
+zarządzającej lub innych osób, o których mowa w art. 108, odroczyć uiszczenie kary
+pieniężnej albo rozłożyć ją na raty ze względu na ważny interes wnioskodawcy.
+2. Do wniosku dołącza się uzasadnienie wskazujące ważny interes
+wnioskodawcy.
+3. W przypadku odroczenia uiszczenia kary pieniężnej albo rozłożenia jej na
+raty, Prezes Urzędu nalicza od nieuiszczonej kwoty odsetki w stosunku rocznym,
+których wysokość wynosi 50% stawki odsetek za zwłokę, ogłaszanej na podstawie
+art. 56 § 3 ustawy z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2015 r.
+poz. 613, z późn. zm.), od dnia następującego po dniu złożenia wniosku.
+4. W przypadku rozłożenia na raty kary pieniężnej, odsetki, o których mowa
+w ust. 3, są naliczane odrębnie od każdej raty.
+5. Odsetki są naliczane za okres do dnia upływu odroczonego terminu płatności
+kary pieniężnej albo terminu zapłaty poszczególnych rat.
+6. Prezes Urzędu może uchylić odroczenie uiszczenia kary pieniężnej albo
+rozłożenie jej na raty, jeżeli ujawniły się nowe lub uprzednio nieznane okoliczności
+istotne dla rozstrzygnięcia lub jeżeli rata nie została uiszczona w terminie.
+7. Rozstrzygnięcie Prezesa Urzędu w przedmiocie odroczenia uiszczenia kary
+pieniężnej albo rozłożenia jej na raty następuje w drodze postanowienia, na które nie
+przysługuje zażalenie.
+Rozdział 2
+Odstąpienie od wymierzenia kary pieniężnej lub jej obniżenie w sprawach
+porozumień ograniczających konkurencję
+Art. 113a. 1. Przedsiębiorca, który zawarł porozumienie, o którym mowa
+w art. 6 ust. 1 ustawy lub w art. 101 TFUE, może złożyć do Prezesa Urzędu wniosek
+o odstąpienie od wymierzenia kary pieniężnej lub jej obniżenie, zwany dalej
+„wnioskiem”.
+2. Wniosek zawiera opis porozumienia wskazujący w szczególności:
+1) przedsiębiorców, którzy zawarli porozumienie;
+©Kancelaria Sejmu s. 67/73
+2017-06-28
+2) produkty lub usługi, których dotyczy porozumienie;
+3) terytorium objęte porozumieniem;
+4) cel porozumienia;
+5) okoliczności zawarcia porozumienia;
+6) okoliczności i sposób funkcjonowania porozumienia;
+7) czas trwania porozumienia;
+8) rolę poszczególnych przedsiębiorców uczestniczących w porozumieniu;
+9) imiona, nazwiska i stanowiska służbowe osób pełniących w porozumieniu
+znaczącą rolę wraz z jej opisem;
+10) czy wniosek został złożony również do organów ochrony konkurencji państw
+członkowskich Unii Europejskiej lub do Komisji Europejskiej.
+3. Przedsiębiorca, o którym mowa w ust. 1, jest obowiązany nie ujawniać
+zamiaru złożenia wniosku.
+4. Prezes Urzędu potwierdza datę i godzinę złożenia wniosku.
+5. Wnioskodawca jest obowiązany współpracować z Prezesem Urzędu
+w pełnym zakresie od złożenia wniosku, w szczególności:
+1) z własnej inicjatywy i na żądanie Prezesa Urzędu dostarczać niezwłocznie
+wszelkie dowody lub informacje dotyczące porozumienia, którymi dysponuje
+albo którymi może dysponować, mające istotne znaczenie dla sprawy;
+2) nie utrudniać złożenia wyjaśnień przez osoby zatrudnione przez przedsiębiorcę
+oraz osoby pełniące funkcję kierowniczą lub wchodzące w skład organu
+zarządzającego przedsiębiorcy;
+3) nie niszczyć, nie fałszować, nie zatajać dowodów lub informacji związanych ze
+sprawą;
+4) nie ujawniać faktu złożenia wniosku bez zgody Prezesa Urzędu.
+6. Wnioskodawca, który nie zaprzestał uczestnictwa w porozumieniu przed
+złożeniem wniosku, jest obowiązany zaprzestać tego uczestnictwa niezwłocznie po
+złożeniu wniosku.
+Art. 113b. Prezes Urzędu odstępuje od nałożenia kary pieniężnej, o której mowa
+w art. 106 ust. 1 pkt 1 lub 2, na przedsiębiorcę, który zawarł porozumienie, o którym
+mowa w art. 6 ust. 1 ustawy lub w art. 101 TFUE, w przypadku gdy przedsiębiorca
+ten łącznie:
+1) jako pierwszy z uczestników porozumienia złożył wniosek zgodny z wymogami,
+określonymi w art. 113a ust. 2 oraz spełnił warunki określone w art. 113a ust. 3,
+5 i 6;
+©Kancelaria Sejmu s. 68/73
+2017-06-28
+2) przedstawił:
+a) dowód wystarczający do wszczęcia postępowania antymonopolowego lub
+informacje umożliwiające Prezesowi Urzędu uzyskanie takiego dowodu,
+albo
+b) jeżeli wniosek został złożony po wszczęciu postępowania
+antymonopolowego – dowód, który w istotny sposób przyczyni się do
+wydania decyzji, o której mowa w art. 10, lub na żądanie Prezesa Urzędu
+przedstawił informacje umożliwiające uzyskanie takiego dowodu
+– o ile Prezes Urzędu nie posiadał w tym czasie tych informacji lub dowodów;
+3) nie nakłaniał innych przedsiębiorców do uczestnictwa w porozumieniu.
+Art. 113c. 1. W przypadku gdy przedsiębiorca, który zawarł porozumienie,
+o którym mowa w art. 6 ust. 1 ustawy lub w art. 101 TFUE, nie spełnia łącznie
+warunków, o których mowa w art. 113b, Prezes Urzędu obniża karę pieniężną
+nakładaną na tego przedsiębiorcę, jeżeli przedsiębiorca ten łącznie:
+1) złożył wniosek zgodny z wymogami określonymi w art. 113a ust. 2;
+2) spełnił warunki określone w art. 113a ust. 3, 5 i 6;
+3) przedstawił dowód mający istotne znaczenie dla rozpatrywanej sprawy, którego
+Prezes Urzędu nie posiadał.
+2. W przypadku, o którym mowa w ust. 1, Prezes Urzędu nakłada karę pieniężną
+obniżoną o:
+1) 30–50% w stosunku do wysokości kary, jaka zostałaby nałożona na
+przedsiębiorcę, gdyby nie złożył wniosku – na przedsiębiorcę, który jako
+pierwszy spełnił warunki, o których mowa w ust. 1;
+2) 20–30% w stosunku do wysokości kary, jaka zostałaby nałożona na
+przedsiębiorcę, gdyby nie złożył wniosku – na przedsiębiorcę, który jako drugi
+spełnił warunki, o których mowa w ust. 1;
+3) maksymalnie 20% w stosunku do wysokości kary, jaka zostałaby nałożona na
+przedsiębiorcę, gdyby nie złożył wniosku – na pozostałych przedsiębiorców,
+którzy spełnili warunki, o których mowa w ust. 1.
+Art. 113d. 1. W przypadku gdy przedsiębiorca, o którym mowa w art. 113c
+ust. 1, przed wydaniem decyzji w sprawie, w której złożył wniosek, jako pierwszy
+z uczestników innego porozumienia, w sprawie którego nie zostało wszczęte
+postępowanie antymonopolowe lub wyjaśniające, złożył również wniosek dotyczący
+tego innego porozumienia i przedstawił Prezesowi Urzędu dowód lub informacje,
+©Kancelaria Sejmu s. 69/73
+2017-06-28
+o których mowa w art. 113b pkt 2 lit. a, Prezes Urzędu w sprawie, w której został
+złożony:
+1) pierwszy wniosek – obniża wysokość kary pieniężnej nakładanej na tego
+przedsiębiorcę, o której mowa w art. 113c ust. 2, o 30%;
+2) wniosek dotyczący innego porozumienia – odstępuje od nałożenia na tego
+przedsiębiorcę kary pieniężnej, o której mowa w art. 106 ust. 1 pkt 1 lub 2, jeżeli
+spełnił on łącznie warunki, o których mowa w art. 113b.
+2. W przypadku złożenia wniosku, o którym mowa w art. 113e, dotyczącego
+innego porozumienia, o którym mowa w ust. 1 pkt 2, Prezes Urzędu obniża wysokość
+kary pieniężnej nakładanej na przedsiębiorcę w sprawie, w której został złożony
+pierwszy wniosek, o którym mowa w ust. 1 pkt 1, jeżeli brakujące informacje lub
+dowody zostały uzupełnione w terminie, o którym mowa w art. 113e ust. 2.
+Art. 113e. 1. W przypadku gdy przedsiębiorca nie dysponuje informacjami
+w zakresie określonym w art. 113a ust. 2 lub dowodami lub informacjami, o których
+mowa w art. 113b pkt 2 lub w art. 113c ust. 1 pkt 3, może złożyć do Prezesa Urzędu
+wniosek w formie skróconej zawierający opis porozumienia, który wskazuje co
+najmniej informacje, o których mowa w art. 113a ust. 2 pkt 1–4, 7 i 9.
+2. Prezes Urzędu niezwłocznie po złożeniu wniosku przez przedsiębiorcę określa
+zakres informacji lub dowodów, jakie należy przedstawić oraz termin ich
+przedstawienia.
+3. W przypadku przedstawienia informacji lub dowodów w terminie, o którym
+mowa w ust. 2, wniosek uznaje się za złożony w dacie złożenia wniosku w formie
+skróconej.
+4. Nieprzedstawienie informacji i dowodów w wyznaczonym terminie powoduje
+nieuwzględnienie wniosku.
+Art. 113f. 1. W przypadku złożenia przez przedsiębiorcę do Komisji
+Europejskiej wniosku o zwolnienie z grzywien, o których mowa w art. 23 ust. 2
+lit. a rozporządzenia nr 1/2003/WE, za udział w zakazanym porozumieniu
+obejmującym terytorium więcej niż trzech państw członkowskich Unii Europejskiej,
+przedsiębiorca może również złożyć do Prezesa Urzędu wniosek w formie
+uproszczonej.
+2. Wniosek, o którym mowa w ust. 1, zawiera wskazanie:
+1) przedsiębiorców, którzy zawarli porozumienie;
+2) produktów lub usług, których dotyczy porozumienie;
+©Kancelaria Sejmu s. 70/73
+2017-06-28
+3) terytorium objętego porozumieniem;
+4) celu porozumienia;
+5) czasu trwania porozumienia;
+6) państw członkowskich Unii Europejskiej, w których znajdują się dowody na
+istnienie porozumienia.
+3. Wniosek w formie uproszczonej zawiera również informację o wnioskach
+złożonych, lub które przedsiębiorca zamierza złożyć w innych państwach
+członkowskich Unii Europejskiej lub do Komisji Europejskiej.
+4. W przypadku wszczęcia postępowania dotyczącego porozumienia, o którym
+mowa we wniosku w formie uproszczonej, Prezes Urzędu wzywa przedsiębiorcę do
+przedstawienia w wyznaczonym terminie informacji, o których mowa w art. 113a
+ust. 2, oraz dowodów lub informacji, o których mowa w art. 113b pkt 2 lub w art. 113c
+ust. 1 pkt 3.
+5. W przypadku przedstawienia informacji i dowodów w terminie, o którym
+mowa w ust. 4, wniosek uznaje się za złożony w dacie złożenia wniosku w formie
+uproszczonej.
+Art. 113g. W przypadku nieuwzględnienia wniosku przez Prezesa Urzędu albo
+jego wycofania przez przedsiębiorcę wniosek zwraca się przedsiębiorcy w terminie
+7 dni.
+Art. 113h. Przepisy art. 113a–e i art. 113g stosuje się odpowiednio do osób
+zarządzających, o których mowa w art. 6a, z uwzględnieniem art. 113i oraz art. 113j.
+Art. 113i. Osoba zarządzająca przedstawia we wniosku informacje w nim
+wymagane w zakresie, w jakim dysponuje nimi ze względu na pełnioną u
+przedsiębiorcy funkcję i swoją rolę w porozumieniu.
+Art. 113j. 1. Wniosek przedsiębiorcy zgodny z wymogami określonymi
+w art. 113a ust. 2, wraz z którym przedstawiono dowody lub informacje, o których
+mowa w art. 113b pkt 2 lub w art. 113c ust. 1 pkt 3, obejmuje również osoby
+zarządzające tego przedsiębiorcy, o których mowa w art. 6a.
+2. Jeżeli osoba zarządzająca współpracuje z Prezesem Urzędu od powzięcia
+wiadomości o złożeniu wniosku w sposób określony w art. 113a ust. 5, Prezes Urzędu
+obniża karę pieniężną nakładaną na tę osobę na tych samych zasadach, na jakich kara
+zostaje obniżona w stosunku do przedsiębiorcy.
+3. Prezes Urzędu odstępuje od nałożenia kary pieniężnej albo obniża karę
+pieniężną nakładaną na osobę zarządzającą spełniającą warunki, o których mowa
+©Kancelaria Sejmu s. 71/73
+2017-06-28
+w ust. 2, pomimo nieodstąpienia od nałożenia kary pieniężnej na przedsiębiorcę, który
+złożył wniosek albo nieobniżenia kary pieniężnej nakładanej na tego przedsiębiorcę
+z powodu niespełnienia przez niego warunków określonych w art. 113a ust. 3, 5 i 6
+lub w art. 113b pkt 3.
+Art. 113k. Rada Ministrów określi, w drodze rozporządzenia, szczegółowy
+sposób i tryb postępowania z wnioskiem złożonym przez przedsiębiorcę lub osobę
+zarządzającą mając na uwadze kategorię podmiotu składającego wniosek
+i konieczność zapewnienia rzetelnej oceny spełnienia warunków, o których mowa
+w art. 113b i w art. 113c ust. 1, oraz właściwego zakwalifikowania wniosku.
+DZIAŁ VIII
+Przepis karny
+Art. 114. 1. Kto, wbrew przepisowi art. 42 ust. 4, narusza obowiązek udzielenia
+rzecznikowi konsumentów wyjaśnień i informacji będących przedmiotem wystąpienia
+rzecznika lub obowiązek ustosunkowania się do uwag i opinii rzecznika, podlega
+karze grzywny, nie mniejszej niż 2000 zł.
+2. Orzekanie w sprawach o czyny określone w ust. 1 następuje w trybie
+przepisów ustawy z dnia 24 sierpnia 2001 r. – Kodeks postępowania w sprawach
+o wykroczenia.
+DZIAŁ IX
+Przepisy zmieniające, przejściowe i końcowe
+Art. 115–129. (pominięte)
+Art. 130. Przy ustalaniu wysokości kary pieniężnej, o którym mowa w art. 111,
+uwzględnia się również okoliczność naruszenia przepisów ustawy z dnia 15 grudnia
+2000 r. o ochronie konkurencji i konsumentów (Dz. U. z 2005 r. poz. 2080 oraz z
+2006 r. poz. 1119, 1217 i 1834).
+Art. 131. 1. Do postępowań wszczętych na podstawie ustawy z dnia 15 grudnia
+2000 r. o ochronie konkurencji i konsumentów i niezakończonych do dnia wejścia
+w życie niniejszej ustawy stosuje się przepisy dotychczasowe.
+2. Postępowania antymonopolowe w sprawach koncentracji, wszczęte na
+podstawie ustawy z dnia 15 grudnia 2000 r. o ochronie konkurencji i konsumentów,
+umarza się w przypadku, gdy zamiar koncentracji nie podlega obowiązkowi
+zgłoszenia na podstawie przepisów niniejszej ustawy.
+©Kancelaria Sejmu s. 72/73
+2017-06-28
+3. Wnioski o wszczęcie postępowań w sprawach praktyk ograniczających
+konkurencję oraz w sprawach praktyk naruszających zbiorowe interesy konsumentów,
+złożone na podstawie ustawy z dnia 15 grudnia 2000 r. o ochronie konkurencji
+i konsumentów, na podstawie których nie zostało wszczęte postępowanie
+antymonopolowe w sprawach praktyk ograniczających konkurencję lub postępowanie
+w sprawach praktyk naruszających zbiorowe interesy konsumentów, traktuje się jako
+zawiadomienia dotyczące podejrzenia stosowania tych praktyk, w rozumieniu
+przepisów niniejszej ustawy.
+Art. 132. Do czasu powołania Prezesa Urzędu w trybie określonym w art. 29
+funkcję tę pełni Prezes Urzędu powołany w trybie przepisów dotychczasowych.
+Art. 133. Członkowie Krajowej Rady Rzeczników Konsumenckich utworzonej
+na podstawie przepisów ustawy z dnia 15 grudnia 2000 r. o ochronie konkurencji
+i konsumentów zachowują członkostwo w Radzie po dniu wejścia w życie niniejszej
+ustawy, na zasadach w niej określonych.
+Art. 134. 1. Rzecznicy konsumentów powołani na podstawie przepisów
+dotychczasowych pełnią funkcje do czasu ich odwołania w trybie art. 40 niniejszej
+ustawy.
+2. Dotychczasowe warunki pracy i płacy rzecznika konsumentów zachowują
+moc do czasu określenia przez starostę nowych warunków pracy i płacy rzecznika
+konsumentów.
+Art. 135. 1. Z dniem wejścia w życie ustawy Urząd wstępuje we wszystkie
+prawa i obowiązki Urzędu Ochrony Konkurencji i Konsumentów utworzonego na
+podstawie dotychczasowych przepisów.
+2. Z dniem wejścia w życie ustawy mienie Urzędu Ochrony Konkurencji
+i Konsumentów utworzonego na podstawie dotychczasowych przepisów staje się,
+z mocy prawa, mieniem Urzędu.
+3. Przejście praw i mienia Urzędu Ochrony Konkurencji i Konsumentów
+utworzonego na podstawie dotychczasowych przepisów na Urząd następuje
+nieodpłatnie oraz jest wolne od podatków i opłat.
+4. Z dniem wejścia w życie ustawy pracownicy Urzędu Ochrony Konkurencji
+i Konsumentów utworzonego na podstawie dotychczasowych przepisów stają się,
+z mocy prawa, pracownikami Urzędu.
+Art. 136. 1. Przepisy wykonawcze wydane na podstawie art. 16, art. 28 ust. 3,
+art. 57 ust. 6, art. 77 ust. 6, art. 94 ust. 5, art. 103a ust. 5 ustawy z dnia 15 grudnia 2000
+©Kancelaria Sejmu s. 73/73
+2017-06-28
+r. o ochronie konkurencji i konsumentów zachowują moc do czasu wejścia w życie
+przepisów wykonawczych wydanych na podstawie art. 17, art. 33 ust. 3, art. 63 ust. 5,
+art. 94 ust. 6, art. 109 ust. 5 niniejszej ustawy, nie dłużej jednak niż przez okres 12
+miesięcy od dnia jej wejścia w życie, z zastrzeżeniem ust. 2.
+2. Przepisy wykonawcze wydane na podstawie art. 7 ustawy z dnia 15 grudnia
+2000 r. o ochronie konkurencji i konsumentów zachowują moc do czasu ich
+wygaśnięcia.
+Art. 137. Traci moc ustawa z dnia 15 grudnia 2000 r. o ochronie konkurencji
+i konsumentów (Dz. U. z 2005 r. poz. 2080 oraz z 2006 r. poz. 1119, 1217 i 1834).
+Art. 138. Ustawa wchodzi w życie po upływie 30 dni od dnia ogłoszenia.
