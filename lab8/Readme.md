@@ -8,8 +8,8 @@ Zamiana tekstu na formę obiektową.
   * zamieniał postać tekstową plików na formę obiektową,
   * umożliwiał wyświetlanie treści artykułu o określonym numerze lub zakresu artykułów,
   * umożliwiał wyświetlanie specyficznych elementów składowych artykułu, takich jak (przykłady z pliku uokik.txt):
-    * punkty -- Art. 1., ust. 1: "Ustawa określa warunki...", 
-    * podpunkty -- Art. 2, ust. 2., pkt 1): "umów, w szczególności licencji..." ), 
+    * ustępy -- Art. 1., ust. 1: "Ustawa określa warunki...", 
+    * punkty -- Art. 2, ust. 2., pkt 1): "umów, w szczególności licencji..." ), 
     * litery -- Art. 2, ust. 2., pkt 2), lit. a): "informacji technicznych i technologicznych,"
   * umożliwiał wyświetlanie treści rozdziału o określonym numerze (w tym treści wszystkich artykułów znajdujących się w
     tym rozdziale),
