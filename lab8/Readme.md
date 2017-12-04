@@ -8,9 +8,9 @@ Zamiana tekstu na formę obiektową.
   * zamieniał postać tekstową plików na formę obiektową,
   * umożliwiał wyświetlanie treści artykułu o określonym numerze lub zakresu artykułów,
   * umożliwiał wyświetlanie specyficznych elementów składowych artykułu, takich jak (przykłady z pliku uokik.txt):
-    * punkty -- Art. 1., pkt 1: "Ustawa określa warunki...", 
-    * podpunkty -- Art. 2, pkt 2., ppkt 1): "umów, w szczególności licencji..." ), 
-    * litery -- Art. 2, pkt 2., ppkt 2), lit. a): "informacji technicznych i technologicznych,"
+    * punkty -- Art. 1., ust. 1: "Ustawa określa warunki...", 
+    * podpunkty -- Art. 2, ust. 2., pkt 1): "umów, w szczególności licencji..." ), 
+    * litery -- Art. 2, ust. 2., pkt 2), lit. a): "informacji technicznych i technologicznych,"
   * umożliwiał wyświetlanie treści rozdziału o określonym numerze (w tym treści wszystkich artykułów znajdujących się w
     tym rozdziale),
   * umożliwiał wyświetlanie spisu treści całej ustawy, z podziałem na działy (jeśli istnieją), rozdziały i tytuły,
@@ -22,6 +22,6 @@ Zamiana tekstu na formę obiektową.
 3. Program powinien akceptować argumenty: lokalizację pliku wejściowego, tryb działania (wyświetlanie treści, bądź spisu treści) 
   oraz jeden z elementów:
   * numer lub zakres artykułów,
-  * określenie specyficznych elementów składowych artykułu, np. "art. 1, pkt 1",
+  * określenie specyficznych elementów składowych artykułu, np. "art. 1, ust. 1",
   * numer rozdziału,
   * numer działu.
