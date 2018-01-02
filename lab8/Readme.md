@@ -10,7 +10,7 @@ Zamiana tekstu na formę obiektową.
   * umożliwiał wyświetlanie specyficznych elementów składowych artykułu, takich jak (przykłady z pliku uokik.txt):
     * ustępy -- Art. 1., ust. 1: "Ustawa określa warunki...", 
     * punkty -- Art. 2, ust. 2., pkt 1): "umów, w szczególności licencji..." ), 
-    * litery -- Art. 2, ust. 2., pkt 2), lit. a): "informacji technicznych i technologicznych,"
+    * litery -- Art. 2, ust. 2., pkt 2), lit. a): "informacji technicznych lub technologicznych,"
   * umożliwiał wyświetlanie treści rozdziału o określonym numerze (w tym treści wszystkich artykułów znajdujących się w
     tym rozdziale),
   * umożliwiał wyświetlanie spisu treści całej ustawy, z podziałem na działy (jeśli istnieją), rozdziały i tytuły,
