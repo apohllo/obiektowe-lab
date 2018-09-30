@@ -84,7 +84,7 @@ enum Direction {
 ```
 * Typu wyliczeniowego można użyć odwołując się do jego składowych, np.:
 ```java
-Direction direction = Direction.Forward;
+Direction direction = Direction.FORWARD;
 ```
 * W Javie (od wersji 7) można wykonywać instrukcję `switch` na łańcuchach znaków, np.
 ```java
