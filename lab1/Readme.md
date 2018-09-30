@@ -18,7 +18,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 8. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy tymi komunikatami.
 9. Metoda `run` powinna informować o tym, że samochód porusza się do przodu.
 10. Uruchom program.
-11. Rozszerz metodę `run` tak by akceptowała listę argumentów typu `String`.
+11. Rozszerz metodę `run` tak by akceptowała tablicę argumentów typu `String`.
 12. Po komunikacie o poruszaniu się do przodu wypisz w konsoli wartości wszystkich argumentów tej metody oddzielone przecinkami.
 13. Zwróć uwagę na to, żeby nie było nadmiarowych przecinków.
 14. Uruchom program z dowolnymi parametrami (muszą występować co najmniej 2).
