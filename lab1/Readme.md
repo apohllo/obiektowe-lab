@@ -76,10 +76,10 @@ for(String argument : arguments){
 * Typ wyliczeniowy deklaruje się za pomocą słowa kluczowego `enum`, np.:
 ```java
 enum Direction {
-  Forward,
-  Backward,
-  Right,
-  Left
+  FORWARD,
+  BACKWARD,
+  RIGHT,
+  LEFT
 }
 ```
 * Typu wyliczeniowego można użyć odwołując się do jego składowych, np.:
