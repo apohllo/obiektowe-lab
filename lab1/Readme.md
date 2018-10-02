@@ -42,7 +42,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
     (`Direction.java`) w pakiecie `agh.cs.lab1`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij IntelliJ.
-20. Otwórz konsolę Windows.
+20. Otwórz konsolę Windows (np. PowerShell).
 21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`): <br/>
     `javac agh\cs\lab1\*`
 22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty: <br/>
