@@ -44,7 +44,7 @@ Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 19. Zamknij IntelliJ.
 20. Otwórz konsolę Windows (np. PowerShell).
 21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`, możliwe, że trzeba będzie podać bezwzględną ścieżkę do pliku javac.exe): <br/>
-    `javac agh\cs\lab1\*`
+    `javac agh\cs\lab1\*.java`
 22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty: <br/>
     `java agh.cs.lab1.CarSystem f l`
 23. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
