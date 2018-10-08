@@ -18,6 +18,11 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
      wartość mniejszą bądź równą polom drugiego obiektu,
    * posiada metodę `larger`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
      wartość większą bądź równą polom drugiego obiektu,
+   * posiada metodę `upperRight`, która akceptuje inny punkt i zwraca obiekt klasy `Position` posiadający te składowe
+     punktów, które mają większe wartości dla odpowiednich osi (innymi słowy jest prawym górnym rogiem prostokąta, który
+     opisany jest na obu punktach),
+   * posiada metodę `lowerLef`, która akceptuje inny punkt i zwraca obiekt klasy `Position` posiadający te składowe
+     punktów, które mają mniejsze wartości dla odpowiednich osi (tzn. lewy dolny róg prostokąta),
    * posiada metodę `add`, która zwraca nowy obiekt klasy `Position`, którego składowe są sumą odpowiednich składowych
      dodawanych pozycji,
    * posiada metodę `boolean equals(Object other)` która zwraca prawdę jeśli obie pozycje są sobie równe.
@@ -33,12 +38,12 @@ Sprawdź czy uzyskane wyniki są poprawne.
 
 ### Pozostałe klasy
 
-6. Utwórz typ wyliczeniowy `MoveDirection` z czterema kierunkami: `Forward, Backward, Right, Left`.
-7. Utwórz typ wyliczeniowy `MapDirection` z czterema kierunkami: `North, South, West, East`, który:
-   * posiada metodę `toString`, która dla kierunku `East` zwraca łańcuch `Wschód`, dla `West` - `Zachód`, itd.
-   * posiada metodę `next`, która dla kierunku `East` zwraca `South` (kolejny kierunek zgodnie z ruchem wskazówek
+6. Utwórz typ wyliczeniowy `MoveDirection` z czterema kierunkami: `FORWARD, BACKWARD, RIGHT, LEFT`.
+7. Utwórz typ wyliczeniowy `MapDirection` z czterema kierunkami: `NORTH, SOUTH, WEST, EAST`, który:
+   * posiada metodę `toString`, która dla kierunku `EAST` zwraca łańcuch `Wschód`, dla `WEST` - `Zachód`, itd.
+   * posiada metodę `next`, która dla kierunku `EAST` zwraca `SOUTH` (kolejny kierunek zgodnie z ruchem wskazówek
      zegara), itd.
-   * posiada metodę `previous`, która dla kierunku `East` zwraca `North` (kolejny kierunek zgodnie z ruchem przeciwnym
+   * posiada metodę `previous`, która dla kierunku `EAST` zwraca `NORTH` (kolejny kierunek zgodnie z ruchem przeciwnym
      do ruchu wskazówek zegara), itd.
 7. Sprawdź w metodzie `main` czy metody te działają zgodnie z opisem.
 
@@ -52,8 +57,8 @@ Sprawdź czy uzyskane wyniki są poprawne.
 4. Uruchom test korzystając z menu `Run as`.
 5. Zaimplementuj test weryfikujący poprawność działania metody `previous()`, dla wszystkich przypadków.
 6. Utwórz klasę `PositionTest`.
-7. Dodaj testy weryfikujące poprawność metod: `toString()`, `smaller(Position p)`, `larger(Position p)` oraz
-   `add(Position p)`.
+7. Dodaj testy weryfikujące poprawność metod: `toString()`, `smaller(Position other)`, `larger(Position other)`,
+   `upperRight(Position other)`, `lowerLeft(Position other)` oraz `add(Position other)`.
 
 
 ## Przydatne informacje
@@ -98,7 +103,7 @@ struct Point * createPoint(int x, int y){
 struct Point * p1 = createPoint(1,2);
 ```
 
-Ten kod jest analogiczny do konstruktora, z ta różnicą, że w konstruktorze nie tworzymy obiektu explicite, tylko mamy do
+Ten kod jest analogiczny do konstruktora, z ta różnicą, że w konstruktorze nie tworzymy obiektu *explicite*, tylko mamy do
 niego dostęp za pomocą słowa kluczowego `this`.
 
 * Metoda `equals` ma zwykle taki sam schemat:
@@ -122,15 +127,15 @@ umieszczenie obiektów w kolekcji takiej jak `Set` będzie niezgodne z semantyk�
   wartości typu, np.:
 ```java
 enum MapDirection {
-  North,
-  South,
-  East,
-  West;
+  NORTH,
+  SOUTH,
+  EAST,
+  WEST;
 
   public String toString(){
     switch(this) {
-      case North: return "Północ";
-      case South: return "Południe";
+      case NORTH: return "Północ";
+      case SOUTH: return "Południe";
       //...
     }
   }
