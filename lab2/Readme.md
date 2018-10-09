@@ -57,9 +57,9 @@ Sprawdź czy uzyskane wyniki są poprawne.
    * w okienko wpisujemy junit:junit -> search
    * wybieramy dostępną wersję JUnit (najnowszą ale bez SNAPSHOT)
    * zmieniamy Scope na test (w okienku Dependencies)
-3. Utwórz klasę `MapDirectionTest` jako JUnitTestCase (JUnit w wersji 4).
+3. Utwórz klasę `MapDirectionTest`.
 4. Zaimplementuj test weryfikujący poprawność działania metody `next()`, dla wszystkich przypadków (dodaj anotację
-   `@Test).
+   `@Test` przed deklaracją metody).
 4. Uruchom test korzystając z menu `Run as`.
 5. Zaimplementuj test weryfikujący poprawność działania metody `previous()`, dla wszystkich przypadków.
 6. Utwórz klasę `PositionTest`.
