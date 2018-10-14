@@ -28,7 +28,7 @@ Celem laboratorium jest wykorzystanie modelu obiektowego Javy do rozwiązania pr
    * akceptuje tablicę łańcuchów znaków,
    * zwraca tablicę kierunków ruchu `MoveDirection`,
    * zamienia łańcuchy `f` oraz `forward` na kierunek `MoveDirection.FORWARD`, `b` oraz `backward` na kierunek
-     `MoveDirection.BACKWARD`,
+     `MoveDirection.BACKWARD`, itd.
    * dla nieznanych kierunków nie umieszcza ich w tablicy wynikowej.
 13. Zmodyfikuj metodę `main` tak aby korzystając z klasy `OptionsParser` umożliwiała sterowanie samochodem.
 14. Przetestuj zachowanie samochodu dla różnych danych wejściowych.
