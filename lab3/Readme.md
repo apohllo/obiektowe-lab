@@ -7,7 +7,7 @@ Celem laboratorium jest wykorzystanie modelu obiektowego Javy do rozwiązania pr
 
 1. Wykorzystaj definicje klas `Position`, `MapDirection` oraz `MoveDirection` z laboratorium 2.
 8. Utwórz klasę `Car`, która:
-   * określa początkową orientacje samochodu jako `North`,
+   * określa początkową orientacje samochodu jako `NORTH`,
    * określa początkowe położenie samochodu na mapie jako `Position(2,2)` (przyjmij, że samochód znajduje się w
      pierwszej ćwiartce układu współrzędnych, a północ jest tożsama z kierunkiem wyznaczanym przez rosnące wartości na
      osi OY),
