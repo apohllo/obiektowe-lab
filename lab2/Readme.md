@@ -63,7 +63,7 @@ Sprawdź czy uzyskane wyniki są poprawne.
 4. Uruchom test korzystając z menu `Run as`.
 5. Zaimplementuj test weryfikujący poprawność działania metody `previous()`, dla wszystkich przypadków.
 6. Utwórz klasę `PositionTest`.
-7. Dodaj testy weryfikujące poprawność metod: `toString()`, `smaller(Position other)`, `larger(Position other)`,
+7. Dodaj testy weryfikujące poprawność metod: `equals(Object other)`, `toString()`, `smaller(Position other)`, `larger(Position other)`,
    `upperRight(Position other)`, `lowerLeft(Position other)` oraz `add(Position other)`.
 
 
