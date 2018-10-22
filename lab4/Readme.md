@@ -9,12 +9,12 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
 3. Zmodyfikuje klasę `Car` z poprzedniego ćwiczenia:
    * zdefiniuj konstruktor `Car(IWorldMap map)`; wykorzystaj argument `map` tak aby w metodzie `move` można było odwołać
      się do mapy i zweryfikować, czy samochód może przesunąć się na daną pozycję,
-   * zdefiniuj konstruktor `Car(IWorldMap map, int x, int y)`, który dodatkowo określa początkowe położenie samochodu na
+   * zdefiniuj konstruktor `Car(IWorldMap map, Position initialPosition)`, który dodatkowo określa początkowe położenie samochodu na
      mapie,
    * dodaj metodę `Position getPosition()`, która zwraca pozycję samochodu,
    * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientacje samochodu w postaci łańcucha
      składającego się z jednego znaku, Np. jeśli samochód ma orientację północną to metoda `toString()` powinna zwracać
-     łańcuch "N".
+     łańcuch "N" albo "^".
    * zmodyfikuj metodę `move`, tak by korzystała z wywołania `canMoveTo` interfejsu `IWorldMap`.
 3. Zdefiniuj klasę `RectangularMap`, która:
    * definiuje prostokątną mapę,
