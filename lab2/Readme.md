@@ -5,11 +5,11 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
 
 ## Zadania do wykonania
 
-### Klasa `Position`
+### Klasa `Vector2d`
 
 1. Pliki projektu należy umieszczać w pakiecie `agh.cs.lab2`.
 2. Utwórz klasę `CarSystem` z metodą `main`.
-3. Utwórz klasę `Position`, która:
+3. Utwórz klasę `Vector2d`, która:
    * posiada dwa publiczne pola `x` i `y` typu `int`, które nie mogą być modyfikowane (`final`),
    * posiada konstruktor akceptujący parametry `x` i `y`, która są przypisywane do pól `x` i `y`,
    * posiada metodę `toString`, która zamienia pozycję na napis `(x,y)`, np. dla `x = 1` oraz `y = 2`, napis ma postać
@@ -18,19 +18,21 @@ Celem laboratorium jest zapoznanie się z modelem obiektowym Javy.
      wartość mniejszą bądź równą polom drugiego obiektu,
    * posiada metodę `larger`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
      wartość większą bądź równą polom drugiego obiektu,
-   * posiada metodę `upperRight`, która akceptuje inny punkt i zwraca obiekt klasy `Position` posiadający te składowe
+   * posiada metodę `upperRight`, która akceptuje inny punkt i zwraca obiekt klasy `Vector2d` posiadający te składowe
      punktów, które mają większe wartości dla odpowiednich osi (innymi słowy jest prawym górnym rogiem prostokąta, który
      opisany jest na obu punktach),
-   * posiada metodę `lowerLef`, która akceptuje inny punkt i zwraca obiekt klasy `Position` posiadający te składowe
+   * posiada metodę `lowerLeft`, która akceptuje inny punkt i zwraca obiekt klasy `Vector2d` posiadający te składowe
      punktów, które mają mniejsze wartości dla odpowiednich osi (tzn. lewy dolny róg prostokąta),
-   * posiada metodę `add`, która zwraca nowy obiekt klasy `Position`, którego składowe są sumą odpowiednich składowych
+   * posiada metodę `add`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są sumą odpowiednich składowych
      dodawanych pozycji,
+   * posiada metodę `subtract`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są różnicą 
+     odpowiednich składowych odejmowanych pozycji, 
    * posiada metodę `boolean equals(Object other)` która zwraca prawdę jeśli obie pozycje są sobie równe.
 4. W metodzie `main` wprowadź następujący kod:
 ```java
-Position position1 = new Position(1,2);
+Vector2d position1 = new Vector2d(1,2);
 System.out.println(position1);
-Position position2 = new Position(-2,1);
+Vector2d position2 = new Vector2d(-2,1);
 System.out.println(position2);
 System.out.println(position1.add(position2));
 ```
@@ -45,6 +47,8 @@ Sprawdź czy uzyskane wyniki są poprawne.
      zegara), itd.
    * posiada metodę `previous`, która dla kierunku `EAST` zwraca `NORTH` (kolejny kierunek zgodnie z ruchem przeciwnym
      do ruchu wskazówek zegara), itd.
+   * posiada metodę `toUnitVector`, która zwraca jednostkowy wektor przemieszczenia typu `Vector2d` zgodny z orientacją na mapie,
+     tzn. dla `NORTH` wektor ten powinien mieć wartość `(0,1)`, dla `EAST` `(1,0)`, itd.
 7. Sprawdź w metodzie `main` czy metody te działają zgodnie z opisem.
 
 
@@ -62,16 +66,16 @@ Sprawdź czy uzyskane wyniki są poprawne.
    `@Test` przed deklaracją metody).
 4. Uruchom test korzystając z menu `Run as`.
 5. Zaimplementuj test weryfikujący poprawność działania metody `previous()`, dla wszystkich przypadków.
-6. Utwórz klasę `PositionTest`.
-7. Dodaj testy weryfikujące poprawność metod: `equals(Object other)`, `toString()`, `smaller(Position other)`, `larger(Position other)`,
-   `upperRight(Position other)`, `lowerLeft(Position other)` oraz `add(Position other)`.
+6. Utwórz klasę `Vector2dTest`.
+7. Dodaj testy weryfikujące poprawność metod: `equals(Object other)`, `toString()`, `smaller(Vector2d other)`, `larger(Vector2d other)`,
+   `upperRight(Vector2d other)`, `lowerLeft(Vector2d other)` oraz `add(Vector2d other)`.
 
 
 ## Przydatne informacje
 
 * Pola w obiekcie deklarowane są w ciele klasy, np. 
 ```java
-class Position {
+class Vector2d {
   public int x;
   public int y;
 }
@@ -79,8 +83,8 @@ class Position {
 * Konstruktor jest specjalną metodą w każdej klasie. Nazywa się tak samo jak klasa i nie zwraca wartości. Konstruktor 
 pozwala ustalić początkową wartość pól obiektu jeśli mają być przekazane przez użytkownika, np.
 ```java
-class Position {
-  public Position(int x, int y){
+class Vector2d {
+  public Vector2d(int x, int y){
     this.x = x;
     this.y = y;
   }
@@ -88,7 +92,7 @@ class Position {
 ```
 * Obiekty klasy tworzy się za pomocą wywołania `new`, np. 
 ```java
-Position position1 = new Position(1,2);
+Vector2d position1 = new Vector2d(1,2);
 ```
 * Słowo kluczowe `this` odnosi się do obiekt, na rzecz którego wywołano metodę.
 Przykładowo w języku C moglibyśmy zdefiniować metodę `createPoint`:
@@ -118,9 +122,9 @@ niego dostęp za pomocą słowa kluczowego `this`.
 public boolean equals(Object other){
   if (this == other)
     return true;
-  if (!(other instanceof Position))
+  if (!(other instanceof Vector2d))
     return false;
-  Position that = (Position) other;
+  Vector2d that = (Vector2d) other;
   // tutaj przeprowadzane jest faktyczne porównanie
 }
 ```
