@@ -16,7 +16,7 @@ obiektowym.
    * umożliwia nieograniczone poruszanie się samochodu po mapie, pod warunkiem, że nie wjeżdża na inny samochód oraz na
      stóg siana,
    * posiada metodę `String toString()`, która rysuje fragment mapy, na którym znajdują się wszystkie elementy (stogi
-     siana oraz samochody). W celu jej implementacji wykorzystaj klasę `MapWisualizer` z poprzedniego laboratorium oraz
+     siana oraz samochody). W celu jej implementacji wykorzystaj klasę `MapVisualizer` z poprzedniego laboratorium oraz
      oblicz skrajne punkty, które powinny zostać wyświetlone.
 2. Sprawdź czy implementacja klasy jest poprawna - umieść na mapie stogi na pozycjach: (-4,-4), (7,7), (3,6) oraz (2,0).
    Uruchom tę samą sekwencję ruchów co w laboratorium 4.
