@@ -58,7 +58,9 @@ try {
   // kod obsługi wyjątku
 }
 ```
-Wyjątek może być rzucony na dowolnym poziomie w kodzie, który otoczony jest blokiem `try`.
+Wyjątek może być rzucony na dowolnym poziomie w kodzie, który otoczony jest blokiem `try`. Tzn. w kodzie tym może być
+wiele zagnieżdżonych wywołań funkcji, a i tak blok `try` przechwyci taki wyjątek, pod warunkim, że nie zostanie on obsłużony
+na niższym poziomie.
 
 * Interfejs `Map` definiuje w Javie strukturę słownikową, czyli mapę odwzorowującą *klucze* na *wartości*.
 * Jedną z najczęściej wykorzystywanych implementacji interfejsu `Map` jest klasa `HashMap`, przykładowo:
