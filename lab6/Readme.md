@@ -75,7 +75,7 @@ Map<Position,Car> cars = new HashMap<>();
 * Wynik działania metody `hashCode` musi być zgodny z wynikiem działania metody `equals`, tzn. jeśli dwa obiekty są
   równe według `equals` to ich `hashCode` musi być równy.
 
-* Przykładowa implementacja metody `hashCode` dla klasy position może wyglądać następująco:
+* Przykładowa implementacja metody `hashCode` dla klasy `Position` może wyglądać następująco:
 
 ```java
 @Override
