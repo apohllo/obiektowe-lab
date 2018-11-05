@@ -70,7 +70,7 @@ Map<Position,Car> cars = new HashMap<>();
 ```
 
 * Poprawne działanie `HashMap` uzależnione jest od implementacji metod `equals` oraz `hashCode` w klasie, która stanowi
-  klucze mapy (w ćwićzeniu dotyczy to klasy `Position`).
+  klucze mapy (w ćwiczeniu dotyczy to klasy `Position`).
 
 * Wynik działania metody `hashCode` musi być zgodny z wynikiem działania metody `equals`, tzn. jeśli dwa obiekty są
   równe według `equals` to ich `hashCode` musi być równy.
