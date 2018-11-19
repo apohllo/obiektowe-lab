@@ -97,28 +97,29 @@ Zamiana tekstu na formę obiektową.
 ```
 
 2. Opracuj zestaw klas oraz zaimplementuj odpowiednie algorytmy tak by opracowany program:
-  1. wczytywał pliki ze wskazanego katalogu,
-  2. zamieniał postać tekstową plików na formę obiektową,
-  3. umożliwiał wyświetlanie metryki (rubrum) orzeczenia o wybranej sygnaturze; metryka powinna zawierać:
-    1. sygnaturę orzeczenia
-    2. datę wydania orzeczenia
-    3. rodzaj sądu (sąd powszechny, Trybunał Konstytucyjny, Sąd Najwyższy, ...)
-    4. skład (listę sędziów z przypisanymi rolami)
-  3. umożliwiał wyświetlanie uzasadnienia orzeczenia o określonej sygnaturze,
-  4. umożliwiał wyświetlanie rubrum dla kilku podanych sygnatur,
-  5. wyświetlał liczbę orzeczeń dla wybranego sędziego (tzn. liczbę wszystkich orzeczeń, w których dany sędzia jest w
+   1. wczytywał pliki ze wskazanego katalogu,
+   3. umożliwiał wyświetlanie metryki (rubrum) orzeczenia o wybranej sygnaturze; metryka powinna zawierać:
+      1. sygnaturę orzeczenia
+      2. datę wydania orzeczenia
+      3. rodzaj sądu (sąd powszechny, Trybunał Konstytucyjny, Sąd Najwyższy, ...)
+      4. skład (listę sędziów z przypisanymi rolami)
+   3. umożliwiał wyświetlanie uzasadnienia orzeczenia o określonej sygnaturze,
+   4. umożliwiał wyświetlanie rubrum dla kilku podanych sygnatur,
+   5. wyświetlał liczbę orzeczeń dla wybranego sędziego (tzn. liczbę wszystkich orzeczeń, w których dany sędzia jest w
      składzie orzekającym),
-  6. określał 10 sędziów, którzy wydali największą liczbę orzeczeń,
-  7. określał rozkład statystyczny wyroków ze względu na miesiąc (należy agregować wyroki z różnych lat),
-  8. określał rozkład statystyczny wyroków ze względu na rodzaj sądu (sąd powszechny, TK, SN, etc.)
-  9. określał 10 ustaw (z pominięciem szczegółowej kwalifikacji, tzn. bez
+   6. określał 10 sędziów, którzy wydali największą liczbę orzeczeń,
+   7. określał rozkład statystyczny wyroków ze względu na miesiąc (należy agregować wyroki z różnych lat),
+   8. określał rozkład statystyczny wyroków ze względu na rodzaj sądu (sąd powszechny, TK, SN, etc.)
+   9. określał 10 ustaw (z pominięciem szczegółowej kwalifikacji, tzn. bez
      artykułów, punktów, podpunktów, liter, etc.), które są najczęściej przywoływane (sekcja `referencedRegulations`) w orzeczeniach.
-  10. określał rozkłąd statystyczny liczby sędziów przypadających na orzeczenie
+   10. określał rozkłąd statystyczny liczby sędziów przypadających na orzeczenie
 3. Program powinien działać w trybie interaktywnym, tzn. po uruchomieniu programu (ze wskazaniem miejsca składowania
    przepisów) powinna otwierać się konsola programu, w której można wydawać polecenia z punktu 2. 
 4. Konsola powinna wspierać przeglądanie historii wcześniejszych poleceń oraz edycję poleceń (analogicznie jak konsola w
    systemie Linux).
 5. Wydawanie kolejnych poleceń nie powinno prowadzić do wielokrotnego ładowania danych.
+6. System ma posługiwać się obiektową reprezentacją danych, tzn. niedopuszczalne jest wykorzystywanie "surowych" 
+   typów (np. JSONArray) zdefiniowanych w bibliotece do czytania formatu JSON.
 
 <b id="f1">1</b> Lista orzeczeń w danym pliku dostępna jest pod kluczem `"items"`. Zbiór wszystkich plików stanowi
 pełną bazę orzeczeń. Nie należy się ograniczać do pojedynczego pliku! [↩](#a1)
