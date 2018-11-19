@@ -100,6 +100,7 @@ Zamiana tekstu na formę obiektową.
 pełną bazę orzeczeń. Nie należy się ograniczać do pojedynczego pliku! [↩](#a1)
 
 <b id="f2">2</b> Dokumentacja formatu dostępna jest w [API SAOS](https://www.saos.org.pl/help/index.php/dokumentacja-api/api-pobierania-danych). [↩](#a1)
+
 2. Opracuj zestaw klas oraz zaimplementuj odpowiednie algorytmy tak by opracowany program:
   1. wczytywał pliki ze wskazanego katalogu,
   2. zamieniał postać tekstową plików na formę obiektową,
