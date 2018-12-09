@@ -135,6 +135,8 @@ Zamiana tekstu na formę obiektową.
 5. Wydawanie kolejnych poleceń nie powinno prowadzić do wielokrotnego ładowania danych.
 6. System ma posługiwać się obiektową reprezentacją danych, tzn. niedopuszczalne jest wykorzystywanie "surowych" 
    typów (np. JSONArray) zdefiniowanych w bibliotece do czytania formatu JSON.
+7. Zadbaj o to by program był odporny na błędy użytkownika, a w przypadku wykrycia błędu informował na czym ten błąd
+   polega i sugerował poprawną formę komendy.
 
 <b id="f1">1</b> Lista orzeczeń w danym pliku dostępna jest pod kluczem `"items"`. Zbiór wszystkich plików stanowi
 pełną bazę orzeczeń. Nie należy się ograniczać do pojedynczego pliku! [↩](#a1)
