@@ -120,7 +120,7 @@ Zamiana tekstu na formę obiektową.
       komendy oraz ich wyniki (wyniki powinny również pojawiać się na ekranie)
    2. posiadał funkcję `help`, która wyświetla listę dostęnych komend:
       1. `rubrum` - wyświetlenie metryki jednego lub wielu orzeczeń, na podstawie sygnatury (pierwsza wartość w polu
-         `courtCases`)
+         `courtCases` lub ciąg "II SA/OI 472/18" w przypadku orzeczeń sądów administracyjnych)
       2. `content` - wyświetlenie uzasadnienia (czyli treści pola `textContent` lub treść od słowa "UZASADNIENIE")
       3. `judge` - wyświetlał liczbę orzeczeń dla wybranego sędziego
       4. `judges` - wyświetla 10 sędziów, którzy wydali najwięcej orzeczeń
