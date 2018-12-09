@@ -96,7 +96,7 @@ Zamiana tekstu na formę obiektową.
 }
 ```
 
-2. Masz również do dyspozycji zbiór orzeczeń w formacie HTML jak na ilustracji poniżej:
+2. Pod adresem [http://apohllo.pl/texts/cbosa.tar.gz](http://apohllo.pl/texts/cbosa.tar.gz) masz również do dyspozycji zbiór orzeczeń w formacie HTML jak na ilustracji poniżej:
    <img src="cbosa.jpg" />
 
 2. Opracuj zestaw klas oraz zaimplementuj odpowiednie algorytmy tak by opracowany program:
@@ -114,14 +114,14 @@ Zamiana tekstu na formę obiektową.
    7. określał rozkład statystyczny wyroków ze względu na miesiąc (należy agregować wyroki z różnych lat),
    8. określał rozkład statystyczny wyroków ze względu na rodzaj sądu (sąd powszechny, TK, SN, etc.)
    9. określał 10 ustaw (z pominięciem szczegółowej kwalifikacji, tzn. bez
-     artykułów, punktów, podpunktów, liter, etc.), które są najczęściej przywoływane (sekcja `referencedRegulations`) w orzeczeniach.
+     artykułów, punktów, podpunktów, liter, etc.), które są najczęściej przywoływane (sekcja `referencedRegulations` lub "Powoływane przepisy") w orzeczeniach.
    10. określał rozkład statystyczny liczby sędziów przypadających na orzeczenie
    1. przy uruchamianiu programu akceptował opcjonalny argument ścieżki do pliku, w którym będą zapisywane wydawane
       komendy oraz ich wyniki (wyniki powinny również pojawiać się na ekranie)
    2. posiadał funkcję `help`, która wyświetla listę dostęnych komend:
       1. `rubrum` - wyświetlenie metryki jednego lub wielu orzeczeń, na podstawie sygnatury (pierwsza wartość w polu
          `courtCases`)
-      2. `content` - wyświetlenie uzasadnienia (czyli treści pola `textContent`)
+      2. `content` - wyświetlenie uzasadnienia (czyli treści pola `textContent` lub treść od słowa "UZASADNIENIE")
       3. `judge` - wyświetlał liczbę orzeczeń dla wybranego sędziego
       4. `judges` - wyświetla 10 sędziów, którzy wydali najwięcej orzeczeń
       5. `months` - wyświetlał liczbę orzeczeń w poszczególnych miesiącach (rozkład statystyczny)
