@@ -104,7 +104,8 @@ Zamiana tekstu na formę obiektową.
    3. umożliwiał wyświetlanie metryki (rubrum) orzeczenia o wybranej sygnaturze; metryka powinna zawierać:
       1. sygnaturę orzeczenia
       2. datę wydania orzeczenia
-      3. rodzaj sądu (sąd powszechny, Trybunał Konstytucyjny, Sąd Najwyższy, ...)
+      3. rodzaj sądu (sąd powszechny, Trybunał Konstytucyjny, Sąd Najwyższy, Krajowa Izba Odwoławcza, Wojewódzki Sąd
+         Administracyjny -- bez uwzględniania miasta, Naczelny Sąd Administracyjny)
       4. skład (listę sędziów z przypisanymi rolami)
    3. umożliwiał wyświetlanie uzasadnienia orzeczenia o określonej sygnaturze,
    4. umożliwiał wyświetlanie rubrum dla kilku podanych sygnatur,
