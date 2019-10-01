@@ -54,6 +54,10 @@ Poniższy diagram pokazuje kiedy można wykonywać poszczególne aktywności, zw
 |         | x | szczepionka       | szczepionka       | szczepionka       | szczepionka       | szczepionka       | szczepionka       | bieg              |bieg              |bieg              |badanie lekarskie  | wycieczka      | wycieczka | badanie krwi |
 |         | x | sala gimnastyczna | sala gimnastyczna | sala gimnastyczna | sala gimnastyczna | sala gimnastyczna | sala gimnastyczna | zawody            |                  |                  |                   |                |           |              |
 
+## Pseudonimy
+
+Uzyskiwanie czerwonych krwinek wymaga [podania pseudonimu](https://forms.gle/9frT619q5jU6PQ9W6) dla istoty żywej.
+
 
 ## Słowniczek
 
