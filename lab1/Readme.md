@@ -48,6 +48,12 @@ switch(argument){
     break;
 }
 ```
+* W Javie można dość łatwo przekazać fragment tablicy, np. jako rezultat wywołania funkcji lub jako argument pętli for.
+  Służ do tego wywołanie 
+  ```java
+  Arrays.copyOfRange(array, startInclusive, endExclusive);
+  ```
+
 
 ## Zadania do wykonania
 
