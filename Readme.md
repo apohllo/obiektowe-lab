@@ -58,6 +58,8 @@ Poniższy diagram pokazuje kiedy można wykonywać poszczególne aktywności, zw
 
 Uzyskiwanie czerwonych krwinek wymaga [podania pseudonimu](https://forms.gle/9frT619q5jU6PQ9W6) dla istoty żywej.
 
+Aktualny stan zdrowotny istot dostępny jest w [Hall of Fame](https://docs.google.com/spreadsheets/d/1YXdwkGqfIP6chn4bAdamiCOzSf4wYvEwHC-1iepwQ9k/edit?usp=sharing).
+
 
 ## Słowniczek
 
