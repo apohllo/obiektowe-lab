@@ -37,12 +37,12 @@ W trakcie zajęć masz różne możliwości zdobywania czerwonych krwinek dla sw
 * przyjmować szczepionki (+1 krwinka)
 * uprawiać ćwiczenia na sali gimnastycznej (+1 krwinka)
 * wziąć udział w zawodach lekkoatletycznych (max. +2 krwinki)
-* wziąć udział w biegu katorżniczym, po którym robione jest badanie lekarskie (max. +12 krwinek)
+* wziąć udział w biegu katorżniczym, po którym robione jest badanie lekarskie (max. +8 krwinek)
 * wziąć udział w wycieczce rowerowej, po którym robione jest badanie krwi (max. +4 krwinki)
 
 Wzięcie udziału w biegu katorżniczym możliwe jest tylko, jeśli twoja istota ma co najmniej 6 czerwonych krwinek.
 
-Wzięcie udziału w wycieczce rowerowej możliwe jest tylko, jeśli twoja istota uzyskała minimum 6 czerwonych krwinek w
+Wzięcie udziału w wycieczce rowerowej możliwe jest tylko, jeśli twoja istota uzyskała minimum 4 czerwonych krwinek w
 badaniu krwi po biegu katorżniczym.
 
 ## Plan
