@@ -1,4 +1,5 @@
 # Laboratorium z przedmiotu 'Programowanie obiektowe'
+Wersja laboratorium dla grup Poniedziałek 17.50 oraz Środa 17.50.
 
 Instrukcje do poszczególnych laboratoriów znajdują się w odpowiednich folderach.
 
@@ -56,9 +57,9 @@ Poniższy diagram pokazuje kiedy można wykonywać poszczególne aktywności, zw
 
 ## Pseudonimy
 
-Uzyskiwanie czerwonych krwinek wymaga [podania pseudonimu](https://forms.gle/9frT619q5jU6PQ9W6) dla istoty żywej.
+Uzyskiwanie czerwonych krwinek wymaga [podania pseudonimu](https://forms.gle/ZboCgqAmBknqugxS8) dla istoty żywej.
 
-Aktualny stan zdrowotny istot dostępny jest w [Hall of Fame](https://docs.google.com/spreadsheets/d/1YXdwkGqfIP6chn4bAdamiCOzSf4wYvEwHC-1iepwQ9k/edit?usp=sharing).
+Aktualny stan zdrowotny istot dostępny jest w [Hall of Fame](https://docs.google.com/spreadsheets/d/1Du4TC7JQcELQL6iGG7K7DTw61YsxJP9GbOnohHZO-aI/edit?usp=sharing).
 
 
 ## Słowniczek
