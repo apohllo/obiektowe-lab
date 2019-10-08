@@ -100,23 +100,23 @@ enum MapDirection {
 3. Utwórz klasę `Vector2d`, która:
    * posiada dwa publiczne pola `x` i `y` typu `int`, które nie mogą być modyfikowane (`final`),
    * posiada konstruktor akceptujący parametry `x` i `y`, która są przypisywane do pól `x` i `y`,
-   * posiada metodę `toString`, która zamienia pozycję na napis `(x,y)`, np. dla `x = 1` oraz `y = 2`, napis ma postać
+   * posiada metodę `String toString()`, która zamienia pozycję na napis `(x,y)`, np. dla `x = 1` oraz `y = 2`, napis ma postać
      `(1,2)`,
-   * posiada metodę `precedes`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
+   * posiada metodę `boolean precedes(Vector2d other)`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
      wartość mniejszą bądź równą polom drugiego obiektu,
-   * posiada metodę `follows`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
+   * posiada metodę `boolean follows(Vector2d other)`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
      wartość większą bądź równą polom drugiego obiektu,
-   * posiada metodę `upperRight`, która akceptuje inny punkt i zwraca obiekt klasy `Vector2d` posiadający te składowe
+   * posiada metodę `Vector2d upperRight(Vector2d other)`, która akceptuje inny punkt i zwraca obiekt klasy `Vector2d` posiadający te składowe
      punktów, które mają większe wartości dla odpowiednich osi (innymi słowy jest prawym górnym rogiem prostokąta, który
      opisany jest na obu punktach, którego krawędzie są równoległe do osi X i Y),
-   * posiada metodę `lowerLeft`, która akceptuje inny punkt i zwraca obiekt klasy `Vector2d` posiadający te składowe
+   * posiada metodę `Vector2d lowerLeft(Vector2d other)`, która akceptuje inny punkt i zwraca obiekt klasy `Vector2d` posiadający te składowe
      punktów, które mają mniejsze wartości dla odpowiednich osi (tzn. lewy dolny róg prostokąta),
-   * posiada metodę `add`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są sumą odpowiednich składowych
+   * posiada metodę `Vector2d add(Vector2d other)`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są sumą odpowiednich składowych
      dodawanych pozycji,
-   * posiada metodę `subtract`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są różnicą 
+   * posiada metodę `Vector2d subtract(Vector2d other)`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są różnicą 
      odpowiednich składowych odejmowanych pozycji, 
    * posiada metodę `boolean equals(Object other)` która zwraca prawdę jeśli obie pozycje są sobie równe,
-   * posiada metodę `opposite`, która zwraca nowy obiekt tej klasy, posiadający zmienione znaki obu składowych.
+   * posiada metodę `Vector2d opposite()`, która zwraca nowy obiekt tej klasy, posiadający zmienione znaki obu składowych.
 4. W metodzie `main` wprowadź następujący kod:
 ```java
 Vector2d position1 = new Vector2d(1,2);
