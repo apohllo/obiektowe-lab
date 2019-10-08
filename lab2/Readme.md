@@ -153,7 +153,7 @@ Sprawdź czy uzyskane wyniki są poprawne.
 3. Utwórz klasę `MapDirectionTest`.
 4. Zaimplementuj test weryfikujący poprawność działania metody `next()`, dla wszystkich przypadków (dodaj anotację
    `@Test` przed deklaracją metody).
-4. Uruchom test korzystając z menu `Run as`.
+4. Uruchom test korzystając z menu `Run all tests`.
 5. Zaimplementuj test weryfikujący poprawność działania metody `previous()`, dla wszystkich przypadków.
 6. Utwórz klasę `Vector2dTest`.
 7. Dodaj testy weryfikujące poprawność metod: `equals(Object other)`, `toString()`, `precedes(Vector2d other)`, `follows(Vector2d other)`,
