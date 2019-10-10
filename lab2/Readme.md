@@ -95,6 +95,10 @@ enum MapDirection {
 
 ### Klasa `Vector2d`
 
+
+[wektory](vector2d.png)
+[rogi](vector2d-a.png)
+
 1. Pliki projektu należy umieszczać w pakiecie `agh.cs.lab2`.
 2. Utwórz klasę `World` z metodą `main`.
 3. Utwórz klasę `Vector2d`, która:
