@@ -95,10 +95,6 @@ enum MapDirection {
 
 ### Klasa `Vector2d`
 
-
-[wektory](vector2d.png)
-[rogi](vector2d-a.png)
-
 1. Pliki projektu należy umieszczać w pakiecie `agh.cs.lab2`.
 2. Utwórz klasę `World` z metodą `main`.
 3. Utwórz klasę `Vector2d`, która:
@@ -121,6 +117,12 @@ enum MapDirection {
      odpowiednich składowych odejmowanych pozycji, 
    * posiada metodę `boolean equals(Object other)` która zwraca prawdę jeśli obie pozycje są sobie równe,
    * posiada metodę `Vector2d opposite()`, która zwraca nowy obiekt tej klasy, posiadający zmienione znaki obu składowych.
+3. Poniższy obrazek ilustruje metody `precedes` i `follows`. `v1` poprzedza (precedes) `v2` oraz `v3`. `v2` poprzedza `v3`.
+   Wszystkie wektory poprzedzają również same siebie (relacja ta jest zwrotna). `v3` następuje po (follows) `v2` oraz
+   `v1`, `v2` następuje po `v1`. Wszystkie wektory następują również po samych sobie.
+   ![wektory](vector2d.png)
+3. Poniższy obrazek ilustruje metody `lowerLeft` oraz `upperRight`.
+   ![rogi](vector2d-a.png)
 4. W metodzie `main` wprowadź następujący kod:
 ```java
 Vector2d position1 = new Vector2d(1,2);
