@@ -8,8 +8,8 @@ znacznie zwięźlejszy i idiomatyczny (wyrażony w języku domeny).
 
 * Początkowe wartości obiektu można określić albo w konstruktorze, albo bezpośrednio przypisując je do pól, np.
 ```java
-class Car {
-  private Position position = new Position(2,2);
+class Animal {
+  private Vector2d position = new Vector2d(2,2);
 }
 ```
 
