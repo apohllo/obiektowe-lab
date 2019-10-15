@@ -42,7 +42,9 @@ class Animal {
    * dla nieznanych kierunków nie umieszcza ich w tablicy wynikowej.
 13. Zmodyfikuj metodę `main` tak aby korzystając z klasy `OptionsParser` umożliwiała sterowanie zwierzęciem.
 14. Przetestuj zachowanie zwierzęcia dla różnych danych wejściowych.
-15. Napisz testy integracyjne weryfiujące poprawność implementacji. Uwzględnij przede wszystkim czy
-    zwierzę ma właściwą orientację, czy przemieszcza się na właściwe pozycje oraz czy nie wychodzi poza mapę. Testy
-    integracyjne powinny uwzględniać wszystkie stworzone klasy (również klasę `OptionsParser`).
+15. Napisz testy integracyjne weryfiujące poprawność implementacji. Uwzględnij:
+    * czy zwierzę ma właściwą orientację, 
+    * czy zwierzę przemieszcza się na właściwe pozycje,
+    * czy zwierzę nie wychodzi poza mapę,
+    * czy dane wejściowe podane jako tablica łańcuchów znaków są poprawnie interpretowane. 
 
