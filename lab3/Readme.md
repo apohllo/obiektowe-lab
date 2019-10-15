@@ -24,7 +24,7 @@ class Animal {
    * definiuje metodę `toString()`, która w reprezentacji łańcuchowej zawiera informacje o położeniu zwierzęcia (pozycję
      oraz orientację),
    * definuje swoje pola jako prywatne.
-9. W metodzie `main` utwórz zwierzę i wyświetl w konsoli jego pozycję.
+9. Utwórz lub zmodyfikuj klasę `World`, która w metodzie `main` stworzy zwierzę i wyświetli w konsoli jego pozycję.
 10. Dodaj do klasy `Animal` metodę `move(MoveDirection direction)`, która:
    * Dla kierunków `RIGHT` i `LEFT` zmienia orientację zwierzęcia na mapie, np. kiedy zwierzę jest w pozycji `NORTH` a
      zmiana kierunku to `RIGHT` to orientacja zwierzęcia powinna wynosić `EAST`.
