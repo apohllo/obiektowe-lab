@@ -32,17 +32,17 @@ class Animal {
      jest na pozycji `(2,2)` i jego orientacja to `NORTH`, to po ruchu `FORWARD` jego pozycja to `(2,3)`.
    * **Uniemożliwia** wyjechanie poza mapę, która ustalona jest od pozycji `(0,0)` do pozycji `(4,4)` (pięć na pięć pól). W
      sytuacji, w której zwierzę miałby wyjść poza mapę, wywołanie `move` nie ma żadnego skutku.
-11. W metodzie `main` dodaj wywołania, które przetestują poprawność implementacji, np. po ciągu wywołań: `RIGHT, FORWARD,
+5. W metodzie `main` dodaj wywołania, które przetestują poprawność implementacji, np. po ciągu wywołań: `RIGHT, FORWARD,
    FORWARD, FORWARD` pozycja zwierzęcia powinna wynosić `(4,2)` a orientacja `EAST`.
-12. Utwórz klasę `OptionsParser` a w niej metodę `parse`, która:
+6. Utwórz klasę `OptionsParser` a w niej metodę `parse`, która:
    * akceptuje tablicę łańcuchów znaków,
    * zwraca tablicę kierunków ruchu `MoveDirection`,
    * zamienia łańcuchy `f` oraz `forward` na kierunek `MoveDirection.FORWARD`, `b` oraz `backward` na kierunek
      `MoveDirection.BACKWARD`, itd.
    * dla nieznanych kierunków nie umieszcza ich w tablicy wynikowej.
-13. Zmodyfikuj metodę `main` tak aby korzystając z klasy `OptionsParser` umożliwiała sterowanie zwierzęciem.
-14. Przetestuj zachowanie zwierzęcia dla różnych danych wejściowych.
-15. Napisz testy integracyjne weryfiujące poprawność implementacji. Uwzględnij:
+7. Zmodyfikuj metodę `main` tak aby korzystając z klasy `OptionsParser` umożliwiała sterowanie zwierzęciem.
+8. Przetestuj zachowanie zwierzęcia dla różnych danych wejściowych.
+9. Napisz testy integracyjne weryfiujące poprawność implementacji. Uwzględnij:
     * czy zwierzę ma właściwą orientację, 
     * czy zwierzę przemieszcza się na właściwe pozycje,
     * czy zwierzę nie wychodzi poza mapę,
