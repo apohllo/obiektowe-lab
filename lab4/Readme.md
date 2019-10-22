@@ -5,7 +5,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
 ## Przydatne informacje
 
 * Mechanizm interfejsów pozwala na określenie pewnego zestawu metod, które muszą być implementowane przez określony typ.
-  Interfejs `IWorldMap` jest tego przykładem - określa on sposób interakcji mapy z samochodami oraz klasą
+  Interfejs `IWorldMap` jest tego przykładem - określa on sposób interakcji mapy z zwierzętami oraz klasą
   `MapVisualizer`.
 * W interfejsie wszystkie metody są z definicji publiczne, dlatego nie ma potrzeby dodania kwalifikatora dostępu
   `public`.
@@ -29,7 +29,7 @@ class RectangularMap implements IWorldMap {
 ```java
 List<Animal> animals = new ArrayList<>();
 ```
-W tym przykładzie tworzona jest lista samochodów, a jako implementacja wybrana została klasa `ArrayList`. Dzięki temu
+W tym przykładzie tworzona jest lista zwierząt, a jako implementacja wybrana została klasa `ArrayList`. Dzięki temu
 wywołania takie jak:
 ```java
 cars.get(1);
@@ -43,12 +43,12 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
 2. Przyjrzyj się interfejsowi `IWorldMap`, który znajduje się w tym katalogu.
 3. Zmodyfikuje klasę `Animal` z poprzedniego ćwiczenia:
    * zdefiniuj konstruktor `Animal(IWorldMap map)`; wykorzystaj argument `map` tak aby w metodzie `move` można było odwołać
-     się do mapy i zweryfikować, czy samochód może przesunąć się na daną pozycję,
-   * zdefiniuj konstruktor `Animal(IWorldMap map, Position initialPosition)`, który dodatkowo określa początkowe położenie samochodu na
+     się do mapy i zweryfikować, czy zwierzę może przesunąć się na daną pozycję,
+   * zdefiniuj konstruktor `Animal(IWorldMap map, Position initialPosition)`, który dodatkowo określa początkowe położenie zwierzęcia na
      mapie,
-   * dodaj metodę `Position getPosition()`, która zwraca pozycję ,
-   * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientacje samochodu w postaci łańcucha
-     składającego się z jednego znaku, Np. jeśli samochód ma orientację północną to metoda `toString()` powinna zwracać
+   * dodaj metodę `Position getPosition()`, która zwraca pozycję zwierzęcia,
+   * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientację zwierzęcia w postaci łańcucha
+     składającego się z jednego znaku, Np. jeśli zwierzę ma orientację północną to metoda `toString()` powinna zwracać
      łańcuch "N" albo "^".
    * zmodyfikuj metodę `move`, tak by korzystała z wywołania `canMoveTo` interfejsu `IWorldMap`.
 3. Zdefiniuj klasę `RectangularMap`, która:
@@ -57,14 +57,14 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
    * w konstruktorze akceptuje dwa parametry `width` oraz `height` wskazujące szerokość oraz wysokość mapy (zignoruj
      sytuację, w której użytkownik klasy poda niepoprawne wartości),
    * umożliwia poruszanie się w obrębie zdefiniowanego prostokąta (jak w laboratorium 3),
-   * umożliwia występowanie więcej niż jednego samochodu na mapie,
-   * uniemożliwia występowanie więcej niż jednego samochodu na tej samej pozycji,
+   * umożliwia występowanie więcej niż jednego zwierzęcia na mapie,
+   * uniemożliwia występowanie więcej niż jednego zwierzęcia na tej samej pozycji,
    * posiada metodę `toString` rysującą aktualną konfigurację mapy (wykorzystaj klasę `MapVisualizer` która znajduje się
      w tym katalogu),
-   * w metodzie `run` na przemian steruje ruchem wszystkich samochodów. Przykładowo, jeśli użytkownik wprowadzi ciąg: `f
-     b r l` a na mapie są dwa samochody, to pierwszy samochód otrzyma ruchy `f` i `r`, a drugi `b` i `l`. Ruchy obu
-     samochodów mają być wykonywane na przemian, tzn. po każdym ruchu pierwszego samochodu następuje ruch drugiego
-     samochodu.
+   * w metodzie `run` na przemian steruje ruchem wszystkich zwierząt. Przykładowo, jeśli użytkownik wprowadzi ciąg: `f
+     b r l` a na mapie są dwa zwierzęcia, to pierwsze zwierzę otrzyma ruchy `f` i `r`, a drugie `b` i `l`. Ruchy obu
+     zwierząt mają być wykonywane na przemian, tzn. po każdym ruchu pierwszego zwierzęcia następuje ruch drugiego
+     zwierzęcia.
 4. Wykonaj następujący kod w metodzie `main` klasy `World`:
 ```java
 MoveDirection[] directions = new OptionsParser().parse(args);
@@ -73,5 +73,5 @@ map.place(new Animal(map));
 map.place(new Animal(map,3,4));
 map.run(directions);
 ```
-Sprawdź czy samochody poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.
+Sprawdź czy zwierzęta poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.
 
