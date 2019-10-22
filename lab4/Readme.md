@@ -32,7 +32,7 @@ List<Animal> animals = new ArrayList<>();
 W tym przykładzie tworzona jest lista zwierząt, a jako implementacja wybrana została klasa `ArrayList`. Dzięki temu
 wywołania takie jak:
 ```java
-cars.get(1);
+animals.get(1);
 ```
 zwracają obiekty klasy `Animal`, dzięki czemu mogą one być używane w "bezpieczny" sposób - tzn. kompilator może sprawdzić
 czy wywoływane metody faktycznie występują w klasie `Animal`.
