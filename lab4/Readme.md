@@ -74,6 +74,7 @@ map.place(new Animal(map,3,4));
 map.run(directions);
 ```
 Sprawdź czy zwierzęta poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.
+
 5. Dodaj testy integracyjne weryfikujące, że implementacja jest poprawna. Wykorzystaj dane z punktu 5 w celu
    ustalenia przebiegu testu.
 
