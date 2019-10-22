@@ -44,9 +44,9 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
 3. Zmodyfikuje klasę `Animal` z poprzedniego ćwiczenia:
    * zdefiniuj konstruktor `Animal(IWorldMap map)`; wykorzystaj argument `map` tak aby w metodzie `move` można było odwołać
      się do mapy i zweryfikować, czy zwierzę może przesunąć się na daną pozycję,
-   * zdefiniuj konstruktor `Animal(IWorldMap map, Position initialPosition)`, który dodatkowo określa początkowe położenie zwierzęcia na
+   * zdefiniuj konstruktor `Animal(IWorldMap map, Vector2d initialPosition)`, który dodatkowo określa początkowe położenie zwierzęcia na
      mapie,
-   * dodaj metodę `Position getPosition()`, która zwraca pozycję zwierzęcia,
+   * dodaj metodę `Vector2d getPosition()`, która zwraca pozycję zwierzęcia,
    * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientację zwierzęcia w postaci łańcucha
      składającego się z jednego znaku, Np. jeśli zwierzę ma orientację północną to metoda `toString()` powinna zwracać
      łańcuch "N" albo "^".
@@ -70,7 +70,7 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
 MoveDirection[] directions = new OptionsParser().parse(args);
 IWorldMap map = new RectangularMap(10, 5);
 map.place(new Animal(map));
-map.place(new Animal(map,3,4));
+map.place(new Animal(map,new Vector2d(3,4)));
 map.run(directions);
 ```
 Sprawdź czy zwierzęta poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.
