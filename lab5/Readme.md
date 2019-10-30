@@ -7,16 +7,16 @@ obiektowym.
 
 0. Wykorzystaj klasy z laboratorium nr 4.
 1. Zdefiniuj klasę `HayStack` (stóg siana), która:
-   * w konstruktorze akceptuje parametr `Position`, określający pozycję stogu siana,
-   * posiada metodę publiczną `Position getPosition()`, która zwraca jego pozycję,
+   * w konstruktorze akceptuje parametr `Vector2d`, określający pozycję stogu siana,
+   * posiada metodę publiczną `Vector2d getPosition()`, która zwraca jego pozycję,
    * posiada metodę publiczną `String toString()`. która zwraca napis "s".
 1. Zdefiniuj klasę `UnboundedMap`, która:
    * implementuje interfejs `IWorldMap`,
    * w konstruktorze akceptuje parametr określający listę stogów siana, które znajdują się na mapie,
-   * umożliwia nieograniczone poruszanie się samochodu po mapie, pod warunkiem, że nie wjeżdża na inny samochód oraz na
+   * umożliwia nieograniczone poruszanie się zwierzęcia po mapie, pod warunkiem, że nie wchodzi na inne zwierze oraz na
      stóg siana,
    * posiada metodę `String toString()`, która rysuje fragment mapy, na którym znajdują się wszystkie elementy (stogi
-     siana oraz samochody). W celu jej implementacji wykorzystaj klasę `MapVisualizer` z poprzedniego laboratorium oraz
+     siana oraz zwierzęta). W celu jej implementacji wykorzystaj klasę `MapVisualizer` z poprzedniego laboratorium oraz
      oblicz skrajne punkty, które powinny zostać wyświetlone.
 2. Sprawdź czy implementacja klasy jest poprawna - umieść na mapie stogi na pozycjach: (-4,-4), (7,7), (3,6) oraz (2,0).
    Uruchom tę samą sekwencję ruchów co w laboratorium 4.
@@ -27,7 +27,7 @@ obiektowym.
 6. Spraw aby obie klasy dziedziczyły z `AbstractWorldMap` oraz usuń kod, który jest już zaimplementowany w klasie
    `AbstractWorldMap`.
 7. Uruchom testy i zweryfikuj, że mapy działają tak jak wcześniej.
-8. Rozważ dodanie interfejsu `IMapElement`, który byłby implementowany przez klasy `Car` oraz `HayStack`. Zastanów się
+8. Rozważ dodanie interfejsu `IMapElement`, który byłby implementowany przez klasy `Animal` oraz `HayStack`. Zastanów się
    czy można by uprościć implementację klasy `UnboundedMap` wykorzystując ten interfejs.
 9. Zastanów się, czy celowe byłoby dodanie klasy `AbstractWorldMapElement`.
 
@@ -48,7 +48,7 @@ class RectangularMap extends AbstractWorldMap {
   powinna być chroniona:
 ```java
 abstract class AbstractWorldMap implements IWorldMap {
-  protected List<Car> cars = new ArrayList<>():
+  protected List<Animal> animals = new ArrayList<>():
 }
 ```
 * Klasa podrzędna może zmienić implementację metody dostępnej w klasie nadrzędnej - widzieliśmy to na przykładzie metody
