@@ -45,7 +45,7 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
 1. Zdefiniuj klasę `GrassField`, która:
    * implementuje interfejs `IWorldMap`,
    * w konstruktorze akceptuje parametr określający liczbę pól trawy, które znajdują się na mapie,
-   * kękpa trawy powinny być umieszczane losowo w obszarze o współrzędnych `(0,0)` - `(sqrt(n*10),sqrt(n*10))`, 
+   * kępki trawy powinny być umieszczane losowo w obszarze o współrzędnych `(0,0)` - `(sqrt(n*10),sqrt(n*10))`, 
      gdzien `n` to liczba pól trawy, przy założeniu, że dwie kępki trawy nie mogą być w tym samym miejscu,
    * umożliwia nieograniczone poruszanie się zwierzęcia po mapie, pod warunkiem, że nie wchodzin na inne zwierzę,
    * posiada metodę `String toString()`, która rysuje fragment mapy, na którym znajdują się wszystkie elementy (zwierzęta oraz trawę). 
@@ -64,6 +64,6 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
 8. Rozważ dodanie interfejsu `IMapElement`, który byłby implementowany przez klasy `Animal` oraz `Grass`. Zastanów się
    czy można by uprościć implementację klasy `GrassField` wykorzystując ten interfejs.
 9. Zastanów się, czy celowe byłoby dodanie klasy `AbstractWorldMapElement`.
-10. (Dla zaawansowanych). Zmodyfikuj implementację tak, żeby po spotkaniu zwirzęcia i trawy, trawa znikała. Nowe kępki
+10. (**Dla zaawansowanych**). Zmodyfikuj implementację tak, żeby po spotkaniu zwirzęcia i trawy, trawa znikała. Nowe kępki
     trawy powinny pojawiać się losowo w obszarze z punktu 1, po zjedzeniu trawy przez zwierzę, przy założeniu, że nowe
     kępki trawy nie pokrywa się z istniejącą kępką trawy, ani z żadnym zwierzęciem.
