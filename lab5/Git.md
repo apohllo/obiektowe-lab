@@ -8,7 +8,7 @@ Git jest rozproszonym systemem pracy z kodem źródłowym. Jego najważniejsze c
 
 * możliwość zapisywania stanu kodu źródłowego w określonym momencie
 * możliwość przywracania starych wersji kodu źródłowego
-* możliwość pracy w gałęziach ("branchach")
+* możliwość pracy w gałęziach ("branczach")
 * brak centralnego repozytorium kodu (repozytorium rozproszone)
 
 ## Polecenia do wykonania za pierwszym razem
@@ -16,7 +16,7 @@ Git jest rozproszonym systemem pracy z kodem źródłowym. Jego najważniejsze c
 W celu przygotowania kodu źródłowego do bracy z gitem należy wykonać następujące polecenia
 
 1. `git init` (zainicjowanie plików Gita, w głównym katalogu naszej aplikacji)
-2. `echo 'bin' > .gitignore` (dodanie katalogu `bin` do listy ingorowanych plików/katalogów)
+2. `echo 'out' > .gitignore` (dodanie katalogu `bin` do listy ingorowanych plików/katalogów)
 3. `git add .` (dodanie wszystkich plików, poza ignorowanymi, do *indeksu* Gita)
 4. `git status` (sprawdzenie aktualnego statusu kodu źródłowego)
 5. `git commit -m 'Initial commit'` (*zatwierdzenie* (zacommitowanie) zmian w historii Gita)
@@ -29,7 +29,7 @@ W celu przygotowania kodu źródłowego do bracy z gitem należy wykonać nastę
 
 Alternatywnie
 
-1. Eclipse -> Import -> Git -> Projects from git
+1. IntelliJ -> Import from Git
 
 ## Zatwierdzenie zmian na koniec pracy
 
@@ -43,5 +43,5 @@ Alternatywnie
 * https://guides.github.com/introduction/git-handbook/ - wprowadzenie do Gita, wyjaśnienie najważniejszych koncepcji
 * https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud - inne wprowadzenie do Gita, zawiera dużo
   ilustracji
-* http://gitexercises.fracz.com/ - zaawansowany, zgrywalizowany samouczek do Gita, autorstwa Wojtka Frącza (doktoranta
+* http://gitexercises.fracz.com/ - zaawansowany, zgrywalizowany samouczek do Gita, autorstwa dr inż. Wojtka Frącza (absolwenta
   Katedry Informatyki)
