@@ -59,7 +59,9 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
 4. Przyjrzyj się implementacjom tych klas - łatwo można zauważyć, że duża część kodu w obu klasach się powtarza. 
 5. Dodaj klasę abstrakcyjną `AbstractWorldMap`, która zawiera kod wspólny dla tych klas.
 6. Spraw aby obie klasy dziedziczyły z `AbstractWorldMap` oraz usuń kod, który jest już zaimplementowany w klasie
-   `AbstractWorldMap`.
+   `AbstractWorldMap`. W szczególności dodaj implementację metody `toString()` w klasie `AbstractWorldMap`, w taki
+   sposób, aby wykorzystywała ona abstrakcyjne metody zdefiniowane w tej klasie, posiadające odrębne implementacje w
+   klasach dziedziczących. Jest wzorzec projektowy *metoda szablonowa*.
 7. Uruchom testy i zweryfikuj, że mapy działają tak jak wcześniej.
 8. Rozważ dodanie interfejsu `IMapElement`, który byłby implementowany przez klasy `Animal` oraz `Grass`. Zastanów się
    czy można by uprościć implementację klasy `GrassField` wykorzystując ten interfejs.
