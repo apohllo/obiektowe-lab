@@ -7,35 +7,35 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejse
 ### Obsługa wyjątków
 
 1. Wykorzystaj klasy z laboratorium 5.
-2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy samochodu rzuć wyjątek `IllegalArgumentException`,
+2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy zwierzęcia rzuć wyjątek `IllegalArgumentException`,
   jeśli którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
   Jako przyczynę wyjątku wprowadź łańcuch znaków informujący, że określony parametr jest niepoprawny, np.
   `new IllegalArgumentException(argument + " is not legal move specification")`.
 3. W metodach odpowiedzialnych za dodawanie elementów do mapy zweryfikuj, czy dane pole nie jest już zajmowane.
   Jeśli pole jest już zajęte, rzuć wyjątek `IllegalArgumentException`, podając jako przyczynę łańcuch znaków zawierający
   informację o tym, które pole jest już zajęte.
-4. Obsłuż oba wyjątki w metodzie `main` klasy `CarSystem`. Obsługa powinna polegać na wyświetleniu komunikatu wyjątku
+4. Obsłuż oba wyjątki w metodzie `main` klasy `World`. Obsługa powinna polegać na wyświetleniu komunikatu wyjątku
    oraz zakończeniu działania programu, a konstrukcja `try` powinna obejmować cały kod znajdujący się w metodzie `main`.
 4. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
-   samego samochodu. Efektem powinno być kontrolowane zakończenie działania programu.
+   samego zwierzęcia. Efektem powinno być kontrolowane zakończenie działania programu.
 
 ### Zmiana sposobu przechowywania obiektów na mapie
 
 1. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
    przez wszystkie elementy znajdujące się na mapie. Można ją poprawić zamieniając listę na słownik (wykorzystując 
-   interfejs `Map` oraz implementację `LinkedHashMap`) albo dodając obok listy samochodów osobne pole będące mapą (w tym
+   interfejs `Map` oraz implementację `LinkedHashMap`) albo dodając obok listy zwierząt osobne pole będące mapą (w tym
    wypadku wystarczy klasa `HashMap`).
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
-6. Poprawna implementacja słownika wymaga, aby klasa `Position` implementowała metodę `hashCode`. Metoda ta jest
+6. Poprawna implementacja słownika wymaga, aby klasa `Vector2d` implementowała metodę `hashCode`. Metoda ta jest
    wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować kod metody `hashCode` w
-   klasie `Position` korzystając ze
+   klasie `Vector2d` korzystając ze
    wsparcia środowiska programistycznego. Zasadniczo metoda ta musi być zgodna z działaniem metody `equals` - dwa
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`.
-7. Zmodyfikuj metodę `run` w klasach obsługujących mapę, tak by po każdym ruchu samochodu sprawdzać, czy jego pozycja
+7. Zmodyfikuj metodę `run` w klasach obsługujących mapę, tak by po każdym ruchu zwierzęcia sprawdzać, czy jego pozycja
    się zmieniła i w razie zmiany aktualizować słownik: pozycja - obiekt na mapie.
-8. Zmiana implementacji kolekcji `cars` będzie wymagała zmiany implementacji metod `isOccupied`, `objectAt` oraz `run`.
+8. Zmiana implementacji kolekcji `animals` będzie wymagała zmiany implementacji metod `isOccupied`, `objectAt` oraz `run`.
    W tej ostatniej metodzie możesz wykorzystać wywołanie `values()` z klasy `Map`, które zwróci kolekcję obiektów
-   (samochodów) na mapie. Niestety zwrócona kolekcja nie jest listą. Zastanów się jak rozwiązać ten problem.
+   (zwierząt) na mapie. Niestety zwrócona kolekcja nie jest listą. Zastanów się jak rozwiązać ten problem.
 9. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
 
 
@@ -66,16 +66,16 @@ na niższym poziomie.
 * Jedną z najczęściej wykorzystywanych implementacji interfejsu `Map` jest klasa `HashMap`, przykładowo:
 
 ```java
-Map<Position,Car> cars = new HashMap<>();
+Map<Vector2d,Animal> animals = new HashMap<>();
 ```
 
 * Poprawne działanie `HashMap` uzależnione jest od implementacji metod `equals` oraz `hashCode` w klasie, która stanowi
-  klucze mapy (w ćwiczeniu dotyczy to klasy `Position`).
+  klucze mapy (w ćwiczeniu dotyczy to klasy `Vector2d`).
 
 * Wynik działania metody `hashCode` musi być zgodny z wynikiem działania metody `equals`, tzn. jeśli dwa obiekty są
   równe według `equals` to ich `hashCode` musi być równy.
 
-* Przykładowa implementacja metody `hashCode` dla klasy `Position` może wyglądać następująco:
+* Przykładowa implementacja metody `hashCode` dla klasy `Vector2d` może wyglądać następująco:
 
 ```java
 @Override
