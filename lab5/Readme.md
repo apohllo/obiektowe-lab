@@ -28,7 +28,7 @@ abstract class AbstractWorldMap implements IWorldMap {
   obiektu. Innymi słowy w Javie domyślnie metody są *wirtualne*.
 * Klasa podrzędna może odwołać się do implementacji z klasy nadrzędnej za pomocą słowa kluczowego `super`. Np.
 ```java
-public Object objectAt(Position position) {
+public Object objectAt(Vector2d position) {
   Object object = super.objectAt(position);
   //...
 }
@@ -39,8 +39,8 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
 
 0. Wykorzystaj klasy z laboratorium nr 4.
 1. Zdefiniuj klasę `Grass` (kępka trawy), która:
-   * w konstruktorze akceptuje parametr `Position`, określający pozycję kępki trawy,
-   * posiada metodę publiczną `Position getPosition()`, która zwraca jej pozycję,
+   * w konstruktorze akceptuje parametr `Vector2d`, określający pozycję kępki trawy,
+   * posiada metodę publiczną `Vector2d getPosition()`, która zwraca jej pozycję,
    * posiada metodę publiczną `String toString()`, która zwraca `*` jako swoją reprezentację.
 1. Zdefiniuj klasę `GrassField`, która:
    * implementuje interfejs `IWorldMap`,
