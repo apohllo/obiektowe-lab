@@ -84,7 +84,7 @@ Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`.
 7. Zmodyfikuj metodę `run` w klasach obsługujących mapę, tak by po każdym ruchu zwierzęcia sprawdzać, czy jego pozycja
    się zmieniła i w razie zmiany aktualizować słownik: pozycja - obiekt na mapie.
-8. Zmiana implementacji kolekcji `cars` będzie wymagała zmiany implementacji metod `isOccupied`, `objectAt` oraz `run`.
+8. Zmiana implementacji kolekcji `animals` będzie wymagała zmiany implementacji metod `isOccupied`, `objectAt` oraz `run`.
    W tej ostatniej metodzie możesz wykorzystać wywołanie `values()` z klasy `Map`, które zwróci kolekcję obiektów
    (zwierząt) na mapie. Niestety zwrócona kolekcja nie jest listą. Zastanów się jak rozwiązać ten problem.
 9. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
