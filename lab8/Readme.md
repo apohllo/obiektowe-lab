@@ -39,4 +39,4 @@ koniecznie znaleźć więcej jedzenia, zanim zapas energii się wyczerpie.  Musi
 jest zwierzę. Jest to ważne, ponieważ będzie ono przechodzić na sąsiedni kwadracik na mapie świata każdego dnia. Jest
 osiem różnych możliwych kierunków.
 
-TBC
+CDN
