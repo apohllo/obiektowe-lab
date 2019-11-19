@@ -38,9 +38,9 @@ Celem laboratorium jest zapoznanie się z wzorcem projektowym `Observer`.
 1. Dodaj nową klasę `MapBoundary`, która będzie odpowiedzialna za przechowywanie informacji o obszarze zajmowanym przez
    obiekty na mapie.
 2. Klasa ta powinna również implementować interfejs `IPositionChangeObserver`.
-3. Klasa `MapBoundary` powinna zawierać dwie listy uporządkowane obiektów na mapie - jedną wzdłuż osi X, drugą wzdłuż
+3. Klasa `MapBoundary` powinna zawierać dwa zbiory uporządkowane obiektów na mapie - jeden wzdłuż osi X, drugi wzdłuż
    osi Y. Ponieważ porządek musi być zupełny, w przypadku obiektów o tym samym indeksie wzdłuż danej osi wykorzystaj
-   drugą współrzędną, w celu określenia porządku zupełnego.
+   drugą współrzędną oraz typ obiektu, w celu określenia porządku zupełnego.
 4. Dodanie obiektu do mapy `GrassField` (`UnboundedMap`) powinno sktukować dodaniem tego obiektu do instancji
    `MapBoundary`.
 5. Obiekty mają być dodawane w ten sposób, że skrajne pozycje na liście zawsze zajmowane są przez obiekty które mają
