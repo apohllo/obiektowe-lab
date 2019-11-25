@@ -50,10 +50,10 @@ Te geny reprezentują preferencje zwierzęcia względem określonego obrotu.  Ka
 podążać w tym samym kierunku, czy skręcić i zwrócić się w inną stronę. Zrobi to na podstawie tych i losowo
 wybierze nowy kierunek. Szansa na wybranie odpowiedniej strony jest proporcjonalna do liczby genów reprezentujących
 określony obrót. Weźmy jako przykład zwierzę z genami:
-`0 0 0 0 0 0 0 0 1 1 2 2 2 2 2 2 3 3 4 4 4 4 4 4 5 5 6 6 7 7`
+`0 0 0 0 0 0 0 0 1 1 2 2 2 2 2 2 3 3 4 4 4 4 4 4 5 5 6 6 7 7 7 7`
 
-To zwierzę najbardziej preferuje brak obrotu, na drugim miejscu jest obrót w prawo (`2`) oraz obrót w tył (`4`).
-Pozostałe obroty mają takie samo prawdopodobieństwo.
+To zwierzę najbardziej preferuje brak obrotu (p=0.25), na drugim miejscu jest obrót w prawo (`2`) oraz obrót w tył (`4`)
+(p=0.1875), następny w kolejności jest obrót o 315 stopni (p=0.125). Pozostałe obroty mają takie samo prawdopodobieństwo (p=0.0625).
 
 ## Konsumpcja i rozmnażanie
 
