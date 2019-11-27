@@ -79,3 +79,5 @@ Symulacja każdego dnia składa się z kilku kolejnych akcji:
 * dodanie nowych roślin do mapy.
 
 Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilka zwierząt (Adam/Ewa).
+
+[faq.md](Często zadawane pytania)
