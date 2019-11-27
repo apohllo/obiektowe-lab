@@ -1,6 +1,6 @@
 1. W jaki sposób rozmnażają się zwierzęta?
    1. Zwierzaki muszą spotkać się na tej samej komórce.
-   2. Dziecko powstaje na losowej, pustej pozycji pozycji.
+   2. Dziecko powstaje na losowej, pustej sąsiedniej pozycji.
    3. Kierunek dziecka jest losowy.
    4. Jeżeli jest więcej niż dwoje zwierząt na jednej pozycji, to rozmnażają się te, które mają największą energię.
    5. Dziecko dostaje ćwierć energii od każdego z rodziców. Rodzice tracę tę energię.
@@ -27,4 +27,19 @@
   ...
 }
 ```
-      
+7. Czy roślina może urosnąć tam gdzie stoi zwierzę?
+   1. Nie
+8. Co w sytuacji, w której dżungla jest pełna i nie może urosnąć więcej trawy? 
+   1. Nowa trawa nie pojawia się.
+9. „Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilka zwierząt (Adam/Ewa).”
+   Czy to znaczy, że wszystkie zwierzęta są na początku na tym samym, środkowym polu, czy może każde z nich powinno zajmować 
+   losową pozycję?
+   1. Zwierzęta na początku zajmują losowe pozycji i na jednej pozycji nie może być 2 zwierząt.
+5. Czy kierunek początkowy każdego zwierzęcia jest losowy?
+   1. Tak.
+6. Czy dżungla może się rozrastać, a jeśli tak, to w sposób dowolny czy określony?
+   1. Nie
+7. Czy energia potrzebna do rozmnażania nie powinna być danymi wejściowymi? Jeżeli nie, to czy powinna wynosić jakiś % energii startowej, a jeśli tak, to jaki?
+   1. Minimalna energia potrzebna do rozmożenia to połowa energii początkowej zwierzęcia.
+8. Czy położenie dżungli na mapie powinno być centralne, losowe, czy dowolne?
+   1. Centralne, choć zasadniczo nie ma to znaczenia innego niż estetyka.
