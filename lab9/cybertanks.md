@@ -13,6 +13,6 @@ Mapa funkcjonuje na zasadzie szachownicy, po której przemieszczają się czołg
 #### Tura
 Tury wykonywane są przez graczy na zmianę. Podczas tury gracz może wykonać określoną ilość akcji - przykładowo pięć. Akcją jest:
  -  Przemieszczenie czołgu o jedno pole - obrót nie jest liczony jako akcja, czołg obraca się dowolnie do strzału i ruchu w każdą stronę
- -  Strzał, który przelatuje wskazaną przez gracza liczbę pól i wybucha, niszcząc przy tym czołgi w polu rażenia (również swoje) - czyli kwadracie 3x3 ze środkiem w miejscu wybuchu pocisku. Pocisk wybucha dopiero po wykonaniu przez przeciwnika swoich ruchów w swojej turze, co umożliwia mu wykonanie uników.
+ -  Strzał, który przelatuje wskazaną przez gracza liczbę pól i wybucha, niszcząc przy tym czołgi (również swoje) w polu rażenia - czyli kwadracie 3x3 ze środkiem w miejscu wybuchu pocisku. Pocisk wybucha dopiero po wykonaniu przez przeciwnika swoich ruchów w swojej turze, co umożliwia mu wykonanie uników.
 #### Zwycięstwo
 Wygrywa gracz, który zniszczy wszystkie czołgi przeciwnika.
