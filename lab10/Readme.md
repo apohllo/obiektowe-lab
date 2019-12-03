@@ -50,10 +50,14 @@ Alternatywnie
 3. Utwórz nową gałąź `new-feature-xxx` gdzie `xxx` to Twój pseudonim.
 4. W pliku `list.txt` w katalogu głównym dodaj swój pseudonim.
 5. Dodaj plik do indeksu i zatwierdź zmiany.
+5. Dodaj oficjalne repozytorium `https://github.com/apohllo/git-lab` jako drugie repozytorium (np. `apohllo`).
+5. Przełącz się na gałąź `master`.
+5. Pobierz zmiany z repozytorium `apohllo`.
+5. Przełącz się na gałąź `new-feature-xxx`.
+5. Wykonaj rebase względem gałęzi `master`.
+5. Rozwiąż konflikty.
 6. Wyślij zmiany do swojego repozytorium.
 7. Uwtórz pull-request do repozytorium https://github.com/apohllo/git-lab
-8. Jeśli pojawi się konflikt z repozytorium, rozwiąż ten konflikt. Pamiętaj, aby twoja gałąź zawsze była zaktualizowana
-   względem gałęzi `master` (poczytaj o poleceniu `git rebase`).
 9. Po zmergowaniu pierwszego pull-request wykonaj drugi pull-request, w którym dopisujesz **kolejne** zdanie z Pana
    Tadeusza.
 10. Aktualizuj pull-requesty, aż twój pull-request zostanie zmergowany.
