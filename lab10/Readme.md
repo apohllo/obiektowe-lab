@@ -14,7 +14,7 @@ Git jest rozproszonym systemem pracy z kodem źródłowym. Jego najważniejsze c
 
 ## Przydatne informacje
 
-### Polecenia do wykonania za pierwszym razem
+### Polecenia do wykonania za pierwszym razem (jeśli projekt nie jest w żadnym repozytorium)
 
 W celu przygotowania kodu źródłowego do bracy z gitem należy wykonać następujące polecenia
 
@@ -42,22 +42,36 @@ Alternatywnie
 3. `git push origin master` (wysłanie zmian do zdalnego repozytorium)
 
 
+### Aktualizowanie się względem zdalnej gałęzi `master`
+
+1. `git add remote nazwa-repozytorium adres-repozytorium` (dodanie zdalnego repozytorium).
+2. `git checkout master` (przełączenie się lokalnej gałęzi master).
+3. `git pull nazwa-repozytorium master` (pobranie do lokalnej gałęzi `master` zmian z oficjalnej gałęzi `master`)
+4. `git checkout feature-branch` (przełączenie się do gałęzi na której pracowaliśmy).
+5. `git rebase master` (ribejs względem lokalnej gałęzi `master`).
+6. Rozwiązanie konfliktów, ewentualne wprowadzenie zmian.
+7. `git push origin feature-branch -f` (wysłanie zaktualizowanej wersji do zdalnej gałęzi `feature-branch w naszym
+   repozytorium).
+
+
 ## Zadania do wykonania
 
 1. Zarejestruj się na Githubie.
 2. Zrób fork repozytorium https://github.com/apohllo/git-lab.
 3. Sklonuj *własne* repozytorium na komputer lokalny.
+3. Przejdź do katalogu `git-lab`.
 3. Utwórz nową gałąź `new-feature-xxx` gdzie `xxx` to Twój pseudonim.
 4. W pliku `list.txt` w katalogu głównym dodaj swój pseudonim.
 5. Dodaj plik do indeksu i zatwierdź zmiany.
-5. Dodaj oficjalne repozytorium `https://github.com/apohllo/git-lab` jako drugie repozytorium (np. `apohllo`).
-5. Przełącz się na gałąź `master`.
-5. Pobierz zmiany z repozytorium `apohllo`.
-5. Przełącz się na gałąź `new-feature-xxx`.
-5. Wykonaj rebase względem gałęzi `master`.
-5. Rozwiąż konflikty.
 6. Wyślij zmiany do swojego repozytorium.
 7. Uwtórz pull-request do repozytorium https://github.com/apohllo/git-lab
+7. Jeśli nie można zmergować gałęzi wykonaj kolejne punkty.
+5. Dodaj oficjalne repozytorium `https://github.com/apohllo/git-lab` jako drugie repozytorium (np. `apohllo`, `git add remote ...`)
+5. Przełącz się na gałąź `master` (`git checkout ...`)
+5. Pobierz zmiany z repozytorium `apohllo` (`git pull ...`).
+5. Przełącz się na gałąź `new-feature-xxx` (`git checkout ...`).
+5. Wykonaj rebase względem gałęzi `master` (`git rebase master`).
+5. Rozwiąż konflikty.
 9. Po zmergowaniu pierwszego pull-request wykonaj drugi pull-request, w którym dopisujesz **kolejne** zdanie z Pana
    Tadeusza.
 10. Aktualizuj pull-requesty, aż twój pull-request zostanie zmergowany.
