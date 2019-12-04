@@ -45,10 +45,10 @@ Alternatywnie
 ### Aktualizowanie się względem zdalnej gałęzi `master`
 
 1. `git add remote nazwa-repozytorium adres-repozytorium` (dodanie zdalnego repozytorium).
-2. `git checkout master` (przełączenie się lokalnej gałęzi master).
+2. `git checkout master` (przełączenie się do lokalnej gałęzi master).
 3. `git pull nazwa-repozytorium master` (pobranie do lokalnej gałęzi `master` zmian z oficjalnej gałęzi `master`)
 4. `git checkout feature-branch` (przełączenie się do gałęzi na której pracowaliśmy).
-5. `git rebase master` (ribejs względem lokalnej gałęzi `master`).
+5. `git rebase master` ("ribejs" względem lokalnej gałęzi `master`).
 6. Rozwiązanie konfliktów, ewentualne wprowadzenie zmian.
 7. `git push origin feature-branch -f` (wysłanie zaktualizowanej wersji do zdalnej gałęzi `feature-branch w naszym
    repozytorium).
