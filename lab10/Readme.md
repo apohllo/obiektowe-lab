@@ -57,18 +57,18 @@ Alternatywnie
 ## Zadania do wykonania
 
 1. Zarejestruj się na Githubie.
-2. Zrób fork repozytorium https://github.com/apohllo/git-lab.
+2. Zrób fork repozytorium https://github.com/majcher13/git-lab-maj.
 3. Sklonuj *własne* repozytorium na komputer lokalny.
 3. Przejdź do katalogu `git-lab`.
 3. Utwórz nową gałąź `new-feature-xxx` gdzie `xxx` to Twój pseudonim.
 4. W pliku `list.txt` w katalogu głównym dodaj swój pseudonim.
 5. Dodaj plik do indeksu i zatwierdź zmiany.
 6. Wyślij zmiany do swojego repozytorium.
-7. Uwtórz pull-request do repozytorium https://github.com/apohllo/git-lab
+7. Uwtórz pull-request do repozytorium https://github.com/majcher13/git-lab-maj
 7. Jeśli nie można zmergować gałęzi wykonaj kolejne punkty.
-5. Dodaj oficjalne repozytorium `https://github.com/apohllo/git-lab` jako drugie repozytorium (np. `apohllo`, `git remote add ...`)
+5. Dodaj oficjalne repozytorium `https://github.com/majcher13/git-lab-maj` jako drugie repozytorium (np. `majcher13`, `git remote add ...`)
 5. Przełącz się na gałąź `master` (`git checkout ...`)
-5. Pobierz zmiany z repozytorium `apohllo` (`git pull ...`).
+5. Pobierz zmiany z repozytorium `majcher13` (`git pull ...`).
 5. Przełącz się na gałąź `new-feature-xxx` (`git checkout ...`).
 5. Wykonaj rebase względem gałęzi `master` (`git rebase master`).
 5. Rozwiąż konflikty.
