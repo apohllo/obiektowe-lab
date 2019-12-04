@@ -66,7 +66,7 @@ Alternatywnie
 6. Wyślij zmiany do swojego repozytorium.
 7. Uwtórz pull-request do repozytorium https://github.com/apohllo/git-lab
 7. Jeśli nie można zmergować gałęzi wykonaj kolejne punkty.
-5. Dodaj oficjalne repozytorium `https://github.com/apohllo/git-lab` jako drugie repozytorium (np. `apohllo`, `git add remote ...`)
+5. Dodaj oficjalne repozytorium `https://github.com/apohllo/git-lab` jako drugie repozytorium (np. `apohllo`, `git remote add ...`)
 5. Przełącz się na gałąź `master` (`git checkout ...`)
 5. Pobierz zmiany z repozytorium `apohllo` (`git pull ...`).
 5. Przełącz się na gałąź `new-feature-xxx` (`git checkout ...`).
