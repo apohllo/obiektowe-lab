@@ -59,7 +59,7 @@ Alternatywnie
 1. Zarejestruj się na Githubie.
 2. Zrób fork repozytorium https://github.com/majcher13/git-lab-maj.
 3. Sklonuj *własne* repozytorium na komputer lokalny.
-3. Przejdź do katalogu `git-lab`.
+3. Przejdź do katalogu `git-lab-maj`.
 3. Utwórz nową gałąź `new-feature-xxx` gdzie `xxx` to Twój pseudonim.
 4. W pliku `list.txt` w katalogu głównym dodaj swój pseudonim.
 5. Dodaj plik do indeksu i zatwierdź zmiany.
