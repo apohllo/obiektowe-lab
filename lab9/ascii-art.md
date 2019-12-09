@@ -8,7 +8,7 @@ Każdy pixel w zdjęciu ma 4 wartości kanałów kolorów (Red, Green, Blue, Alp
 Możemy wykorzystać ten fakt mapując wybrane przedziały kanałów do określonych znaków ASCII.
 
 ### Przykładowy rezultat
-![ascii-img](https://www.google.com/search?q=ascii+art&sxsrf=ACYBGNQ6zPEgmzkou4elI32crCbM5qaqmA:1575911615752&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjXnregiKnmAhVriYsKHeJwAKoQ_AUoAXoECBEQAw&biw=1920&bih=937#imgrc=st0vu62IXORtCM:)
+![ascii-img](https://img.scoop.it/CYkiJ1cTB2ymHNuMCCJ6CTl72eJkfbmt4t8yenImKBVvK0kTmF0xjctABnaLJIm9)
 
 ### Możliwe rozbudowania
 - Nasze zdjęcie zostało przetwarzone do dwuwymiarowej tablicy znaków. 
