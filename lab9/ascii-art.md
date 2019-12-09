@@ -13,5 +13,8 @@ Możemy wykorzystać ten fakt mapując wybrane przedziały kanałów do określo
 ### Możliwe rozbudowania
 - Nasze zdjęcie zostało przetwarzone do dwuwymiarowej tablicy znaków. 
 Można zatem zrobić eksperymentalną animację na takim tworze np:
-    - Iść jak fala od środka do brzegu 
+    - Iść jak fala od środka do brzegu,
     - Przy przechodzeniu przez komórki robić "flipa" znaków.   
+    
+    
+`Autor: Patryk Wojtyczek`
