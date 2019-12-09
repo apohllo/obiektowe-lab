@@ -81,3 +81,7 @@ Symulacja każdego dnia składa się z kilku kolejnych akcji:
 Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilka zwierząt (Adam/Ewa).
 
 [Często zadawane pytania](faq.md)
+
+# Przykładowe implementacje
+
+* https://www.youtube.com/watch?v=4FangGEpwe4
