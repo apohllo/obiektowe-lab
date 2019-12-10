@@ -35,22 +35,24 @@ Alternatywnie
 
 1. IntelliJ -> Import from Git
 
+W poniższych poleceniach fragment ujęty w nawiasy ostre, np. `<file-name>` należy zastąpić **innym** łańcuchem znaków.
+
 ### Zatwierdzenie zmian na koniec pracy
 
-1. `git add .` (dodanie zmian w aktualnym katalogu do *indeksu*)
-2. `git commit -m 'Opis zmian'` (*zatwierdzenie* zmian znajdujących się w indeksie)
-3. `git push origin master` (wysłanie zmian do zdalnego repozytorium)
+1. `git add <file-name>` (dodanie zmian w pliku `<file-name>` do *indeksu* - operację powtórzyć dla każdego modyfikowanego i nowego pliku)
+2. `git commit -m '<Meaningful description of change>'` (*zatwierdzenie* zmian znajdujących się w indeksie)
+3. `git push origin <branch-name>` (wysłanie zmian do zdalnego repozytorium na gałąź `<branch-name>`)
 
 
 ### Aktualizowanie się względem zdalnej gałęzi `master`
 
-1. `git add remote nazwa-repozytorium adres-repozytorium` (dodanie zdalnego repozytorium).
+1. `git add remote <remote-repo-name> <remote-repo-address>` (dodanie zdalnego repozytorium).
 2. `git checkout master` (przełączenie się do lokalnej gałęzi master).
-3. `git pull nazwa-repozytorium master` (pobranie do lokalnej gałęzi `master` zmian z oficjalnej gałęzi `master`)
-4. `git checkout feature-branch` (przełączenie się do gałęzi na której pracowaliśmy).
+3. `git pull <remote-repo-name> master` (pobranie do lokalnej gałęzi `master` zmian z oficjalnej gałęzi `master`)
+4. `git checkout <feature-branch>` (przełączenie się do gałęzi na której pracowaliśmy).
 5. `git rebase master` ("ribejs" względem lokalnej gałęzi `master`).
 6. Rozwiązanie konfliktów, ewentualne wprowadzenie zmian.
-7. `git push origin feature-branch -f` (wysłanie zaktualizowanej wersji do zdalnej gałęzi `feature-branch w naszym
+7. `git push origin <feature-branch> -f` (wysłanie zaktualizowanej wersji do zdalnej gałęzi `feature-branch w naszym
    repozytorium).
 
 
@@ -71,10 +73,10 @@ Alternatywnie
 5. Pobierz zmiany z repozytorium `apohllo` (`git pull ...`).
 5. Przełącz się na gałąź `new-feature-xxx` (`git checkout ...`).
 5. Wykonaj rebase względem gałęzi `master` (`git rebase master`).
-5. Rozwiąż konflikty.
+5. Rozwiąż konflikty, kontynuuj rebase, jeśli są konflikty (`git rebase --continue`).
 9. Po zmergowaniu pierwszego pull-request wykonaj drugi pull-request, w którym dopisujesz **kolejne** zdanie z Pana
    Tadeusza.
-10. Aktualizuj pull-requesty, aż twój pull-request zostanie zmergowany.
+10. Aktualizuj pull-requesty, aż Twój pull-request zostanie zmergowany.
 
 
 ## Przydatne odnośniki
