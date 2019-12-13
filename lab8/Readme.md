@@ -119,4 +119,6 @@ Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilk
 
 # Przykładowe implementacje
 
+Uwaga: przedstawione implementacje niekoniecznie spełniają wymaga przestawione w sekcji "Szczegółowe wymagania".
+
 * https://www.youtube.com/watch?v=4FangGEpwe4
