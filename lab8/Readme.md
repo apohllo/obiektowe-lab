@@ -80,10 +80,40 @@ najmniej jeden gen każdego obrotu.
 
 Symulacja każdego dnia składa się z kilku kolejnych akcji:
 * usunięcie martwych zwierząt z mapy,
-* skręt, przemieszczenie, jedzenie i rozmnażanie wszystkich zwierząt po kolei,
+* skręt i przemieszczenie każdego zwierzęcia,
+* jedzenie (roślina jest zjadana przez zwierzę posiadające najwięcej energii lub kilka najsilnijeszych zwierząt, jeśli więcej niż jedno
+  posiada taką samą, największą energię; w takim przypadku energia rośliny jest dzielona),
+* rozmnażanie zwierząt (rozmnażają się zawsze dwa zwierzęta o najwyższej energii, jeśli występuje więcej zwierząt o tej
+  samej energii, wybór jest losowy),
 * dodanie nowych roślin do mapy.
 
 Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilka zwierząt (Adam/Ewa).
+
+## Szczegółowe wymagania
+
+1. Program ma wyświetlać animację pokazującą pozycję zwierząt, ich energię w dowolnej formie (np. koloru) oraz pozycje
+   roślin,
+2. Można użyć dowolnego sposobu wyświetlania animacji (również tekstowego), ale aniamcja nie może polegać na
+   wyświetlaniu po sobie łańuchów tekstu (można natomiast wyświetlać łańcuchy tekstu w tym samym miejscu, wymaga to
+   jednak użycia odpowiedniej biblioteki),
+3. Program musi umożliwiać zatrzymywanie oraz wznawianie animacji w dowolnym momencie,
+4. Program ma pozwalać na śledzenie następujących statystyk:
+   * liczby wszystkich zwierząt,
+   * liczby wszystkich roślin,
+   * dominujących genów,
+   * średniego poziomu energii zwierząt,
+   * średniej długości życia zwierząt,
+   * średniej liczby dzieci,
+5. Po zatrzymaniu programu można: 
+   * wskazać pojedyncze zwierzę, co powoduje wyświetlenie jego genomu,
+   * wskazać pojedyncze zwierzę, w celu śledzenia jego historii:
+     * określenie liczby wszystkich dziedzi, po n-epokach,
+     * określenia liczby wszystkich potomków, po n-epokach,
+     * określenie epoki, w której zmarło,
+   * wskazać wszystkie zwierzęta z dominującym genomem,
+6. Program ma umożliwić wyświetelenie symulacji jednocześnie na dwóch mapach, z identycznymi parametrami początkowymi,
+   lecz niezależnie losowanymi decyzjami,
+7. Program powinien umożliwiać uzyskanie statyski (jak w punkcie 4) po określonej liczbie epok w formie pliku tekstowego.
 
 [Często zadawane pytania](faq.md)
 
