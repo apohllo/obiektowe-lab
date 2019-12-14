@@ -44,3 +44,5 @@
       tzn. 50% `startEnergy`, a nie 50% energi początkowej danego osobnika.
 8. Czy położenie dżungli na mapie powinno być centralne, losowe, czy dowolne?
    1. Centralne, choć zasadniczo nie ma to znaczenia innego niż estetyka.
+9. Co się dzieje w przypadku, gdy para zwierząt się rozmnaża, a wszystkie pozycje dookoła są zajęte?
+   1. Potomek ląduje na losowym zajętym kwadraciku.
