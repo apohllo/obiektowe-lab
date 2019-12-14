@@ -51,4 +51,4 @@
 11. "określenia liczby wszystkich potomków, po n-epokach" - chodzi tutaj o liczbę potomków w aktualnej epoce
     czy może oczekujemy na wprowadzenie liczby `n` jako epoki dla której mamy pokazać ile wtedy dane 
     zwierze miało potomków ?
-   1. Chodzi o wprowadzenie liczby `n`, po której wyświetli się ta informacja.
+    1. Chodzi o wprowadzenie liczby `n`, po której wyświetli się ta informacja.
