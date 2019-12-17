@@ -97,13 +97,13 @@ Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilk
    wyświetlaniu po sobie łańuchów tekstu (można natomiast wyświetlać łańcuchy tekstu w tym samym miejscu, wymaga to
    jednak użycia odpowiedniej biblioteki).
 3. Program musi umożliwiać zatrzymywanie oraz wznawianie animacji w dowolnym momencie.
-4. Program ma pozwalać na śledzenie następujących statystyk:
+4. Program ma pozwalać na śledzenie następujących statystyk dla aktualnej sytuacji w symulacji:
    * liczby wszystkich zwierząt,
    * liczby wszystkich roślin,
-   * dominujących genów,
-   * średniego poziomu energii zwierząt,
-   * średniej długości życia zwierząt,
-   * średniej liczby dzieci.
+   * dominujących genotypów,
+   * średniego poziomu energii dla żyjących zwierząt,
+   * średniej długości życia zwierząt dla martwych zwierząt,
+   * średniej liczby dzieci dla żyjących ziwerząt.
 5. Po zatrzymaniu programu można: 
    * wskazać pojedyncze zwierzę, co powoduje wyświetlenie jego genomu,
    * wskazać pojedyncze zwierzę, w celu śledzenia jego historii:

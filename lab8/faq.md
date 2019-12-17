@@ -52,3 +52,12 @@
     czy może oczekujemy na wprowadzenie liczby `n` jako epoki dla której mamy pokazać ile wtedy dane 
     zwierze miało potomków?
     1. Chodzi o wprowadzenie liczby `n`, po której wyświetli się ta informacja.
+12. Co to jest epoka?
+    1. Epoka to jeden pałny cykl obejmujący generowanie nowych roślin, poruszanie się zwierząt, jedzenie, rozmnażanie
+       oraz usuwanie martwych osobników.
+13. Co oznacza śledzenie statystyk?
+    1. Chodzi o wskazanie bieżącej sytuacji w symulacji, a nie uśrednionych wartości z wielu epok.
+14. Które zwierzę jest wybierane, jeśli jest wiele zwierząt?
+    1. Zwierzę o największej energii.
+15. Czy po wybraniu zwierzęcia do śledzenia, należy uwzględnić jego wcześniejszych potomków?
+    1. Nie, należy uwzględnić tylko nowe dzieci i nowych potomków.
