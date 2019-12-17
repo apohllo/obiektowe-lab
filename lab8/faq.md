@@ -38,7 +38,7 @@
 5. Czy kierunek początkowy każdego zwierzęcia jest losowy?
    1. Tak.
 6. Czy dżungla może się rozrastać, a jeśli tak, to w sposób dowolny czy określony?
-   1. Nie
+   1. Nie.
 7. Czy energia potrzebna do rozmnażania nie powinna być danymi wejściowymi? Jeżeli nie, to czy powinna wynosić jakiś % energii startowej, a jeśli tak, to jaki?
    1. Minimalna energia potrzebna do rozmożenia to połowa energii początkowej zwierzęcia, 
       tzn. 50% `startEnergy`, a nie 50% energi początkowej danego osobnika.
@@ -61,3 +61,6 @@
     1. Zwierzę o największej energii.
 15. Czy po wybraniu zwierzęcia do śledzenia, należy uwzględnić jego wcześniejszych potomków?
     1. Nie, należy uwzględnić tylko nowe dzieci i nowych potomków.
+16. Czy trzeba obsługiwać konkretną liczbę epok ("po n-epokach"), czy wystarczy wyświetlić tę wartość po zatrzymaniu
+    symulacji?
+    1. Wystarczy po zatrzymaniu symulacji.
