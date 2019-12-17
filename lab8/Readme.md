@@ -104,7 +104,7 @@ Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilk
    * średniego poziomu energii dla żyjących zwierząt,
    * średniej długości życia zwierząt dla martwych zwierząt,
    * średniej liczby dzieci dla żyjących ziwerząt.
-5. Po zatrzymaniu programu można: 
+5. Po zatrzymaniu programu można:
    * wskazać pojedyncze zwierzę, co powoduje wyświetlenie jego genomu,
    * wskazać pojedyncze zwierzę, w celu śledzenia jego historii:
      * określenie liczby wszystkich dziedzi, po n-epokach,
@@ -114,6 +114,7 @@ Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilk
 6. Program ma umożliwić wyświetelenie symulacji jednocześnie na dwóch mapach, z identycznymi parametrami początkowymi,
    lecz niezależnie losowanymi decyzjami.
 7. Program powinien umożliwiać uzyskanie statyski (jak w punkcie 4) po określonej liczbie epok w formie pliku tekstowego.
+   Statystyki powinny stanowić uśrednienie wartości z poszczególnych epok.
 
 [Często zadawane pytania](faq.md)
 
