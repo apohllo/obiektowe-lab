@@ -17,7 +17,7 @@ class Animal {
 
 1. Wykorzystaj definicje klas `Vector2d`, `MapDirection` oraz `MoveDirection` z laboratorium 2.
 8. Utwórz klasę `Animal`, która:
-   * określa początkową orientacje zwierzęcia jako `NORTH`,
+   * określa początkową orientację zwierzęcia jako `NORTH`,
    * określa początkowe położenie zwierzęcia na mapie jako `Vector2d(2,2)` (przyjmij, że zwierzę znajduje się w
      pierwszej ćwiartce układu współrzędnych, a północ jest tożsama z kierunkiem wyznaczanym przez rosnące wartości na
      osi OY),
@@ -28,10 +28,10 @@ class Animal {
 10. Dodaj do klasy `Animal` metodę `move(MoveDirection direction)`, która:
    * Dla kierunków `RIGHT` i `LEFT` zmienia orientację zwierzęcia na mapie, np. kiedy zwierzę jest w pozycji `NORTH` a
      zmiana kierunku to `RIGHT` to orientacja zwierzęcia powinna wynosić `EAST`.
-   * Dla kierunków `FORWARD` i `BACKWARD` zmienia pozycję zwierzęcia uwzględniając jego orientację, np. kiedy zwierzę
+   * Dla kierunków `FORWARD` i `BACKWARD` zmienia pozycję zwierzęcia o 1 pole, uwzględniając jego orientację, np. kiedy zwierzę
      jest na pozycji `(2,2)` i jego orientacja to `NORTH`, to po ruchu `FORWARD` jego pozycja to `(2,3)`.
    * **Uniemożliwia** wyjechanie poza mapę, która ustalona jest od pozycji `(0,0)` do pozycji `(4,4)` (pięć na pięć pól). W
-     sytuacji, w której zwierzę miałby wyjść poza mapę, wywołanie `move` nie ma żadnego skutku.
+     sytuacji, w której zwierzę miałoby wyjść poza mapę, wywołanie `move` nie ma żadnego skutku.
 5. W metodzie `main` dodaj wywołania, które przetestują poprawność implementacji, np. po ciągu wywołań: `RIGHT, FORWARD,
    FORWARD, FORWARD` pozycja zwierzęcia powinna wynosić `(4,2)` a orientacja `EAST`.
 6. Utwórz klasę `OptionsParser` a w niej metodę `parse`, która:
@@ -39,8 +39,8 @@ class Animal {
    * zwraca tablicę kierunków ruchu `MoveDirection`,
    * zamienia łańcuchy `f` oraz `forward` na kierunek `MoveDirection.FORWARD`, `b` oraz `backward` na kierunek
      `MoveDirection.BACKWARD`, itd.
-   * dla nieznanych kierunków nie umieszcza ich w tablicy wynikowej.
-7. Zmodyfikuj metodę `main` tak aby korzystając z klasy `OptionsParser` umożliwiała sterowanie zwierzęciem.
+   * dla nieznanych kierunków nie umieszcza ich w tablicy wynikowej (tablica wynikowa powinna zawierać wyłącznie prawidłowe kierunki).
+7. Zmodyfikuj metodę `main` tak, aby korzystając z klasy `OptionsParser` umożliwiała sterowanie zwierzęciem.
 8. Przetestuj zachowanie zwierzęcia dla różnych danych wejściowych.
 9. Napisz testy integracyjne weryfiujące poprawność implementacji. Uwzględnij:
     * czy zwierzę ma właściwą orientację, 

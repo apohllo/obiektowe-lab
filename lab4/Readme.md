@@ -7,9 +7,13 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
 * Mechanizm interfejsów pozwala na określenie pewnego zestawu metod, które muszą być implementowane przez określony typ.
   Interfejs `IWorldMap` jest tego przykładem - określa on sposób interakcji mapy z zwierzętami oraz klasą
   `MapVisualizer`.
-* W interfejsie wszystkie metody są z definicji publiczne, dlatego nie ma potrzeby dodania kwalifikatora dostępu
+* Interfejs jedynie określa, że dana klasa ma posiadać określoną metodę - dlatego w interfejsie nie ma implementacji - wszystkie metody są
+  z założenia abstrakcyjne (można pominąć modyfikator `abstract`).
+* Od Javy 8 interfejsy mogą posiadać metody statyczne (takie same jak metody statyczne w klasach) oraz metody domyślne
+  (oznaczane modyfikatorem `default`), które posiadają implementację.
+* W interfejsie wszystkie metody są z założenia publiczne, dlatego nie ma potrzeby dodania kwalifikatora dostępu
   `public`.
-* Interfejs jedynie określa, że dana klasa ma posiadać określoną metodę - dlatego w interfejsie nie ma implementacji.
+* Od Javy 9 interfejs może posiadać także metody prywatne.
 * Nazwa interfejsu najczęściej zaczyna się od wielkiej litery `I`.
 * Klasa deklaruje fakt implementacji interfejsu za pomocą słowa kluczowego `implements`, np. 
 ```java
@@ -25,7 +29,7 @@ class RectangularMap implements IWorldMap {
   usuwania elementów są szybkie, ale swobodny dostęp za pomocą operatora `get` jest wolniejszy. `ArrayList` oparta jest
   o tablicę, dlatego dostęp jest szybki, ale dodawanie i usuwanie elementów jest wolniejsze.
 * W Javie występują typu parametryzowane i typ `List` jest tego przykładem. Taki typ jest podobny do szablonów w C++.
-  Wymaga on podania innego typu (lub typów) jako parametru:
+  Wymaga on podania innego typu (lub typów) jako parametru (wyłącznie dla typów obiektowych):
 ```java
 List<Animal> animals = new ArrayList<>();
 ```
@@ -46,6 +50,7 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
      się do mapy i zweryfikować, czy zwierzę może przesunąć się na daną pozycję,
    * zdefiniuj konstruktor `Animal(IWorldMap map, Vector2d initialPosition)`, który dodatkowo określa początkowe położenie zwierzęcia na
      mapie,
+   * zastanów się nad dotychczasowym konstruktorem bezparametrowym
    * dodaj metodę `Vector2d getPosition()`, która zwraca pozycję zwierzęcia,
    * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientację zwierzęcia w postaci łańcucha
      składającego się z jednego znaku, Np. jeśli zwierzę ma orientację północną to metoda `toString()` powinna zwracać

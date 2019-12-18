@@ -5,7 +5,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejse
 ## Przydatne informacje
 
 * Wyjątki są mechanizmem pozwalającym przekazywać informację o błędzie pomiędzy odległymi fragmentami kodu.
-* Zgłoszenie błędu odbywa się poprze *rzucenie wyjątku*. W Javie służy do tego słowo kluczowe `throw`:
+* Zgłoszenie błędu odbywa się poprzez *rzucenie wyjątku*. W Javie służy do tego słowo kluczowe `throw`:
 
 ```java
 throw new IllegalArgumentException("ABC argument is invalid")
@@ -50,6 +50,8 @@ public int hashCode() {
 }
 ```
 
+* Używanie mapy nie wymaga jawnego wywoływania metody `hashCode`, ale jest ona używana wewnętrznie dla potrzeb optymalizacji.
+
 Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `x` i `y` ale fakt, że dla identycznych wartości
 `x` i `y` wartość funkcji `hashCode` będzie identyczna.
 
@@ -62,9 +64,9 @@ Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `
   jeśli którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
   Jako przyczynę wyjątku wprowadź łańcuch znaków informujący, że określony parametr jest niepoprawny, np.
   `new IllegalArgumentException(argument + " is not legal move specification")`.
-3. W metodach odpowiedzialnych za dodawanie elementów do mapy zweryfikuj, czy dane pole nie jest już zajmowane.
-  Jeśli pole jest już zajęte, rzuć wyjątek `IllegalArgumentException`, podając jako przyczynę łańcuch znaków zawierający
-  informację o tym, które pole jest już zajęte.
+3. W metodach odpowiedzialnych za dodawanie elementów do mapy, jeśli dodanie elementu na wybrane pole jest niemożliwe
+   rzuć wyjątek `IllegalArgumentException`, podając jako przyczynę łańcuch znaków zawierający
+   informację o tym, które pole jest błędne. Wyjątek zastępuje sygnalizowanie błędu przy pomocy zwracania wartości `false`.
 4. Obsłuż oba wyjątki w metodzie `main` klasy `World`. Obsługa powinna polegać na wyświetleniu komunikatu wyjątku
    oraz zakończeniu działania programu, a konstrukcja `try` powinna obejmować cały kod znajdujący się w metodzie `main`.
 4. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
@@ -81,12 +83,13 @@ Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `
    wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować kod metody `hashCode` w
    klasie `Vector2d` korzystając ze
    wsparcia środowiska programistycznego. Zasadniczo metoda ta musi być zgodna z działaniem metody `equals` - dwa
-   obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`.
+   obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`
+   (nie działa to w drugą stronę - `hashCode` może zwracać równe wartości dla obiektów, które nie są równe wg. `equals`).
 7. Zmodyfikuj metodę `run` w klasach obsługujących mapę, tak by po każdym ruchu zwierzęcia sprawdzać, czy jego pozycja
    się zmieniła i w razie zmiany aktualizować słownik: pozycja - obiekt na mapie.
 8. Zmiana implementacji kolekcji `animals` będzie wymagała zmiany implementacji metod `isOccupied`, `objectAt` oraz `run`.
-   W tej ostatniej metodzie możesz wykorzystać wywołanie `values()` z klasy `Map`, które zwróci kolekcję obiektów
-   (zwierząt) na mapie. Niestety zwrócona kolekcja nie jest listą. Zastanów się jak rozwiązać ten problem.
+   Zastanów się nad wykorzystaniem w tej ostatniej metodzie wywołania `values()` z klasy `Map`, które zwróci kolekcję obiektów
+   (zwierząt) na mapie.
 9. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
 
 

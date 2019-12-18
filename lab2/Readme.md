@@ -13,7 +13,7 @@ class Vector2d {
 }
 ```
 * Konstruktor jest specjalną metodą w każdej klasie. Nazywa się tak samo jak klasa i nie zwraca wartości. Konstruktor 
-pozwala ustalić początkową wartość pól obiektu jeśli mają być przekazane przez użytkownika, np.
+pozwala ustalić początkową wartość pól obiektu, jeśli mają być przekazane przez użytkownika, np.
 ```java
 class Vector2d {
   public Vector2d(int x, int y){
@@ -26,7 +26,7 @@ class Vector2d {
 ```java
 Vector2d position1 = new Vector2d(1,2);
 ```
-* Słowo kluczowe `this` odnosi się do obiekt, na rzecz którego wywołano metodę.
+* Słowo kluczowe `this` odnosi się do obiektu, na rzecz którego wywołano metodę.
 Przykładowo w języku C moglibyśmy zdefiniować metodę `createPoint`:
 
 ```C
@@ -65,7 +65,7 @@ Należy również wiedzieć, że zmiana metody `equals` powinna powodować zmian
 umieszczenie obiektów w kolekcji takiej jak `Set` będzie niezgodne z semantyką metody `equals`.
 
 
-* Definicję typu wyliczeniowego można rozszerzać dodając do niego metody. Wymaga to umieszczenia średnika po ostatniej
+* Definicję typu wyliczeniowego można rozszerzać dodając do niego pola i metody. Wymaga to umieszczenia średnika po ostatniej
   wartości typu, np.:
 ```java
 enum MapDirection {
@@ -86,7 +86,7 @@ enum MapDirection {
 
 * Metody testujące posiadają adnotację `@Test`.
 
-* W metodach testujących można użyć następujących asercji:
+* W metodach testujących można użyć np. następujących asercji:
   * `assertEquals(a, b)` - weryfikuje czy obiekty `a` i `b` są sobie równe (korzystając z metody `equals`),
   * `assertTrue(a)` - weryfikuje czy wartość logiczna `a` jest prawdą,
   * `assertFalse(a)` - weryfikuje czy wartość logiczna `a` jest fałszem.
@@ -115,7 +115,7 @@ enum MapDirection {
      dodawanych pozycji,
    * posiada metodę `Vector2d subtract(Vector2d other)`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są różnicą 
      odpowiednich składowych odejmowanych pozycji, 
-   * posiada metodę `boolean equals(Object other)` która zwraca prawdę jeśli obie pozycje są sobie równe,
+   * posiada metodę `boolean equals(Object other)` która zwraca prawdę jeśli obie pozycje są sobie równe (zwróć uwagę na typ parametru),
    * posiada metodę `Vector2d opposite()`, która zwraca nowy obiekt tej klasy, posiadający zmienione znaki obu składowych.
 3. Poniższy obrazek ilustruje metody `precedes` i `follows`. `v1` poprzedza (precedes) `v2` oraz `v3`. `v2` poprzedza `v3`.
    Wszystkie wektory poprzedzają również same siebie (relacja ta jest zwrotna). `v3` następuje po (follows) `v2` oraz

@@ -3,8 +3,8 @@
 Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
 
 ## Przydatne informacje
-* W programie Javy funkcja `main` musi być częścią jakiejś klasy. Jest ona punktem startowym programu.
-* Metoda `main` akceptuje listę argumentów typu `String`, ponadto jest publiczną metodą statyczną:
+* W programie Javy funkcja (a właściwie metoda) `main` musi być częścią jakiejś klasy. Jest ona punktem startowym programu.
+* Metoda `main` akceptuje tablicę argumentów typu `String`, ponadto jest publiczną metodą statyczną:
 ```java
 public class World {
    public static void main(String[] args) {
@@ -15,8 +15,8 @@ public class World {
 * Do wypisywania komunikatów użyj wywołań `System.out.print` oraz `System.out.println`.
 * Standardowe wyjście można zaimportować do programu poleceniem `import static java.lang.System.out;`. 
   Wtedy komunikaty można wypisywać za pomocą wywołania `out.print` i `out.println`.
-* Warunki logiczne w Javie są przechowywane w zmiennej typu `boolean`.
-* W Javie dostępna jest standardowa pętla `for` znana z C/C++. Można również użyć alternatywnej pętli `for` 
+* Warunki logiczne w Javie są przechowywane w zmiennej typu `boolean` - nie ma automatycznej konwersji z innych typów.
+* W Javie dostępna jest standardowa pętla `for` znana z C/C++. Można również użyć alternatywnej pętli `for` (tzw. `for each`) 
   do iterowania po elementach kolekcji:
 ```java
 for(String argument : arguments){
@@ -49,7 +49,7 @@ switch(argument){
 }
 ```
 * W Javie można dość łatwo przekazać fragment tablicy, np. jako rezultat wywołania funkcji lub jako argument pętli for.
-  Służ do tego wywołanie 
+  Służy do tego wywołanie 
   ```java
   Arrays.copyOfRange(array, startInclusive, endExclusive);
   ```
@@ -90,7 +90,7 @@ switch(argument){
     - Zwierzak skręca w lewo
     - Stop
 17. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
-    wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływana w
+    wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływaną w
     funkcji `main` przed wywołaniem metody `run`, natomiast typ wyliczeniowy powinien być zdefiniowany w osobnym pliku
     (`Direction.java`) w pakiecie `agh.cs.lab1`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
