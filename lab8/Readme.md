@@ -4,6 +4,11 @@ Niniejsza treść została zaadaptowana na podstawie opisu oraz ilustracji przyg
 Inspiracją dla niego był z kolei książki "Land of Lisp" Conrada Barskiego, który zaś zainspirował się artykułem w
 "Scientific American" :-)
 
+## Formularz z linkiem do repozytorium
+
+https://forms.gle/wCFZecEAk81VAYTM8
+
+
 ## Termin oddania projektu
 
 * 21.12.2019 godz. 23:59:59 CET - normalny termin oddania projektu
