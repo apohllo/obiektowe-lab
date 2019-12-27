@@ -4,6 +4,11 @@ Niniejsza treść została zaadaptowana na podstawie opisu oraz ilustracji przyg
 Inspiracją dla niego był z kolei książki "Land of Lisp" Conrada Barskiego, który zaś zainspirował się artykułem w
 "Scientific American" :-)
 
+## Formularz z linkiem do repozytorium
+
+https://forms.gle/wCFZecEAk81VAYTM8
+
+
 ## Termin oddania projektu
 
 * 21.12.2019 godz. 23:59:59 CET - normalny termin oddania projektu
@@ -97,14 +102,14 @@ Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilk
    wyświetlaniu po sobie łańuchów tekstu (można natomiast wyświetlać łańcuchy tekstu w tym samym miejscu, wymaga to
    jednak użycia odpowiedniej biblioteki).
 3. Program musi umożliwiać zatrzymywanie oraz wznawianie animacji w dowolnym momencie.
-4. Program ma pozwalać na śledzenie następujących statystyk:
+4. Program ma pozwalać na śledzenie następujących statystyk dla aktualnej sytuacji w symulacji:
    * liczby wszystkich zwierząt,
    * liczby wszystkich roślin,
-   * dominujących genów,
-   * średniego poziomu energii zwierząt,
-   * średniej długości życia zwierząt,
-   * średniej liczby dzieci.
-5. Po zatrzymaniu programu można: 
+   * dominujących genotypów,
+   * średniego poziomu energii dla żyjących zwierząt,
+   * średniej długości życia zwierząt dla martwych zwierząt,
+   * średniej liczby dzieci dla żyjących ziwerząt.
+5. Po zatrzymaniu programu można:
    * wskazać pojedyncze zwierzę, co powoduje wyświetlenie jego genomu,
    * wskazać pojedyncze zwierzę, w celu śledzenia jego historii:
      * określenie liczby wszystkich dziedzi, po n-epokach,
@@ -114,6 +119,7 @@ Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilk
 6. Program ma umożliwić wyświetelenie symulacji jednocześnie na dwóch mapach, z identycznymi parametrami początkowymi,
    lecz niezależnie losowanymi decyzjami.
 7. Program powinien umożliwiać uzyskanie statyski (jak w punkcie 4) po określonej liczbie epok w formie pliku tekstowego.
+   Statystyki powinny stanowić uśrednienie wartości z poszczególnych epok.
 
 [Często zadawane pytania](faq.md)
 

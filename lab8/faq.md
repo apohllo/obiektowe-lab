@@ -38,12 +38,12 @@
 5. Czy kierunek początkowy każdego zwierzęcia jest losowy?
    1. Tak.
 6. Czy dżungla może się rozrastać, a jeśli tak, to w sposób dowolny czy określony?
-   1. Nie
+   1. Nie.
 7. Czy energia potrzebna do rozmnażania nie powinna być danymi wejściowymi? Jeżeli nie, to czy powinna wynosić jakiś % energii startowej, a jeśli tak, to jaki?
    1. Minimalna energia potrzebna do rozmożenia to połowa energii początkowej zwierzęcia, 
       tzn. 50% `startEnergy`, a nie 50% energi początkowej danego osobnika.
 8. Czy położenie dżungli na mapie powinno być centralne, losowe, czy dowolne?
-   1. Centralne, choć zasadniczo nie ma to znaczenia innego niż estetyka.
+   1. Centralne, choć zasadniczo nie ma to znaczenia innego niż estetyka. 
 9. Co się dzieje w przypadku, gdy para zwierząt się rozmnaża, a wszystkie pozycje dookoła są zajęte?
    1. Potomek ląduje na losowym zajętym kwadraciku.
 10. "określenie epoki, w której zmarło" - czyli mam pokazywać też zmarłe zwierzęta ??
@@ -52,3 +52,19 @@
     czy może oczekujemy na wprowadzenie liczby `n` jako epoki dla której mamy pokazać ile wtedy dane 
     zwierze miało potomków?
     1. Chodzi o wprowadzenie liczby `n`, po której wyświetli się ta informacja.
+12. Co to jest epoka?
+    1. Epoka to jeden pałny cykl obejmujący generowanie nowych roślin, poruszanie się zwierząt, jedzenie, rozmnażanie
+       oraz usuwanie martwych osobników. Innymi słowy epoka = dzień.
+13. Co oznacza śledzenie statystyk?
+    1. Chodzi o wskazanie bieżącej sytuacji w symulacji, a nie uśrednionych wartości z wielu epok.
+14. Które zwierzę jest wybierane, jeśli jest wiele zwierząt?
+    1. Zwierzę o największej energii.
+15. Czy po wybraniu zwierzęcia do śledzenia, należy uwzględnić jego wcześniejszych potomków?
+    1. Nie, należy uwzględnić tylko nowe dzieci i nowych potomków.
+16. Czy trzeba obsługiwać konkretną liczbę epok ("po n-epokach"), czy wystarczy wyświetlić tę wartość po zatrzymaniu
+    symulacji?
+    1. Wystarczy po zatrzymaniu symulacji.
+17. Co to znaczy, że genom jest dominujący?
+    1. To znaczy, że posiada go największa liczba osobników.
+18. Do czego odnoszą się statystyki z punktu 4?
+    1. Do pojedynczego dnia/epoki.
