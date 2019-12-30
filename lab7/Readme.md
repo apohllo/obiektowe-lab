@@ -41,7 +41,7 @@ Celem laboratorium jest zapoznanie się z wzorcem projektowym `Observer`.
 3. Klasa `MapBoundary` powinna zawierać dwa zbiory uporządkowane obiektów na mapie - jeden wzdłuż osi X, drugi wzdłuż
    osi Y. Ponieważ porządek musi być zupełny, w przypadku obiektów o tym samym indeksie wzdłuż danej osi wykorzystaj
    drugą współrzędną oraz typ obiektu, w celu określenia porządku zupełnego.
-4. Dodanie obiektu do mapy `GrassField` (`UnboundedMap`) powinno sktukować dodaniem tego obiektu do instancji
+4. Dodanie obiektu do mapy `GrassField` (`UnboundedMap`) powinno skutkować dodaniem tego obiektu do instancji
    `MapBoundary`.
 5. Obiekty mają być dodawane w ten sposób, że skrajne pozycje na liście zawsze zajmowane są przez obiekty które mają
    odpowiednio największą oraz najmniejszą wartość indeksu w danym wymiarze.
