@@ -82,7 +82,7 @@ switch(argument){
     - `l` - oznacza, że zwierzak skręca w lewo,
     - pozostałe argumenty powinny być ignorowane.
 16. Poruszanie się oraz zmiana kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
-    argumentów. Przykładowo wprowadzenie sekwencji 'f f r l' powinno dać w wyniku następujące komunikaty:
+    argumentów. Przykładowo wprowadzenie sekwencji `f f r l` powinno dać w wyniku następujące komunikaty:
     - Start
     - Zwierzak idzie do przodu
     - Zwierzak idzie do przodu
