@@ -1,6 +1,6 @@
 # Słownik terminów
 
-* *szczepionka* - kartkówka
+* *kwarantanna* - kolokwium
 * *sala gimnastyczna* - zadanie laboratoryjne
 * *bieg katorżniczy* - pierwszy projekt
 * *wycieczka rowerowa* - drugi projekt

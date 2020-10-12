@@ -22,21 +22,21 @@ Poniższa tabela pokazuje jakie stadia zdrowotne może osiągnąć istota, któr
 
 | stan            | liczba czerwonych krwinek |
 |:----------------|---------------------------|
-| kościotrup      | < 12                      |
-| chuderlak       | 12 - 14,5                 |
-| kuracjusz       | 15 - 17                   |
-| na zwolnieniu   | 17,5 - 19                 |
-| krzepki móżdżek | 19,5 - 21,5               |
-| okaz zdrowia    | >= 22                     |
+| kościotrup      | < 14                      |
+| chuderlak       | 14 - 16,5                 |
+| kuracjusz       | 17 - 19,5                 |
+| na zwolnieniu   | 20 - 21,5                 |
+| krzepki móżdżek | 22 - 24,5                 |
+| okaz zdrowia    | >= 25                     |
 
 
 ## Zdobywanie krwinek
 
 W trakcie zajęć masz różne możliwości zdobywania czerwonych krwinek dla swojej istoty, możesz:
 
-* przyjmować szczepionki (+1 krwinka)
 * uprawiać ćwiczenia na sali gimnastycznej (+1 krwinka)
 * wziąć udział w zawodach lekkoatletycznych (max. +2 krwinki)
+* wysłać ją na kwarantannę (+10 krwinek)
 * wziąć udział w biegu katorżniczym, po którym robione jest badanie lekarskie (max. +8 krwinek)
 * wziąć udział w wycieczce rowerowej, po którym robione jest badanie krwi (max. +4 krwinki)
 
@@ -49,16 +49,30 @@ badaniu krwi po biegu katorżniczym.
 
 Poniższy diagram pokazuje kiedy można wykonywać poszczególne aktywności, związane ze zdobywaniem krwinek:
 
-| tydzień | 1 | 2                 | 3                 | 4                 | 5                 | 6                 | 7                 | 8                 |9                 |10                |11                 | 12             | 13        | 14           |
-|---------|---|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|------------------|------------------|-------------------|----------------|-----------|--------------|
-|         | x | szczepionka       | szczepionka       | szczepionka       | szczepionka       | szczepionka       | szczepionka       | bieg              |bieg              |bieg              |badanie lekarskie  | wycieczka      | wycieczka | badanie krwi |
-|         | x | sala gimnastyczna | sala gimnastyczna | sala gimnastyczna | sala gimnastyczna | sala gimnastyczna | sala gimnastyczna | zawody            |                  |                  |                   |                |           |              |
+
+| tydzień | wydarzenia        |
+|---------|-------------------|
+| 1       |                   |
+| 2       | sala gimanstyczna |
+| 3       | sala gimanstyczna |
+| 4       | sala gimanstyczna |
+| 5       | sala gimanstyczna |
+| 6       | sala gimanstyczna |
+| 7       | sala gimanstyczna |
+| 8       | zawody, bieg      |
+| 9       | bieg              |
+| 10      | kwarantanna, bieg |
+| 11      | badanie lekarskie |
+| 12      | wycieczka         |
+| 13      | wycieczka         |
+| 14      | badanie krwi      |
+
 
 ## Pseudonimy
 
-Uzyskiwanie czerwonych krwinek wymaga [podania pseudonimu](https://forms.gle/9frT619q5jU6PQ9W6) dla istoty żywej.
+Uzyskiwanie czerwonych krwinek wymaga [podania pseudonimu] dla istoty żywej.
 
-Aktualny stan zdrowotny istot dostępny jest w [Hall of Fame](https://docs.google.com/spreadsheets/d/1YXdwkGqfIP6chn4bAdamiCOzSf4wYvEwHC-1iepwQ9k/edit?usp=sharing).
+Aktualny stan zdrowotny istot dostępny jest w [Hall of Fame].
 
 
 ## Słowniczek
