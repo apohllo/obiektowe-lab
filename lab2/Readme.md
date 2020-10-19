@@ -151,7 +151,7 @@ Sprawdź czy uzyskane wyniki są poprawne.
 
 1. Przenieś kod źródłowy do katalogu `src/main`.
 2. Utwórz katalog `src/test`.
-2. Dodaj bibliotekę JUnit 4 lub 5:
+2. Dodaj bibliotekę JUnit 5:
    * File -> Project structure -> Modules -> Dependencies -> (kliknij + po prawej stronie) -> library -> From maven
    * w okienko wpisujemy junit:junit -> search
    * wybieramy dostępną wersję JUnit (najnowszą ale bez SNAPSHOT)
