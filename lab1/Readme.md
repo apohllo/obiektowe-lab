@@ -48,6 +48,18 @@ switch(argument){
     break;
 }
 ```
+* Od Javy w wersji 13 można również używać nowej składni wyrażenia `switch`, która pozwala przypisać jego wynik do
+  zmiennej:
+```java
+String message = switch(argument){
+  case "f" -> "Do przodu";
+  case "b" -> "Do tyłu";
+  default -> "Nieznana komenda";
+}
+
+out.println(message);
+```
+
 * W Javie można dość łatwo przekazać fragment tablicy, np. jako rezultat wywołania funkcji lub jako argument pętli for.
   Służy do tego wywołanie 
   ```java
