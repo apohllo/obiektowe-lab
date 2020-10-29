@@ -49,7 +49,7 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
    * kępki trawy powinny być umieszczane losowo w obszarze o współrzędnych `(0,0)` - `(sqrt(n*10),sqrt(n*10))`, 
      gdzien `n` to liczba pól trawy, przy założeniu, że dwie kępki trawy nie mogą być w tym samym miejscu,
    * umożliwia nieograniczone poruszanie się zwierzęcia po mapie, pod warunkiem, że nie wchodzin na inne zwierzę - rozmiar mapy ma być
-     "nieskończony" (czyli ograniczony tylko możliwościami inta
+     "nieskończony" (czyli ograniczony tylko możliwościami `int`-a),
    * posiada metodę `String toString()`, która rysuje fragment mapy, na którym znajdują się wszystkie elementy (zwierzęta oraz trawę). 
      W celu jej implementacji wykorzystaj klasę `MapVisualizer` z poprzedniego laboratorium oraz
      dynamicznie oblicz skrajne punkty, które powinny zostać wyświetlone. Obecność zwierząt ma priorytet nad obecnością
