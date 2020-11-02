@@ -44,13 +44,13 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
 ## Zadania do wykonania
 
 1. Wykorzystaj definicje klas z poprzedniego laboratorium.
-2. Przyjrzyj się interfejsowi `IWorldMap`, który znajduje się w tym katalogu.
+2. Przyjrzyj się interfejsom `IWorldMap` oraz `IEngine`, które znajdują się w tym katalogu.
 3. Zmodyfikuje klasę `Animal` z poprzedniego ćwiczenia:
    * zdefiniuj konstruktor `Animal(IWorldMap map)`; wykorzystaj argument `map` tak aby w metodzie `move` można było odwołać
      się do mapy i zweryfikować, czy zwierzę może przesunąć się na daną pozycję,
    * zdefiniuj konstruktor `Animal(IWorldMap map, Vector2d initialPosition)`, który dodatkowo określa początkowe położenie zwierzęcia na
      mapie,
-   * zastanów się nad dotychczasowym konstruktorem bezparametrowym
+   * zastanów się nad dotychczasowym konstruktorem bezparametrowym,
    * dodaj metodę `Vector2d getPosition()`, która zwraca pozycję zwierzęcia,
    * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientację zwierzęcia w postaci łańcucha
      składającego się z jednego znaku, Np. jeśli zwierzę ma orientację północną to metoda `toString()` powinna zwracać
@@ -65,7 +65,11 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
    * umożliwia występowanie więcej niż jednego zwierzęcia na mapie,
    * uniemożliwia występowanie więcej niż jednego zwierzęcia na tej samej pozycji,
    * posiada metodę `toString` rysującą aktualną konfigurację mapy (wykorzystaj klasę `MapVisualizer` która znajduje się
-     w tym katalogu),
+     w tym katalogu).
+4. Zdefinuj klasę `SimulationEngine` implementującą interfejs `IEngine`, która:
+   * w konstrukturoze akceptuje tablicę ruchów (`MoveDirection`), instancję mapy (`IWorldMap`) oraz tablicę wektorów
+     oznaczających początkowe pozycje zwierząt,
+   * dodaje zwierzęta do mapy (początkowa orientacja zwierzą to `NORTH`),
    * w metodzie `run` na przemian steruje ruchem wszystkich zwierząt. Przykładowo, jeśli użytkownik wprowadzi ciąg: `f
      b r l` a na mapie są dwa zwierzęcia, to pierwsze zwierzę otrzyma ruchy `f` i `r`, a drugie `b` i `l`. Ruchy obu
      zwierząt mają być wykonywane na przemian, tzn. po każdym ruchu pierwszego zwierzęcia następuje ruch drugiego
@@ -74,13 +78,13 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
 ```java
 MoveDirection[] directions = new OptionsParser().parse(args);
 IWorldMap map = new RectangularMap(10, 5);
-map.place(new Animal(map));
-map.place(new Animal(map,new Vector2d(3,4)));
-map.run(directions);
+Vector2d[] positions = { new Vector2d(2,2), new Vector2d(3,4) };
+IEngine enegine = new SimulationEngine(directions, map, positions);
+engine.run();
 ```
 Sprawdź czy zwierzęta poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.
 
 6. Dodaj testy integracyjne weryfikujące, że implementacja jest poprawna. Wykorzystaj dane z punktu 5 w celu
    ustalenia przebiegu testu.
-7. (**Dla zaawansowanych**) Stwórz tekstowy widget biblioteki Swing, który będzie wyświetlał animację poruszających się
-   zwierzaków.
+7. (**Dla zaawansowanych**) Stwórz tekstowy widget biblioteki Swing (lub innej wybranej biblioteki), który będzie
+   wyświetlał animację poruszających się zwierzaków.
