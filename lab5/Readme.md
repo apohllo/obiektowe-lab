@@ -63,11 +63,11 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
 6. Spraw aby obie klasy dziedziczyły z `AbstractWorldMap` oraz usuń kod, który jest już zaimplementowany w klasie
    `AbstractWorldMap`. W szczególności dodaj implementację metody `toString()` w klasie `AbstractWorldMap`, w taki
    sposób, aby wykorzystywała ona abstrakcyjne metody zdefiniowane w tej klasie, posiadające odrębne implementacje w
-   klasach dziedziczących. Jest to wzorzec projektowy *metoda szablonowa*.
+   klasach dziedziczących. Jest to wzorzec projektowy [metoda szablonowa](https://pl.wikipedia.org/wiki/Metoda_szablonowa_(wzorzec_projektowy)).
 7. Uruchom testy i zweryfikuj, że mapy działają tak jak wcześniej.
 8. Rozważ dodanie interfejsu `IMapElement`, który byłby implementowany przez klasy `Animal` oraz `Grass`. Zastanów się
    czy można by uprościć implementację klasy `GrassField` wykorzystując ten interfejs.
 9. Zastanów się, czy celowe byłoby dodanie klasy `AbstractWorldMapElement`.
-10. (**Dla zaawansowanych**). Zmodyfikuj implementację tak, żeby po spotkaniu zwirzęcia i trawy, trawa znikała. Nowe kępki
+10. (**Dla zaawansowanych**). Zmodyfikuj implementację tak, żeby po spotkaniu zwierzęcia i trawy, trawa znikała. Nowe kępki
     trawy powinny pojawiać się losowo w obszarze z punktu 1, po zjedzeniu trawy przez zwierzę, przy założeniu, że nowe
     kępki trawy nie pokrywa się z istniejącą kępką trawy, ani z żadnym zwierzęciem.
