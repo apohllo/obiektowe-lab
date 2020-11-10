@@ -1,43 +1,54 @@
 # Laboratorium 7
 
-Celem laboratorium jest zapoznanie się z wzorcem projektowym `Observer`.
+Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz dalsze zapoznanie się z wzorcem projektowym `Observer`.
 
 ## Przydatne informacje
 
-* Wzorce projektowe są koncepcją występującą w programowaniu obiektowym polegającą na tym, że określona klasa problemów
-  może być rozwiązana w schematyczny sposób. Rozwiązanie problemu jednak nie może być (najczęściej) zawarte w jednej
-  klasie, dlatego wzorzec stanowi swego rodzaju szkielet rozwiązania, który określa jakie klasy i interfejsy muszą być
-  wykorzystane, aby poprawnie rozwiązać dany problem.
-* Przykładem wzorca jest obserwator (*observer*) - rozwiązuje on problem zmian wewnętrznego stanu obiektu.
-  Więcej informacji na temat tego wzorca można znaleźć pod adresem https://en.wikipedia.org/wiki/Observer_pattern
-* W Javie istnieje kolekcja `SortedSet`, która umożliwia przechowywanie uporządkowanego zbioru elementów. Elementy mogą
-  implementować interfejs `Comparabel` lub przy tworzeniu zbioru należy wskazać obiekt implementujący interfejs
-  `Comparator`, odpowiedzialny za porządkowanie elementów.
+* Wyjątki są mechanizmem pozwalającym przekazywać informację o błędzie pomiędzy odległymi fragmentami kodu.
+* Zgłoszenie błędu odbywa się poprzez *rzucenie wyjątku*. W Javie służy do tego słowo kluczowe `throw`:
+
+```java
+throw new IllegalArgumentException("ABC argument is invalid")
+```
+* Nieobsłużony wyjątek powoduje przerwanie działania aplikacji.
+* Obsługa wyjątków odbywa się za pomocą mechanizmu *przechwytywania wyjątków*. W Javie służy do tego konstrukcja
+  `try...catch`:
+
+```java
+try {
+  // kod który może rzucić wyjątek
+} catch(IllegalArgumentException ex) {
+  // kod obsługi wyjątku
+}
+```
+Wyjątek może być rzucony na dowolnym poziomie w kodzie, który otoczony jest blokiem `try`. Tzn. w kodzie tym może być
+wiele zagnieżdżonych wywołań funkcji, a i tak blok `try` przechwyci taki wyjątek, pod warunkim, że nie zostanie on obsłużony
+na niższym poziomie.
+
 
 ## Zadania do wykonania
 
-### Aktualizacja słownika w mapie
+### Obsługa wyjątków
 
-1. Implementacja mechanizmu aktualizacji słownika mapy wymaga, aby mapa była informowana o zmianach pozycji zwierząt.
-  Dotychczasowa implementacja opiera się na modyfikacji metody `run`. Lepszym rozwiązaniem jest zastosowanie
-   wzorca projektowego `Observer` - mapa ma zarejestrować się jako obserwator dla zmian pozycji zwierzęcia.
-2. Realizację implementacji rozpocznij od zdefiniowana interfejsu `IPositionChangeObserver`, który zawiera jedną metodę
-  `positionChanged(Vector2d oldPosition, Vector2d newPosition)`.
-3. Obie mapy muszą implementować ten interfejs. Możesz to zrealizować, jeśli odpowiedni kod umieścisz w klasie
-   `AbstractWorldMap`. Implementacja metody `positionChanged` powinna polegać na tym, że ze słownika usuwana jest para:
-   `<stara pozycja, zwierzę>`, a dodawana jest para: `<nowa pozycja, zwierzę>`.
-4. Klasa `Animal` musi umożliwić rejestrowanie obserwatorów. Dodaj metody: `void addObserver(IPositionChangeObserver
-    observer)` oraz `void removeObserver(IPositionChangeObserver observer)`, które będą dodawały i usuwały danego
-    obserwatora do listy obserwatorów w klasie `Animal`.
-5. Klasa `Animal` musi informować wszystkich obserwatorów, o tym że pozycja została zmieniona. Stwórz metodę
-    `positionChanged` w klasie `Animal`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
-6. Zweryfikuj poprawność implementacji korzystając z kodu z poprzednich laboratoriów.
+1. Wykorzystaj klasy z laboratorium 6.
+2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy zwierzęcia rzuć wyjątek `IllegalArgumentException`,
+  jeśli którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
+  Jako przyczynę wyjątku wprowadź łańcuch znaków informujący, że określony parametr jest niepoprawny, np.
+  `new IllegalArgumentException(argument + " is not legal move specification")`.
+3. W metodach odpowiedzialnych za dodawanie elementów do mapy, jeśli dodanie elementu na wybrane pole jest niemożliwe
+   rzuć wyjątek `IllegalArgumentException`, podając jako przyczynę łańcuch znaków zawierający
+   informację o tym, które pole jest błędne. Wyjątek zastępuje sygnalizowanie błędu przy pomocy zwracania wartości `false`.
+4. Obsłuż oba wyjątki w metodzie `main` klasy `World`. Obsługa powinna polegać na wyświetleniu komunikatu wyjątku
+   oraz zakończeniu działania programu, a konstrukcja `try` powinna obejmować cały kod znajdujący się w metodzie `main`.
+4. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
+   samego zwierzęcia. Efektem powinno być kontrolowane zakończenie działania programu.
+6. Zaktualizuj testy metody `place`, aby były zgodne z nowym kontraktem.
 
 ### Wyodrębnienie klasy reprezentującej obszar zajęty przez obiekty
 
 1. Dodaj nową klasę `MapBoundary`, która będzie odpowiedzialna za przechowywanie informacji o obszarze zajmowanym przez
    obiekty na mapie.
-2. Klasa ta powinna również implementować interfejs `IPositionChangeObserver`.
+2. Klasa ta powinna implementować interfejs `IPositionChangeObserver`.
 3. Klasa `MapBoundary` powinna zawierać dwa zbiory uporządkowane obiektów na mapie - jeden wzdłuż osi X, drugi wzdłuż
    osi Y. Ponieważ porządek musi być zupełny, w przypadku obiektów o tym samym indeksie wzdłuż danej osi wykorzystaj
    drugą współrzędną oraz typ obiektu, w celu określenia porządku zupełnego.
@@ -49,3 +60,4 @@ Celem laboratorium jest zapoznanie się z wzorcem projektowym `Observer`.
    tylko jeśli jest to konieczne.
 7. Mapa powinna korzystać z instancji klasy `MapBoundary` w celu efektywnego obliczania obszaru, który ma zostać
    wyświetlony.
+   

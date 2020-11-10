@@ -1,29 +1,8 @@
 # Laboratorium 6
 
-Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz interfejsem `Map`.
+Celem laboratorium jest zapoznanie się z interfejsem `Map` oraz wzorcem projektowym `Observer`.
 
 ## Przydatne informacje
-
-* Wyjątki są mechanizmem pozwalającym przekazywać informację o błędzie pomiędzy odległymi fragmentami kodu.
-* Zgłoszenie błędu odbywa się poprzez *rzucenie wyjątku*. W Javie służy do tego słowo kluczowe `throw`:
-
-```java
-throw new IllegalArgumentException("ABC argument is invalid")
-```
-* Nieobsłużony wyjątek powoduje przerwanie działania aplikacji.
-* Obsługa wyjątków odbywa się za pomocą mechanizmu *przechwytywania wyjątków*. W Javie służy do tego konstrukcja
-  `try...catch`:
-
-```java
-try {
-  // kod który może rzucić wyjątek
-} catch(IllegalArgumentException ex) {
-  // kod obsługi wyjątku
-}
-```
-Wyjątek może być rzucony na dowolnym poziomie w kodzie, który otoczony jest blokiem `try`. Tzn. w kodzie tym może być
-wiele zagnieżdżonych wywołań funkcji, a i tak blok `try` przechwyci taki wyjątek, pod warunkim, że nie zostanie on obsłużony
-na niższym poziomie.
 
 * Interfejs `Map` definiuje w Javie strukturę słownikową, czyli mapę odwzorowującą *klucze* na *wartości*.
 * Jedną z najczęściej wykorzystywanych implementacji interfejsu `Map` jest klasa `HashMap`, przykładowo:
@@ -55,22 +34,18 @@ public int hashCode() {
 Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `x` i `y` ale fakt, że dla identycznych wartości
 `x` i `y` wartość funkcji `hashCode` będzie identyczna.
 
+* Wzorce projektowe są koncepcją występującą w programowaniu obiektowym polegającą na tym, że określona klasa problemów
+  może być rozwiązana w schematyczny sposób. Rozwiązanie problemu jednak nie może być (najczęściej) zawarte w jednej
+  klasie, dlatego wzorzec stanowi swego rodzaju szkielet rozwiązania, który określa jakie klasy i interfejsy muszą być
+  wykorzystane, aby poprawnie rozwiązać dany problem.
+* Przykładem wzorca jest obserwator (*observer*) - rozwiązuje on problem zmian wewnętrznego stanu obiektu.
+  Więcej informacji na temat tego wzorca można znaleźć pod adresem https://en.wikipedia.org/wiki/Observer_pattern
+* W Javie istnieje kolekcja `SortedSet`, która umożliwia przechowywanie uporządkowanego zbioru elementów. Elementy mogą
+  implementować interfejs `Comparabel` lub przy tworzeniu zbioru należy wskazać obiekt implementujący interfejs
+  `Comparator`, odpowiedzialny za porządkowanie elementów.
+
+
 ## Zadania do wykonania
-
-### Obsługa wyjątków
-
-1. Wykorzystaj klasy z laboratorium 5.
-2. W metodzie odpowiedzialnej za zamianę argumentów aplikacji na ruchy zwierzęcia rzuć wyjątek `IllegalArgumentException`,
-  jeśli którykolwiek z parametrów nie należy do listy poprawnych parametrów (`f`, `forward`, `b`, `backward`, etc.).
-  Jako przyczynę wyjątku wprowadź łańcuch znaków informujący, że określony parametr jest niepoprawny, np.
-  `new IllegalArgumentException(argument + " is not legal move specification")`.
-3. W metodach odpowiedzialnych za dodawanie elementów do mapy, jeśli dodanie elementu na wybrane pole jest niemożliwe
-   rzuć wyjątek `IllegalArgumentException`, podając jako przyczynę łańcuch znaków zawierający
-   informację o tym, które pole jest błędne. Wyjątek zastępuje sygnalizowanie błędu przy pomocy zwracania wartości `false`.
-4. Obsłuż oba wyjątki w metodzie `main` klasy `World`. Obsługa powinna polegać na wyświetleniu komunikatu wyjątku
-   oraz zakończeniu działania programu, a konstrukcja `try` powinna obejmować cały kod znajdujący się w metodzie `main`.
-4. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
-   samego zwierzęcia. Efektem powinno być kontrolowane zakończenie działania programu.
 
 ### Zmiana sposobu przechowywania obiektów na mapie
 
@@ -85,11 +60,21 @@ Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `
    wsparcia środowiska programistycznego. Zasadniczo metoda ta musi być zgodna z działaniem metody `equals` - dwa
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`
    (nie działa to w drugą stronę - `hashCode` może zwracać równe wartości dla obiektów, które nie są równe wg. `equals`).
-7. Zmodyfikuj metodę `run` w klasach obsługujących mapę, tak by po każdym ruchu zwierzęcia sprawdzać, czy jego pozycja
-   się zmieniła i w razie zmiany aktualizować słownik: pozycja - obiekt na mapie.
-8. Zmiana implementacji kolekcji `animals` będzie wymagała zmiany implementacji metod `isOccupied`, `objectAt` oraz `run`.
-   Zastanów się nad wykorzystaniem w tej ostatniej metodzie wywołania `values()` z klasy `Map`, które zwróci kolekcję obiektów
-   (zwierząt) na mapie.
-9. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
+8. Zmiana implementacji kolekcji `animals` będzie wymagała zmiany implementacji metod `isOccupied` i `objectAt`.
 
+### Aktualizacja słownika w mapie
+
+1. Implementacja mechanizmu aktualizacji słownika mapy wymaga, aby mapa była informowana o zmianach pozycji zwierząt, które inicjuje `SimulationEngine`.
+    Rozwiązaniem jest zastosowanie wzorca projektowego `Observer` - mapa ma zarejestrować się jako obserwator dla zmian pozycji zwierzęcia.
+2. Realizację implementacji rozpocznij od zdefiniowana interfejsu `IPositionChangeObserver`, który zawiera jedną metodę
+  `positionChanged(Vector2d oldPosition, Vector2d newPosition)`.
+3. Obie mapy muszą implementować ten interfejs. Możesz to zrealizować, jeśli odpowiedni kod umieścisz w klasie
+   `AbstractWorldMap`. Implementacja metody `positionChanged` powinna polegać na tym, że ze słownika usuwana jest para:
+   `<stara pozycja, zwierzę>`, a dodawana jest para: `<nowa pozycja, zwierzę>`.
+4. Klasa `Animal` musi umożliwić rejestrowanie obserwatorów. Dodaj metody: `void addObserver(IPositionChangeObserver
+    observer)` oraz `void removeObserver(IPositionChangeObserver observer)`, które będą dodawały i usuwały danego
+    obserwatora do listy obserwatorów w klasie `Animal`.
+5. Klasa `Animal` musi informować wszystkich obserwatorów, o tym że pozycja została zmieniona. Stwórz metodę
+    `positionChanged` w klasie `Animal`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
+6. Zweryfikuj poprawność implementacji korzystając z kodu z poprzednich laboratoriów.
 
