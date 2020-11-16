@@ -55,7 +55,6 @@ public int hashCode() {
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`
    (nie działa to w drugą stronę - `hashCode` może zwracać równe wartości dla obiektów, które nie są równe wg. `equals`).
 8. Zmiana implementacji kolekcji `animals` będzie wymagała zmiany implementacji metod `isOccupied` i `objectAt`.
-9. Przetestuj działanie nowej implementacji korzystając z kodu z laboratorium nr 5.
 
 ### Aktualizacja słownika w mapie
 
