@@ -11,8 +11,8 @@ https://forms.gle/wCFZecEAk81VAYTM8
 
 ## Termin oddania projektu
 
-* 21.12.2019 godz. 23:59:59 CET - normalny termin oddania projektu
-* 23.12.2019 godz. 23:59:59 CET - późny termin oddania projektu tzn. -2 krwinki
+* 21.12.2020 godz. 23:59:59 CET - normalny termin oddania projektu
+* 23.12.2020 godz. 23:59:59 CET - późny termin oddania projektu tzn. -2 krwinki
 
 ## Cel projektu
 
@@ -86,7 +86,7 @@ najmniej jeden gen każdego obrotu.
 Symulacja każdego dnia składa się z kilku kolejnych akcji:
 * usunięcie martwych zwierząt z mapy,
 * skręt i przemieszczenie każdego zwierzęcia,
-* jedzenie (roślina jest zjadana przez zwierzę posiadające najwięcej energii lub kilka najsilnijeszych zwierząt, jeśli więcej niż jedno
+* jedzenie (roślina jest zjadana przez zwierzę posiadające najwięcej energii lub kilka najsilniejszych zwierząt, jeśli więcej niż jedno
   posiada taką samą, największą energię; w takim przypadku energia rośliny jest dzielona),
 * rozmnażanie zwierząt (rozmnażają się zawsze dwa zwierzęta o najwyższej energii, jeśli występuje więcej zwierząt o tej
   samej energii, wybór jest losowy),
@@ -98,17 +98,18 @@ Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilk
 
 1. Program ma wyświetlać animację pokazującą pozycję zwierząt, ich energię w dowolnej formie (np. koloru) oraz pozycje
    roślin.
-2. Można użyć dowolnego sposobu wyświetlania animacji (również tekstowego), ale aniamcja nie może polegać na
-   wyświetlaniu po sobie łańuchów tekstu (można natomiast wyświetlać łańcuchy tekstu w tym samym miejscu, wymaga to
+2. Można użyć dowolnego sposobu wyświetlania animacji (również tekstowego), ale animacja nie może polegać na
+   wyświetlaniu po sobie łańcuchów tekstu (można natomiast wyświetlać łańcuchy tekstu w tym samym miejscu, wymaga to
    jednak użycia odpowiedniej biblioteki).
-3. Program musi umożliwiać zatrzymywanie oraz wznawianie animacji w dowolnym momencie.
+3. Program musi umożliwiać zatrzymywanie oraz wznawianie animacji w dowolnym momencie (niezależnie dla każdej mapy -
+   patrz niżej).
 4. Program ma pozwalać na śledzenie następujących statystyk dla aktualnej sytuacji w symulacji:
    * liczby wszystkich zwierząt,
    * liczby wszystkich roślin,
    * dominujących genotypów,
    * średniego poziomu energii dla żyjących zwierząt,
    * średniej długości życia zwierząt dla martwych zwierząt,
-   * średniej liczby dzieci dla żyjących ziwerząt.
+   * średniej liczby dzieci dla żyjących zwierząt.
 5. Po zatrzymaniu programu można:
    * wskazać pojedyncze zwierzę, co powoduje wyświetlenie jego genomu,
    * wskazać pojedyncze zwierzę, w celu śledzenia jego historii:
@@ -116,9 +117,9 @@ Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilk
      * określenia liczby wszystkich potomków, po n-epokach,
      * określenie epoki, w której zmarło,
    * wskazać wszystkie zwierzęta z dominującym genomem.
-6. Program ma umożliwić wyświetelenie symulacji jednocześnie na dwóch mapach, z identycznymi parametrami początkowymi,
+6. Program ma umożliwić wyświetlenie symulacji jednocześnie na dwóch mapach, z identycznymi parametrami początkowymi,
    lecz niezależnie losowanymi decyzjami.
-7. Program powinien umożliwiać uzyskanie statyski (jak w punkcie 4) po określonej liczbie epok w formie pliku tekstowego.
+7. Program powinien umożliwiać uzyskanie statystyki (jak w punkcie 4) po określonej liczbie epok w formie pliku tekstowego.
    Statystyki powinny stanowić uśrednienie wartości z poszczególnych epok.
 
 [Często zadawane pytania](faq.md)

@@ -17,7 +17,7 @@
    3. ilość energii traconej w każdym dniu (`moveEnergy`)
    4. ilość energii zyskiwanej przy zjedzeniu rośliny (`plantEnergy`)
    4. proporcje dżungli do sawanny (`jugnleRatio`)
-5. Dane wejściowe są ładowane z pliku `parameters.json` znajdującego się w katalogu, w których uruchmiana jest
+5. Dane wejściowe są ładowane z pliku `parameters.json` znajdującego się w katalogu, w których uruchamiana jest
    aplikacja.
 6. Struktura pliku powinna być następująca:
 ```
@@ -40,7 +40,7 @@
 6. Czy dżungla może się rozrastać, a jeśli tak, to w sposób dowolny czy określony?
    1. Nie.
 7. Czy energia potrzebna do rozmnażania nie powinna być danymi wejściowymi? Jeżeli nie, to czy powinna wynosić jakiś % energii startowej, a jeśli tak, to jaki?
-   1. Minimalna energia potrzebna do rozmożenia to połowa energii początkowej zwierzęcia, 
+   1. Minimalna energia potrzebna do rozmnożenia to połowa energii początkowej zwierzęcia, 
       tzn. 50% `startEnergy`, a nie 50% energi początkowej danego osobnika.
 8. Czy położenie dżungli na mapie powinno być centralne, losowe, czy dowolne?
    1. Centralne, choć zasadniczo nie ma to znaczenia innego niż estetyka. 
