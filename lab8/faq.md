@@ -68,3 +68,5 @@
     1. To znaczy, że posiada go największa liczba osobników.
 18. Do czego odnoszą się statystyki z punktu 4?
     1. Do pojedynczego dnia/epoki.
+19. Czy przez określenie "Program musi umożliwiać zatrzymywanie oraz wznawianie animacji w dowolnym momencie" należy rozumieć, że po zatrzymaniu zapisujemy do pliku stan animacji (snapshot), a następnie wznawiamy ją na drugi dzień bazując na danych z pliku?
+    1. Nie, chodzi o interaktywne użycie programu, bez zapisywania jego stanu do pliku.
