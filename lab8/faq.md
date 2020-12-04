@@ -47,7 +47,7 @@
 9. Co się dzieje w przypadku, gdy para zwierząt się rozmnaża, a wszystkie pozycje dookoła są zajęte?
    1. Potomek ląduje na losowym zajętym kwadraciku.
 10. "określenie epoki, w której zmarło" - czyli mam pokazywać też zmarłe zwierzęta ??
-   1. Kwestia dotyczy pojedynczego zwierzęcia, wybranego przez użytkownika. Nie chodzi o to, żeby pokazywać zmarłe zwierzęta.
+    1. Kwestia dotyczy pojedynczego zwierzęcia, wybranego przez użytkownika. Nie chodzi o to, żeby pokazywać zmarłe zwierzęta.
 11. "określenia liczby wszystkich potomków, po n-epokach" - chodzi tutaj o liczbę potomków w aktualnej epoce
     czy może oczekujemy na wprowadzenie liczby `n` jako epoki dla której mamy pokazać ile wtedy dane 
     zwierze miało potomków?
