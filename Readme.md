@@ -14,7 +14,7 @@ Instrukcje do poszczególnych laboratoriów znajdują się w odpowiednich folder
 
 Wyobraź sobie, że w tych zajęciach poza Tobą bierze udział mała *istota żywa*, która na początku jest
 *kościotrupem* (więc w zasadzie jest nieżywa). Wszystko co robisz w trakcie zajęć może przyczynić się do tego, że ta
-istota otrzyma trochę *czerwonych krwinek*. Jeśli osiągnie stan 14 czerwonych krwinek, to będzie *chuderlakiem*. 
+istota otrzyma trochę *czerwonych krwinek*. Jeśli osiągnie stan ~12~ 14 czerwonych krwinek, to będzie *chuderlakiem*. 
 
 ## Stan zdrowia
 
