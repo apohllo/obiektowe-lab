@@ -14,7 +14,7 @@ Instrukcje do poszczególnych laboratoriów znajdują się w odpowiednich folder
 
 Wyobraź sobie, że w tych zajęciach poza Tobą bierze udział mała *istota żywa*, która na początku jest
 *kościotrupem* (więc w zasadzie jest nieżywa). Wszystko co robisz w trakcie zajęć może przyczynić się do tego, że ta
-istota otrzyma trochę *czerwonych krwinek*. Jeśli osiągnie stan 12 czerwonych krwinek, to będzie *chuderlakiem*. 
+istota otrzyma trochę *czerwonych krwinek*. Jeśli osiągnie stan ~12~ 14 czerwonych krwinek, to będzie *chuderlakiem*. 
 
 ## Stan zdrowia
 
@@ -40,7 +40,7 @@ W trakcie zajęć masz różne możliwości zdobywania czerwonych krwinek dla sw
 * wziąć udział w biegu katorżniczym, po którym robione jest badanie lekarskie (max. +8 krwinek)
 * wziąć udział w wycieczce rowerowej, po którym robione jest badanie krwi (max. +4 krwinki)
 
-Wzięcie udziału w biegu katorżniczym możliwe jest tylko, jeśli twoja istota ma co najmniej 6 czerwonych krwinek.
+~Wzięcie udziału w biegu katorżniczym możliwe jest tylko, jeśli twoja istota ma co najmniej 6 czerwonych krwinek.~
 
 Wzięcie udziału w wycieczce rowerowej możliwe jest tylko, jeśli twoja istota uzyskała minimum 4 czerwonych krwinek w
 badaniu krwi po biegu katorżniczym.

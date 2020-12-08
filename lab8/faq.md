@@ -17,7 +17,7 @@
    3. ilość energii traconej w każdym dniu (`moveEnergy`)
    4. ilość energii zyskiwanej przy zjedzeniu rośliny (`plantEnergy`)
    4. proporcje dżungli do sawanny (`jugnleRatio`)
-5. Dane wejściowe są ładowane z pliku `parameters.json` znajdującego się w katalogu, w których uruchmiana jest
+5. Dane wejściowe są ładowane z pliku `parameters.json` znajdującego się w katalogu, w których uruchamiana jest
    aplikacja.
 6. Struktura pliku powinna być następująca:
 ```
@@ -40,14 +40,14 @@
 6. Czy dżungla może się rozrastać, a jeśli tak, to w sposób dowolny czy określony?
    1. Nie.
 7. Czy energia potrzebna do rozmnażania nie powinna być danymi wejściowymi? Jeżeli nie, to czy powinna wynosić jakiś % energii startowej, a jeśli tak, to jaki?
-   1. Minimalna energia potrzebna do rozmożenia to połowa energii początkowej zwierzęcia, 
+   1. Minimalna energia potrzebna do rozmnożenia to połowa energii początkowej zwierzęcia, 
       tzn. 50% `startEnergy`, a nie 50% energi początkowej danego osobnika.
 8. Czy położenie dżungli na mapie powinno być centralne, losowe, czy dowolne?
    1. Centralne, choć zasadniczo nie ma to znaczenia innego niż estetyka. 
 9. Co się dzieje w przypadku, gdy para zwierząt się rozmnaża, a wszystkie pozycje dookoła są zajęte?
    1. Potomek ląduje na losowym zajętym kwadraciku.
 10. "określenie epoki, w której zmarło" - czyli mam pokazywać też zmarłe zwierzęta ??
-   1. Kwestia dotyczy pojedynczego zwierzęcia, wybranego przez użytkownika. Nie chodzi o to, żeby pokazywać zmarłe zwierzęta.
+    1. Kwestia dotyczy pojedynczego zwierzęcia, wybranego przez użytkownika. Nie chodzi o to, żeby pokazywać zmarłe zwierzęta.
 11. "określenia liczby wszystkich potomków, po n-epokach" - chodzi tutaj o liczbę potomków w aktualnej epoce
     czy może oczekujemy na wprowadzenie liczby `n` jako epoki dla której mamy pokazać ile wtedy dane 
     zwierze miało potomków?
@@ -68,3 +68,5 @@
     1. To znaczy, że posiada go największa liczba osobników.
 18. Do czego odnoszą się statystyki z punktu 4?
     1. Do pojedynczego dnia/epoki.
+19. Czy przez określenie "Program musi umożliwiać zatrzymywanie oraz wznawianie animacji w dowolnym momencie" należy rozumieć, że po zatrzymaniu zapisujemy do pliku stan animacji (snapshot), a następnie wznawiamy ją na drugi dzień bazując na danych z pliku?
+    1. Nie, chodzi o interaktywne użycie programu, bez zapisywania jego stanu do pliku.
