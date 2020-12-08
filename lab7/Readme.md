@@ -1,6 +1,7 @@
 # Laboratorium 7
 
-Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz dalsze zapoznanie się z wzorcem projektowym `Observer`.
+Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz poprawienie wydajności rysowania zwierząt na mapie.
+
 
 ## Przydatne informacje
 
@@ -44,6 +45,7 @@ na niższym poziomie.
    samego zwierzęcia. Efektem powinno być kontrolowane zakończenie działania programu.
 6. Zaktualizuj testy metody `place` oraz klasy `OptionsParser`, aby były zgodne z nowym kontraktem.
 
+
 ### Wyodrębnienie klasy reprezentującej obszar zajęty przez obiekty
 
 1. Dodaj nową klasę `MapBoundary`, która będzie odpowiedzialna za przechowywanie informacji o obszarze zajmowanym przez
@@ -56,8 +58,6 @@ na niższym poziomie.
    `MapBoundary`.
 5. Obiekty mają być dodawane w ten sposób, że skrajne pozycje na liście zawsze zajmowane są przez obiekty które mają
    odpowiednio największą oraz najmniejszą wartość indeksu w danym wymiarze.
-6. W przypadku aktualizacji pozycji obiektu, należy sprawdzić, czy należy zaktualizować odpowiedni indeks i zrobić to,
-   tylko jeśli jest to konieczne.
 7. Mapa powinna korzystać z instancji klasy `MapBoundary` w celu efektywnego obliczania obszaru, który ma zostać
    wyświetlony.
    

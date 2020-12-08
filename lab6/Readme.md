@@ -22,22 +22,19 @@ Map<Vector2d, Animal> animals = new HashMap<>();
 ```java
 @Override
 public int hashCode() {
-  int hash = 13;
-  hash += this.x * 31;
-  hash += this.y * 17;
-  return hash;
+  return Objects.hash(this.x, this.y);
 }
 ```
 
 * Używanie mapy nie wymaga jawnego wywoływania metody `hashCode`, ale jest ona używana wewnętrznie dla potrzeb optymalizacji.
-
-Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `x` i `y` ale fakt, że dla identycznych wartości
-`x` i `y` wartość funkcji `hashCode` będzie identyczna.
+  Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `x` i `y` ale fakt, że dla identycznych wartości
+  `x` i `y` wartość funkcji `hashCode` będzie identyczna.
 
 * Wzorce projektowe są koncepcją występującą w programowaniu obiektowym polegającą na tym, że określona klasa problemów
   może być rozwiązana w schematyczny sposób. Rozwiązanie problemu jednak nie może być (najczęściej) zawarte w jednej
   klasie, dlatego wzorzec stanowi swego rodzaju szkielet rozwiązania, który określa jakie klasy i interfejsy muszą być
   wykorzystane, aby poprawnie rozwiązać dany problem.
+
 * Przykładem wzorca jest obserwator (*observer*) - rozwiązuje on problem zmian wewnętrznego stanu obiektu.
   Więcej informacji na temat tego wzorca można znaleźć pod adresem https://en.wikipedia.org/wiki/Observer_pattern
 * W Javie istnieje kolekcja `SortedSet`, która umożliwia przechowywanie uporządkowanego zbioru elementów. Elementy mogą
