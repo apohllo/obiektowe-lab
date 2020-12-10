@@ -2,6 +2,7 @@
 
 Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz poprawienie wydajności rysowania zwierząt na mapie.
 
+
 ## Przydatne informacje
 
 * Wyjątki są mechanizmem pozwalającym przekazywać informację o błędzie pomiędzy odległymi fragmentami kodu.
@@ -22,8 +23,9 @@ try {
 }
 ```
 Wyjątek może być rzucony na dowolnym poziomie w kodzie, który otoczony jest blokiem `try`. Tzn. w kodzie tym może być
-wiele zagnieżdżonych wywołań funkcji, a i tak blok `try` przechwyci taki wyjątek, pod warunkim, że nie zostanie on obsłużony
+wiele zagnieżdżonych wywołań funkcji, a i tak blok `try` przechwyci taki wyjątek, pod warunkiem, że nie zostanie on obsłużony
 na niższym poziomie.
+
 
 ## Zadania do wykonania
 
@@ -41,18 +43,21 @@ na niższym poziomie.
    oraz zakończeniu działania programu, a konstrukcja `try` powinna obejmować cały kod znajdujący się w metodzie `main`.
 4. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
    samego zwierzęcia. Efektem powinno być kontrolowane zakończenie działania programu.
+6. Zaktualizuj testy metody `place` oraz klasy `OptionsParser`, aby były zgodne z nowym kontraktem.
+
 
 ### Wyodrębnienie klasy reprezentującej obszar zajęty przez obiekty
 
 1. Dodaj nową klasę `MapBoundary`, która będzie odpowiedzialna za przechowywanie informacji o obszarze zajmowanym przez
    obiekty na mapie.
-2. Klasa ta powinna również implementować interfejs `IPositionChangeObserver`.
+2. Klasa ta powinna implementować interfejs `IPositionChangeObserver`.
 3. Klasa `MapBoundary` powinna zawierać dwa zbiory uporządkowane obiektów na mapie - jeden wzdłuż osi X, drugi wzdłuż
-   osi Y. Ponieważ porządek musi być zupełny, w przypadku obiektów o tym samym indeksie wzdłuż danej osi wykorzystaj
-   drugą współrzędną oraz typ obiektu, w celu określenia porządku zupełnego.
-4. Dodanie obiektu do mapy `GrassField` powinno skutkować dodaniem tego obiektu do instancji
+   osi Y. Ponieważ porządek musi być zupełny, w przypadku obiektów o tym samym indeksie wzdłuż danej osi porównaj
+   drugą współrzędną oraz typ obiektu.
+4. Dodanie obiektu do mapy `GrassField` (`UnboundedMap`) powinno skutkować dodaniem tego obiektu do instancji
    `MapBoundary`.
 5. Obiekty mają być dodawane w ten sposób, że skrajne pozycje na liście zawsze zajmowane są przez obiekty które mają
    odpowiednio największą oraz najmniejszą wartość indeksu w danym wymiarze.
 7. Mapa powinna korzystać z instancji klasy `MapBoundary` w celu efektywnego obliczania obszaru, który ma zostać
    wyświetlony.
+   

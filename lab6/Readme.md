@@ -8,14 +8,14 @@ Celem laboratorium jest zapoznanie się z interfejsem `Map` oraz wzorcem projekt
 * Jedną z najczęściej wykorzystywanych implementacji interfejsu `Map` jest klasa `HashMap`, przykładowo:
 
 ```java
-Map<Vector2d,Animal> animals = new HashMap<>();
+Map<Vector2d, Animal> animals = new HashMap<>();
 ```
 
 * Poprawne działanie `HashMap` uzależnione jest od implementacji metod `equals` oraz `hashCode` w klasie, która stanowi
   klucze mapy (w ćwiczeniu dotyczy to klasy `Vector2d`).
 
 * Wynik działania metody `hashCode` musi być zgodny z wynikiem działania metody `equals`, tzn. jeśli dwa obiekty są
-  równe według `equals` to ich `hashCode` musi być równy.
+  równe według `equals`, to ich `hashCode` musi być równy.
 
 * Przykładowa implementacja metody `hashCode` dla klasy `Vector2d` może wyglądać następująco:
 
@@ -37,6 +37,11 @@ public int hashCode() {
 
 * Przykładem wzorca jest obserwator (*observer*) - rozwiązuje on problem zmian wewnętrznego stanu obiektu.
   Więcej informacji na temat tego wzorca można znaleźć pod adresem https://en.wikipedia.org/wiki/Observer_pattern
+* W Javie istnieje kolekcja `SortedSet`, która umożliwia przechowywanie uporządkowanego zbioru elementów. Elementy mogą
+  implementować interfejs `Comparable` lub przy tworzeniu zbioru należy wskazać obiekt implementujący interfejs
+  `Comparator`, odpowiedzialny za porządkowanie elementów. Przekazany `Comparator` zastępuje naturalny porządek sortowania
+  (wynikający z interfejsu `Comparable`), jeśli taki jest.
+
 
 ## Zadania do wykonania
 
@@ -44,22 +49,24 @@ public int hashCode() {
 
 1. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
    przez wszystkie elementy znajdujące się na mapie. Można ją poprawić zamieniając listę na słownik (wykorzystując 
-   interfejs `Map` oraz implementację `LinkedHashMap`).  Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
-6. Poprawna implementacja słownika wymaga, aby klasa `Vector2d` implementowała metodę `hashCode`. Metoda ta jest
+   interfejs `Map` oraz implementację `LinkedHashMap`) albo dodając obok listy zwierząt osobne pole będące mapą (w tym
+   wypadku wystarczy klasa `HashMap`). Jest to jednocześnie wydajniejsze pamięciowo niż przechowywanie zwierząt (i trawy) w tablicy.
+   Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
+2. Poprawna implementacja słownika wymaga, aby klasa `Vector2d` implementowała metodę `hashCode`. Metoda ta jest
    wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować kod metody `hashCode` w
    klasie `Vector2d` korzystając ze
    wsparcia środowiska programistycznego. Zasadniczo metoda ta musi być zgodna z działaniem metody `equals` - dwa
    obiekty, które są równe według metody `equals` muszą mieć identyczną wartość zwracaną przez metodę `hashCode`
    (nie działa to w drugą stronę - `hashCode` może zwracać równe wartości dla obiektów, które nie są równe wg. `equals`).
-8. Zmiana implementacji kolekcji `animals` będzie wymagała zmiany implementacji metod `isOccupied` i `objectAt`.
+3. Zmiana typu kolekcji `animals` będzie wymagała zmiany implementacji metod `isOccupied` i `objectAt`.
 
 ### Aktualizacja słownika w mapie
 
-1. Implementacja mechanizmu aktualizacji słownika mapy wymaga, aby mapa była informowana o zmianach pozycji zwierząt.
-  W tym celu wykorzystamy wzorzec `Observer` - mapa ma zarejestrować się jako obserwator dla zmian pozycji zwierzęcia.
+1. Implementacja mechanizmu aktualizacji słownika mapy wymaga, aby mapa była informowana o zmianach pozycji zwierząt, które inicjuje `SimulationEngine`.
+    Rozwiązaniem jest zastosowanie wzorca projektowego `Observer` - mapa ma zarejestrować się jako obserwator dla zmian pozycji zwierzęcia.
 2. Realizację implementacji rozpocznij od zdefiniowana interfejsu `IPositionChangeObserver`, który zawiera jedną metodę
   `positionChanged(Vector2d oldPosition, Vector2d newPosition)`.
-3. Obie mapy muszą implementować ten interfejs. Możesz to zrealizować, jeśli odpowiedni kod umieścisz w klasie
+3. Obie mapy muszą implementować ten interfejs. Możesz to również zrealizować, jeśli odpowiedni kod umieścisz w klasie
    `AbstractWorldMap`. Implementacja metody `positionChanged` powinna polegać na tym, że ze słownika usuwana jest para:
    `<stara pozycja, zwierzę>`, a dodawana jest para: `<nowa pozycja, zwierzę>`.
 4. Klasa `Animal` musi umożliwić rejestrowanie obserwatorów. Dodaj metody: `void addObserver(IPositionChangeObserver
@@ -68,3 +75,4 @@ public int hashCode() {
 5. Klasa `Animal` musi informować wszystkich obserwatorów, o tym że pozycja została zmieniona. Stwórz metodę
     `positionChanged` w klasie `Animal`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
 6. Zweryfikuj poprawność implementacji korzystając z kodu z poprzednich laboratoriów.
+
