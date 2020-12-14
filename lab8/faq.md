@@ -70,4 +70,7 @@
     1. Do pojedynczego dnia/epoki.
 19. Czy przez określenie "Program musi umożliwiać zatrzymywanie oraz wznawianie animacji w dowolnym momencie" należy rozumieć, że po zatrzymaniu zapisujemy do pliku stan animacji (snapshot), a następnie wznawiamy ją na drugi dzień bazując na danych z pliku?
     1. Nie, chodzi o interaktywne użycie programu, bez zapisywania jego stanu do pliku.
+20. Jak należy rozumieć p. 7 dotyczący uśrednionych statystyk, np. w odniesieniu do genotypu?
+    1. Należy rejestrować liczbę konkretnych genotypów w każdej epoce i jako wartość "uśrednioną" określić genotyp, który miał największą liczbę wystąpień
+       łącznie, we wszystkich epokach (a nie tylko w ostatniej epoce).
 
