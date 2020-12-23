@@ -32,7 +32,7 @@ Silniki nie uruchomione nie pobierają paliwa, a zmniejszanie ciągu silników z
 pola grawitacyjnego jest taka sama.
 
 ## Uwagi 
-W skrajnych przypadkach zbyt duża masa rakiety może uniemożliwić start rakiety. 
+W skrajnych przypadkach zbyt duża masa rakiety może uniemożliwić start rakiety (co w przypadku złego projektu jest oczekiwane). 
 Należy dobrać tak parametry aby gra była grywalna. Zmiennymi są masy modułów, ciąg silnika oraz jego spalanie.
 
 ## Statystkyki
