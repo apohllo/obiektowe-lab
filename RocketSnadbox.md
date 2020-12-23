@@ -2,8 +2,8 @@
 Celem gry jest zaprojektowanie rakiety kosmicznej, którą następnie będzie można przetestować w symulacji "prawdziwej" płaskiej Ziemi.
 ---
 ## Opis gry
-Pierwszym etapem będzie uproszczona budowa rakiety, polegająca na umieszczeniu wybranego modułu na dwuwymiarowym planie budowy.
-Dostępne moduły: kokpit, zbiornik z paliwem, silnik oraz separator.
+W pierwszym etapie gracz bedzie miał za zadanie zbudować swoją rakiete, umieszczając wybrany moduł na dwuwymiarowym planie budowy.
+Budowa ma być prosta jak zabawa klockami Lego. Dostępne moduły: kokpit, zbiornik z paliwem, silnik oraz separator.
 
 Po zatwierdzeniu projektu, rakieta może wystartować. Jednak już chwile po starcie astronauci dostrzegają zagrożenie dla ich rakiety w postaci wielu
 spadających asteroid, które należy unikać. Uniki gracz będzie mógł wykonywać dzięki skrętom rakiety w prawo lub lewo. o do lotu to nasza rakieta przemieszcza 
@@ -19,6 +19,7 @@ Kokpit może być tylko jeden i jest on wymagany do startu. Może on być zafiks
 Zbiorniki z paliwem można ustawiać jeden na drugim.
 Silniki można umieścić tylko pod zbiornikiem z paliwem, dany silnik może pobierać paliwo tylko ze zbiorników znajdujących sie bezpośrednio nad nim.
 Separator pozwala na oddzielenie segmentów bocznych rakiety przy czym nie jest możliwe żeby rakieta miała boczne segmenty nie połączone separatorem.
+Mile widziany separator poziomy umożliwiający oddzielenie silnika od niższego stopnia rakiety.
 
 ## Szczegóły dotyczące lotu
 W trakcie lotu gracz ma mieć możliwość przemieszczenia swojej rakiety w prawo lub lewo aby unikać asteroid. Asteroidy mogą mieć różne rozmiary i zwroty prędkości.
@@ -36,3 +37,7 @@ Należy dobrać tak parametry aby gra była grywalna. Zmiennymi są masy moduł�
 
 ## Statystkyki
 Gra wyświetla na bieżąco wysokość i prędkość rakiety.
+
+## Inspiracja
+SimpleRockets
+SpaceFlight Simulator
