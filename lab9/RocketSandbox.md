@@ -5,13 +5,13 @@ Celem gry jest zaprojektowanie rakiety kosmicznej, którą następnie będzie mo
 W pierwszym etapie gracz bedzie miał za zadanie zbudować swoją rakiete, umieszczając wybrany moduł na dwuwymiarowym planie budowy.
 Budowa ma być prosta jak zabawa klockami Lego. Dostępne moduły: kokpit, zbiornik z paliwem, silnik oraz separator.
 
-Po zatwierdzeniu projektu, rakieta może wystartować. Jednak już chwile po starcie astronauci dostrzegają zagrożenie dla ich rakiety w postaci wielu
-spadających asteroid, które należy unikać. Uniki gracz będzie mógł wykonywać dzięki skrętom rakiety w prawo lub lewo. o do lotu to nasza rakieta przemieszcza 
+Po zatwierdzeniu projektu, rakieta może startować. Jednak już chwile po starcie astronauci dostrzegają zagrożenie dla ich rakiety w postaci wielu
+spadających asteroid, które należy unikać. Uniki gracz będzie mógł wykonywać dzięki skrętom rakiety w prawo lub lewo. Co do lotu to nasza rakieta przemieszcza 
 sie po wąskim pasie pozwalającym na skuteczne omijanie asteroid. Pas ten ciągnie się od Ziemi do nieskończoności. Gra się kończy w przypadku braku paliwa
 lub wleceniu w asteroidę (lub na odwrót).
 
 ## Szczegóły i ograniczenia budowy rakiety
-Budowa rakiety ma być możliwa tylko w wyznaczonej na to przestrzeni, ta przestrzeń składa sie z pustych kwadratów, które gracz może wypełnić. Moduły takie jak 
+Budowa rakiety ma być możliwa tylko w wyznaczonej na to przestrzeni, ta przestrzeń składa się z pustych kwadratów, które gracz może wypełnić. Moduły takie jak 
 kokpit, zbiornik paliwa i silnik zajmują na planie tylko jeden jednostkowy kwadrat. Separator z kolej może występować tylko pomiędzy takimi kwadratami.
 
 Przestrzeń na budowę rakiety musi być stały, na przykład 7x10 pustych kwadratów.
@@ -23,7 +23,7 @@ Mile widziany separator poziomy umożliwiający oddzielenie silnika od niższego
 
 ## Szczegóły dotyczące lotu
 W trakcie lotu gracz ma mieć możliwość przemieszczenia swojej rakiety w prawo lub lewo aby unikać asteroid. Asteroidy mogą mieć różne rozmiary i zwroty prędkości.
-Za zderzenie można przyjąć moment kiedy środek danego modułu znajdzie sie w środku asteroidy, każda asteroida jest kulą. Silniki są uruchamiane (lub wyłączenie)
+Za zderzenie można przyjąć moment kiedy środek danego modułu znajdzie się w środku asteroidy, każda asteroida jest kulą. Silniki są uruchamiane (lub wyłączenie)
 w przypadku kliknięcia na nie oraz podobnie separatory rozdzielają sie kiedy w nie klikniemy (oderwana część rakiety znika). Gracz może również sterować
 ciągiem uruchomionych silników.
 
@@ -35,8 +35,8 @@ pola grawitacyjnego jest taka sama.
 W skrajnych przypadkach zbyt duża masa rakiety może uniemożliwić start rakiety (co w przypadku złego projektu jest oczekiwane). 
 Należy dobrać tak parametry aby gra była grywalna. Zmiennymi są masy modułów, ciąg silnika oraz jego spalanie.
 
-## Statystkyki
-Gra wyświetla na bieżąco wysokość i prędkość rakiety.
+## Statystyki
+Gra wyświetla na bieżąco wysokość i prędkość rakiety oraz maksymalne wartości uzyskane podczas gry.
 
 ## Inspiracja
 SimpleRockets,
