@@ -39,5 +39,5 @@ Należy dobrać tak parametry aby gra była grywalna. Zmiennymi są masy moduł�
 Gra wyświetla na bieżąco wysokość i prędkość rakiety.
 
 ## Inspiracja
-SimpleRockets
+SimpleRockets,
 SpaceFlight Simulator
