@@ -1,6 +1,7 @@
 # H34rthStone
 Second project for object-oriented programming 
 
+## Points: 4
 
 The idea is to write an application based on mobile card board game from Blizzard named HearthStone.
 What does it look like can be found for example here: https://www.youtube.com/watch?v=ymuVLuVlsOU
