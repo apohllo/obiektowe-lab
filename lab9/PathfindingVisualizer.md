@@ -1,6 +1,6 @@
 # **Pathfinding-Visualizer**
 
-## Punkty: 3 (bez rozszerzeń), 4 (z rozszerzeniami)
+## Punkty: 3 (bez rozszerzeń, implementacja min. 3 algorytmów), 4 (z rozszerzeniami)
 
 Celem projektu jest napisanie programu z interfejsem graficznym służącego do wizualizacji algorytmu znajdowania ścieżki pomiędzy zadanymi punktami.
 ***
