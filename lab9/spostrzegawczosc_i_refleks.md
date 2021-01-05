@@ -1,6 +1,8 @@
 ## Spostrzegawczość i refleks
 Celem projektu jest napisanie gry, która bada refleks i spostrzegawczość gracza.
 
+## Liczba punktów: 3 (pod warunkiem implementacji obu wariantów)
+
 Na ekranie użytkownika będzie wyświetlać się okno, które zawiera figury o różnych kształtach i kolorach.
 Wśród wyświetlanych elementów będzie jeden element (bez duplikatów), który gracz musi znaleźć w jak najszybszym czasie.
 
