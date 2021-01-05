@@ -1,5 +1,7 @@
 # Opis zadania:
 
+## Liczba punktów: 3 (pod warunkiem obsługi min. 3 różnych kantorów/banków)
+
 Zadanie polega na napisaniu aplikacji, która będzie sprawdzała kursy wybranych walut i umożliwiała przeliczanie pewnej kwoty w jednej walucie na kwotę w drugiej walucie.
 
 # Wymagania:
