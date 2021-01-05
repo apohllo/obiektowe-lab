@@ -1,5 +1,7 @@
 # Piłkarzyki na kartce
 
+## Liczba punktów: 2
+
 "Piłkarzyki na kartce", czy "Paper Soccer" to strategiczno-taktyczna gra dwu-osobowa. Jak nazwa wskazuje, w tradycyjnej formie rozgrywana na kartce papieru.
 Projekt polega na stworzeniu komputerowej wersji tejże gry.
 
