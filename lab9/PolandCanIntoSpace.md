@@ -1,5 +1,8 @@
 
 # Poland Can Into Space!
+
+## Liczba punktów 4 (co najmniej 5 znajdziek modyfikujących zachowanie rakiety)
+
 Or can it?
 ---
 Jest rok 1961, wyścig kosmiczny trwa w najlepsze. 
