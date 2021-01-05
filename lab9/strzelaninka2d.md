@@ -1,6 +1,8 @@
 # Gra 2D Strzelaninka
 Tworzymy grę, strzelaninkę 2D z widokiem z góry, do zrealizowania w dwóch wersjach: dwuosobowej (PvP), bądź jednoosobową z botami (PvE). Wykorzystujemy oczywiście graficzne GUI.
 
+## Liczba punktów: 4 (pod warunkiem implementacji obu wariantów)
+
 ## Wejściowe GUI: 
 - Gra posiada wejściowe gui, gdzie można wybierać parametry wejściowe, takie jak rodzaj planszy czy dostępne bonusy/rodzaje przeciwników (patrz poniżej)
 
