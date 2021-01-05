@@ -1,5 +1,8 @@
 # Czołgi x Superhot
+
 Projekt polega na napisaniu gry w czołgi w stylu gry superhot.
+
+## Punkty 3 (bez power-upów), 4 (z power-upami)
 
 # Cel gry
 Zdobyć jak najwyższy wynik :)
