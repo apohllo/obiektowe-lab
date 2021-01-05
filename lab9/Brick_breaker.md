@@ -1,6 +1,6 @@
 # Brick breaker
 
-## Liczba punktów: 2
+## Liczba punktów: 2 (dla wersji podstawowej), 3 (dla wersji z bonusami)
 
 Celem projektu jest stworzenie klona gry brick breaker, wprowadzając kilka modyfikacji.
 
