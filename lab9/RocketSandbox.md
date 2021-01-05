@@ -1,5 +1,7 @@
 # Cel gry 
 Celem gry jest zaprojektowanie rakiety kosmicznej, którą następnie będzie można przetestować w symulacji "prawdziwej" płaskiej Ziemi. 
+
+## Liczba punktów: 3
 --- 
 ## Opis gry 
 W pierwszym etapie gracz będzie miał za zadanie zbudować swoją rakietę, umieszczając wybrany moduł na dwuwymiarowym planie budowy. Budowa ma być prosta jak zabawa klockami Lego. Dostępne moduły: kokpit, zbiornik z paliwem, silnik oraz separator. Po zatwierdzeniu projektu rakieta może startować. Jednak już chwilę po starcie astronauci dostrzegają zagrożenie dla ich rakiety w postaci wielu spadających asteroid, które należy unikać. Uniki gracz będzie mógł wykonywać dzięki skrętom rakiety w prawo lub lewo. Co do lotu to nasza rakieta przemieszcza się po wąskim pasie pozwalającym na skuteczne omijanie asteroid. Pas ten ciągnie się od Ziemi do nieskończoności. Gra się kończy w przypadku braku paliwa lub wleceniu w asteroidę (lub na odwrót). 
