@@ -1,4 +1,7 @@
 # Snake simulation
+
+## Liczba punktów: 2
+
 ## Krótki opis
 Symulacja opiera się na klasycznej grze Snake. Rywalizować będą dwa zespoły węży, których celem jest przeżycie i wygranie "meczu". Drużyna wygra, gdy wszystkie węże z przeciwnej drużyny umrą. Na mapie będą jabłka, które po zjedzeniu dodają wężowi energii.
 
@@ -19,4 +22,4 @@ Podczas danej tury każdy wąż będzie mógł się poruszyć do przodu, w lewo 
 Gdy głowa węża trafi na ogon przeciwnika, to przeciwnik traci połowę energii.
 
 ## Konsumpcja
-Na początku mapa będzie zawierać pare jabłek. Gdy wąż zje jedno, to dostaje bonusową energie i losowane jest nowe jabłko na mapie.
+Na początku mapa będzie zawierać parę jabłek. Gdy wąż zje jedno, to dostaje bonusową energie i losowane jest nowe jabłko na mapie.
