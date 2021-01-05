@@ -1,4 +1,7 @@
 # Poszukiwacz złota
+
+## Liczba punktów: 2
+
 Projekt polega na napisaniu gry Poszukiwacz złota( https://www.gierkionline.pl/g/gold-miner )
 
 # Zasady
