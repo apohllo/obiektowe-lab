@@ -1,5 +1,7 @@
 # Górnik
 
+## Punkty: 2 (bez rozszerzeń), 3 (z rozszerzeniami)
+
 ## Opis
 
 Celem projektu jest stworzenie gry z interfejsem graficznym. Gracz kontroluje górnika poszukującego klejnotów w ciemnej jaskini, musi znaleźć ich jak najwięcej do czasu, gdy górnikowi zabraknie paliwa w lampie.
