@@ -1,5 +1,7 @@
 # **Pathfinding-Visualizer**
 
+## Punkty: 3 (bez rozszerzeń), 4 (z rozszerzeniami)
+
 Celem projektu jest napisanie programu z interfejsem graficznym służącego do wizualizacji algorytmu znajdowania ścieżki pomiędzy zadanymi punktami.
 ***
 ## **Faza przygotowawcza**
@@ -7,7 +9,7 @@ Celem projektu jest napisanie programu z interfejsem graficznym służącego do 
 Po uruchomieniu programu wyświeta się okno zawierające:
 - Pasek menu
 - Szachownica na której odbędzie się wizualizacja
-- Legende 
+- Legendę 
 
 
 ### Menu
