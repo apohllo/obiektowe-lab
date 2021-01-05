@@ -1,5 +1,7 @@
 # Brick breaker
 
+## Liczba punktów: 2
+
 Celem projektu jest stworzenie klona gry brick breaker, wprowadzając kilka modyfikacji.
 
 ## Zasady najprostszej gry typu brick breaker.
