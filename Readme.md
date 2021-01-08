@@ -22,12 +22,12 @@ Poniższa tabela pokazuje jakie stadia zdrowotne może osiągnąć istota, któr
 
 | stan            | liczba czerwonych krwinek |
 |:----------------|---------------------------|
-| kościotrup      | < 14                      |
-| chuderlak       | 14 - 16,5                 |
-| kuracjusz       | 17 - 19,5                 |
-| na zwolnieniu   | 20 - 21,5                 |
-| krzepki móżdżek | 22 - 24,5                 |
-| okaz zdrowia    | >= 25                     |
+| kościotrup      | ~< 14~ 13,5               |
+| chuderlak       | ~14 - 16,5~ 13,5 - 15,5   |
+| kuracjusz       | ~17 - 19,5~ 16 - 18,5     |
+| na zwolnieniu   | ~20 - 21,5~ 19 - 21       |
+| krzepki móżdżek | ~22 - 24,5~ 21,5 - 24     |
+| okaz zdrowia    | ~>= 25~ 24,5              |
 
 
 ## Zdobywanie krwinek
