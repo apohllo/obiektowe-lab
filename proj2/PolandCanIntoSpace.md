@@ -1,7 +1,7 @@
 
 # Poland Can Into Space!
 
-## Liczba punktów 4 (co najmniej 5 znajdziek modyfikujących zachowanie rakiety)
+## Liczba punktów 4 (co najmniej 5 znajdziek lub ulepszeń rakiety modyfikujących zachowanie rakiety)
 
 Or can it?
 ---
