@@ -76,3 +76,4 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
 10. (**Dla zaawansowanych**). Zmodyfikuj implementację tak, żeby po spotkaniu zwierzęcia i trawy, trawa znikała. Nowe kępki
     trawy powinny pojawiać się losowo w obszarze z punktu 1, po zjedzeniu trawy przez zwierzę, przy założeniu, że nowe
     kępki trawy nie pokrywa się z istniejącą kępką trawy, ani z żadnym zwierzęciem.
+11. Otaguj gotowe rozwiązanie jako lab5.

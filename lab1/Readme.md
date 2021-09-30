@@ -1,6 +1,6 @@
 # Laboratorium nr 1
 
-Celem laboratorium jest zapoznanie się z podstawowymi narzędziami Javy.
+Celem laboratorium jest zapoznanie się z podstawowymi pojęciami oraz narzędziami Javy.
 
 ## Przydatne informacje
 * W programie Javy funkcja (a właściwie metoda) `main` musi być częścią jakiejś klasy. Jest ona punktem startowym programu.
@@ -70,16 +70,16 @@ out.println(message);
 ## Zadania do wykonania
 
 1. Uruchom program IntelliJ.
-2. Utwórz nowy projekt: lab1
+2. Utwórz nowy projekt typu **`Gradle` -> `Java`** (!**nie `Java` -> `Java`**) o nazwie `oolab`.
 3. Zmień środowisko uruchomieniowe Javy na JDK 1.8 (kliknij "New" obok okienka "Project SDK", 
    wybierz ścieżkę `c:\Program files\Java\jdk1.8_101`)
-3. Zmień wersję używanej Javy na **8** (File -> Project structure -> Project -> Project language level -> 8 (lambdas...))
-4. Utwórz pakiet `agh.cs.oop`
-5. W pakiecie `agh.cs.oop` utwórz klasę `World` ze statyczną funkcją `main`.
+3. Zmień wersję używanej Javy na minimum **8** (File -> Project structure -> Project -> Project language level -> 8 (lambdas...))
+4. Utwórz pakiet `agh.ics.oop`
+5. W pakiecie `agh.ics.oop` utwórz klasę `World` ze statyczną funkcją `main`.
 6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
    - informujący o starcie systemu
    - informujący o zakończeniu działania systemu
-7. Uruchom program z p. 7.
+7. Uruchom program z p. 7 np. klikając zieloną ikonę pojawiającą się na początku linii, w której występuje metoda `main`.
 8. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy tymi komunikatami.
 9. Metoda `run` powinna informować o tym, że zwierzak idzie do przodu.
 10. Uruchom program.
@@ -104,13 +104,12 @@ out.println(message);
 17. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
     wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływaną w
     funkcji `main` przed wywołaniem metody `run`, natomiast typ wyliczeniowy powinien być zdefiniowany w osobnym pliku
-    (`Direction.java`) w pakiecie `agh.cs.oop`.
+    (`Direction.java`) w pakiecie `agh.ics.oop`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij IntelliJ.
 20. Otwórz konsolę Windows (np. PowerShell).
-21. Skompiluj ten sam program poleceniem `javac` (o ile znajdziesz polecenie `javac`, możliwe, że trzeba będzie podać bezwzględną ścieżkę do pliku javac.exe): <br/>
-    `javac agh\cs\oop\*.java`
-22. Uruchom program poleceniem `java` przekazując co najmniej 2 argumenty: <br/>
-    `java agh.cs.oop.World f l`
+21. Skompiluj ten sam program poleceniem `gradlew jar` (lub `gradlew.exe jar`)
+22. Uruchom program poleceniem `java -cp build/libs/oolab-1.0-SNAPSHOT.jar agh.ics.oop.World f l`
+23. Zmodyfikuj argumenty wywołania i sprawdź zachowanie programu.
 23. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
     korzystał z interfejsu `stream` dostępnego w Javie 8.

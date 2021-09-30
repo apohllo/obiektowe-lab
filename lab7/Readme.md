@@ -60,4 +60,4 @@ na niższym poziomie.
    odpowiednio największą oraz najmniejszą wartość indeksu w danym wymiarze.
 7. Mapa powinna korzystać z instancji klasy `MapBoundary` w celu efektywnego obliczania obszaru, który ma zostać
    wyświetlony.
-   
+11. Otaguj gotowe rozwiązanie jako lab7.

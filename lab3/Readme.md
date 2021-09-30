@@ -49,3 +49,4 @@ class Animal {
     * czy dane wejściowe podane jako tablica łańcuchów znaków są poprawnie interpretowane. 
 10. Odpowiedz na pytanie: jak zaimplementować mechanizm, który wyklucza pojawienie się dwóch zwierząt w tym samym
     miejscu.
+11. Otaguj gotowe rozwiązanie jako lab3.

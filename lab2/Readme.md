@@ -95,8 +95,11 @@ enum MapDirection {
 
 ### Klasa `Vector2d`
 
-1. Pliki projektu należy umieszczać w pakiecie `agh.cs.oop`.
-2. Utwórz klasę `World` z metodą `main`.
+0. Projekt z poprzedniego laboratorium należy umieścić w repozytorium git.
+0. Wersję opracowaną na poprzednich zajęciach należy otagować jako `lab1`.
+0. Po zakończeniu pracy nad laboratorium należy je otagować tagiem `lab2`.
+1. Pliki projektu należy umieszczać w pakiecie `agh.ics.oop`.
+2. Wykorzystaj klasę `World` z metodą `main` z poprzednich zajęć.
 3. Utwórz klasę `Vector2d`, która:
    * posiada dwa publiczne pola `x` i `y` typu `int`, które nie mogą być modyfikowane (`final`),
    * posiada konstruktor akceptujący parametry `x` i `y`, która są przypisywane do pól `x` i `y`,
@@ -149,17 +152,13 @@ Sprawdź czy uzyskane wyniki są poprawne.
 
 ### Testy
 
-1. Przenieś kod źródłowy do katalogu `src/main`.
-2. Utwórz katalog `src/test`.
-2. Dodaj bibliotekę JUnit 5:
-   * File -> Project structure -> Modules -> Dependencies -> (kliknij + po prawej stronie) -> library -> From maven
-   * w okienko wpisujemy junit:junit -> search
-   * wybieramy dostępną wersję JUnit (najnowszą ale bez SNAPSHOT)
-   * zmieniamy Scope na test (w okienku Dependencies)
-3. Utwórz klasę `MapDirectionTest`.
+1. Zmodyfikuje plik `gradle.build`:
+   * usuń linię `testCompile` w sekcji `dependencies`.
+   * dodaj linię `testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")` w tej samej sekcji
+3. Utwórz klasę `MapDirectionTest` w katalogu `src/test/java` w pakiecie `agh.ics.oop`.
 4. Zaimplementuj test weryfikujący poprawność działania metody `next()`, dla wszystkich przypadków (dodaj anotację
    `@Test` przed deklaracją metody).
-4. Uruchom test korzystając z menu `Run all tests`.
+4. Uruchom test korzystając z zielonych trójkątów po lewej stronie.
 5. Zaimplementuj test weryfikujący poprawność działania metody `previous()`, dla wszystkich przypadków.
 6. Utwórz klasę `Vector2dTest`.
 7. Dodaj testy weryfikujące poprawność metod: `equals(Object other)`, `toString()`, `precedes(Vector2d other)`, `follows(Vector2d other)`,

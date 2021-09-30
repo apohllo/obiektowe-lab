@@ -88,3 +88,4 @@ Sprawdź czy zwierzęta poruszają się poprawnie dla ciągu: `f b r l f f r r f
    ustalenia przebiegu testu.
 7. (**Dla zaawansowanych**) Stwórz tekstowy widget biblioteki Swing (lub innej wybranej biblioteki), który będzie
    wyświetlał animację poruszających się zwierzaków.
+11. Otaguj gotowe rozwiązanie jako lab4.

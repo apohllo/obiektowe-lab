@@ -75,4 +75,4 @@ public int hashCode() {
 5. Klasa `Animal` musi informować wszystkich obserwatorów, o tym że pozycja została zmieniona. Stwórz metodę
     `positionChanged` w klasie `Animal`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
 6. Zweryfikuj poprawność implementacji korzystając z kodu z poprzednich laboratoriów.
-
+11. Otaguj gotowe rozwiązanie jako lab6.
