@@ -107,9 +107,15 @@ out.println(message);
     (`Direction.java`) w pakiecie `agh.ics.oop`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij IntelliJ.
+21. W pliku `gradle.build` w sekcji `plugins` dodaj linię `id 'application'`
+21. W tym samym pliku dodaj sekcję:
+    ```
+    application {
+      mainClassName = 'agh.ics.oop.World'
+    }
+    ```
 20. Otwórz konsolę Windows (np. PowerShell).
-21. Skompiluj ten sam program poleceniem `gradlew jar` (lub `gradlew.exe jar`)
-22. Uruchom program poleceniem `java -cp build/libs/oolab-1.0-SNAPSHOT.jar agh.ics.oop.World f l`
+21. Uruchom program poleceniem `./gradlew run --args="f l"` (lub `gradlew.exe ...`)
 23. Zmodyfikuj argumenty wywołania i sprawdź zachowanie programu.
 23. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
     korzystał z interfejsu `stream` dostępnego w Javie 8.
