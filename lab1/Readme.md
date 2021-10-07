@@ -111,8 +111,9 @@ out.println(message);
       mainClassName = 'agh.ics.oop.World'
     }
     ```
-20. Otwórz konsolę (np. PowerShell).
-21. Uruchom program poleceniem `gradlew.exe run --args="f l"` (lub `./gradlew ...` w systemie Linuks)
+20. Otwórz konsolę (np. terminal/PowerShell).
+20. Wywołaj komendę `export JAVA_HOME=/usr/lib/jvm/java-16` (pod Windows trzeba będzie ustawić zmienną środowiskową wskazującą na katalog, w którym zainstalowana jest Java).
+21. Uruchom program poleceniem `./gradlew run --args="f l"` (lub `gradlew.bat ...` w systemie Windows)
 23. Zmodyfikuj argumenty wywołania i sprawdź zachowanie programu.
 23. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
     korzystał z interfejsu `stream` dostępnego w Javie 8.
