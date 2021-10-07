@@ -71,7 +71,7 @@ out.println(message);
 
 1. Uruchom program IntelliJ.
 2. Utwórz nowy projekt typu **`Gradle` -> `Java`** (!**nie `Java` -> `Java`**) o nazwie `oolab`.
-4. W katalogu `main/java/` utwórz pakiet `agh.ics.oop`.
+4. W katalogu `main/java/` utwórz pakiet `agh.ics.oop` (ppm na `main/java` -> `New package`).
 5. W pakiecie `agh.ics.oop` utwórz klasę `World` ze statyczną funkcją `main`.
 6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
    - informujący o starcie systemu
