@@ -96,7 +96,8 @@ enum MapDirection {
 ### Klasa `Vector2d`
 
 0. Projekt z poprzedniego laboratorium należy umieścić w repozytorium git.
-0. Wersję opracowaną na poprzednich zajęciach należy otagować jako `lab1`.
+0. Wersję opracowaną na poprzednich zajęciach należy [otagować](https://www.jetbrains.com/help/idea/use-tags-to-mark-specific-commits.html) jako `lab1` oraz 
+   [wysłać tag](https://stackoverflow.com/questions/28905277/how-to-push-git-tags-from-intellij-without-using-the-console) do zdalnego repozytorium.
 0. Po zakończeniu pracy nad laboratorium należy je otagować tagiem `lab2`.
 1. Pliki projektu należy umieszczać w pakiecie `agh.ics.oop`.
 2. Wykorzystaj klasę `World` z metodą `main` z poprzednich zajęć.
