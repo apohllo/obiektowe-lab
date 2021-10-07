@@ -71,10 +71,7 @@ out.println(message);
 
 1. Uruchom program IntelliJ.
 2. Utwórz nowy projekt typu **`Gradle` -> `Java`** (!**nie `Java` -> `Java`**) o nazwie `oolab`.
-3. Zmień środowisko uruchomieniowe Javy na JDK 1.8 (kliknij "New" obok okienka "Project SDK", 
-   wybierz ścieżkę `c:\Program files\Java\jdk1.8_101`)
-3. Zmień wersję używanej Javy na minimum **8** (File -> Project structure -> Project -> Project language level -> 8 (lambdas...))
-4. Utwórz pakiet `agh.ics.oop`
+4. W katalogu `main/java/` utwórz pakiet `agh.ics.oop`.
 5. W pakiecie `agh.ics.oop` utwórz klasę `World` ze statyczną funkcją `main`.
 6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
    - informujący o starcie systemu
