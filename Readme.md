@@ -35,8 +35,8 @@ Poniższa tabela pokazuje jakie stadia zdrowotne może osiągnąć istota, któr
 W trakcie zajęć masz różne możliwości zdobywania czerwonych krwinek dla swojej istoty, możesz:
 
 * uprawiać ćwiczenia na sali gimnastycznej (+1 krwinka)
+* przyjmować szczepionki (+1 krwinka)
 * wziąć udział w zawodach lekkoatletycznych (max. +2 krwinki)
-* ~wysłać ją na kwarantannę (+10 krwinek)~
 * wziąć udział w biegu katorżniczym, po którym robione jest badanie lekarskie (max. +8 krwinek)
 * wziąć udział w wycieczce rowerowej, po którym robione jest badanie krwi (max. +4 krwinki)
 
