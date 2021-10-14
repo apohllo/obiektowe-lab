@@ -74,8 +74,8 @@ out.println(message);
 4. W katalogu `src/main/java/` utwórz pakiet `agh.ics.oop` (ppm na `src/main/java` -> `New package`).
 5. W pakiecie `agh.ics.oop` utwórz klasę `World` ze statyczną funkcją `main`.
 6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
-   - informujący o starcie systemu
-   - informujący o zakończeniu działania systemu
+   - `system wystartował`
+   - `system zakończył działanie`
 7. Uruchom program z p. 7 np. klikając zieloną ikonę pojawiającą się na początku linii, w której występuje metoda `main`.
 8. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy tymi komunikatami.
 9. Metoda `run` powinna informować o tym, że zwierzak idzie do przodu.
