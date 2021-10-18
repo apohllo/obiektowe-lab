@@ -104,8 +104,14 @@ out.println(message);
     (`Direction.java`) w pakiecie `agh.ics.oop`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij IntelliJ.
-21. W pliku `gradle.build` w sekcji `plugins` dodaj linię `id 'application'`
-21. W tym samym pliku dodaj sekcję:
+21. W pliku `gradle.build` w sekcji `plugins` dodaj linię `id 'application'`: 
+    ```
+    plugins {
+      id 'application'
+      id 'java'
+    }
+    ```
+23. W tym samym pliku dodaj sekcję:
     ```
     application {
       mainClassName = 'agh.ics.oop.World'
