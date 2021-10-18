@@ -154,7 +154,7 @@ Sprawdź czy uzyskane wyniki są poprawne.
 ### Testy
 
 
-1. Zmodyfikuje plik `gradle.build`:
+1. Zmodyfikuje plik `build.gradle`:
    * usuń linię `testCompile` w sekcji `dependencies`.
    * dodaj linię `testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")` w tej samej sekcji
 3. Utwórz klasę `MapDirectionTest` w katalogu `src/test/java` w pakiecie `agh.ics.oop`.
