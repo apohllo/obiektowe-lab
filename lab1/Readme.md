@@ -105,16 +105,23 @@ out.println(message);
     (`Direction.java`) w pakiecie `agh.ics.oop`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij IntelliJ.
-21. W pliku `build.gradle` w sekcji `plugins` dodaj linię `id 'application'`
-21. W tym samym pliku dodaj sekcję:
+
+21. W pliku `build.gradle` w sekcji `plugins` dodaj linię `id 'application'`: 
+    ```
+    plugins {
+      id 'application'
+      id 'java'
+    }
+    ```
+23. W tym samym pliku dodaj sekcję:
     ```
     application {
       mainClassName = 'agh.ics.oop.World'
     }
     ```
 20. Otwórz konsolę (np. terminal/PowerShell).
-20. Wywołaj komendę `export JAVA_HOME=/usr/lib/jvm/java-16` (pod Windows trzeba będzie ustawić zmienną środowiskową wskazującą na katalog, w którym zainstalowana jest Java).
+20. Wywołaj komendę `export JAVA_HOME=/usr/lib/jvm/java-16` (pod Windows trzeba będzie ustawić zmienną środowiskową wskazującą na katalog, w którym zainstalowana jest Java). **Komendę trzeba zaadaptować do lokalnej instalacji Javy!**
 21. Uruchom program poleceniem `./gradlew run --args="f l"` (lub `gradlew.bat ...` w systemie Windows)
 23. Zmodyfikuj argumenty wywołania i sprawdź zachowanie programu.
-23. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
+24. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
     korzystał z interfejsu `stream` dostępnego w Javie 8.
