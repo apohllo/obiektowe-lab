@@ -23,6 +23,7 @@ class Animal {
      osi OY),
    * definiuje metodę `toString()`, która w reprezentacji łańcuchowej zawiera informacje o położeniu zwierzęcia (pozycję
      oraz orientację),
+   * definiuje metodą `boolean isAt(Vector2d position)`, która zwraca prawdę, jeśli zwierzę znajduje się na pozycji `position`.
    * definuje swoje pola jako prywatne.
 9. Utwórz lub zmodyfikuj klasę `World`, która w metodzie `main` stworzy zwierzę i wyświetli w konsoli jego pozycję.
 10. Dodaj do klasy `Animal` metodę `move(MoveDirection direction)`, która:
