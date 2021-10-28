@@ -47,8 +47,8 @@ public int hashCode() {
 
 ### Zmiana sposobu przechowywania obiektów na mapie
 
-1. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
-   przez wszystkie elementy znajdujące się na mapie. Można ją poprawić zamieniając listę na słownik (wykorzystując 
+1. Implementacja metod `isOccupied` oraz `objectAt` w listach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
+   przez wszystkie elementy znajdujące się na liście. Można ją poprawić zamieniając listę na słownik (wykorzystując 
    interfejs `Map` oraz implementację `LinkedHashMap`) albo dodając obok listy zwierząt osobne pole będące mapą (w tym
    wypadku wystarczy klasa `HashMap`). Jest to jednocześnie wydajniejsze pamięciowo niż przechowywanie zwierząt (i trawy) w tablicy.
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
