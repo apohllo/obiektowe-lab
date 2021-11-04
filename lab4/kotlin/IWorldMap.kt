@@ -1,4 +1,4 @@
-package agh.cs.oolab
+package agh.cs.oop
 
 /**
  * The interface responsible for interacting with the map of the world.
