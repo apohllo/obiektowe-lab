@@ -1,12 +1,12 @@
-# Lab 8 -- graficzny interfejs użytkownika
+# Lab 8 - graficzny interfejs użytkownika
 Celem laboratorum jest zapoznanie się z frameworkiem **JavaFX**, służącym do budowy aplikacji okienkowej, jak również z mechanizmem wątków w Javie.
 ## Przydatne informacje
----
+
 ### JavaFx
 * JavaFX to [framework](https://pl.wikipedia.org/wiki/Framework) do obsługi środowiska graficznego.
 * Aplikacja JavaFX składa się z:
-    * `Stage` -- okno aplikacji,
-    * `Scene` -- aktualna zawartość aplikacji (np. ekran symulacji, ekran podsumowania)
+    * `Stage` - okno aplikacji,
+    * `Scene` - aktualna zawartość aplikacji (np. ekran symulacji, ekran podsumowania)
     * Scena zawiera wiele instancji `Node`. Są nimi m.in. przyciski, pola tekstowe, kontenery (`VBox`, `HBox`, `GridPane`, itp.).
 * Główna klasa w aplikacji powinna dziedziczyć po `Application` i implementować metodę `start()`.
 * Minimalna aplikacja powinna stworzyć jedną scenę, przypiąć ją do `Stage` i wyświetlić.
@@ -32,10 +32,10 @@ Celem laboratorum jest zapoznanie się z frameworkiem **JavaFX**, służącym do
 ### Różne
 * Do testowania czy dana zmienna zawiera klasę implementującą interfejs/przedstawiciela klasy można wykorzystać słowo kluczowe `instanceof`.
     * *Przykład:* `if (element instanceof IObservable || element instanceof Animal)`
-* Interfejs `Collection` -- jest to najogólniejszy interfejs reprezentujący zbiór obiektów. Zwraca go m.in. metoda `values()` w interfejsie `Map`. Można go wykorzystać w pętli `for (Object obj : collection)`.
+* Interfejs `Collection` - jest to najogólniejszy interfejs reprezentujący zbiór obiektów. Zwraca go m.in. metoda `values()` w interfejsie `Map`. Można go wykorzystać w pętli `for (Object obj : collection)`.
 
 ## Zadania do wykonania
----
+
 ### Podstawowa aplikacja JavaFX
 1. W `build.gradle`:
     1. Dodaj `id 'org.openjfx.javafxplugin' version '0.0.10'` do sekcji `plugins`.
