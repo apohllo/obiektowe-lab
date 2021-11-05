@@ -81,7 +81,8 @@ Celem laboratorum jest zapoznanie się z frameworkiem **JavaFX**, służącym do
 8. Dodaj do siatki rozmiary kolumn i wierszy. Skorzystaj z:
     * `grid.getColumnConstraints().add(new ColumnConstraints(width));`
     * `grid.getRowConstraints().add(new RowConstraints(height));`
-9. Aktualnie, twój program powinien wyglądać mniej więcej tak (użyto mapy `GrassField`, dodano 2 zwierzaki): ...
+9. Aktualnie, twój program powinien wyglądać mniej więcej tak (użyto mapy `GrassField`, dodano 2 zwierzaki):<br>
+![look1](img/look1.png)
    
 ### Tekstury
 1. Stwórz albo wykorzystaj gotowe 4 tekstury z informacją o orientacji dla zwierzaka (folder `resources`)
@@ -110,7 +111,8 @@ Celem laboratorum jest zapoznanie się z frameworkiem **JavaFX**, służącym do
 6. Wykorzystaj powyższe metody w konstruktorze klasy `GuiElementBox`, który powinien przyjmować instancję `IMapElement`.
 7. Zamień reprezentację tekstową na graficzną w klasie `App`.
 8. Wydziel kod renderujący mapę do funkcji `renderGrid()`, a zmienną lokalną `grid` uczyń prywatnym polem klasy `App`. Utwórz nową instancję `GridPane` w konstruktorze.
-8. Docelowy wygląd: ...
+8. Docelowy wygląd:<br>
+![look2](img/look2.png)
 
 ### Wątek symulacyjny
 1. Skorzystaj ze wzorca *Observer* i dodaj interfejs `IAnimalUpdateObserver`, zaimplementuj go w `App` i dodaj jako obserwatora do `ThreadedSimulationEngine`.
