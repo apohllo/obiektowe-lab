@@ -14,22 +14,22 @@ internal class Vector2dTest {
 
     @Test
     fun precedes() {
-        assertEquals(Vector2d(0, 0).precedes(Vector2d(0, 0)), true)
-        assertEquals(Vector2d(0, 0).precedes(Vector2d(1, 0)), true)
-        assertEquals(Vector2d(0, 0).precedes(Vector2d(1, 1)), true)
-        assertEquals(Vector2d(0, 0).precedes(Vector2d(0, 1)), true)
-        assertEquals(Vector2d(0, 0).precedes(Vector2d(-1, 1)), false)
-        assertEquals(Vector2d(0, 0).precedes(Vector2d(-1, 0)), false)
+        assertEquals(Vector2d(0, 0) precedes (Vector2d(0, 0)), true)
+        assertEquals(Vector2d(0, 0) precedes (Vector2d(1, 0)), true)
+        assertEquals(Vector2d(0, 0) precedes (Vector2d(1, 1)), true)
+        assertEquals(Vector2d(0, 0) precedes (Vector2d(0, 1)), true)
+        assertEquals(Vector2d(0, 0) precedes (Vector2d(-1, 1)), false)
+        assertEquals(Vector2d(0, 0) precedes (Vector2d(-1, 0)), false)
     }
 
     @Test
     fun follows() {
-        assertEquals(Vector2d(0,0 ).follows(Vector2d(-1,0)), true)
-        assertEquals(Vector2d(0,0 ).follows(Vector2d(0,-1)), true)
-        assertEquals(Vector2d(0,0 ).follows(Vector2d(-1,-1)), true)
-        assertEquals(Vector2d(0,0 ).follows(Vector2d(-452, -420)), true)
-        assertEquals(Vector2d(0,0 ).follows(Vector2d(1,0)), false)
-        assertEquals(Vector2d(0,0 ).follows(Vector2d(0,1)), false)
+        assertEquals(Vector2d(0,0 ) follows (Vector2d(-1,0)), true)
+        assertEquals(Vector2d(0,0 ) follows (Vector2d(0,-1)), true)
+        assertEquals(Vector2d(0,0 ) follows (Vector2d(-1,-1)), true)
+        assertEquals(Vector2d(0,0 ) follows (Vector2d(-452, -420)), true)
+        assertEquals(Vector2d(0,0 ) follows (Vector2d(1,0)), false)
+        assertEquals(Vector2d(0,0 ) follows (Vector2d(0,1)), false)
     }
 
     @Test
@@ -53,23 +53,24 @@ internal class Vector2dTest {
     }
 
     @Test
-    fun add() {
-        assertEquals(Vector2d(0, 0).add(Vector2d(0,0)), Vector2d(0, 0))
-        assertEquals(Vector2d(0, 1).add(Vector2d(0,0)), Vector2d(0, 1))
-        assertEquals(Vector2d(1, 0).add(Vector2d(0,0)), Vector2d(1, 0))
-        assertEquals(Vector2d(-1, 0).add(Vector2d(1,0)), Vector2d(0, 0))
-        assertEquals(Vector2d(-1, 3).add(Vector2d(1,-3)), Vector2d(0, 0))
-        assertEquals(Vector2d(-1, 5).add(Vector2d(1,1)), Vector2d(0, 6))
+    fun plus() {
+        assertEquals(Vector2d(0, 0) + (Vector2d(0,0)), Vector2d(0, 0))
+        assertEquals(Vector2d(0, 1) + (Vector2d(0,0)), Vector2d(0, 1))
+        assertEquals(Vector2d(1, 0) + (Vector2d(0,0)), Vector2d(1, 0))
+        assertEquals(Vector2d(-1, 0) + (Vector2d(1,0)), Vector2d(0, 0))
+        assertEquals(Vector2d(-1, 3) + (Vector2d(1,-3)), Vector2d(0, 0))
+        assertEquals(Vector2d(-1, 5) + (Vector2d(1,1)), Vector2d(0, 6))
     }
 
     @Test
-    fun subtract() {
-        assertEquals(Vector2d(0, 0).subtract(Vector2d(0,0)), Vector2d(0, 0))
-        assertEquals(Vector2d(0, 1).subtract(Vector2d(0,0)), Vector2d(0, 1))
-        assertEquals(Vector2d(1, 0).subtract(Vector2d(0,0)), Vector2d(1, 0))
-        assertEquals(Vector2d(-1, 0).subtract(Vector2d(1,0)), Vector2d(-2, 0))
-        assertEquals(Vector2d(-1, 3).subtract(Vector2d(1,-3)), Vector2d(-2, 6))
-        assertEquals(Vector2d(-1, 5).subtract(Vector2d(1,1)), Vector2d(-2, 4))
+    fun minus() {
+
+        assertEquals(Vector2d(0, 0) - (Vector2d(0,0)), Vector2d(0, 0))
+        assertEquals(Vector2d(0, 1) - (Vector2d(0,0)), Vector2d(0, 1))
+        assertEquals(Vector2d(1, 0) - (Vector2d(0,0)), Vector2d(1, 0))
+        assertEquals(Vector2d(-1, 0) - (Vector2d(1,0)), Vector2d(-2, 0))
+        assertEquals(Vector2d(-1, 3) - (Vector2d(1,-3)), Vector2d(-2, 6))
+        assertEquals(Vector2d(-1, 5) - (Vector2d(1,1)), Vector2d(-2, 4))
     }
 
     @Test

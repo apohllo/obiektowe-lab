@@ -8,7 +8,7 @@ class OptionsParser {
             when (str.lowercase()) {
                 "f", "forward" -> directions.add(MoveDirection.FORWARD)
                 "b", "backward" -> directions.add(MoveDirection.BACKWARD)
-                "l", "left" -> directions.add(MoveDirection.lEFT)
+                "l", "left" -> directions.add(MoveDirection.LEFT)
                 "r", "right" -> directions.add(MoveDirection.RIGHT)
             }
         }

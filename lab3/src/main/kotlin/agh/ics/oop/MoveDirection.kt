@@ -4,5 +4,5 @@ enum class MoveDirection {
     FORWARD,
     BACKWARD,
     RIGHT,
-    lEFT
+    LEFT
 }

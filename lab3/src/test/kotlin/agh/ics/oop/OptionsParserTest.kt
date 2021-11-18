@@ -15,7 +15,7 @@ internal class OptionsParserTest{
     val R1 = listOf<MoveDirection>(
         FORWARD, FORWARD, FORWARD, FORWARD, FORWARD, FORWARD,
         BACKWARD, BACKWARD, BACKWARD, BACKWARD, BACKWARD, BACKWARD,
-        lEFT, lEFT, lEFT, lEFT, lEFT, lEFT,
+        LEFT, LEFT, LEFT, LEFT, LEFT, LEFT,
         RIGHT, RIGHT, RIGHT, RIGHT, RIGHT, RIGHT)
 
     @Test

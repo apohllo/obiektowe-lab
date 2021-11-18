@@ -16,19 +16,23 @@ Maybe consider spawning animal not always at (2,2), passing argument to the anim
 
 fun main(){
     println("Started Main")
-
-    val myAnimal: Animal = Animal()
-
-    println(myAnimal.toString())
-    myAnimal.move(RIGHT)
-    myAnimal.move(FORWARD)
-    myAnimal.move(FORWARD)
-    myAnimal.move(FORWARD)
-
-    println(myAnimal.toString())
     val parser = OptionsParser()
-    val strList = listOf("f", "b", "backward", "shit")
-    val parsedList = parser.parse(strList)
-    parsedList.forEach { println(it) }
+    val stringInput = readLine()!!
+
+    val stringList = stringInput.split(" ")
+    val directions = parser.parse(stringList)
+
+
+//    println("Enter initial positions in a following format: ")
+//    println("(a,b) (c,d) (e,f) ... (y,z)")
+//
+//    val initialPositionsStringTuples = stringInput.split(" ")
+
+    val initialPositions = listOf(Vector2d(2,2), Vector2d(3,4))
+
+    val map = RectangularMap(10, 10)
+
+    SimulationEngine(directions, map, initialPositions).run()
+
 
 }

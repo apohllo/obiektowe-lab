@@ -7,21 +7,23 @@ import org.junit.jupiter.api.Assertions.*
 import agh.ics.oop.MoveDirection.*
 
 internal class AnimalTest {
+    private val map = RectangularMap(100, 100)
+
     @Test
     fun isAt() {
-        val otherVector2d: Vector2d = Vector2d(2,2)
-        val myAnimal: Animal = Animal()
+        val otherVector2d: Vector2d = Vector2d(2, 2)
+        val myAnimal: Animal = Animal(map)
         assertEquals(myAnimal.isAt(otherVector2d), true)
 
         myAnimal.move(FORWARD)
-        val other2Vector2d = Vector2d(2,3)
+        val other2Vector2d = Vector2d(2, 3)
         assertEquals(myAnimal.isAt(other2Vector2d), true)
         assertEquals(myAnimal.isAt(otherVector2d), false)
     }
 
     @Test
     fun move() {
-        val myAnimal: Animal = Animal()
+        val myAnimal: Animal = Animal(map)
         myAnimal.move(RIGHT)
         assertEquals(myAnimal.isAt(Vector2d(2, 2)), true)
         myAnimal.move(FORWARD)
@@ -30,7 +32,7 @@ internal class AnimalTest {
         assertEquals(myAnimal.isAt(Vector2d(4, 2)), true)
         myAnimal.move(FORWARD)
         assertEquals(myAnimal.isAt(Vector2d(4, 2)), true)
-        myAnimal.move(lEFT)
+        myAnimal.move(LEFT)
         assertEquals(myAnimal.isAt(Vector2d(4, 2)), true)
         myAnimal.move(FORWARD)
         assertEquals(myAnimal.isAt(Vector2d(4, 3)), true)
@@ -54,7 +56,7 @@ internal class AnimalTest {
         assertEquals(myAnimal.isAt(Vector2d(0, 4)), true)
         myAnimal.move(FORWARD)
         assertEquals(myAnimal.isAt(Vector2d(0, 4)), true)
-        myAnimal.move(lEFT)
+        myAnimal.move(LEFT)
         assertEquals(myAnimal.isAt(Vector2d(0, 4)), true)
         myAnimal.move(FORWARD)
         assertEquals(myAnimal.isAt(Vector2d(0, 3)), true)
@@ -70,7 +72,7 @@ internal class AnimalTest {
         assertEquals(myAnimal.isAt(Vector2d(0, 1)), false)
 
 
-        val myNewAnimal = Animal()
+        val myNewAnimal = Animal(map)
         val parser: OptionsParser = OptionsParser()
         val T1 = listOf(
             "b", // 2,1
@@ -81,12 +83,12 @@ internal class AnimalTest {
             "Forward", // 4,0
             "l",
             "left",
-            "forwaRd" , // 3,0
+            "forwaRd", // 3,0
             "r", // 3,0
             "FORWARD", // 3, 1
         )
         val Moves = parser.parse(T1)
-        Moves.forEach(){ direction ->
+        Moves.forEach() { direction ->
             myNewAnimal.move(direction)
         }
         assertEquals(myNewAnimal.isAt(Vector2d(3, 1)), true)
