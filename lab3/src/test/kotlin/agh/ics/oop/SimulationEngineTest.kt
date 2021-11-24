@@ -19,7 +19,7 @@ class SimulationEngineTest {
         val endingPositions = listOf(Vector2d(2, 0), Vector2d(3, 7))
 
         myAnimals.forEach { animal ->
-            val animalPos: Vector2d = animal.get_position()
+            val animalPos: Vector2d = animal.getPosition()
             assertEquals(true, animalPos in endingPositions)
         }
 

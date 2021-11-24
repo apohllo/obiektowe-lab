@@ -3,9 +3,11 @@ package agh.ics.oop
 import agh.ics.oop.MoveDirection.*
 import agh.ics.oop.MapDirection.*
 
+// animal jest tworzony na mapie
+
 class Animal(private val map: IWorldMap) {
     private var orientation: MapDirection = NORTH
-    private var position: Vector2d = Vector2d(2, 2)
+    var position: Vector2d = Vector2d(2, 2)
 
     constructor(map: IWorldMap, initalPosition: Vector2d) : this(map) {
         position = initalPosition
@@ -20,43 +22,29 @@ class Animal(private val map: IWorldMap) {
         }
     }
 
-    fun get_position(): Vector2d {
-        return position
-    }
+    fun isAt(otherPosition: Vector2d) = position == otherPosition
 
-    fun isAt(otherPosition: Vector2d): Boolean {
-        return position == otherPosition
-    }
 
-    fun move(direction: MoveDirection): Boolean {
+    fun move(direction: MoveDirection){
         when (direction) {
             RIGHT -> {
                 orientation = orientation.next()
-                return true
             }
             LEFT -> {
                 orientation = orientation.previous()
-                return true
             }
             FORWARD -> {
                 val newPosition = position + orientation.toUnitVector()
                 if (map.canMoveTo(newPosition)) {
-                    map.free(position)
                     position = newPosition
-                    if (map.place(this))
-                        return true
                 }
             }
             BACKWARD -> {
                 val newPosition = position - orientation.toUnitVector()
                 if (map.canMoveTo(newPosition)) {
-                    map.free(position)
                     position = newPosition
-                    if (map.place(this))
-                        return true
                 }
             }
         }
-        return false
     }
 }

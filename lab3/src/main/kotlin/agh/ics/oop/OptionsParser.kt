@@ -1,7 +1,7 @@
 package agh.ics.oop
 
 class OptionsParser {
-    fun parse(strList: List<String>): MutableList<MoveDirection> {
+    fun parse(strList: List<String>): List<MoveDirection> {
         val directions: MutableList<MoveDirection> = mutableListOf()
 
         strList.forEach { str ->

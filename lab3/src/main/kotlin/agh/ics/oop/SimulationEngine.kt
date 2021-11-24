@@ -1,39 +1,42 @@
 package agh.ics.oop
 
-class SimulationEngine(private var directions: List<MoveDirection>,
-                       private var map: IWorldMap,
-                       private var initialPositions: List<Vector2d>): IEngine {
+// problemy
+class SimulationEngine(private val directions: List<MoveDirection>,
+                       private val map: IWorldMap,
+                       private val initialPositions: List<Vector2d>): IEngine {
 
-    private val numberOfAnimals = initialPositions.size
+    init {
+        placeInitialPositions(this.initialPositions)
+    }
+
+    private val numberOfAnimals = this.initialPositions.size
+
     override fun run() {
-        placeInitialPositions(initialPositions)
-        val animals = map.animals()
+        val animals = this.map.animals()
         var i = 0
+        println(this.map)
 
-        println(map)
-
-        directions.forEach { direction ->
+        this.directions.forEach { direction ->
             if (i == numberOfAnimals)
                 i = 0
 
-            val succeeded = animals[i].move(direction)
-            if (succeeded) println("Went well") else println("whoops i crashed")
-            println(map)
-
-
+            animals[i].move(direction)
+            println(this.map)
             i += 1
+
         }
     }
-    fun placeInitialPositions(initialPositions: List<Vector2d>){
+
+    private fun placeInitialPositions(initialPositions: List<Vector2d>){
         initialPositions.forEach { position ->
             map.place(Animal(map, position))
         }
     }
-    fun printEachPosition(animals: List<Animal>) {
-        animals.forEachIndexed {index, animal ->
-            val position = animal.get_position()
-            println("Position of $index animal: $position")
-        }
-    }
+//    private fun printEachPosition(animals: List<Animal>) {
+//        animals.forEachIndexed {index, animal ->
+//            val position = animal.posii
+//            println("Position of $index animal: $position")
+//        }
+//    }
 
 }

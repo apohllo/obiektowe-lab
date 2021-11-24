@@ -54,10 +54,10 @@ interface IWorldMap {
      */
     fun animals(): List<Animal>
 
-    /**
-     * Free a position on a map
-     * @param position of type Vector2d to free
-     * @return true if succeeded .
-     */
-    fun free(position: Vector2d)
+//    /**
+//     * Free a position on a map
+//     * @param position of type Vector2d to free
+//     * @return true if succeeded .
+//     */
+//    fun free(position: Vector2d)
 }

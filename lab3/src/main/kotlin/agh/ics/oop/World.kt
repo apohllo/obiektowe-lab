@@ -23,6 +23,7 @@ fun main(){
     val directions = parser.parse(stringList)
 
 
+
 //    println("Enter initial positions in a following format: ")
 //    println("(a,b) (c,d) (e,f) ... (y,z)")
 //
