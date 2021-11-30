@@ -1,11 +1,3 @@
-# TODO
-
-
-2. Dzień symulacji wyglądający inaczej (np. z elementami opcjonalnymi - wybieranymi przez uzytkownika). 
-   Chodzi o to, żeby mapa/symulacja musiałby być oddzielone. Jeśli możemy konfigurować symulację,
-   to nie da się zrobić 2x2 (nie ma to sensu) różnych wariantów map i symulacji.
-
-
 # Projekt nr 1 - generator ewolucyjny
 
 Niniejsza treść została zaadaptowana na podstawie opisu oraz ilustracji przygotowanych przez Wojciecha Kosiora.
