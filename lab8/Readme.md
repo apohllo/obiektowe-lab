@@ -6,7 +6,4 @@ Celem raboratorium jest zapoznanie się z mechanizmem wątków.
 
 ## Zadania do wykonania
 
-1. Zdefiniuj klasę Engine, która będzie odpowiedzialna za  ...
-   
-   
-11. Otaguj gotowe rozwiązanie jako lab8.
+[Instrukcja do początkowej części ćwiczenia](../lab7/gui.md)
