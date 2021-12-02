@@ -80,8 +80,10 @@ rodzice tracą na rzecz młodego jedną czwartą swojej energii.
 Urodzone zwierzę otrzymuje genotyp będący krzyżówką genotypów rodziców. Udział genów jest proporcjonalny do energii
 rodziców i wyznacza miejsce podziału genotypu. Przykładowo, jeśli jeden rodzic ma 50, a  drugi 150 punktów energii, 
 to dziecko otrzyma 25% genów pierwszego oraz 75% genów drugiego rodzica. Udział ten określa miejsce przecięcia genotypu,
-przyjmując, że geny są uporządkowane. Zatem w typ przypadku dziecko otrzymałoby odcinek obejmujący 25% "lewych" genów
-pierwszego rodzica oraz 75% "prawych" genów drugiego rodzica.
+przyjmując, że geny są uporządkowane. W pierwszym kroku losowana jest strona genotypu, z której zostanie wzięta część 
+osobnika silniejszego, np. *prawa*. W tym przypadku dziecko otrzymałoby odcinek obejmujący 25% *lewych* genów
+pierwszego rodzica oraz 75% *prawych* genów drugiego rodzica. Jeśli jednak wylosowana byłaby strona *lewa*, to dziecko 
+otrzymałoby 75% *lewych* genów silniejszego osobnika oraz 25% *prawych* genów.
 
 
 ## Symulacja
