@@ -63,4 +63,4 @@ Treść laboratorium powstała we współpracy z Norbertem Morawskim.
     * `grid.getRowConstraints().add(new RowConstraints(height));`
 8. Wyśrodkuj etykiety korzystając z wywołania `GridPane.setHalignment(label, HPos.CENTER)`.
 9. Aktualnie, twój program powinien wyglądać mniej więcej tak (użyto mapy `GrassField`, dodano 2 zwierzaki):<br>
-![look1](look1.png)
+![look1](img/look1.png)
