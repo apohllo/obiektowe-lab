@@ -51,7 +51,6 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
    * zdefiniuj konstruktor `Animal(IWorldMap map, Vector2d initialPosition)`, który dodatkowo określa początkowe położenie zwierzęcia na
      mapie,
    * zastanów się nad dotychczasowym konstruktorem bezparametrowym,
-   * dodaj metodę `Vector2d getPosition()`, która zwraca pozycję zwierzęcia,
    * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientację zwierzęcia w postaci łańcucha
      składającego się z jednego znaku, Np. jeśli zwierzę ma orientację północną, to metoda `toString()` powinna zwracać
      łańcuch "N" albo "^".

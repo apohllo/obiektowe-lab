@@ -1,4 +1,4 @@
-package agh.cs.lab4;
+package agh.ics.oop;
 
 /**
  * The map visualizer converts the {@link IWorldMap} map into a string

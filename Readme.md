@@ -59,13 +59,14 @@ Poniższy diagram pokazuje kiedy można wykonywać poszczególne aktywności, zw
 | 5       | sala gimanstyczna |
 | 6       | sala gimanstyczna |
 | 7       | sala gimanstyczna |
-| 8       | zawody, bieg      |
+| 8       | sala gimanstyczna, bieg |
 | 9       | bieg              |
-| 10      | kwarantanna, bieg |
-| 11      | badanie lekarskie |
-| 12      | wycieczka         |
+| 10      | zawody, bieg      |
+| 11      | kwarantanna, bieg |
+| 12      | badanie lekarskie |
 | 13      | wycieczka         |
-| 14      | badanie krwi      |
+| 14      | wycieczka         |
+| 15      | badanie krwi      |
 
 
 ## Pseudonimy

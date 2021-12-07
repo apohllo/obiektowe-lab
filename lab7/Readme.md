@@ -61,3 +61,8 @@ na niższym poziomie.
 7. Mapa powinna korzystać z instancji klasy `MapBoundary` w celu efektywnego obliczania obszaru, który ma zostać
    wyświetlony.
 11. Otaguj gotowe rozwiązanie jako lab7.
+
+### Implementacja graficznego interfejsu użytkownika
+
+
+[Instrukcja do dalszej części ćwiczenia](gui.md)
