@@ -116,7 +116,7 @@ out.println(message);
 23. W tym samym pliku dodaj sekcję:
     ```
     application {
-      mainClassName = 'agh.ics.oop.World'
+      getMainClass().set('agh.ics.oop.World')
     }
     ```
 20. Otwórz konsolę (np. terminal/PowerShell).
