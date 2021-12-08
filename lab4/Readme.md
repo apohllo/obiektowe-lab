@@ -28,8 +28,8 @@ class RectangularMap implements IWorldMap {
 * Klasy te różnią się implementację - `LinkedList` oparta jest o listę dwukierunkową, przez co operacje dodawania i
   usuwania elementów są szybkie, ale swobodny dostęp za pomocą operatora `get` jest wolniejszy. `ArrayList` oparta jest
   o tablicę, dlatego dostęp jest szybki, ale dodawanie i usuwanie elementów jest wolniejsze.
-* W Javie występują typu parametryzowane i typ `List` jest tego przykładem. Taki typ jest podobny do szablonów w C++.
-  Wymaga on podania innego typu (lub typów) jako parametru (wyłącznie dla typów obiektowych):
+* W Javie występują typy parametryzowane i typ `List` jest tego przykładem. Taki typ jest podobny do szablonów w C++.
+  Wymaga on podania innego typu (lub typów) jako parametru (parametr musi być typem obiektowym):
 ```java
 List<Animal> animals = new ArrayList<>();
 ```
@@ -45,35 +45,35 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
 
 1. Wykorzystaj definicje klas z poprzedniego laboratorium.
 2. Przyjrzyj się interfejsom `IWorldMap` oraz `IEngine`, które znajdują się w tym katalogu.
-3. Zmodyfikuje klasę `Animal` z poprzedniego ćwiczenia:
-   * zdefiniuj konstruktor `Animal(IWorldMap map)`; wykorzystaj argument `map` tak aby w metodzie `move` można było odwołać
+3. Zmodyfikuj klasę `Animal` z poprzedniego ćwiczenia:
+   * zdefiniuj konstruktor `Animal(IWorldMap map)`; wykorzystaj argument `map` tak, aby w metodzie `move` można było odwołać
      się do mapy i zweryfikować, czy zwierzę może przesunąć się na daną pozycję,
    * zdefiniuj konstruktor `Animal(IWorldMap map, Vector2d initialPosition)`, który dodatkowo określa początkowe położenie zwierzęcia na
      mapie,
    * zastanów się nad dotychczasowym konstruktorem bezparametrowym,
    * zmodyfikuj metodę `toString` tak by zwracała jedynie schematyczną orientację zwierzęcia w postaci łańcucha
-     składającego się z jednego znaku, Np. jeśli zwierzę ma orientację północną to metoda `toString()` powinna zwracać
+     składającego się z jednego znaku, Np. jeśli zwierzę ma orientację północną, to metoda `toString()` powinna zwracać
      łańcuch "N" albo "^".
    * zmodyfikuj metodę `move`, tak by korzystała z wywołania `canMoveTo` interfejsu `IWorldMap`.
-3. Zdefiniuj klasę `RectangularMap`, która:
+4. Zdefiniuj klasę `RectangularMap`, która:
    * definiuje prostokątną mapę,
    * implementuje interfejs `IWorldMap`
-   * w konstruktorze akceptuje dwa parametry `width` oraz `height` wskazujące szerokość oraz wysokość mapy (zignoruj
-     sytuację, w której użytkownik klasy poda niepoprawne wartości),
+   * w konstruktorze akceptuje dwa parametry `width` oraz `height` wskazujące szerokość oraz wysokość mapy (możesz założyć
+     że otrzymane wartości są poprawne),
    * umożliwia poruszanie się w obrębie zdefiniowanego prostokąta (jak w laboratorium 3),
    * umożliwia występowanie więcej niż jednego zwierzęcia na mapie,
    * uniemożliwia występowanie więcej niż jednego zwierzęcia na tej samej pozycji,
-   * posiada metodę `toString` rysującą aktualną konfigurację mapy (wykorzystaj klasę `MapVisualizer` która znajduje się
+   * posiada metodę `toString` rysującą aktualną konfigurację mapy (wykorzystaj klasę `MapVisualizer`, która znajduje się
      w tym katalogu).
-4. Zdefinuj klasę `SimulationEngine` implementującą interfejs `IEngine`, która:
-   * w konstrukturoze akceptuje tablicę ruchów (`MoveDirection`), instancję mapy (`IWorldMap`) oraz tablicę wektorów
+5. Zdefiniuj klasę `SimulationEngine` implementującą interfejs `IEngine`, która:
+   * w konstruktorze akceptuje tablicę ruchów (`MoveDirection`), instancję mapy (`IWorldMap`) oraz tablicę wektorów
      oznaczających początkowe pozycje zwierząt,
-   * dodaje zwierzęta do mapy (początkowa orientacja zwierzą to `NORTH`),
+   * dodaje zwierzęta do mapy (początkowa orientacja zwierząt to `NORTH`),
    * w metodzie `run` na przemian steruje ruchem wszystkich zwierząt. Przykładowo, jeśli użytkownik wprowadzi ciąg: `f
-     b r l` a na mapie są dwa zwierzęcia, to pierwsze zwierzę otrzyma ruchy `f` i `r`, a drugie `b` i `l`. Ruchy obu
+     b r l` a na mapie są dwa zwierzęta, to pierwsze zwierzę otrzyma ruchy `f` i `r`, a drugie `b` i `l`. Ruchy obu
      zwierząt mają być wykonywane na przemian, tzn. po każdym ruchu pierwszego zwierzęcia następuje ruch drugiego
      zwierzęcia.
-4. Wykonaj następujący kod w metodzie `main` klasy `World`:
+6. Wykonaj następujący kod w metodzie `main` klasy `World`:
 ```java
 MoveDirection[] directions = new OptionsParser().parse(args);
 IWorldMap map = new RectangularMap(10, 5);
@@ -81,10 +81,10 @@ Vector2d[] positions = { new Vector2d(2,2), new Vector2d(3,4) };
 IEngine enegine = new SimulationEngine(directions, map, positions);
 engine.run();
 ```
-Sprawdź czy zwierzęta poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.
+Sprawdź, czy zwierzęta poruszają się poprawnie dla ciągu: `f b r l f f r r f f f f f f f f`.
 
-6. Dodaj testy integracyjne weryfikujące, że implementacja jest poprawna. Wykorzystaj dane z punktu 5 w celu
+7. Dodaj testy integracyjne weryfikujące, że implementacja jest poprawna. Wykorzystaj dane z punktu 6. w celu
    ustalenia przebiegu testu.
-7. (**Dla zaawansowanych**) Stwórz tekstowy widget biblioteki Swing (lub innej wybranej biblioteki), który będzie
+8. (**Dla zaawansowanych**) Stwórz tekstowy widget biblioteki Swing (lub innej wybranej biblioteki), który będzie
    wyświetlał animację poruszających się zwierzaków.
 11. Otaguj gotowe rozwiązanie jako lab4.

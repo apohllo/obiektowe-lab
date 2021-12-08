@@ -119,15 +119,15 @@ enum MapDirection {
      dodawanych pozycji,
    * posiada metodę `Vector2d subtract(Vector2d other)`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są różnicą 
      odpowiednich składowych odejmowanych pozycji, 
-   * posiada metodę `boolean equals(Object other)` która zwraca prawdę jeśli obie pozycje są sobie równe (zwróć uwagę na typ parametru),
+   * posiada metodę `boolean equals(Object other)` która zwraca prawdę, jeśli obie pozycje są sobie równe (zwróć uwagę na typ parametru),
    * posiada metodę `Vector2d opposite()`, która zwraca nowy obiekt tej klasy, posiadający zmienione znaki obu składowych.
 3. Poniższy obrazek ilustruje metody `precedes` i `follows`. `v1` poprzedza (precedes) `v2` oraz `v3`. `v2` poprzedza `v3`.
    Wszystkie wektory poprzedzają również same siebie (relacja ta jest zwrotna). `v3` następuje po (follows) `v2` oraz
    `v1`, `v2` następuje po `v1`. Wszystkie wektory następują również po samych sobie.
    ![wektory](vector2d.png)
-3. Poniższy obrazek ilustruje metody `lowerLeft` oraz `upperRight`.
+4. Poniższy obrazek ilustruje metody `lowerLeft` oraz `upperRight`.
    ![rogi](vector2d-a.png)
-4. W metodzie `main` wprowadź następujący kod:
+5. W metodzie `main` wprowadź następujący kod:
 ```java
 Vector2d position1 = new Vector2d(1,2);
 System.out.println(position1);
@@ -148,12 +148,13 @@ Sprawdź czy uzyskane wyniki są poprawne.
      do ruchu wskazówek zegara), itd.
    * posiada metodę `toUnitVector`, która zwraca jednostkowy wektor przemieszczenia typu `Vector2d` zgodny z orientacją na mapie,
      tzn. dla `NORTH` wektor ten powinien mieć wartość `(0,1)`, dla `EAST` `(1,0)`, itd.
-7. Sprawdź w metodzie `main` czy metody te działają zgodnie z opisem.
+8. Sprawdź w metodzie `main` czy metody te działają zgodnie z opisem.
 
 
 ### Testy
 
-1. Zmodyfikuje plik `gradle.build`:
+
+1. Zmodyfikuj plik `build.gradle`:
    * usuń linię `testCompile` w sekcji `dependencies`.
    * dodaj linię `testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")` w tej samej sekcji
 3. Utwórz klasę `MapDirectionTest` w katalogu `src/test/java` w pakiecie `agh.ics.oop`.

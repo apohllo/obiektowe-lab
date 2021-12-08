@@ -23,7 +23,7 @@ for(String argument : arguments){
 }
 ```
 * **Uwaga!** W Javie łańcuchy znaków (oraz inne typy referencyjne) porównuje się za pomocą wywołania `equals`, np.
-  `string1.equals(string2)`.
+  `string1.equals(string2)`. Zapis `string1 == string2` jest składniowo poprawny, ale sprawdza **identyczność referencji**.
 * Typ wyliczeniowy deklaruje się za pomocą słowa kluczowego `enum`, np.:
 ```java
 enum Direction {
@@ -85,12 +85,13 @@ out.println(message);
 13. Zwróć uwagę na to, żeby nie było nadmiarowych przecinków.
 14. Uruchom program z dowolnymi parametrami (muszą występować co najmniej 2).
 15. Zmodyfikuj program tak aby interpretował wprowadzone argument:
+
     - `f` - oznacza, że zwierzak idzie do przodu,
     - `b` - oznacza, że zwierzak idzie do tyłu,
     - `r` - oznacza, że zwierzak skręca w prawo,
     - `l` - oznacza, że zwierzak skręca w lewo,
     - pozostałe argumenty powinny być ignorowane.
-16. Poruszanie się oraz zmiana kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
+17. Poruszanie się oraz zmiana kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
     argumentów. Przykładowo wprowadzenie sekwencji `f f r l` powinno dać w wyniku następujące komunikaty:
     - Start
     - Zwierzak idzie do przodu
@@ -98,13 +99,14 @@ out.println(message);
     - Zwierzak skręca w prawo
     - Zwierzak skręca w lewo
     - Stop
-17. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
+18. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
     wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływaną w
     funkcji `main` przed wywołaniem metody `run`, natomiast typ wyliczeniowy powinien być zdefiniowany w osobnym pliku
     (`Direction.java`) w pakiecie `agh.ics.oop`.
 18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
 19. Zamknij IntelliJ.
-21. W pliku `gradle.build` w sekcji `plugins` dodaj linię `id 'application'`: 
+
+21. W pliku `build.gradle` w sekcji `plugins` dodaj linię `id 'application'`: 
     ```
     plugins {
       id 'application'
@@ -114,7 +116,7 @@ out.println(message);
 23. W tym samym pliku dodaj sekcję:
     ```
     application {
-      mainClassName = 'agh.ics.oop.World'
+      getMainClass().set('agh.ics.oop.World')
     }
     ```
 20. Otwórz konsolę (np. terminal/PowerShell).
