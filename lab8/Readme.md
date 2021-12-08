@@ -3,6 +3,8 @@
 Celem raboratorium jest zapoznanie się z mechanizmem wątków oraz obsługą zasobów w kontekście programowania 
 graficznego interfejsu użytkownika (GUI).
 
+Treść laboratorium powstała we współpracy z Norbertem Morawskim.
+
 ## Przydatne informacje
 
 ### Wątki
