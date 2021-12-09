@@ -35,8 +35,6 @@
       tzn. 50% `startEnergy`, a nie 50% energii początkowej danego osobnika.
 8. Czy położenie dżungli na mapie powinno być centralne, losowe, czy dowolne?
    1. Centralne. 
-9. Co się dzieje w przypadku, gdy para zwierząt się rozmnaża, a wszystkie pozycje dookoła są zajęte?
-   1. Potomek ląduje na tym samym polu co rodzice.
 10. "określenie epoki, w której zmarło" - czyli mam pokazywać też zmarłe zwierzęta ??
     1. Ta informacja nie ma być pokazywana na mapie, tylko na panelu obok.
 12. Co to jest epoka?
