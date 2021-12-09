@@ -25,7 +25,7 @@
 9. „Oczywiście na początku symulacji na środku świata umieszczamy jedno lub kilka zwierząt (Adam/Ewa).”
    Czy to znaczy, że wszystkie zwierzęta są na początku na tym samym, środkowym polu, czy może każde z nich powinno zajmować 
    losową pozycję?
-   1. Zwierzęta na początku zajmują losowe pozycji i na jednej pozycji.
+   1. Zwierzęta na początku zajmują losowe pozycji i na jednej pozycji może być wtedy tylko jedno zwierze.
 5. Czy kierunek początkowy każdego zwierzęcia jest losowy?
    1. Tak.
 6. Czy dżungla może się rozrastać, a jeśli tak, to w sposób dowolny czy określony?
