@@ -57,7 +57,8 @@ Obrót `0` oznacza, że zwierzę nie zmienia swojej orientacji, obrót `1` oznac
 itd. Przykładowo, jeśli zwierzę było skierowane na północ i obrót wynosi `1`, to zwierzę skierowane jest na
 północny wschód. 
 
-Na koniec musimy także przechowywać geny zwierzaka. Każde zwierzę ma 32 geny składające się z jednej liczby w zakresie od 0 do 7.
+Na koniec musimy także przechowywać geny zwierzaka. Każde zwierzę ma 32 geny składające się z jednej liczby w zakresie od 0 do 7 
+(0 oznacza ruch w przód, 4 ruch w tył, a pozostałe geny reprezentują obrót: 1 - obrót o 45 stopni w prawo, itd.).
 Te geny reprezentują preferencje zwierzęcia względem określonego obrotu. Każdego dnia zwierzę zadecyduje czy dalej
 podążać w tym samym kierunku, czy skręcić i zwrócić się w inną stronę. Zrobi to na podstawie tych genów i losowo
 wybierze nowy kierunek. Szansa na wybranie odpowiedniego obrotu jest proporcjonalna do liczby genów reprezentujących
@@ -65,7 +66,7 @@ go. Weźmy jako przykład zwierzę z genami:
 
 `0 0 0 0 0 0 0 0 1 1 2 2 2 2 2 2 3 3 4 4 4 4 4 4 5 5 6 6 7 7 7 7`
 
-To zwierzę najbardziej preferuje brak obrotu (p=0.25), na drugim miejscu jest obrót w prawo (`2`) oraz obrót w tył (`4`)
+To zwierzę najbardziej preferuje brak obrotu (p=0.25), na drugim miejscu jest obrót w prawo (`2`) oraz ruch w tył (`4`)
 (p=0.1875), następny w kolejności jest obrót o 315 stopni (p=0.125). Pozostałe obroty mają takie samo prawdopodobieństwo (p=0.0625).
 
 ## Konsumpcja i rozmnażanie
