@@ -41,7 +41,7 @@ na niższym poziomie.
    informację o tym, które pole jest błędne. Wyjątek zastępuje sygnalizowanie błędu przy pomocy zwracania wartości `false`.
 4. Obsłuż oba wyjątki w metodzie `main` klasy `World`. Obsługa powinna polegać na wyświetleniu komunikatu wyjątku
    oraz zakończeniu działania programu, a konstrukcja `try` powinna obejmować cały kod znajdujący się w metodzie `main`.
-4. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
+5. Przetestuj działanie wyjątków poprzez podanie nieprawidłowego parametru ruchu oraz dodanie do mapy dwa razy tego
    samego zwierzęcia. Efektem powinno być kontrolowane zakończenie działania programu.
 6. Zaktualizuj testy metody `place` oraz klasy `OptionsParser`, aby były zgodne z nowym kontraktem.
 
@@ -53,14 +53,15 @@ na niższym poziomie.
 2. Klasa ta powinna implementować interfejs `IPositionChangeObserver`.
 3. Klasa `MapBoundary` powinna zawierać dwa zbiory uporządkowane obiektów na mapie - jeden wzdłuż osi X, drugi wzdłuż
    osi Y. Ponieważ porządek musi być zupełny, w przypadku obiektów o tym samym indeksie wzdłuż danej osi porównaj
-   drugą współrzędną oraz typ obiektu.
+   drugą współrzędną oraz typ obiektu. Przemyśl jakie dokładnie obiekty należy trzymać w tych zbiorach.
+   Czy mogą to być obiekty `Animal`?
 4. Dodanie obiektu do mapy `GrassField` (`UnboundedMap`) powinno skutkować dodaniem tego obiektu do instancji
    `MapBoundary`.
 5. Obiekty mają być dodawane w ten sposób, że skrajne pozycje na liście zawsze zajmowane są przez obiekty które mają
    odpowiednio największą oraz najmniejszą wartość indeksu w danym wymiarze.
-7. Mapa powinna korzystać z instancji klasy `MapBoundary` w celu efektywnego obliczania obszaru, który ma zostać
+6. Mapa powinna korzystać z instancji klasy `MapBoundary` w celu efektywnego obliczania obszaru, który ma zostać
    wyświetlony.
-11. Otaguj gotowe rozwiązanie jako lab7.
+7. Otaguj gotowe rozwiązanie jako lab7.
 
 ### Implementacja graficznego interfejsu użytkownika
 
