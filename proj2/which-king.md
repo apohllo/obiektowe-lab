@@ -4,6 +4,10 @@ Celem projektu jest napisanie gry z interfejsem graficznym.
 Gra polega na odpowiednim zarządzaniu zasobami <br> i podejmowaniu decyzji.
 Im więcej decyzji podjął gracz tym większy wynik uzyskał.
 
+### Liczba punktów
+
+1 osoba - 3 punkty
+
 ---
 ### Opis gry:
 
