@@ -3,7 +3,8 @@
 Projekt 2 OP inspirowany `Shakes & Fidget` i `Swords & sandals`
 
 ## Punktacja
-`? Do uzgodnienia ?`
+
+2 osoby - 4 punkty
 
 ## Ogólny opis
 Autobattler stworzonych przez użytkownika postaci, które mogą posiadać różne klasy postaci oraz statystyki.
