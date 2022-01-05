@@ -8,6 +8,7 @@
 
 ## Za 3 punkty:
 
+- [Which king are you](which-king.md)
 
 ## Za 2 punkty:
 
@@ -20,6 +21,7 @@
 
 - [Wojny wydziałowe](wojny-wydzialowe.md)
 - [Zelda](zelda.md)
+- [Hereos battler](battler.md)
 
 ## Za 3 punkty:
 
@@ -29,6 +31,4 @@
 # Niesklasyfikowane
 
 - [Tower Defence](TowerDefence.md)
-- [Which king are you](which-king.md)
-- [Hereos battler](battler.md)
 - [Bomberman](Bomberman.md)
