@@ -1,9 +1,11 @@
 # Tower Defence
+
 ### Cel projektu
 Celem projektu jest stworzenie gry z gatunku Tower Defence. 
 Gracz posiada widok na dwuwymiarową mapę, na której może 
 budować różnego rodzaju wieże, aby zabić potwory w alei, 
 nim te dotrą do jej końca.
+
 ### Mapa
 Mapa składa się z małych kwadratów (grid) - z jednego końca 
 mapy do drugiego przechodzi aleja (możliwe rozgałęzienia alei,
@@ -26,7 +28,7 @@ przepływając przez rzekę do dalszego fragmentu alei
  
 ![Przykładowa mapa](map.png)
 
-**(rozszerzenie ++)** Nie tworzymy mapy ręcznie “na sztywno”,
+**(rozszerzenie ++)** Nie tworzymy mapy ręcznie "na sztywno",
 tylko implementujemy algorytm tworzenia mapy, gwarantujący 
 przynajmniej jedno wejście i wyjście, a także ciągłość alei,
 dodatkowo wstawiający losowo w odpowiednie miejsca elementy
