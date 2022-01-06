@@ -57,3 +57,7 @@ Ulewa niszczy wszystkie plony uzyskane z pól z danego dnia, a prawdopodobieńst
 
 ## **Interfejs użytkownika**
 Gracz ma możliwość podglądu ilu ludzi pozostało w wiosce, jakie są zapasy jedzenia oraz ile maksymalnie zapasów możemy przechowywać. Istnieje możliwość kliknięcia na kratkę na mapie, aby móc umiejscowić na niej obiekt. Wszystko co użytkownik może wybudować jest widoczne (np. pod mapą) i może zostać wybrane poprzez kliknięcie. Gdy nie starczy pożywienia dla wszystkich mieszkańców użytkownik dostaje informacje ilu ludzi zginęło. 
+
+
+## **UWAGA**
+Jeśli gra okaże się niezbalansowana można zmienić parametry, podane wartości są tylko orientacyjne.
