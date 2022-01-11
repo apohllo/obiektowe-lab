@@ -22,7 +22,7 @@
 
 - [Tetris v.1](tetris.md)
 - [Skoczki](SKOCZKI.md)
-- [Bomberman](bomberman.md)
+- [Bomberman](Bomberman.md)
 - [Kurka wodna](kurka_wodna.md)
 
 
