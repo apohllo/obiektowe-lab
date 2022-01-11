@@ -1,5 +1,11 @@
 # Bomberman
 
+## Punktacja
+
+Wersja podstawowa: 2
+
+Wersja z power-upami: 3
+
 ## Opis ogólny
 
 Bomberman jest grą multiplayer, w której gracze wcielają się w tytułowego bombermana - człowieka wysadzającego bomby. Celem gry jest wyeliminowanie pozostałych graczy poprzez trafianie ich wybuchami stawianych przez gracza bomb.
