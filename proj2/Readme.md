@@ -12,7 +12,7 @@
 - [Ultimate Tic Tac Toe](Ultimate_Tic_Tac_Toe.md)
 - [Skoczki](SKOCZKI.md)
 - [Tetris v.2](tetris_2.md)
-- [Bomberman](bomberman.md)
+- [Bomberman](Bomberman.md)
 - [Górnik](Gornik.md)
 - [Król szczupaków](krol_szczupakow.md)
 - [Kurka wodna](kurka_wodna.md)
