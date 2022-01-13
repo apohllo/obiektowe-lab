@@ -42,3 +42,6 @@
 # Niesklasyfikowane
 
 - [Tower Defence](TowerDefence.md)
+- [Trener szachowy](chess.md)
+- [Build a village](BuildAVillage.md)
+- [Gra w statki](statki.md)
