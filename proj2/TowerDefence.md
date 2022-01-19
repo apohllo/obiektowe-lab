@@ -6,13 +6,19 @@ Gracz posiada widok na dwuwymiarową mapę, na której może
 budować różnego rodzaju wieże, aby zabić potwory w alei, 
 nim te dotrą do jej końca.
 
+## Punktacja 
+
+Wersja podstawowa: 3 pkt.
+
+Wersja z przynajmniej 3 rozszerzeniami: 4 pkt.
+
 ### Mapa
 Mapa składa się z małych kwadratów (grid) - z jednego końca 
 mapy do drugiego przechodzi aleja (możliwe rozgałęzienia alei,
 tak samo wejście i wyjście nie musi być jedno), na której 
 pojawiają się wrogie stwory. Na pozostałej części planszy 
 gracz może budować wieże (wieże mają konkretny rozmiar, 
-zajmują np kratkę 1x1 czy 3x2).
+zajmują np. kratkę 1x1 czy 3x2).
 
 #### Przykładowa mapa i widok gry
 ![](tdmap.png)
@@ -42,8 +48,8 @@ który jest najdalej w alei i jest w jej zasięgu
  - wybuchające - jak wyżej, tylko zadają obrażenia wszystkim 
 stworom na danym obszarze od trafienia
  - **(rozszerzenie)** tworzące - modyfikacją do znanego 
-trybu gry jest wprowadzenie wieży, która co pewien okres
-czasu tworzy własne stwory - rycerzy, którzy na alei będą 
+trybu gry jest wprowadzenie wieży, która co pewien
+czas tworzy własne stwory - rycerzy, którzy na alei będą 
 walczyć z potworami. Można założyć, że ta wieża wymaga 
 bezpośredniego dostępu do alei, by wyznaczenie miejsca 
 generowania rycerzy było jednoznaczne. Rycerze idą 
@@ -62,13 +68,13 @@ Wieżę charakteryzują następujące statystyki:
  - (tworzące) częstotliwość tworzenia
 
 Oczywiście można stosować różne modyfikacje w celu 
-urozmaicenia projektu, np niektóre wieże mogą mieć 
+urozmaicenia projektu, np. niektóre wieże mogą mieć 
 efekt spowalniający stwory czy nakładające truciznę 
 (ciągłe obrażenia przez pewien czas po trafieniu).
 
 Gracz buduje wieże, korzystając z menu znajdującego 
-się obok mapy. Widzi ilość swoich monet, a 
-także koszt i statystyki wież. Gracz stawia wieżę np 
+się obok mapy. Widzi liczbę swoich monet, a 
+także koszt i statystyki wież. Gracz stawia wieżę np.
 poprzez przeciągnięcie jej z menu na mapę i wstawienie 
 jej na wolne kratki.
 
@@ -77,7 +83,7 @@ ulepszyć za określoną kwotę (zwiększenie statystyk)
 
 **(rozszerzenie)** Gracz oprócz wież może wstawić na aleję 
 elementy tymczasowe, np:
- - barykadę, która przez pewien okres czasu zatrzymuje 
+ - barykadę, która przez pewien czas zatrzymuje 
 potwory (można ustawić pasek zdrowia barykady, dzięki
 czemu im więcej stworów będzie, tym krócej barykada je 
 zatrzyma)
@@ -92,7 +98,7 @@ Charakteryzuje ich:
  - prędkość ruchu
  - zadawane obrażenia
  - punkty życia
- - (potwory) ilość monet za zabicie
+ - (potwory) liczba monet za zabicie
 
 **Jak wygląda walka:**
 

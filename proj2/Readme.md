@@ -5,6 +5,7 @@
 ## Za 4 punkty:
 
 - [Zelda](zelda.md)
+- [Tower Defence (z rozszerzeniami)](TowerDefence.md)
 
 ## Za 3 punkty:
 
@@ -17,6 +18,9 @@
 - [Król szczupaków](krol_szczupakow.md)
 - [Kurka wodna](kurka_wodna.md)
 - [Gra w statki](gra_w_statki.md)
+- [Również gra w statki (sieciowa)](statki.md)
+- [Build a village](BuildAVillage.md)
+- [Tower Defence (wer. podstawowa)](TowerDefence.md)
 
 ## Za 2 punkty:
 
@@ -24,6 +28,7 @@
 - [Skoczki](SKOCZKI.md)
 - [Bomberman](Bomberman.md)
 - [Kurka wodna](kurka_wodna.md)
+- [Również gra w statki ("hot seat")](statki.md)
 
 
 # Dwuosobowe
@@ -41,7 +46,6 @@
 
 # Niesklasyfikowane
 
-- [Tower Defence](TowerDefence.md)
 - [Trener szachowy](chess.md)
-- [Build a village](BuildAVillage.md)
-- [Gra w statki](statki.md)
+
+
