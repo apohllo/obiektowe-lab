@@ -2,9 +2,15 @@
 
 Celem projektu jest stworzenie gry w statki. W grze dostępne będą 2 tryby, gra z komputerem oraz gra z drugim graczem.
 
+## Punktacja 
+
+Wersja "hot seat": 2 pkt.
+
+Wersja sieciowa: 3 pkt.
+
 ## Opis
 
-Gra ma posiadać dwie plansze 10x10 kratek. Gra rozpoczyna się od rozmieszczenia na planszach statków przez graczy (w przypdaku gry z komputerem jego statki rozmieszczane są losowo).
+Gra ma posiadać dwie plansze 10x10 kratek. Gra rozpoczyna się od rozmieszczenia na planszach statków przez graczy (w przypadku gry z komputerem jego statki rozmieszczane są losowo).
 
 Statki dzielą się na 4 rodzaje w zależności od ich wymiarów oraz liczby jednostek umieszczanych na planszy:
 
@@ -23,7 +29,7 @@ Możliwe są trzy sytuacje:
   - trafiono w pole na którym jest statek przeciwnika, ale nie został on zatopiony
   - trafiono w pola na którym jest statek i został on zatopiony
   
-Statek zostaje zatopiony w momencie, gdy zostały trafione wszystkie pola na których się znajdował. Jeśli gracz trafi w pole na którym znajduje się statek, zyskuje dodatkowy ruch.
+Statek zostaje zatopiony w momencie, gdy zostały trafione wszystkie pola, na których się znajdował. Jeśli gracz trafi w pole, na którym znajduje się statek, zyskuje dodatkowy ruch.
 Celem gry jest zatopienie wszystkich statków przeciwnika.
 
 Dodatkowym wymaganiem jest, aby na planszy przeciwnika oznaczane i dezaktywowane były nie tylko pola, które zostały już wcześniej wybrane, ale też takie na których nie może już być statku, bo pole to sąsiaduje z odkrytym wcześniej statkiem.
