@@ -21,25 +21,29 @@ istota otrzyma trochę *czerwonych krwinek*. Jeśli osiągnie stan ~12~ 14 czerw
 
 Poniższa tabela pokazuje jakie stadia zdrowotne może osiągnąć istota, którą się opiekujesz:
 
+**uwaga: punktacja została obniżona!**
+
 | stan            | liczba czerwonych krwinek |
 |:----------------|---------------------------|
-| kościotrup      | < 15                      |
-| chuderlak       | 15 - 17,5                 |
-| kuracjusz       | 18 - 20,5                 |
-| na zwolnieniu   | 21 - 23,5                 |
-| krzepki móżdżek | 24 - 26,5                 |
-| okaz zdrowia    | >= 27                     |
+| kościotrup      | < 14                      |
+| chuderlak       | 14 - 16,5                 |
+| kuracjusz       | 17 - 19                   |
+| na zwolnieniu   | 19,5 - 22                 |
+| krzepki móżdżek | 22,5 - 24,5               |
+| okaz zdrowia    | 25                        |
 
 
 ## Zdobywanie krwinek
 
 W trakcie zajęć masz różne możliwości zdobywania czerwonych krwinek dla swojej istoty, możesz:
 
-* uprawiać ćwiczenia na sali gimnastycznej (+1 krwinka)
-* przyjmować szczepionki (+1 krwinka)
+* uprawiać ćwiczenia na sali gimnastycznej (+1 krwinka, łącznie 7 krwinek)
+* przyjmować szczepionki (+1 krwinka, łącznie 7 kwrinek)
 * wziąć udział w zawodach lekkoatletycznych (max. +2 krwinki)
 * wziąć udział w biegu katorżniczym, po którym robione jest badanie lekarskie (max. +8 krwinek)
 * wziąć udział w wycieczce rowerowej, po którym robione jest badanie krwi (max. +4 krwinki)
+
+Łącznie można zdobyć 28 krwinek.
 
 ~Wzięcie udziału w biegu katorżniczym możliwe jest tylko, jeśli twoja istota ma co najmniej 6 czerwonych krwinek.~
 

@@ -27,8 +27,7 @@ public int hashCode() {
 ```
 
 * Używanie mapy nie wymaga jawnego wywoływania metody `hashCode`, ale jest ona używana wewnętrznie dla potrzeb optymalizacji.
-  Istotą kodu nie są konkretne wartości, przez które mnożone są składniki `x` i `y` ale fakt, że dla identycznych wartości
-  `x` i `y` wartość funkcji `hashCode` będzie identyczna.
+  Istotą funkcji jest fakt, że dla identycznych wartości `x` i `y` wartość funkcji `hashCode` będzie identyczna.
 
 * Wzorce projektowe są koncepcją występującą w programowaniu obiektowym polegającą na tym, że określona klasa problemów
   może być rozwiązana w schematyczny sposób. Rozwiązanie problemu jednak nie może być (najczęściej) zawarte w jednej
@@ -47,8 +46,8 @@ public int hashCode() {
 
 ### Zmiana sposobu przechowywania obiektów na mapie
 
-1. Implementacja metod `isOccupied` oraz `objectAt` w mapach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
-   przez wszystkie elementy znajdujące się na mapie. Można ją poprawić zamieniając listę na słownik (wykorzystując 
+1. Implementacja metod `isOccupied` oraz `objectAt` w listach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
+   przez wszystkie elementy znajdujące się na liście. Można ją poprawić zamieniając listę na słownik (wykorzystując 
    interfejs `Map` oraz implementację `LinkedHashMap`) albo dodając obok listy zwierząt osobne pole będące mapą (w tym
    wypadku wystarczy klasa `HashMap`). Jest to jednocześnie wydajniejsze pamięciowo niż przechowywanie zwierząt (i trawy) w tablicy.
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
