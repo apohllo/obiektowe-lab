@@ -15,6 +15,14 @@ class Animal {
 
 ## Zadania do wykonania
 
+Opis skrócony:
+
+1. Stworzenie klasy `Animal`.
+2. Stworzenie klasy `OptionsParser`.
+3. Testy integracyjne.
+
+Opis szczegółowy:
+
 1. Wykorzystaj definicje klas `Vector2d`, `MapDirection` oraz `MoveDirection` z laboratorium 2.
 8. Utwórz klasę `Animal`, która:
    * określa początkową orientację zwierzęcia jako `NORTH`,
