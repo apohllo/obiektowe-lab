@@ -46,8 +46,8 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
 Opis skrócony:
 
 1. Modyfikacja klasy `Animal`.
-2. Stworzenie klasy RectangularMap.
-3. Stworzenie klasy SimulationEngine.
+2. Stworzenie klasy `RectangularMap`.
+3. Stworzenie klasy `SimulationEngine`.
 4. Testy integracyjne.
 
 Opis szczegółowy:
