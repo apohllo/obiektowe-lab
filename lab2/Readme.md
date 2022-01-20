@@ -93,6 +93,14 @@ enum MapDirection {
 
 ## Zadania do wykonania
 
+Opis skrócony:
+1. Stworznie klasy `Vector2d`.
+2. Stworzenie klasy `MapDirection`.
+3. Stworzenie klasy `MoveDirection`.
+4. Testy jednostkowe.
+
+Opis szczegółowy:
+
 ### Klasa `Vector2d`
 
 0. Projekt z poprzedniego laboratorium należy umieścić w repozytorium git.
