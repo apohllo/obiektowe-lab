@@ -77,7 +77,6 @@ Opis skrócony:
    odpowiednio największą oraz najmniejszą wartość indeksu w danym wymiarze.
 6. Mapa powinna korzystać z instancji klasy `MapBoundary` w celu efektywnego obliczania obszaru, który ma zostać
    wyświetlony.
-7. Otaguj gotowe rozwiązanie jako lab7.
 
 ### Szkielet aplikacji JavaFX
 
@@ -129,3 +128,4 @@ Opis skrócony:
 8. Wyśrodkuj etykiety korzystając z wywołania `GridPane.setHalignment(label, HPos.CENTER)`.
 9. Aktualnie, twój program powinien wyglądać mniej więcej tak (użyto mapy `GrassField`, dodano 2 zwierzaki):<br>
 ![look1](img/look1.png)
+10. Otaguj gotowe rozwiązanie jako lab7.
