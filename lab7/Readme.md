@@ -2,6 +2,7 @@
 
 Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz poprawienie wydajności rysowania zwierząt na mapie.
 
+Treść laboratorium powstała we współpracy z Norbertem Morawskim.
 
 ## Przydatne informacje
 
