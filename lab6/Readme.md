@@ -44,6 +44,13 @@ public int hashCode() {
 
 ## Zadania do wykonania
 
+Opis skrócony:
+
+1. Zamiana listy zwierząt na słownik.
+2. Dodanie wzorca `Observer`.
+
+Opis szczegółowy:
+
 ### Zmiana sposobu przechowywania obiektów na mapie
 
 1. Implementacja metod `isOccupied` oraz `objectAt` w listach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
