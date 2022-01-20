@@ -81,3 +81,6 @@ Opis szczegółowy:
     `positionChanged` w klasie `Animal`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
 6. Zweryfikuj poprawność implementacji korzystając z kodu z poprzednich laboratoriów.
 7. Otaguj gotowe rozwiązanie jako lab6.
+
+
+TODO przeniesienie z zadania 7 obsługi wyjątków do tego zadania.
