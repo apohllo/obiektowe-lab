@@ -39,7 +39,7 @@ Direction direction = Direction.FORWARD;
 ```
 * W Javie (od wersji 7) można wykonywać instrukcję `switch` na łańcuchach znaków, np.
 ```java
-switch(argument){
+switch (argument) {
   case "f":
     out.println("Do przodu");
     break;
@@ -51,7 +51,7 @@ switch(argument){
 * Od Javy w wersji 13 można również używać nowej składni wyrażenia `switch`, która pozwala przypisać jego wynik do
   zmiennej:
 ```java
-String message = switch(argument){
+String message = switch (argument) {
   case "f" -> "Do przodu";
   case "b" -> "Do tyłu";
   default -> "Nieznana komenda";
@@ -71,27 +71,27 @@ out.println(message);
 
 1. Uruchom program IntelliJ.
 2. Utwórz nowy projekt typu **`Gradle` -> `Java`** (!**nie `Java` -> `Java`**) o nazwie `oolab`.
-4. W katalogu `src/main/java/` utwórz pakiet `agh.ics.oop` (ppm na `src/main/java` -> `New package`).
-5. W pakiecie `agh.ics.oop` utwórz klasę `World` ze statyczną funkcją `main`.
-6. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
+3. W katalogu `src/main/java/` utwórz pakiet `agh.ics.oop` (ppm na `src/main/java` -> `New package`).
+4. W pakiecie `agh.ics.oop` utwórz klasę `World` ze statyczną funkcją `main`.
+5. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
    - `system wystartował`
    - `system zakończył działanie`
-7. Uruchom program z p. 7 np. klikając zieloną ikonę pojawiającą się na początku linii, w której występuje metoda `main`.
-8. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy tymi komunikatami.
-9. Metoda `run` powinna informować o tym, że zwierzak idzie do przodu.
-10. Uruchom program.
-11. Rozszerz metodę `run` tak by akceptowała tablicę argumentów typu `String`.
-12. Po komunikacie o poruszaniu się do przodu wypisz w konsoli wartości wszystkich argumentów tej metody oddzielone przecinkami.
-13. Zwróć uwagę na to, żeby nie było nadmiarowych przecinków.
-14. Uruchom program z dowolnymi parametrami (muszą występować co najmniej 2).
-15. Zmodyfikuj program tak aby interpretował wprowadzone argument:
+6. Uruchom program z p. 7 np. klikając zieloną ikonę pojawiającą się na początku linii, w której występuje metoda `main`.
+7. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy tymi komunikatami.
+8. Metoda `run` powinna informować o tym, że zwierzak idzie do przodu.
+9. Uruchom program.
+10. Rozszerz metodę `run` tak by akceptowała tablicę argumentów typu `String`.
+11. Po komunikacie o poruszaniu się do przodu wypisz w konsoli wartości wszystkich argumentów tej metody oddzielone przecinkami.
+12. Zwróć uwagę na to, żeby nie było nadmiarowych przecinków.
+13. Uruchom program z dowolnymi parametrami (muszą występować co najmniej 2).
+14. Zmodyfikuj program tak aby interpretował wprowadzone argument:
 
     - `f` - oznacza, że zwierzak idzie do przodu,
     - `b` - oznacza, że zwierzak idzie do tyłu,
     - `r` - oznacza, że zwierzak skręca w prawo,
     - `l` - oznacza, że zwierzak skręca w lewo,
     - pozostałe argumenty powinny być ignorowane.
-17. Poruszanie się oraz zmiana kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
+15. Poruszanie się oraz zmiana kierunku ma być oznajmiana odpowiednim komunikatem. Program powinien akceptować dowolną liczbę
     argumentów. Przykładowo wprowadzenie sekwencji `f f r l` powinno dać w wyniku następujące komunikaty:
     - Start
     - Zwierzak idzie do przodu
@@ -99,29 +99,38 @@ out.println(message);
     - Zwierzak skręca w prawo
     - Zwierzak skręca w lewo
     - Stop
-18. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
+16. Zmodyfikuj program w ten sposób, aby metoda `run` nie akceptowała tablicy łańcuchów znaków, lecz tablicę
     wartości typu wyliczeniowego (`enum`). Zamiana łańcuchów znaków powinna być realizowana przez metodę wywoływaną w
     funkcji `main` przed wywołaniem metody `run`, natomiast typ wyliczeniowy powinien być zdefiniowany w osobnym pliku
     (`Direction.java`) w pakiecie `agh.ics.oop`.
-18. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
-19. Zamknij IntelliJ.
+17. Zweryfikuj poprawność działania programu poprzez jego uruchomienie.
+18. Zamknij IntelliJ.
 
-21. W pliku `build.gradle` w sekcji `plugins` dodaj linię `id 'application'`: 
+19. W pliku `build.gradle` w sekcji `plugins` dodaj linię `id 'application'`: 
     ```
     plugins {
       id 'application'
       id 'java'
     }
     ```
-23. W tym samym pliku dodaj sekcję:
+20. W tym samym pliku dodaj sekcję:
     ```
     application {
       getMainClass().set('agh.ics.oop.World')
     }
     ```
-20. Otwórz konsolę (np. terminal/PowerShell).
-20. Wywołaj komendę `export JAVA_HOME=/usr/lib/jvm/java-16` (pod Windows trzeba będzie ustawić zmienną środowiskową wskazującą na katalog, w którym zainstalowana jest Java). **Komendę trzeba zaadaptować do lokalnej instalacji Javy!**
-21. Uruchom program poleceniem `./gradlew run --args="f l"` (lub `gradlew.bat ...` w systemie Windows)
-23. Zmodyfikuj argumenty wywołania i sprawdź zachowanie programu.
-24. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
+21. W tym samym pliku dodaj sekcję:
+    ```
+    java {
+        toolchain {
+            languageVersion.set(JavaLanguageVersion.of(17))
+        }
+    }
+    ```
+    (możesz wybrać inną wersję Javy).
+22. Otwórz konsolę (np. terminal/PowerShell).
+23. Wywołaj komendę `export JAVA_HOME=/usr/lib/jvm/java-16` (pod Windows trzeba będzie ustawić zmienną środowiskową wskazującą na katalog, w którym zainstalowana jest Java). **Komendę trzeba zaadaptować do lokalnej instalacji Javy!**
+24. Uruchom program poleceniem `./gradlew run --args="f l"` (lub `gradlew.bat ...` w systemie Windows)
+25. Zmodyfikuj argumenty wywołania i sprawdź zachowanie programu.
+26. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
     korzystał z interfejsu `stream` dostępnego w Javie 8.
