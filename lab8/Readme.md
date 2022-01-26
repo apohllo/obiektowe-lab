@@ -48,8 +48,13 @@ Treść laboratorium powstała we współpracy z Norbertem Morawskim.
 
 ## Zadania do wykonania
 
-[Instrukcja do początkowej części ćwiczenia](../lab7/gui.md)
+Opis skrócony:
 
+1. Dodanie obsługi tekstur.
+2. Dodanie wątku symulacyjnego.
+3. Guzik uruchamiający symulację.
+
+Opis szczegółowy:
 
 ### Tekstury
 
@@ -88,7 +93,8 @@ Treść laboratorium powstała we współpracy z Norbertem Morawskim.
 
 ### Inne elementy interfejsu
 1. Dodaj do interfejsu pole tekstowe i przycisk start. Skorzystaj z klas [`HBox`](http://tutorials.jenkov.com/javafx/hbox.html), [`VBox`](http://tutorials.jenkov.com/javafx/vbox.html), [`Button`](http://tutorials.jenkov.com/javafx/button.html) i [`TextField`](http://tutorials.jenkov.com/javafx/textfield.html).
-2. Utwórz setter dla pola `directions` w `ThreadedSimulationEngine` tak, aby dało się je dynamicznie zmieniać przy naciśnięciu przycisku. Utwórz konstruktor który nie ustawia tego pola.
-3. Usuń `engineThread.start()` z metody `init()`.
-4. Dodaj obsługę kliknięcia *Start* (użyj `setOnAction`). Odczytaj wartość pola tekstowego (`getText()`) i użyj jego zawartości w parserze. 
+2. Utwórz setter dla pola `directions` w `ThreadedSimulationEngine` tak, aby dało się je dynamicznie zmieniać 
+   przy naciśnięciu przycisku. Utwórz konstruktor który nie ustawia tego pola.
+4. Usuń `engineThread.start()` z metody `init()`.
+5. Dodaj obsługę kliknięcia *Start* (użyj `setOnAction`). Odczytaj wartość pola tekstowego (`getText()`) i użyj jego zawartości w parserze. 
    Ustaw nową sekwencję ruchów i uruchom **za każdym razem** nową instancję `Thread`.

@@ -44,12 +44,18 @@ public int hashCode() {
 
 ## Zadania do wykonania
 
+Opis skrócony:
+
+1. Zamiana listy zwierząt na słownik.
+2. Dodanie wzorca `Observer`.
+
+Opis szczegółowy:
+
 ### Zmiana sposobu przechowywania obiektów na mapie
 
 1. Implementacja metod `isOccupied` oraz `objectAt` w listach nie jest wydajna, ponieważ za każdym razem wymaga przejścia
    przez wszystkie elementy znajdujące się na liście. Można ją poprawić zamieniając listę na słownik (wykorzystując 
-   interfejs `Map` oraz implementację `LinkedHashMap`) albo dodając obok listy zwierząt osobne pole będące mapą (w tym
-   wypadku wystarczy klasa `HashMap`). Jest to jednocześnie wydajniejsze pamięciowo niż przechowywanie zwierząt (i trawy) w tablicy.
+   interfejs `Map` oraz implementację `HashMap`). Jest to jednocześnie wydajniejsze pamięciowo niż przechowywanie zwierząt (i trawy) w tablicy.
    Kluczami słownika powinny być pozycje elementów, a wartościami konkretne obiekty.
 2. Poprawna implementacja słownika wymaga, aby klasa `Vector2d` implementowała metodę `hashCode`. Metoda ta jest
    wykorzystywana m.in. przez słownik oparty o tablicę haszującą (`HashMap`). Możesz wygenerować kod metody `hashCode` w
@@ -74,4 +80,7 @@ public int hashCode() {
 5. Klasa `Animal` musi informować wszystkich obserwatorów, o tym że pozycja została zmieniona. Stwórz metodę
     `positionChanged` w klasie `Animal`, która będzie notyfikowała wszystkich obserwatorów o zmianie.
 6. Zweryfikuj poprawność implementacji korzystając z kodu z poprzednich laboratoriów.
-11. Otaguj gotowe rozwiązanie jako lab6.
+7. Otaguj gotowe rozwiązanie jako lab6.
+
+
+TODO przeniesienie z zadania 7 obsługi wyjątków do tego zadania.

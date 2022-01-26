@@ -43,6 +43,15 @@ czy wywoływane metody faktycznie występują w klasie `Animal`.
 
 ## Zadania do wykonania
 
+Opis skrócony:
+
+1. Modyfikacja klasy `Animal`.
+2. Stworzenie klasy `RectangularMap`.
+3. Stworzenie klasy `SimulationEngine`.
+4. Testy integracyjne.
+
+Opis szczegółowy:
+
 1. Wykorzystaj definicje klas z poprzedniego laboratorium.
 2. Przyjrzyj się interfejsom `IWorldMap` oraz `IEngine`, które znajdują się w tym katalogu.
 3. Zmodyfikuj klasę `Animal` z poprzedniego ćwiczenia:

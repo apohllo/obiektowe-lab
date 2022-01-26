@@ -69,6 +69,14 @@ out.println(message);
 
 ## Zadania do wykonania
 
+Opis skrócony:
+
+1. Konfiguracja środowiska.
+2. Stworzenie klasy `World`.
+3. Stworzenie enumu `Direction`.
+
+Opis szczegółowy:
+
 1. Uruchom program IntelliJ.
 2. Utwórz nowy projekt typu **`Gradle` -> `Java`** (!**nie `Java` -> `Java`**) o nazwie `oolab`.
 3. W katalogu `src/main/java/` utwórz pakiet `agh.ics.oop` (ppm na `src/main/java` -> `New package`).
