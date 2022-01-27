@@ -2,6 +2,10 @@
 
 Projekt 2 na labolatoria z Programowania Obiektowego
 
+## Punktacja
+
+4 punkty.
+
 ## Ogólny opis projektu
 
 Celem projektu jest stworzenie 2-osobowej gry w szachy, z możliwością bardzo prostego podpowiadania ruchów (na podstawie teorii szachów). Dodatkowo program ma umożliwiać importowanie i eksportowanie pozycji szachowej w [notacji FEN](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation#Examples)
