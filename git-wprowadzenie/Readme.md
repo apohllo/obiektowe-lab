@@ -21,11 +21,13 @@ W celu przygotowania kodu źródłowego do bracy z gitem należy wykonać nastę
 1. `git init` (zainicjowanie plików Gita, w głównym katalogu naszej aplikacji, tworzony jest katalog `.git`, który
    zawiera repozytorium kodu źródłowego)
 2. `echo 'out' > .gitignore` (dodanie katalogu `bin` do listy ingorowanych plików/katalogów)
-3. `git add .` (dodanie wszystkich plików, poza ignorowanymi, do *indeksu* Gita)
-4. `git status` (sprawdzenie aktualnego statusu kodu źródłowego, polecenie wykonowyane bardzo często)
-5. `git commit -m 'Initial commit'` (*zatwierdzenie* (zacommitowanie) zmian w historii Gita)
-6. `git remote add origin https://github.com/<login>/<repozytorium>.git` (dodanie zdalnego repozytorium z Githuba)
-7. `git push origin master` (wysłanie zmian do zdalnego repozytorium)
+3. **Uwaga** Powyższe polecenie w PowerShellu powoduje problemy. W tej sytuacji zalecane jest po prostu utworzenie pliku
+   `.gitignore` w edytorze tekstu i wpisanie do niego linii o treści `out`.
+5. `git add .` (dodanie wszystkich plików, poza ignorowanymi, do *indeksu* Gita)
+6. `git status` (sprawdzenie aktualnego statusu kodu źródłowego, polecenie wykonowyane bardzo często)
+7. `git commit -m 'Initial commit'` (*zatwierdzenie* (zacommitowanie) zmian w historii Gita)
+8. `git remote add origin https://github.com/<login>/<repozytorium>.git` (dodanie zdalnego repozytorium z Githuba)
+9. `git push origin master` (wysłanie zmian do zdalnego repozytorium)
 
 ### Odtworzenie repozytorium
 
