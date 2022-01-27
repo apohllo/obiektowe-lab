@@ -3,6 +3,12 @@
 Celem laboratorium jest zapoznanie się z modelem obiektowym Javy, na przykładzie klasy reprezentującej dwuwymiarowy
 wektor. Ponadto studenci zapoznają się z frameworkiem do testowania.
 
+Najważniejsze zadania:
+1. Stworznie klasy `Vector2d`.
+2. Stworzenie klasy `MapDirection`.
+3. Stworzenie klasy `MoveDirection`.
+4. Testy jednostkowe.
+
 ## Przydatne informacje
 
 * Pola w obiekcie deklarowane są w ciele klasy, np. 
@@ -92,14 +98,6 @@ enum MapDirection {
   * `assertFalse(a)` - weryfikuje czy wartość logiczna `a` jest fałszem.
 
 ## Zadania do wykonania
-
-Opis skrócony:
-1. Stworznie klasy `Vector2d`.
-2. Stworzenie klasy `MapDirection`.
-3. Stworzenie klasy `MoveDirection`.
-4. Testy jednostkowe.
-
-Opis szczegółowy:
 
 ### Klasa `Vector2d`
 
