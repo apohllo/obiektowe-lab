@@ -4,7 +4,7 @@ Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcj
 
 Najważniejsze zadania:
 
-1. Modyfikacja klasy `Animal`.
+1. Modyfikacja klasy `Animal` (akceptowanie mapy w konstruktorze).
 2. Stworzenie klasy `RectangularMap`.
 3. Stworzenie klasy `SimulationEngine`.
 4. Testy integracyjne.
