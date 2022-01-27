@@ -2,6 +2,11 @@
 
 Celem laboratorium jest zapoznanie się z interfejsem `Map` oraz wzorcem projektowym `Observer`.
 
+Najważniejsze zadania:
+
+1. Zamiana listy zwierząt na słownik.
+2. Dodanie wzorca `Observer`.
+
 ## Przydatne informacje
 
 * Interfejs `Map` definiuje w Javie strukturę słownikową, czyli mapę odwzorowującą *klucze* na *wartości*.
@@ -44,12 +49,6 @@ public int hashCode() {
 
 ## Zadania do wykonania
 
-Opis skrócony:
-
-1. Zamiana listy zwierząt na słownik.
-2. Dodanie wzorca `Observer`.
-
-Opis szczegółowy:
 
 ### Zmiana sposobu przechowywania obiektów na mapie
 

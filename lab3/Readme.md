@@ -4,6 +4,12 @@ Celem laboratorium jest wykorzystanie modelu obiektowego Javy do rozwiązania pr
 Studenci mają w tym celu wykorzystać wcześniej zaimplementowane klasy, dzięki czemu kod rozwiązujący zadanie jest
 znacznie zwięźlejszy i idiomatyczny (wyrażony w języku domeny).
 
+Najważniejsze zadania:
+
+1. Stworzenie klasy `Animal`.
+2. Stworzenie klasy `OptionsParser`.
+3. Testy integracyjne.
+
 ## Przydatne informacje
 
 * Początkowe wartości obiektu można określić albo w konstruktorze, albo bezpośrednio przypisując je do pól, np.
@@ -15,13 +21,6 @@ class Animal {
 
 ## Zadania do wykonania
 
-Opis skrócony:
-
-1. Stworzenie klasy `Animal`.
-2. Stworzenie klasy `OptionsParser`.
-3. Testy integracyjne.
-
-Opis szczegółowy:
 
 1. Wykorzystaj definicje klas `Vector2d`, `MapDirection` oraz `MoveDirection` z laboratorium 2.
 8. Utwórz klasę `Animal`, która:

@@ -4,6 +4,13 @@ Celem laboratorium jest zapoznanie się z mechanizmem wyjątków oraz poprawieni
 
 Treść laboratorium powstała we współpracy z Norbertem Morawskim.
 
+Najważniejsze zadania:
+
+1. Dodanie obsługi wyjątków.
+2. Dodanie klasy `MapBoundary`.
+3. Szkielet aplikacji JavaFX.
+4. Wyświetlanie mapy w GUI.
+
 ## Przydatne informacje
 
 * Wyjątki są mechanizmem pozwalającym przekazywać informację o błędzie pomiędzy odległymi fragmentami kodu.
@@ -38,12 +45,6 @@ na niższym poziomie.
 
 ## Zadania do wykonania
 
-Opis skrócony:
-
-1. Dodanie obsługi wyjątków.
-2. Dodanie klasy `MapBoundary`.
-3. Szkielet aplikacji JavaFX.
-4. Wyświetlanie mapy w GUI.
 
 ### Obsługa wyjątków
 

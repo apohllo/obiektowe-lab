@@ -5,6 +5,12 @@ graficznego interfejsu użytkownika (GUI).
 
 Treść laboratorium powstała we współpracy z Norbertem Morawskim.
 
+Najważniejsze zadania:
+
+1. Dodanie obsługi tekstur.
+2. Dodanie wątku symulacyjnego.
+3. Guzik uruchamiający symulację.
+
 ## Przydatne informacje
 
 ### Wątki
@@ -48,13 +54,6 @@ Treść laboratorium powstała we współpracy z Norbertem Morawskim.
 
 ## Zadania do wykonania
 
-Opis skrócony:
-
-1. Dodanie obsługi tekstur.
-2. Dodanie wątku symulacyjnego.
-3. Guzik uruchamiający symulację.
-
-Opis szczegółowy:
 
 ### Tekstury
 

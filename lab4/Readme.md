@@ -2,6 +2,13 @@
 
 Celem laboratorium jest zapoznanie się z mechanizmem interfejsów oraz kolekcjami.
 
+Najważniejsze zadania:
+
+1. Modyfikacja klasy `Animal`.
+2. Stworzenie klasy `RectangularMap`.
+3. Stworzenie klasy `SimulationEngine`.
+4. Testy integracyjne.
+
 ## Przydatne informacje
 
 * Mechanizm interfejsów pozwala na określenie pewnego zestawu metod, które muszą być implementowane przez określony typ.
@@ -42,15 +49,6 @@ zwracają obiekty klasy `Animal`, dzięki czemu mogą one być używane w "bezpi
 czy wywoływane metody faktycznie występują w klasie `Animal`.
 
 ## Zadania do wykonania
-
-Opis skrócony:
-
-1. Modyfikacja klasy `Animal`.
-2. Stworzenie klasy `RectangularMap`.
-3. Stworzenie klasy `SimulationEngine`.
-4. Testy integracyjne.
-
-Opis szczegółowy:
 
 1. Wykorzystaj definicje klas z poprzedniego laboratorium.
 2. Przyjrzyj się interfejsom `IWorldMap` oraz `IEngine`, które znajdują się w tym katalogu.

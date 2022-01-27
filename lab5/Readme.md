@@ -3,6 +3,13 @@
 Celem laboratorium jest zapoznanie się z mechanizmem dziedziczenia oraz właściwym sposobem jego użycia w programowaniu
 obiektowym.
 
+Najważniejsze zadania:
+
+1. Stworzenie klasy `Grass`.
+2. Stworzenie klasy `GrassField`.
+3. Stworzenie klasy `AbstractWorldMap`.
+4. Testy integracyjne.
+
 ## Przydatne informacje
 
 * Klasa abstrakcyjna to klasa, która może posiadać niekompletną implementację. Wprowadza się ją, aby usunąć powtarzający się
@@ -42,14 +49,6 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
 
 ## Zadania do wykonania
 
-Opis skrócony:
-
-1. Stworzenie klasy `Grass`.
-2. Stworzenie klasy `GrassField`.
-3. Stworzenie klasy `AbstractWorldMap`.
-4. Testy integracyjne.
-
-Opis szczegółowy:
 
 0. Wykorzystaj klasy z laboratorium nr 4.
 1. Zdefiniuj klasę `Grass` (kępka trawy), która:
