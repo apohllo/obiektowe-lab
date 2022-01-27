@@ -2,6 +2,12 @@
 
 Celem laboratorium jest zapoznanie się z podstawowymi pojęciami oraz narzędziami Javy.
 
+Najważniejsze zadania:
+
+1. Konfiguracja środowiska.
+2. Stworzenie klasy `World`.
+3. Stworzenie enumu `Direction`.
+
 ## Przydatne informacje
 * W programie Javy funkcja (a właściwie metoda) `main` musi być częścią jakiejś klasy. Jest ona punktem startowym programu.
 * Metoda `main` akceptuje tablicę argumentów typu `String`, ponadto jest publiczną metodą statyczną:
@@ -68,14 +74,6 @@ out.println(message);
 
 
 ## Zadania do wykonania
-
-Opis skrócony:
-
-1. Konfiguracja środowiska.
-2. Stworzenie klasy `World`.
-3. Stworzenie enumu `Direction`.
-
-Opis szczegółowy:
 
 1. Uruchom program IntelliJ.
 2. Utwórz nowy projekt typu **`Gradle` -> `Java`** (!**nie `Java` -> `Java`**) o nazwie `oolab`.
