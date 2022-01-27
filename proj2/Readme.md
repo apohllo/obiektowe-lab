@@ -6,6 +6,7 @@
 
 - [Zelda](zelda.md)
 - [Tower Defence (z rozszerzeniami)](TowerDefence.md)
+- [Trener szachowy](chess.md)
 
 ## Za 3 punkty:
 
@@ -42,10 +43,4 @@
 ## Za 3 punkty:
 
 - [Wojny wydziałowe](wojny-wydzialowe.md)
-
-
-# Niesklasyfikowane
-
-- [Trener szachowy](chess.md)
-
 
