@@ -15,7 +15,7 @@ Instrukcje do poszczególnych laboratoriów znajdują się w odpowiednich folder
 
 Wyobraź sobie, że w tych zajęciach poza Tobą bierze udział mała *istota żywa*, która na początku jest
 *kościotrupem* (więc w zasadzie jest nieżywa). Wszystko co robisz w trakcie zajęć może przyczynić się do tego, że ta
-istota otrzyma trochę *czerwonych krwinek*. Jeśli osiągnie stan ~12~ 14 czerwonych krwinek, to będzie *chuderlakiem*. 
+istota otrzyma trochę *czerwonych krwinek*. Jeśli osiągnie stan 25 czerwonych krwinek, to będzie *chuderlakiem*. 
 
 ## Stan zdrowia
 
@@ -25,29 +25,32 @@ Poniższa tabela pokazuje jakie stadia zdrowotne może osiągnąć istota, któr
 
 | stan            | liczba czerwonych krwinek |
 |:----------------|---------------------------|
-| kościotrup      | < 14                      |
-| chuderlak       | 14 - 16,5                 |
-| kuracjusz       | 17 - 19                   |
-| na zwolnieniu   | 19,5 - 22                 |
-| krzepki móżdżek | 22,5 - 24,5               |
-| okaz zdrowia    | 25                        |
+| kościotrup      | < 25                      |
+| chuderlak       | <25, 30)                  |
+| kuracjusz       | <30, 35)                  |
+| na zwolnieniu   | <35, 40)                  |
+| krzepki móżdżek | <40, 45)                  |
+| okaz zdrowia    | >= 45                     |
 
 
 ## Zdobywanie krwinek
 
 W trakcie zajęć masz różne możliwości zdobywania czerwonych krwinek dla swojej istoty, możesz:
 
-* uprawiać ćwiczenia na sali gimnastycznej (+1 krwinka, łącznie 7 krwinek)
-* przyjmować szczepionki (+1 krwinka, łącznie 7 kwrinek)
+* wziąć jednorazowy zastrzyk adrenaliny (+1 krwinka)
+* uprawiać ćwiczenia na sali gimnastycznej (+2 krwinki, łącznie 16 krwinek)
+* poddawać się kwarantannie (+1 krwinka, łącznie 7 kwrinek)
 * wziąć udział w zawodach lekkoatletycznych (max. +2 krwinki)
-* wziąć udział w biegu katorżniczym, po którym robione jest badanie lekarskie (max. +8 krwinek)
-* wziąć udział w wycieczce rowerowej, po którym robione jest badanie krwi (max. +4 krwinki)
+* wziąć udział w biegu katorżniczym, po którym robione jest badanie lekarskie (max. +16 krwinek)
+* wziąć udział w wycieczce rowerowej, po którym robione jest badanie krwi (max. +8 krwinek)
 
-Łącznie można zdobyć 28 krwinek.
+Łącznie można zdobyć 50 krwinek. 
 
-~Wzięcie udziału w biegu katorżniczym możliwe jest tylko, jeśli twoja istota ma co najmniej 6 czerwonych krwinek.~
+Dodatkowo można też otrzymać transfuzję krwi (max +5 krwinek) na poprawienie sytuacji - tego typu zabieg nie liczy się do głównej puli i jest traktowany jako bonus.
 
-Wzięcie udziału w wycieczce rowerowej możliwe jest tylko, jeśli twoja istota uzyskała minimum 4 czerwonych krwinek w
+~Wzięcie udziału w biegu katorżniczym możliwe jest tylko, jeśli twoja istota ma co najmniej 12 krwinek.~
+
+Wzięcie udziału w wycieczce rowerowej możliwe jest tylko, jeśli twoja istota uzyskała minimum 8 krwinek w
 badaniu krwi po biegu katorżniczym.
 
 ## Plan
@@ -59,15 +62,15 @@ Poniższy diagram pokazuje kiedy można wykonywać poszczególne aktywności, zw
 |---------|-------------------|
 | 1       |                   |
 | 2       | sala gimanstyczna |
-| 3       | sala gimanstyczna |
-| 4       | sala gimanstyczna |
-| 5       | sala gimanstyczna |
-| 6       | sala gimanstyczna |
-| 7       | sala gimanstyczna |
-| 8       | sala gimanstyczna, bieg |
-| 9       | bieg              |
+| 3       | kwarantanna, sala gimanstyczna |
+| 4       | kwarantanna, sala gimanstyczna |
+| 5       | kwarantanna, sala gimanstyczna |
+| 6       | kwarantanna, sala gimanstyczna |
+| 7       | kwarantanna, sala gimanstyczna |
+| 8       | kwarantanna, sala gimanstyczna, bieg |
+| 9       | kwarantanna, bieg              |
 | 10      | zawody, bieg      |
-| 11      | kwarantanna, bieg |
+| 11      | bieg |
 | 12      | badanie lekarskie |
 | 13      | wycieczka         |
 | 14      | wycieczka         |
