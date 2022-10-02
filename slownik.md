@@ -1,13 +1,15 @@
 # Słownik terminów
 
-* *kwarantanna* - kolokwium
+* *zastrzyk adrenaliny* - konfiguracja własnego repozytorium Git
+* *kwarantanna* - kartkówka wejściówka
 * *sala gimnastyczna* - zadanie laboratoryjne
 * *bieg katorżniczy* - pierwszy projekt
 * *wycieczka rowerowa* - drugi projekt
 * *badanie lekarskie* - ocena pierwszego projektu
 * *badanie krwi* - ocena drugiego projektu
 * *zawody lekkoatletyczne* - grupowy wybór tematu drugiego projektu
-* *czerwone krwinki* - punkty uzyskiwane za poszczególne aktywności
+* *transfuzja* - nagroda za wyróżniającą się aktywność na zajęciach laboratoryjnych
+* *krwinki* - punkty uzyskiwane za poszczególne aktywności
 * *kościotrup* - ocena niedostateczna
 * *chuderlak* - ocena dostateczna
 * *kuracjusz* - ocena plus dostateczna
