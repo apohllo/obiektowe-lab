@@ -48,7 +48,7 @@ W trakcie zajęć masz różne możliwości zdobywania czerwonych krwinek dla sw
 
 Dodatkowo można też otrzymać transfuzję krwi (max +5 krwinek) na poprawienie sytuacji - tego typu zabieg nie liczy się do głównej puli i jest traktowany jako bonus.
 
-~Wzięcie udziału w biegu katorżniczym możliwe jest tylko, jeśli twoja istota ma co najmniej 12 krwinek.~
+Wzięcie udziału w biegu katorżniczym możliwe jest tylko, jeśli twoja istota ma co najmniej 12 krwinek.
 
 Wzięcie udziału w wycieczce rowerowej możliwe jest tylko, jeśli twoja istota uzyskała minimum 8 krwinek w
 badaniu krwi po biegu katorżniczym.
