@@ -135,7 +135,7 @@ out.println(message);
     ```
     (możesz wybrać inną wersję Javy).
 22. Otwórz konsolę (np. terminal/PowerShell).
-23. Wywołaj komendę `export JAVA_HOME=/usr/lib/jvm/java-16` (pod Windows trzeba będzie ustawić zmienną środowiskową wskazującą na katalog, w którym zainstalowana jest Java). **Komendę trzeba zaadaptować do lokalnej instalacji Javy!**
+23. Wywołaj komendę `export JAVA_HOME=/usr/lib/jvm/java-17` (pod Windows trzeba będzie ustawić zmienną środowiskową wskazującą na katalog, w którym zainstalowana jest Java). **Komendę trzeba zaadaptować do lokalnej instalacji Javy!**
 24. Uruchom program poleceniem `./gradlew run --args="f l"` (lub `gradlew.bat ...` w systemie Windows)
 25. Zmodyfikuj argumenty wywołania i sprawdź zachowanie programu.
 26. (**Dla zaawansowanych**) Zmień kod odpowiedzialny za konwersję argumentów oraz wyświetlanie kierunków, tak by 
