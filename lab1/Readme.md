@@ -61,7 +61,7 @@ String message = switch (argument) {
   case "f" -> "Do przodu";
   case "b" -> "Do tyłu";
   default -> "Nieznana komenda";
-}
+};
 
 out.println(message);
 ```
@@ -82,7 +82,7 @@ out.println(message);
 5. Zaimplementuj metodę `main` tak aby wyświetlały się dwa komunikaty:
    - `system wystartował`
    - `system zakończył działanie`
-6. Uruchom program z p. 7 np. klikając zieloną ikonę pojawiającą się na początku linii, w której występuje metoda `main`.
+6. Uruchom program np. klikając zieloną ikonę pojawiającą się na początku linii, w której występuje metoda `main`.
 7. Dodaj metodę statyczną `run`, która jest wywoływana pomiędzy tymi komunikatami.
 8. Metoda `run` powinna informować o tym, że zwierzak idzie do przodu.
 9. Uruchom program.
