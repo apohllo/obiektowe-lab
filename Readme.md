@@ -60,21 +60,20 @@ Poniższy diagram pokazuje kiedy można wykonywać poszczególne aktywności, zw
 
 | tydzień | wydarzenia        |
 |---------|-------------------|
-| 1       |                   |
-| 2       | sala gimanstyczna |
+| 1       | sala gimanstyczna |
+| 2       | kwarantanna, sala gimanstyczna |
 | 3       | kwarantanna, sala gimanstyczna |
 | 4       | kwarantanna, sala gimanstyczna |
 | 5       | kwarantanna, sala gimanstyczna |
 | 6       | kwarantanna, sala gimanstyczna |
-| 7       | kwarantanna, sala gimanstyczna |
-| 8       | kwarantanna, sala gimanstyczna, bieg |
-| 9       | kwarantanna, bieg              |
-| 10      | zawody, bieg      |
-| 11      | bieg |
-| 12      | badanie lekarskie |
+| 7       | kwarantanna, sala gimanstyczna, bieg |
+| 8       | kwarantanna, bieg              |
+| 9      | zawody, bieg      |
+| 10      | bieg |
+| 11      | badanie lekarskie |
+| 12      | wycieczka         |
 | 13      | wycieczka         |
-| 14      | wycieczka         |
-| 15      | badanie krwi      |
+| 14      | badanie krwi      |
 
 
 ## Pseudonimy
