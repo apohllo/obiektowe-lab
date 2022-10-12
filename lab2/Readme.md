@@ -116,17 +116,17 @@ enum MapDirection {
      wartość mniejszą bądź równą polom drugiego obiektu,
    * posiada metodę `boolean follows(Vector2d other)`, akceptującą inny obiekt tej klasy i zwracającą wartość `true`, jeśli oba pola mają
      wartość większą bądź równą polom drugiego obiektu,
+   * posiada metodę `Vector2d add(Vector2d other)`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są sumą odpowiednich składowych
+     dodawanych pozycji,
+   * posiada metodę `Vector2d subtract(Vector2d other)`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są różnicą 
+     odpowiednich składowych odejmowanych pozycji, 
    * posiada metodę `Vector2d upperRight(Vector2d other)`, która akceptuje inny punkt i zwraca obiekt klasy `Vector2d` posiadający te składowe
      punktów, które mają większe wartości dla odpowiednich osi (innymi słowy jest prawym górnym rogiem prostokąta, który
      opisany jest na obu punktach, którego krawędzie są równoległe do osi X i Y),
    * posiada metodę `Vector2d lowerLeft(Vector2d other)`, która akceptuje inny punkt i zwraca obiekt klasy `Vector2d` posiadający te składowe
      punktów, które mają mniejsze wartości dla odpowiednich osi (tzn. lewy dolny róg prostokąta),
-   * posiada metodę `Vector2d add(Vector2d other)`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są sumą odpowiednich składowych
-     dodawanych pozycji,
-   * posiada metodę `Vector2d subtract(Vector2d other)`, która zwraca nowy obiekt klasy `Vector2d`, którego składowe są różnicą 
-     odpowiednich składowych odejmowanych pozycji, 
-   * posiada metodę `boolean equals(Object other)` która zwraca prawdę, jeśli obie pozycje są sobie równe (zwróć uwagę na typ parametru),
-   * posiada metodę `Vector2d opposite()`, która zwraca nowy obiekt tej klasy, posiadający zmienione znaki obu składowych.
+   * posiada metodę `Vector2d opposite()`, która zwraca nowy obiekt tej klasy, posiadający zmienione znaki obu składowych,
+   * posiada metodę `boolean equals(Object other)` która zwraca prawdę, jeśli obie pozycje są sobie równe (zwróć uwagę na typ parametru). Uwaga: zastanów się, jaką inną metodę trzeba dodać po zdefiniowaniu własnego `equals`.
 3. Poniższy obrazek ilustruje metody `precedes` i `follows`. `v1` poprzedza (precedes) `v2` oraz `v3`. `v2` poprzedza `v3`.
    Wszystkie wektory poprzedzają również same siebie (relacja ta jest zwrotna). `v3` następuje po (follows) `v2` oraz
    `v1`, `v2` następuje po `v1`. Wszystkie wektory następują również po samych sobie.
