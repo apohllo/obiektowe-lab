@@ -7,9 +7,9 @@ Instrukcje do poszczególnych laboratoriów znajdują się w odpowiednich folder
 * [Interakcje pomiędzy obiektami](lab3/Readme.md)
 * [Interfejsy i kolekcje](lab4/Readme.md)
 * [Dziedziczenie](lab5/Readme.md)
-* [Wyjątki i interfejs `Map`](lab6/Readme.md)
-* [Wzorzec `Observer`](lab7/Readme.md)
-* [Graficzny interfejs użytkownika](lab8/Readme.md)
+* [Interfejs `Map` i wzorzec `Observer`](lab6/Readme.md)
+* [Graficzny interfejs użytkownika](lab7/Readme.md)
+* [Wątki](lab8/Readme.md)
 
 # Zasady oceny
 
