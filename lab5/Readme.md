@@ -80,7 +80,7 @@ W ten sposób można *rozszerzać* zachowanie jakiejś metody w klasach podrzęd
 9. Uruchom testy i zweryfikuj, że mapy działają tak jak wcześniej.
 10. Rozważ dodanie interfejsu `IMapElement`, który byłby implementowany przez klasy `Animal` oraz `Grass`. Zastanów się
    czy można by uprościć implementację klasy `GrassField` wykorzystując ten interfejs.
-11. Zastanów się, czy celowe byłoby dodanie klasy `AbstractWorldMapElement`.
+11. Zastanów się, czy celowe byłoby dodanie klasy `AbstractMapElement`.
 12. (**Dla zaawansowanych**). Zmodyfikuj implementację tak, żeby po spotkaniu zwierzęcia i trawy, trawa znikała. Nowe kępki
     trawy powinny pojawiać się losowo w obszarze z punktu 1, po zjedzeniu trawy przez zwierzę, przy założeniu, że nowe położenie
     kępki trawy nie pokrywa się z istniejącą kępką trawy, ani z żadnym zwierzęciem.
