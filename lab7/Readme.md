@@ -82,7 +82,7 @@ na niższym poziomie.
 ### Szkielet aplikacji JavaFX
 
 1. W `build.gradle`:
-    1. Dodaj `id 'org.openjfx.javafxplugin' version '0.0.10'` do sekcji `plugins`.
+    1. Dodaj `id 'org.openjfx.javafxplugin' version '0.0.13'` do sekcji `plugins`.
     2. Dodaj pod `repositories` sekcję:
         ```gradle
         javafx {
