@@ -1,6 +1,6 @@
 # Laboratorium 8
 
-Celem raboratorium jest zapoznanie się z mechanizmem wątków oraz obsługą zasobów w kontekście programowania 
+Celem laboratorium jest zapoznanie się z mechanizmem wątków oraz obsługą zasobów w kontekście programowania 
 graficznego interfejsu użytkownika (GUI).
 
 Treść laboratorium powstała we współpracy z Norbertem Morawskim.
@@ -16,10 +16,10 @@ Najważniejsze zadania:
 ### Wątki
 
 * Mechanizm wątków służy do realizacji zadań, które powinny być realizowane współbieżnie, a jeśli system posiada wiele
-  procesorów, to również równolegle. Wykonujące wątki na wzajem nie blokują swego wykonania.
+  procesorów, to również równolegle. Wykonujące wątki nawzajem nie blokują swego wykonania.
   Dzięki temu możliwe jest np. reagowanie na zdarzenia GUI (np. kliknięcie na guzik) oraz wykonywanie obliczeń, które
   sterują tym co wyświetla się w GUI.
-* Przykładami takich operacji może być np. dostęp do zasobu sieciowego albo w naszym przypadku sztucznie generowane opóżnienie pomiędzy ruchami.
+* Przykładami takich operacji może być np. dostęp do zasobu sieciowego albo w naszym przypadku sztucznie generowane opóźnienie pomiędzy ruchami.
 * Wątek UI jest to główny wątek aplikacji w graficznym interfejsem użytkownika. Tylko ten wątek może modyfikować zawartość sceny w *JavaFX*.
 * Aby stworzyć wątek możemy skorzystać z klasy `Thread` i interfejsu `Runnable`.
     ```java
@@ -37,11 +37,11 @@ Najważniejsze zadania:
 
 ### Dostęp do zasobów
 
-* Zasoby w projkecie, takie jak obrazy graficzne zwykle umieszczane są w katalogu `src/main/resources`.
+* Zasoby w projekcie, takie jak obrazy graficzne zwykle umieszczane są w katalogu `src/main/resources`.
 * Odczytanie zasobu możliwe jest np. za pomocą strumienia `java.io.FileInputStream`.
 * Dane binarne zawierające obraz można wczytać do obiektu `javafx.scene.image.Image`.
 * Wyświetlenie obrazka odbywa się za pomocą obiektu `javafx.scene.image.ImageView`.
-* Zasoby takie jak `ImageView` są pamięcichłonne, dlatego ważne jest aby nie były one tworzone bez potrzeby. 
+* Zasoby takie jak `ImageView` są pamięciochłonne, dlatego ważne jest aby nie były one tworzone bez potrzeby. 
   W modelu pamięciowym JavaFX elementy, które nie należą do drzewa węzłów są usuwane przez śmieciarza (GC),
   ale ich tworzenie samo w sobie jest czasochłonne, co może istotnie spowalniać działanie aplikacji.
 * Przykładowy kod służący do utworzenia obrazka, który można dodać do sceny JavaFX:
