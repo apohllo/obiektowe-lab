@@ -51,6 +51,7 @@ Najważniejsze zadania:
     imageView.setFitWidth(100);
     imageView.setFitHeight(100);
     ```
+  Uwaga: w profesjonalnych aplikacjach zasoby znajdujące się w `src/main/resources` odczytujemy nieco inaczej, korzystając z tzw. class loadera: `getClass().getResourceAsStream("up.png")`. Nie musimy wówczas podawać ścieżki do obrazka, co uniezależnia nas od tego, czy jest on uruchamiany za pośrednictwem IntelliJ czy jako zbudowana, produkcyjna aplikacja. Żeby to zadziałało, zasób musi być umieszczony w takim samym pakiecie jak klasa, z której jest wczytywany. Przykładowo: jeśli ładujemy obrazek z klasy `agh.ics.oop.gui.App` to zasób powinien się on znajdować w `src/main/resources/agh/ics/oop/gui`. 
 
 ## Zadania do wykonania
 
@@ -92,7 +93,7 @@ Najważniejsze zadania:
 
 ### Inne elementy interfejsu
 1. Dodaj do interfejsu pole tekstowe i przycisk start. Skorzystaj z klas [`HBox`](http://tutorials.jenkov.com/javafx/hbox.html), [`VBox`](http://tutorials.jenkov.com/javafx/vbox.html), [`Button`](http://tutorials.jenkov.com/javafx/button.html) i [`TextField`](http://tutorials.jenkov.com/javafx/textfield.html).
-2. Utwórz setter dla pola `directions` w `ThreadedSimulationEngine` tak, aby dało się je dynamicznie zmieniać 
+2. Utwórz setter dla pola `directions` w `SimulationEngine` tak, aby dało się je dynamicznie zmieniać 
    przy naciśnięciu przycisku. Utwórz konstruktor który nie ustawia tego pola.
 4. Usuń `engineThread.start()` z metody `init()`.
 5. Dodaj obsługę kliknięcia *Start* (użyj `setOnAction`). Odczytaj wartość pola tekstowego (`getText()`) i użyj jego zawartości w parserze. 
