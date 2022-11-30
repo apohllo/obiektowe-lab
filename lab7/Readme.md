@@ -69,8 +69,8 @@ na niższym poziomie.
    obiekty na mapie.
 2. Klasa ta powinna implementować interfejs `IPositionChangeObserver`.
 3. Klasa `MapBoundary` powinna zawierać dwa zbiory uporządkowane obiektów na mapie - jeden wzdłuż osi X, drugi wzdłuż
-   osi Y. Ponieważ porządek musi być zupełny, w przypadku obiektów o tym samym indeksie wzdłuż danej osi porównaj
-   drugą współrzędną oraz typ obiektu (zwierzę/trawa). Przemyśl jakie dokładnie obiekty należy trzymać w tych zbiorach.
+   osi Y. ~~Ponieważ porządek musi być zupełny, w przypadku obiektów o tym samym indeksie wzdłuż danej osi porównaj
+   drugą współrzędną oraz typ obiektu (zwierzę/trawa).~~ Przemyśl jakie dokładnie obiekty należy trzymać w tych zbiorach.
    Czy mogą to być obiekty `Animal`? Co się stanie gdy zwierzę zmieni pozycję?
 4. Dodanie obiektu do mapy `GrassField` (`UnboundedMap`) powinno skutkować dodaniem tego obiektu do instancji
    `MapBoundary`.
