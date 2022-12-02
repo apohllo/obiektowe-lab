@@ -102,7 +102,6 @@ Podobnie proste są warianty zachowania:
    * najpopularniejszych genotypów,
    * średniego poziomu energii dla żyjących zwierząt,
    * średniej długości życia zwierząt dla martwych zwierząt (wartość uwzględnia wszystkie nieżyjące zwierzęta - od początku symulacji),
-   * średniej liczby dzieci dla żyjących zwierząt (wartość uwzględnia wszystkie powstałe zwierzęta, a nie tylko zwierzęta powstałe w danej epoce).
 1. Jeżeli zdecydowano się na to w momencie uruchamiania symulacji, to jej statystyki powinny być zapisywane (każdego dnia) do pliku CSV. Plik ten powinnien być "otwieralny" przez dowolny rozujmiejący ten format program (np. MS Excel). 
 1. Po zatrzymaniu programu można oznaczyć jedno zwierzę jako wybrane do śledzenia. Od tego momentu (do zatrzymania śledzenia) UI powinien przekazywać nam informacje o jego statusie i historii:
    * jaki ma genom,
@@ -112,9 +111,7 @@ Podobnie proste są warianty zachowania:
    * ile posiada dzieci,
    * ile dni już żyje (jeżeli żyje),
    * którego dnia zmarło (jeżeli żywot już skończyło).
-1. Po zatrzymaniu programu powinno być też możliwe:
-   * pokazanie, które ze zwierząt mają dominujący (najpopularniejszy) genotyp (np. poprzez wyróżnienie ich wizualnie),
-   * pokazanie, które z pól są aktualnie preferowane przez rośliny (np. poprzez wyróżnienie ich wizualnie).
+1. Po zatrzymaniu programu powinno być też możliwe pokazanie, które ze zwierząt mają dominujący (najpopularniejszy) genotyp (np. poprzez wyróżnienie ich wizualnie).
 10. Aplikacja powinna być możliwa do zbudowania i uruchomienia z wykorzystaniem Gradle'a.
 11. Wymogi traktujemy "zdroworozsądkowo", a nie "literalnie" - wczujmy się w badacza ewoluujących zwierzaków, który chciałby wygodnie sprawdzać i obserwować jak różne parametry świata wpływają na przyszłe losy ich populacji. To nasz hipotetyczny klient, który na koniec powinien być zadowolony. ;]
 
