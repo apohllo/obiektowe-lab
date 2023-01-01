@@ -1,38 +1,38 @@
 # Wiedźmin Gigabajt
 
 ## Punktacja
-8 punktów za wersję podstawową
+- 8 punktów za wersję podstawową
 
-po 6 punktów dla dwóch osób za wersję podstawową
+- po 6 punktów dla dwóch osób za wersję podstawową
 
-po 8 punktów dla dwóch osób za wersję z przynajmniej jednym rozszerzeniem
+- po 8 punktów dla dwóch osób za wersję z przynajmniej jednym rozszerzeniem
 
 ## Cel projektu
-Stworzenie systemu pomagającego Wiedźminowi Gigabajtowi na monitorowanie wybranych metryk
+Stworzenie systemu pomagającego Wiedźminowi Gigabajtowi na monitorowanie wybranych metryk.
 
 ## Opis projektu
 
 ```
 "- Zło to zło, Stregoborze - rzekł poważnie wiedźmin wstając. - Mniejsze, większe, średnie, wszystko jedno, proporcje są umowne a granice zatarte. 
 Nie jestem świątobliwym pustelnikiem, nie samo dobro czyniłem w życiu. 
-Ale jeżeli mam wybierać pomiędzy jednym złem a drugim, to wolę nie wybierać wcale"
+Ale jeżeli mam wybierać pomiędzy jednym złem a drugim, to wolę nie wybierać wcale."
 ```
 
 Wiedźmin Gigabajt strudzony licznymi wyborami, jakich musiał dokonać na swoim szlaku, postanowił odejść na zasłużoną emeryturę. 
 Nasz Wiedźmin jednak, aby na emeryturze nie zajmować się tylko zbieraniem ziół na eliksiry i oleje, postanowił w wolnym czasie nadzorować kilka Wiedźmińskich serwerów discordowych, kanałów na Twitterze oraz stron internetowych. 
-Szybko okazało się jednak, że pozornie proste zadania nie były pozbawione konieczności dokonywania trudnych decyzji o tym, jakie posty powinny się tam znajdować. 
+Szybko okazało się jednak, że te pozornie proste zadania nie były pozbawione trudnych decyzji, a jakie posty powinny się tam znajdować nie jest takie oczywiste. 
 Gigabajt w przeciwieństwie do króla Redani, Radosł... tzn. Radowida[ * ](#dodatkowe-objaśnienia), poza kierowaniem się własnymi przekonaniami oraz wiedźmińskim instynktem, stara się brać pod uwagę fakty, analizując pewne metryki.
-Niestety, Gigabaj przez brak dobrego systemu informatycznego w Kaer Morhen jest zmuszony do ręcznego zbierania danych, co utrudnia ocenę podjętych przez siebie wyborów oraz sprawia, że przy wielu z nich ciężko jest określić czy wypływ podjętej decyzji był pozytywny, czy też nie.
+Niestety, Gigabajt przez brak dobrego systemu informatycznego w Kaer Morhen jest zmuszony do ręcznego zbierania danych, co utrudnia ocenę podjętych przez siebie wyborów oraz sprawia, że przy wielu z nich ciężko jest określić czy wypływ podjętej decyzji był pozytywny, czy też nie.
 <br>
 
 Ty, czyli Jaskier, po latach bezsensownego zabawiania gawiedzi (czytaj: klepania projektów na studia pod wymagania prowadzących, w których uczysz się jeść zupę widelcem), postanowiłeś zrobić coś przydatnego dla świata.
 Za cel obrałeś sobie utworzenie dla Gigabajta systemu, który pokazywałby na tablicy ogłoszeń (czyli Grafanowym dashboardzie) statystyki z dowolnego portalu prowadzonego przez Wiedźmina. 
-Jako bliski przyjaciel Gigabajta wiesz jednak, że używa on wszystkich dostępnych portali, stron itp., więc możesz prawie dowolnie wybrać źródło swoich danych (podobnie jak to miałeś w zwyczaju robić w swoich opowieściach). 
+Jako bliski przyjaciel Gigabajta wiesz jednak, że używa on wszystkich dostępnych portali i stron, więc możesz prawie dowolnie wybrać źródło swoich danych (podobnie jak to miałeś w zwyczaju robić w swoich opowieściach). 
 Informacje pokazywane na tablicy ogłoszeń powinieneś pozyskiwać od Talara, Jarmulaka, Sigismunda Dijkstry lub innego szpiega (czyli z zapytania do dowolnego REST API). 
 <br>
 
 Wyświetlane informacje powinny mieć charakter szeregów czasowych (np. ilość odwiedzających danego dnia, czas pobytu na stronie, liczba wysłanych wiadomości itp.). 
-W celu zapewnienia ciągłego dostępu do tych informacji Gigabajtowi postanowiłeś zapisywać je w wiedźmińskim dzienniku (czyli dowolnej, bazie TSDB (time series database) open-source, np. InfluxDB).
+W celu zapewnienia Gigabajtowi ciągłego dostępu do tych informacji postanowiłeś zapisywać je w wiedźmińskim dzienniku (czyli dowolnej, bazie TSDB (time series database) open-source, np. InfluxDB).
 Dane w dzienniku aktualizowane są cyklicznie (np. co godzinę), dzięki czemu Wiedźmin ma do nich stały dostęp (możesz to wykonać np. poprzez konfigurację wykonywania Jenkins-owego lub cronowego joba uruchamiającego twój program aktualizujący dane).
 
 ![witcher image](./assets/wiedzmin_gigabajt/witcher.jpeg)
