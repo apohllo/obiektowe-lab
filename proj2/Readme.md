@@ -3,6 +3,7 @@
 ### Za 8 pkt.
 
  - [DungeonRPG (wersja podstawowa)](DungeonRPG.md)
+ - [Superbohaterowie](Superbohaterowie.md)
  
  
 ## Dwuosobowe
