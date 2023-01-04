@@ -3,7 +3,12 @@
 ### Za 8 pkt.
 
  - [DungeonRPG (wersja podstawowa)](DungeonRPG.md)
+
+ - [Superbohaterowie](Superbohaterowie.md)
+
  - [Wiedźmin Gigabajt (wersja podstawowa)](WiedzminGigabajt.md)
+
+
  
  
 ## Dwuosobowe
@@ -15,5 +20,6 @@
 ### Po 6 pkt.
 
  - [DungeonRPG (wersja rozbudowana)](DungeonRPG.md)
+
 - [Wiedźmin Gigabajt (wersja podstawowa)](WiedzminGigabajt.md)
  
