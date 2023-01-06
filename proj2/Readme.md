@@ -8,7 +8,7 @@
 
  - [Wiedźmin Gigabajt (wersja podstawowa)](WiedzminGigabajt.md)
  
- - [Tower Defence] (wersja podstawowa)](TowerDefence.md)
+ - [Tower Defence (wersja podstawowa)](TowerDefence.md)
  
  
 ## Dwuosobowe
@@ -19,13 +19,13 @@
  
  - [Wiedźmin Gigabajt (wersja rozszerzona)](WiedzminGigabajt.md)
  
- - [Tower Defence] (wersja pełna z wybranymi rozszerzeniami)](TowerDefence.md)
+ - [Tower Defence (wersja pełna z wybranymi rozszerzeniami)](TowerDefence.md)
  
 ### Po 6 pkt.
 
- [DungeonRPG (wersja rozbudowana)](DungeonRPG.md)
+- [DungeonRPG (wersja rozbudowana)](DungeonRPG.md)
 
 - [Wiedźmin Gigabajt (wersja podstawowa)](WiedzminGigabajt.md)
 
-- [Tower Defence] (wersja rozszerzona)](TowerDefence.md)
+- [Tower Defence (wersja rozszerzona)](TowerDefence.md)
  
