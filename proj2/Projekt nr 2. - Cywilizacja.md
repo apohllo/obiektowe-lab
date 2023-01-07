@@ -86,17 +86,23 @@ Aplikacja tak jak w przypadku generatora ewolucyjnego w pierwszej kolejności pr
 -   Szczegółowe statystyki nie są wymagane.
 
 ### Warianty do wyboru
-Projekt posiada szereg dodatkowych opcji, których konkretna kombinacje są dodatkowo punktowane:
--   Buntownik - Dla każdego miasta istnieje pewna niewielka szansa, że urodzony w nim naukowiec będzie buntownikiem. W takim przypadku po pewnej ilości tur uczony zamienia się na nowe miasto zupełnie obcej cywilizacji o startowych parametrach według uznania(np losowych). Taka cywilizacja powinna mieć nowy kolor oraz nowe miejsce w statystykach. 
--   Woda - Na startowej mapie pojawiają się pola wody, które są wyłączone z użytku. Można zmodyfikować wariant tak, że dopiero po uzyskaniu penwgo poziomu nauki, ludzie będą mogli na nie wchodzić. 
--   Dodatkowe profesje - autor projektu może wymyślić dodatkowe profesje ludzi na naszym świecie. Idzie za tym ciekawsza historia i większe zróżnicowanie cywilizacji. Przykładowa dodatkowe profesja: 
+Projekt posiada szereg dodatkowych opcji, których konkretna kombinacje są dodatkowo punktowane. Każdej z poniższych opcji przypisano wartość "małych punktów", których suma porównywana jest z progami opisanymi w kolejnym akapicie:
+-   Buntownik (2 kpt) - Dla każdego miasta istnieje pewna niewielka szansa, że urodzony w nim naukowiec będzie buntownikiem. W takim przypadku po pewnej ilości tur uczony zamienia się na nowe miasto zupełnie obcej cywilizacji o startowych parametrach według uznania(np losowych). Taka cywilizacja powinna mieć nowy kolor oraz nowe miejsce w statystykach. 
+-   Woda (1 pkt) - Na startowej mapie pojawiają się pola wody, które są wyłączone z użytku. Można zmodyfikować wariant tak, że dopiero po uzyskaniu penwgo poziomu nauki, ludzie będą mogli na nie wchodzić. 
+-   Dodatkowe profesje (4 pkt) - autor projektu może wymyślić dodatkowe profesje ludzi na naszym świecie. Idzie za tym ciekawsza historia i większe zróżnicowanie cywilizacji. Przykładowa dodatkowe profesja: 
     - Prorok/kaznodzieja - postać która po napotkaniu wroga stara się narzucić mu własną kulturę/religię, a co za tym idzie przeciągnąc go na własną stronę. Alternatywnie może zmieniać jedynie jego religię, jeżeli zdecydowano się zainspirować niżej opisanym dodatkowym zwycięstwem religijnym.
--   Dodatkowe zwycięstwo - autor może wymyślić także dodatkowy sposób na zwycięstwo na przykład dodając dodatkowy parametr,którego osiągnięcie pewnego poziomu prowadzi do dominacji. Może być to na przykład religia. Każdego człowieka może opisywać także dodatkowy parametr wyznawanej religii, którego zmianę będzie inicjowało spotkanie z wyżej opisanym kaznodzieją. Symulacja kończyłaby się, kiedy wszyscy, lub konkretny procent ludzi na ziemi będzie wierzył w religię zwycięskiej cywilizacji.
--   Wydarzenia losowe - ten wariant umożliwia wprowadzenie dodatkowych wydarzeń takich jak globalne katastrofy naturalne lub wydarzenia wewnątrz cywilizacji. W statystykach mogłaby znaleść się wtedy dodatkowo oś czasu, która chronologicznie spisywałaby historię tych zdarzeń. Przykładowe pomysły:
+-   Dodatkowe zwycięstwo (4 pkt) - autor może wymyślić także dodatkowy sposób na zwycięstwo na przykład dodając dodatkowy parametr,którego osiągnięcie pewnego poziomu prowadzi do dominacji. Może być to na przykład religia. Każdego człowieka może opisywać także dodatkowy parametr wyznawanej religii, którego zmianę będzie inicjowało spotkanie z wyżej opisanym kaznodzieją. Symulacja kończyłaby się, kiedy wszyscy, lub konkretny procent ludzi na ziemi będzie wierzył w religię zwycięskiej cywilizacji.
+-   Wydarzenia losowe (2 pkt za jedno, 3 pkt za 2, 4 pkt za 3 i więcej) - ten wariant umożliwia wprowadzenie dodatkowych wydarzeń takich jak globalne katastrofy naturalne lub wydarzenia wewnątrz cywilizacji. W statystykach mogłaby znaleść się wtedy dodatkowo oś czasu, która chronologicznie spisywałaby historię tych zdarzeń. Przykładowe pomysły:
      - Epidemia - miasta w obszarze dotkniętym epidemią na pewien czas przestają rodzić nowych ludzi. Jest też szansa, że całkowicie wymrą.
      - Tornado - wszyscy ludzie, przez których pola przeszło tornado umierają. Miasta, które znalazły się w jego obszarze rodzą obywateli z niższą żywotnością na czas odbudowy strat.
      - Wojna domowa - przez pewną ilość tur, ludzie jednej cywilizacji traktują siebie jak wrogów (dochodzi do wyżej opisanych interakcji tak jak z wrogiem)
-- Rozbudowa miasta - Kiedy naukowiec wchodzi do miasta zwiększając jego żywotność miasto dodatkowo rozrasta się o jedno pole w bok. Jeżeli wrogi wojownik stanie na tym polu, niszczy ten obszar miejski z powrotem obniżając żywitność w mieście o tę wartość.
+- Rozbudowa miasta (2pkt) - Kiedy naukowiec wchodzi do miasta zwiększając jego żywotność miasto dodatkowo rozrasta się o jedno pole w bok. Jeżeli wrogi wojownik stanie na tym polu, niszczy ten obszar miejski z powrotem obniżając żywitność w mieście o tę wartość.
+
+### Progi punktowe
+Po zsumnowaniu wartości "małych punktów" z wybranych wariantów należy tę wartość porównać z poniższymi progami:
+-   5 małych punktów = 6 pkt
+-   11 małych pubktów = 8 pkt
+Oddając projekt autor powinien załączyć informacje o wybranych wariantach. 
 
 ---
 ## Sugestie
