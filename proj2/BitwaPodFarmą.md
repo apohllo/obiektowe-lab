@@ -2,8 +2,7 @@
 Treść niniejszego projektu została wymyślona i napisana podczas burzliwej dyskusji na zajęciach
 programowania obiektowego.
 ## Opis gry
-Celem projektu jest storzenie niewielkiej gry dla dwóch graczy, która będzie przybliżonym odtworzeniem
-sławnej bitwy pod farmą Cryslera. Naszym celem jednak będzie ukazanie, jak ta bitwa przebiegała naprawdę.
+Celem projektu jest storzenie niewielkiej gry dla dwóch graczy, która będzie przybliżonym odtworzeniem sławnej bitwy pod farmą Cryslera. Naszym celem jednak będzie  ukazanie, jak ta bitwa przebiegała naprawdę :)).
 
 Światem naszej gry będzie prostokątna mapa, zawierająca różne obiekty wykorzystywane do stoczenia bitwy.
 ## Przebieg gry
@@ -78,6 +77,11 @@ gry.
 późniejszej fazie gry
 4. Program powinien odliczać i wyświetliać czas pozostały do zakończenia pierwszej fazy gry.
 5. Aplikacja powinna być możliwa do zbudowania i uruchomienia z wykorzystaniem Gradle'a
+
+## Punktacja
+
+Wariant jednoosobowy - 8pkt
+Wariant dwuosobowy - 6pkt
 
 ## FAQ
 Jeżeli któraś część powyższego projektu wydaje się nie do końca zrozumiała, autorzy pozostawiają miejsce do samodzielnej interpretacji treści.
