@@ -15,9 +15,12 @@
 
  - [DungeonRPG (wersja "pełna")](DungeonRPG.md)
  - [Wiedźmin Gigabajt (wersja rozszerzona)](WiedzminGigabajt.md)
+ - [Pokemony (wersja pełna)](Pokemony.md)
 ### Po 6 pkt.
 
  - [DungeonRPG (wersja rozbudowana)](DungeonRPG.md)
 
 - [Wiedźmin Gigabajt (wersja podstawowa)](WiedzminGigabajt.md)
+
+ - [Pokemony (wersja uproszczona)](Pokemony.md)
  
