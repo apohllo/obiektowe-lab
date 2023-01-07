@@ -7,15 +7,23 @@ Obrona zamku przed wrogami zanim straci cały pasek zdrowia.
 Na środku mapy stoi nasz zamek, który zniszczyć będą starali się wrogowie nadciągający ze wszystkich stron prosto na zamek. Wrogowie zadają obrażenia po dojściu do celu, a pozbywać się ich możemy stawiając wieżyczki, które strzelają do wrogów, którzy podejdą na sprecyzowaną odległość. Wieżyczki możemy stawiać za pieniądze, które otrzymamy za zabijanie wrogów. Liczba wrogów zwiększa się z czasem, a gra kończy się, gdy pasek zdrowia (zmniejszany przez obrażenia od wrogów) zejdzie do 0. Obrazki poglądowe pochodzą z gry „Clash of clans”, projekt oczywiście nie wymaga grafiki wyglądającej jak na poglądowych obrazkach, mają jedynie doprecyzować mechanizm działania.
 ## WERSJA PODSTAWOWA (1 osoba, 8pkt)
 ### (2 pkt) Mapa
-Mapa to zwykła połać ziemi, na której środku stoi zamek. Zamek oraz stawiane wieżyczki nie mogą na siebie nachodzić, ale mogą się ze sobą stykać. Na każdym polu mapy może się znajdować nieograniczona ilość wrogów, ale wrogowie nie mogą wchodzić na wieżyczki/zamek.
+Mapa to zwykła połać ziemi, na której środku stoi zamek. 
+![image](https://user-images.githubusercontent.com/94977771/211173476-27ff5ea9-9dbb-42ef-8faf-3999a59fced6.png)
+Zamek oraz stawiane wieżyczki nie mogą na siebie nachodzić, ale mogą się ze sobą stykać. 
+![image](https://user-images.githubusercontent.com/94977771/211173495-d14d831b-6330-4f46-9e64-2391398ab039.png)
+Na każdym polu mapy może się znajdować nieograniczona ilość wrogów, ale wrogowie nie mogą wchodzić na wieżyczki/zamek.
+
 ### (2 pkt) Przeciwnicy
 Przeciwnicy są 1 rodzaju, generowani losowo na krawędziach mapy, lecz ze wzrastającą częstotliwością w miarę trwania rozgrywki. Wróg może zadać obrażenia tylko zamkowi i tylko jak stoi na polu obok zamku. Po otrzymaniu określonych obrażeń (niekoniecznie za jednym razem) umiera.
 ### Rozmiary obiektów
 Zamek musi zajmować zdecydowanie najwięcej miejsca, tak, aby przeciwnicy mogli go bez problemu zaatakować, np. 10x10. Wieżyczki powinny mieć preferowany rozmiar 3x3, a wrogowie 1x1.
 ### (2 pkt)  Działające GUI
 Gra nie musi posiadać animacji poruszania się wrogów ani strzelania wieżyczek, ale wszystkie obiekty powinny być przedstawione w postaci grafik, z paskiem zdrowia (warto pamiętać o dokładniejszym i większym niż w przypadku jednostek pasku zdrowia dla zamku).
+![image](https://user-images.githubusercontent.com/94977771/211173517-f169aa7d-1f9b-41c8-ad2d-277e1db8bd99.png)
 ### (+1/2 pkt) Mury
-Wprowadzenie drugiego typu ochrony zamku: mury. Mury mają określoną długość, są stawiane z założenia na drodze wroga na zamek i zmuszają go do podjęcia jednej z 2 aktywności:
+Wprowadzenie drugiego typu ochrony zamku: mury. 
+![image](https://user-images.githubusercontent.com/94977771/211173511-d2af3f7d-78b5-46f9-be9b-a1beca310432.png)
+Mury mają określoną długość, są stawiane z założenia na drodze wroga na zamek i zmuszają go do podjęcia jednej z 2 aktywności:
 #### -(wersja 1 pkt) Wrogowie po napotkaniu muru od razu zaczynają go niszczyć (stoi na ich drodze)
 #### -(wersja 2 pkt) Wrogowie po napotkaniu muru obierają inną, sensowną drogę dojścia do zamku. W przypadku braku możliwości dojścia (np. zamek ogrodzony ze wszystkich stron przez mury) zamiast obchodzić, zaczynają niszczyć mur.
 ## WERSJA ROZSZERZONA (2 osoby, 8+5pkt)
