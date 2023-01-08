@@ -4,7 +4,6 @@
 
 * [Remigiusz Kozicki](#autorzy)
 * [Szymon Ożóg](#autorzy)  
-... nie wiem kto tam jeszcze 
 
 ## Punktacja
 
