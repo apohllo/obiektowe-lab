@@ -29,7 +29,7 @@ Obowiązują oficjalne zasady gry ze strony http://www.zasadygry.pl/monopoly_31_
 
 Jednocześnie grać może od 2 do 6 graczy. Akcje wykonywać może tylko gracz, który rozgrywa daną turę (wyjątek stanowi licytacja i pobieranie czynszu w wersji rozszerzonej). Plansza składa się z 40 pól. Pola specjalne jak Start, Więzienie, Parking, Idź do więzienia, Stacje kolejowe, Szansa, Kasa społeczna oraz Podatki muszą znajdować się w tych samych miejscach co w oryginalnym Monopolu. Pola te jednak mogą różnić się nazwami i wyglądem. Efekt ich działania ma być podobny lub taki sam do tych znanych z gry.
 
-![alt text](https://github.com/blogusz/Monopoly/blob/main/MonopolyBLKS/board.png?raw=true)
+![monopoly_board](https://www.kurnik.pl/netopol/img/m.gif)
 
 
 Przykład: na powyższej grafice kolorowe pola to działki, środkowe pola z okręgami to stacje kolejowe, trójkąty to wodociągi i elektrownia, pola z symbolem $ to podatek, wykrzykniki oznaczają pola Szansy i Kasy społecznej.
