@@ -5,18 +5,19 @@
 ### Za 8 pkt
 
 - [DungeonRPG (wersja podstawowa)](DungeonRPG.md)
-
 - [Superbohaterowie](Superbohaterowie.md)
-
 - [Wiedźmin Gigabajt (wersja podstawowa)](WiedzminGigabajt.md)
+- [Raytracing (wersja bardzo zaawansowana)](Raytracing.md)
 
 ### Za 6 pkt
 
 - [Gra Carcassonne](Carcassonne.md)
+- [Raytracing (wersja zaawansowana)](Raytracing.md)
 
 ### Za 4 pkt
 
 - [WMZ - Wąż Machający Żelazem](WMZ.md)
+- [Raytracing (wersja podstawowa)](Raytracing.md)
 
 ## Dwuosobowe
 
