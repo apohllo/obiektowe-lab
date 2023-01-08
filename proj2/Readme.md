@@ -1,6 +1,8 @@
 # Spis tematów 2. projektu:
 
-### Za 8 pkt.
+## Jednoosobowe
+
+### Za 8 pkt
 
 - [DungeonRPG (wersja podstawowa)](DungeonRPG.md)
 
@@ -8,19 +10,23 @@
 
 - [Wiedźmin Gigabajt (wersja podstawowa)](WiedzminGigabajt.md)
 
+### Za 6 pkt
+
+- [Gra Carcassonne](Carcassonne.md)
+
 ### Za 4 pkt
 
 - [WMZ - Wąż Machający Żelazem](WMZ.md)
 
 ## Dwuosobowe
 
-### Po 8 pkt.
+### Za 8 pkt
 
 - [DungeonRPG (wersja "pełna")](DungeonRPG.md)
 - [Wiedźmin Gigabajt (wersja rozszerzona)](WiedzminGigabajt.md)
 - [Pokemony (wersja pełna)](Pokemony.md)
 
-### Po 6 pkt.
+### Za 6 pkt
 
 - [DungeonRPG (wersja rozbudowana)](DungeonRPG.md)
 
