@@ -13,6 +13,7 @@
 - [Traffic Run (wersja rozszerzona)](TrafficRun.md)
 - [Cywilizacja (wersja bardzo rozszerzona)](Cywilizacja.md)
 - [Bitwa pod farmą](BitwaPodFarmą.md)
+- [Monopoly (wersja rozszerzona)](Monopoly.md)
 
 ### Za 6 pkt
 
@@ -21,6 +22,7 @@
 - [Galaga (wersja podstawowa)](Galaga.md)
 - [Traffic Run (wersja podstawowa)](TrafficRun.md)
 - [Cywilizacja (wersja rozszerzona)](Cywilizacja.md)
+- [Monopoly (wersja podstawowa)](Monopoly.md)
 
 ### Za 4 pkt
 
