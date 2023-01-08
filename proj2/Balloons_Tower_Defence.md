@@ -1,4 +1,4 @@
-# TowerDefencePO
+# Balloons (Tower) Defence
 
 ## Autorzy
 
