@@ -10,7 +10,7 @@
 * [Wariant rozszerzony](#wariantrozszerzony)
 
 ## Autorzy
-Bogusz Laszczyk, Kornelia Susz
+Bogusz Laszczyk, Kornelia Susz, Paweł Motyka, Kacper Ćwiertnia, Paweł Konop, Mikołaj Siatkowski, Agata Dratwa, Daniel Kuc, Wojciech Fałat, Mateusz Duma
 
 ## Punktacja
 6 pkt - wariant podstawowy, 8 pkt - wariant rozszerzony
@@ -48,9 +48,10 @@ Gracz w swojej turzę ma możliwość wykonania kilku akcji:
 
 
 ## Wariant rozszerzony
-1. Gra sieciowa - każdy gracz na osobnym urządzeniu.
-2. Gracze mogą wybrać swoje pionki oraz wersję gry w jaką gramy (Monopoli Kraków, Monopoli Gra o tron itp.). Należy przygotować przynajmniej 8 różnych pionków i 2 różne mapy do gry.
-3. Po wejściu na działkę innego gracza owy gracz musi się upomnieć o opłatę albo jego strata. Trzeba więc zadbać o to, aby właściciel posesji miał opcję zgłoszenia obowiązku zapłaty jeszcze w tej turze.
-4. Z powodu punktu 3 każda runda musi trwać ograniczoną ilość czasu, aby gracz nie kliknął natychmiastowo przycisku końca tury, zanim zdążyłby zapłacić. Czas na ruch powinien wynosić 60 sekund i jest liczony od momentu kliknięcia przycisku Rozpocznij Turę przez kolejnego gracza. Jeżeli czas się skończy zanim gracz wykona rzut kostką, to traci kolejkę, jeżeli w trakcie handlu lub kupowania działki czy domków, to żadna transakcja nie zostaje zatwierdzona.
+
+Do wyboru mamy dwa warianty (wystarczy wykonać tylko jeden z nich):
+1. Gra sieciowa - każdy gracz na osobnym urządzeniu. 
+Dodatkowo po wejściu na działkę innego gracza owy gracz musi się upomnieć o opłatę albo jego strata. Trzeba więc zadbać o to, aby właściciel posesji miał opcję zgłoszenia obowiązku zapłaty jeszcze w tej turze. Każda runda musi trwać ograniczoną ilość czasu, aby gracz nie kliknął natychmiastowo przycisku końca tury, zanim zdążyłby zapłacić. Czas na ruch powinien wynosić 60 sekund i jest liczony od momentu kliknięcia przycisku Rozpocznij Turę przez kolejnego gracza. Jeżeli czas się skończy zanim gracz wykona rzut kostką, to traci kolejkę, jeżeli w trakcie handlu lub kupowania działki czy domków, to żadna transakcja nie zostaje zatwierdzona.
+1. Targowanie i pożyczki - każdy gracz w trakcie swojej tury może zaproponować innemu graczowi wymianę (np kupno ulicy) lub pożyczkę na procent. Można poprosić o pożyczkę lub zaoferować pożyczkę komuś. Drugi gracz podejmuje decyzję w trakcie tej samej tury. Można złożyć jedną propozycję na turę.
 
 
