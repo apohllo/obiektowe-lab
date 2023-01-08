@@ -53,3 +53,4 @@ Gracz w swojej turzę ma możliwość wykonania kilku akcji:
 3. Po wejściu na działkę innego gracza owy gracz musi się upomnieć o opłatę albo jego strata. Trzeba więc zadbać o to, aby właściciel posesji miał opcję zgłoszenia obowiązku zapłaty jeszcze w tej turze.
 4. Z powodu punktu 3 każda runda musi trwać ograniczoną ilość czasu, aby gracz nie kliknął natychmiastowo przycisku końca tury, zanim zdążyłby zapłacić. Czas na ruch powinien wynosić 60 sekund i jest liczony od momentu kliknięcia przycisku Rozpocznij Turę przez kolejnego gracza. Jeżeli czas się skończy zanim gracz wykona rzut kostką, to traci kolejkę, jeżeli w trakcie handlu lub kupowania działki czy domków, to żadna transakcja nie zostaje zatwierdzona.
 
+
