@@ -14,7 +14,7 @@
 - [Cywilizacja (wersja bardzo rozszerzona)](Cywilizacja.md)
 - [Bitwa pod farmą](BitwaPodFarmą.md)
 - [Monopoly (wersja rozszerzona)](Monopoly.md)
-- [Czempioni czaru i ostrza (wersja rozszerzona)](Czempioni czaru i ostrza.md)
+- [Czempioni czaru i ostrza (wersja rozszerzona)](Czempioni%20czaru%20i%20ostrza.md)
 
 ### Za 6 pkt
 
@@ -24,7 +24,7 @@
 - [Traffic Run (wersja podstawowa)](TrafficRun.md)
 - [Cywilizacja (wersja rozszerzona)](Cywilizacja.md)
 - [Monopoly (wersja podstawowa)](Monopoly.md)
-- [Czempioni czaru i ostrza (wersja podstawowa)](Czempioni czaru i ostrza.md)
+- [Czempioni czaru i ostrza (wersja podstawowa)](Czempioni%20czaru%20i%20ostrza.md)
 
 ### Za 4 pkt
 
