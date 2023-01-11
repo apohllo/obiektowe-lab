@@ -1,5 +1,8 @@
 # Atak na wioskę
 
+Za projekt można dostać 8 punktów za samodzielne wykonanie i 6 punktów za wykonanie w parze.
+
+
 ## Wstęp
 
 Celem projektu jest stworzenie gry, w której wcielamy się w nekromantę. Jako zły nekromanta chcemy zniszczyć wioskę. Do tego celu użyjemy umarlaków powowyławych do życia za pomocą czarnej magii. Wioska ma jednak swoich obrońców dlatego atak trzeba mądrze rozplanować.
