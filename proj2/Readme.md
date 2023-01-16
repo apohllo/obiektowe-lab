@@ -15,6 +15,7 @@
 - [Bitwa pod farmą](BitwaPodFarmą.md)
 - [Monopoly (wersja rozszerzona)](Monopoly.md)
 - [Czempioni czaru i ostrza (wersja rozszerzona)](Czempioni%20czaru%20i%20ostrza.md)
+- [Atak na wioskę](AtakNaWioske/Readme.md)
 
 ### Za 6 pkt
 
@@ -49,5 +50,4 @@
 - [Tower Defence (wersja rozszerzona)](TowerDefence.md)
 - [Galaga (wersja rozszerzona)](Galaga.md)
 - [Bitwa pod farmą](BitwaPodFarmą.md)
-
-
+- [Atak na wioskę](AtakNaWioske/Readme.md)
